@@ -1,14 +1,58 @@
 {
   "schema_version": "veille_decisionnelle_v4",
-  "date": "26/06/2026",
-  "heure": "12:12 UTC",
-  "nb_total": 37,
+  "date": "29/06/2026",
+  "heure": "14:04 UTC",
+  "nb_total": 28,
   "impact_counts": {
-    "Fort": 33,
-    "Moyen": 4,
+    "Fort": 25,
+    "Moyen": 3,
     "Faible": 0
   },
   "ag": [
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "AG",
+      "titre": "ERIUM : ERIUM CI _ Pouvoir - Assemblée Générale Ordinaire",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--pouvoir--assemblee-generale-ordinaire.pdf",
+      "date": "26/06/2026",
+      "date_iso": "2026-06-26",
+      "tickers": [
+        "SIVC"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "AG",
+      "titre": "ERIUM : ERIUM CI _ Projet de résolutions - Assemblée Générale Ordinaire",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
+      "date": "26/06/2026",
+      "date_iso": "2026-06-26",
+      "tickers": [
+        "SIVC"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -25,7 +69,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -47,7 +91,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -69,7 +113,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -91,7 +135,7 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -113,117 +157,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Pouvoir Personne Morale - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-pouvoir-personne-morale-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-avis-de-convocation-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Projet de résolutions - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-projet-de-resolutions-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "ERIUM CI : Avis de convocation - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-erium-ci-avis-de-convocation-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "SIVC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Pouvoir Personne Physique - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-pouvoir-personne-physique-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -245,7 +179,7 @@
       "tickers": [
         "PRSC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -267,7 +201,7 @@
       "tickers": [
         "LNBB"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -289,7 +223,7 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -297,6 +231,50 @@
     }
   ],
   "rapports": [
+    {
+      "source": "SikaFinance",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 40,
+      "source_role": "editorial_news",
+      "validation_policy": "secondary_context",
+      "type": "RAPPORT",
+      "titre": "ERIUM CI : Les comptes 2025 confirment la baisse de 52 % du bénéfice anticipée par la société",
+      "resume": "(P) Les résultats annuels 2025 d'ERIUM CI confirment les anticipations annoncées quelques jours plus tôt par la socié... 29/06/2026 11:41",
+      "lien": "https://www.sikafinance.com/marches/erium-ci-les-comptes-2025-confirment-la-baisse-de-52-du-benefice-anticipee-par-la-societe_62602",
+      "date": "29/06/2026",
+      "date_iso": "2026-06-29",
+      "tickers": [
+        "SIVC"
+      ],
+      "date_collecte": "2026-06-29T14:04:05Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ERIUM : ERIUM CI _ Etats financiers - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--etats-financiers--exercice-2025.pdf",
+      "date": "26/06/2026",
+      "date_iso": "2026-06-26",
+      "tickers": [
+        "SIVC"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -313,29 +291,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "SITAB CI : Etats financiers - Exercice 2025 (Annule et remplace le précédent)",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-etats-financiers-exercice-2025-annule-et-remplace-le-precedent",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -357,29 +313,7 @@
       "tickers": [
         "BOAM"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "BOA MALI : Rapport d'activités - 1er trimestre 2026",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-boa-mali-rapport-dactivites-1er-trimestre-2026",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
-      "tickers": [
-        "BOAM"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -401,7 +335,7 @@
       "tickers": [
         "TTLS"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -423,7 +357,7 @@
       "tickers": [
         "SICC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -445,7 +379,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -467,73 +401,7 @@
       "tickers": [
         "ONTBF"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "ONATEL BF : ONATEL BF _ Etats financiers approuvés - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/onatel-bf-onatel-bf--etats-financiers-approuves--exercice-2025.pdf",
-      "date": "11/06/2026",
-      "date_iso": "2026-06-11",
-      "tickers": [
-        "ONTBF"
-      ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "FILTISAC CI : FILTISAC CI _ Etats financiers - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--etats-financiers--exercice-2025.pdf",
-      "date": "10/06/2026",
-      "date_iso": "2026-06-10",
-      "tickers": [
-        "FTSC"
-      ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "FILTISAC CI : FILTISAC CI _ Rapport d'activités - 1er trimestre 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--rapport-d-activites--1er-trimestre-2026.pdf",
-      "date": "10/06/2026",
-      "date_iso": "2026-06-10",
-      "tickers": [
-        "FTSC"
-      ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -541,29 +409,6 @@
     }
   ],
   "dividendes": [
-    {
-      "source": "RichBourse",
-      "source_type": "dividendes",
-      "source_authority": "secondary_unverified",
-      "source_rank": 10,
-      "source_role": "discovery",
-      "validation_policy": "primary_required",
-      "type": "DIVIDENDE",
-      "titre": "SIB : dividende 374 FCFA",
-      "resume": "Rendement indicatif RichBourse : 4.21%. Ex-dividende : 30/07/2026. Paiement : 31/07/2026.",
-      "lien": "https://www.richbourse.com/common/mouvements/index/SIBC",
-      "date": "29/09/2026",
-      "date_iso": "2026-09-29",
-      "tickers": [
-        "SIBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:08Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
-      "validation": "confirme_par_source_secondaire"
-    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -580,7 +425,7 @@
       "tickers": [
         "TTLS"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -602,29 +447,7 @@
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "DIVIDENDE",
-      "titre": "SIB CI : Paiement de dividendes - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-sib-ci-paiement-de-dividendes-exercice-2025",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
-      "tickers": [
-        "SIBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -646,7 +469,7 @@
       "tickers": [
         "BICC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -670,30 +493,8 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "AFRICA GLOBAL LOGISTICS CI : Notation Financière",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-africa-global-logistics-ci-notation-financiere",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
-      "tickers": [
-        "SDSC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 97,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
@@ -718,8 +519,8 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 87,
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -740,8 +541,31 @@
       "tickers": [
         "LNBB"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 83,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Information de contexte : impact direct à confirmer."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 40,
+      "source_role": "editorial_news",
+      "validation_policy": "secondary_context",
+      "type": "ACTU",
+      "titre": "BRVM / Semaine 25 : Les investisseurs accélèrent leurs paris, AGL CI et BOA Niger en vedette",
+      "resume": "(P) À l'issue de la 25ᵉ séance de cotation, le marché actions de la BRVM poursuit sa trajectoire haussière. Cette d... 29/06/2026 10:42",
+      "lien": "https://www.sikafinance.com/marches/brvm-semaine-25-les-investisseurs-accelerent-leurs-paris-agl-ci-et-boa-niger-en-vedette_62599",
+      "date": "29/06/2026",
+      "date_iso": "2026-06-29",
+      "tickers": [
+        "BOAN",
+        "SDSC"
+      ],
+      "date_collecte": "2026-06-29T14:04:05Z",
+      "score_importance": 81,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -762,7 +586,7 @@
       "tickers": [
         "BOAB"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 74,
       "importance": "Important",
       "impact": "Moyen",
@@ -784,29 +608,7 @@
       "tickers": [
         "TTLS"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 74,
-      "importance": "Important",
-      "impact": "Moyen",
-      "pourquoi": "Information de contexte : impact direct à confirmer."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "ACTU",
-      "titre": "SAFCA CI : SAFCA CI _ Clôture des souscriptions - actions nouvelle",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/safca-ci-safca-ci--cloture-des-souscriptions--actions-nouvelle.pdf",
-      "date": "10/06/2026",
-      "date_iso": "2026-06-10",
-      "tickers": [
-        "SAFC"
-      ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 74,
       "importance": "Important",
       "impact": "Moyen",
@@ -828,7 +630,7 @@
       "tickers": [
         "SAFC"
       ],
-      "date_collecte": "2026-06-26T12:12:01Z",
+      "date_collecte": "2026-06-29T14:04:05Z",
       "score_importance": 57,
       "importance": "A surveiller",
       "impact": "Moyen",
@@ -837,27 +639,92 @@
   ],
   "tous": [
     {
-      "source": "RichBourse",
-      "source_type": "dividendes",
-      "source_authority": "secondary_unverified",
-      "source_rank": 10,
-      "source_role": "discovery",
-      "validation_policy": "primary_required",
-      "type": "DIVIDENDE",
-      "titre": "SIB : dividende 374 FCFA",
-      "resume": "Rendement indicatif RichBourse : 4.21%. Ex-dividende : 30/07/2026. Paiement : 31/07/2026.",
-      "lien": "https://www.richbourse.com/common/mouvements/index/SIBC",
-      "date": "29/09/2026",
-      "date_iso": "2026-09-29",
+      "source": "SikaFinance",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 40,
+      "source_role": "editorial_news",
+      "validation_policy": "secondary_context",
+      "type": "RAPPORT",
+      "titre": "ERIUM CI : Les comptes 2025 confirment la baisse de 52 % du bénéfice anticipée par la société",
+      "resume": "(P) Les résultats annuels 2025 d'ERIUM CI confirment les anticipations annoncées quelques jours plus tôt par la socié... 29/06/2026 11:41",
+      "lien": "https://www.sikafinance.com/marches/erium-ci-les-comptes-2025-confirment-la-baisse-de-52-du-benefice-anticipee-par-la-societe_62602",
+      "date": "29/06/2026",
+      "date_iso": "2026-06-29",
       "tickers": [
-        "SIBC"
+        "SIVC"
       ],
-      "date_collecte": "2026-06-26T12:12:08Z",
+      "date_collecte": "2026-06-29T14:04:05Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
-      "validation": "confirme_par_source_secondaire"
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ERIUM : ERIUM CI _ Etats financiers - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--etats-financiers--exercice-2025.pdf",
+      "date": "26/06/2026",
+      "date_iso": "2026-06-26",
+      "tickers": [
+        "SIVC"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "AG",
+      "titre": "ERIUM : ERIUM CI _ Pouvoir - Assemblée Générale Ordinaire",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--pouvoir--assemblee-generale-ordinaire.pdf",
+      "date": "26/06/2026",
+      "date_iso": "2026-06-26",
+      "tickers": [
+        "SIVC"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "AG",
+      "titre": "ERIUM : ERIUM CI _ Projet de résolutions - Assemblée Générale Ordinaire",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
+      "date": "26/06/2026",
+      "date_iso": "2026-06-26",
+      "tickers": [
+        "SIVC"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
     },
     {
       "source": "SikaFinance",
@@ -875,7 +742,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -897,7 +764,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -919,7 +786,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -941,7 +808,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -963,7 +830,7 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -985,139 +852,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Pouvoir Personne Morale - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-pouvoir-personne-morale-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "SITAB CI : Etats financiers - Exercice 2025 (Annule et remplace le précédent)",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-etats-financiers-exercice-2025-annule-et-remplace-le-precedent",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-avis-de-convocation-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Projet de résolutions - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-projet-de-resolutions-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "ERIUM CI : Avis de convocation - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-erium-ci-avis-de-convocation-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "SIVC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Pouvoir Personne Physique - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-pouvoir-personne-physique-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1139,7 +874,7 @@
       "tickers": [
         "TTLS"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1161,7 +896,7 @@
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1183,7 +918,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1205,51 +940,7 @@
       "tickers": [
         "BOAM"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "DIVIDENDE",
-      "titre": "SIB CI : Paiement de dividendes - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-sib-ci-paiement-de-dividendes-exercice-2025",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
-      "tickers": [
-        "SIBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "BOA MALI : Rapport d'activités - 1er trimestre 2026",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-boa-mali-rapport-dactivites-1er-trimestre-2026",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
-      "tickers": [
-        "BOAM"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1271,7 +962,7 @@
       "tickers": [
         "BICC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1293,7 +984,7 @@
       "tickers": [
         "TTLS"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1315,7 +1006,7 @@
       "tickers": [
         "PRSC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1337,7 +1028,7 @@
       "tickers": [
         "LNBB"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1359,7 +1050,7 @@
       "tickers": [
         "SICC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1381,7 +1072,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1403,7 +1094,7 @@
       "tickers": [
         "ONTBF"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1425,99 +1116,11 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "ONATEL BF : ONATEL BF _ Etats financiers approuvés - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/onatel-bf-onatel-bf--etats-financiers-approuves--exercice-2025.pdf",
-      "date": "11/06/2026",
-      "date_iso": "2026-06-11",
-      "tickers": [
-        "ONTBF"
-      ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "FILTISAC CI : FILTISAC CI _ Etats financiers - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--etats-financiers--exercice-2025.pdf",
-      "date": "10/06/2026",
-      "date_iso": "2026-06-10",
-      "tickers": [
-        "FTSC"
-      ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "FILTISAC CI : FILTISAC CI _ Rapport d'activités - 1er trimestre 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--rapport-d-activites--1er-trimestre-2026.pdf",
-      "date": "10/06/2026",
-      "date_iso": "2026-06-10",
-      "tickers": [
-        "FTSC"
-      ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "AFRICA GLOBAL LOGISTICS CI : Notation Financière",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-africa-global-logistics-ci-notation-financiere",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
-      "tickers": [
-        "SDSC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 97,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
     },
     {
       "source": "SikaFinance",
@@ -1535,8 +1138,8 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 87,
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -1557,8 +1160,31 @@
       "tickers": [
         "LNBB"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 83,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Information de contexte : impact direct à confirmer."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 40,
+      "source_role": "editorial_news",
+      "validation_policy": "secondary_context",
+      "type": "ACTU",
+      "titre": "BRVM / Semaine 25 : Les investisseurs accélèrent leurs paris, AGL CI et BOA Niger en vedette",
+      "resume": "(P) À l'issue de la 25ᵉ séance de cotation, le marché actions de la BRVM poursuit sa trajectoire haussière. Cette d... 29/06/2026 10:42",
+      "lien": "https://www.sikafinance.com/marches/brvm-semaine-25-les-investisseurs-accelerent-leurs-paris-agl-ci-et-boa-niger-en-vedette_62599",
+      "date": "29/06/2026",
+      "date_iso": "2026-06-29",
+      "tickers": [
+        "BOAN",
+        "SDSC"
+      ],
+      "date_collecte": "2026-06-29T14:04:05Z",
+      "score_importance": 81,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -1579,7 +1205,7 @@
       "tickers": [
         "BOAB"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 74,
       "importance": "Important",
       "impact": "Moyen",
@@ -1601,29 +1227,7 @@
       "tickers": [
         "TTLS"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 74,
-      "importance": "Important",
-      "impact": "Moyen",
-      "pourquoi": "Information de contexte : impact direct à confirmer."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "ACTU",
-      "titre": "SAFCA CI : SAFCA CI _ Clôture des souscriptions - actions nouvelle",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/safca-ci-safca-ci--cloture-des-souscriptions--actions-nouvelle.pdf",
-      "date": "10/06/2026",
-      "date_iso": "2026-06-10",
-      "tickers": [
-        "SAFC"
-      ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 74,
       "importance": "Important",
       "impact": "Moyen",
@@ -1645,7 +1249,7 @@
       "tickers": [
         "SAFC"
       ],
-      "date_collecte": "2026-06-26T12:12:01Z",
+      "date_collecte": "2026-06-29T14:04:05Z",
       "score_importance": 57,
       "importance": "A surveiller",
       "impact": "Moyen",
@@ -1654,27 +1258,92 @@
   ],
   "prioritaires": [
     {
-      "source": "RichBourse",
-      "source_type": "dividendes",
-      "source_authority": "secondary_unverified",
-      "source_rank": 10,
-      "source_role": "discovery",
-      "validation_policy": "primary_required",
-      "type": "DIVIDENDE",
-      "titre": "SIB : dividende 374 FCFA",
-      "resume": "Rendement indicatif RichBourse : 4.21%. Ex-dividende : 30/07/2026. Paiement : 31/07/2026.",
-      "lien": "https://www.richbourse.com/common/mouvements/index/SIBC",
-      "date": "29/09/2026",
-      "date_iso": "2026-09-29",
+      "source": "SikaFinance",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 40,
+      "source_role": "editorial_news",
+      "validation_policy": "secondary_context",
+      "type": "RAPPORT",
+      "titre": "ERIUM CI : Les comptes 2025 confirment la baisse de 52 % du bénéfice anticipée par la société",
+      "resume": "(P) Les résultats annuels 2025 d'ERIUM CI confirment les anticipations annoncées quelques jours plus tôt par la socié... 29/06/2026 11:41",
+      "lien": "https://www.sikafinance.com/marches/erium-ci-les-comptes-2025-confirment-la-baisse-de-52-du-benefice-anticipee-par-la-societe_62602",
+      "date": "29/06/2026",
+      "date_iso": "2026-06-29",
       "tickers": [
-        "SIBC"
+        "SIVC"
       ],
-      "date_collecte": "2026-06-26T12:12:08Z",
+      "date_collecte": "2026-06-29T14:04:05Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
-      "validation": "confirme_par_source_secondaire"
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ERIUM : ERIUM CI _ Etats financiers - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--etats-financiers--exercice-2025.pdf",
+      "date": "26/06/2026",
+      "date_iso": "2026-06-26",
+      "tickers": [
+        "SIVC"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "AG",
+      "titre": "ERIUM : ERIUM CI _ Pouvoir - Assemblée Générale Ordinaire",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--pouvoir--assemblee-generale-ordinaire.pdf",
+      "date": "26/06/2026",
+      "date_iso": "2026-06-26",
+      "tickers": [
+        "SIVC"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "AG",
+      "titre": "ERIUM : ERIUM CI _ Projet de résolutions - Assemblée Générale Ordinaire",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
+      "date": "26/06/2026",
+      "date_iso": "2026-06-26",
+      "tickers": [
+        "SIVC"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
     },
     {
       "source": "SikaFinance",
@@ -1692,7 +1361,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1714,7 +1383,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1736,7 +1405,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1758,7 +1427,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1780,7 +1449,7 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1802,139 +1471,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Pouvoir Personne Morale - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-pouvoir-personne-morale-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "SITAB CI : Etats financiers - Exercice 2025 (Annule et remplace le précédent)",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-etats-financiers-exercice-2025-annule-et-remplace-le-precedent",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-avis-de-convocation-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Projet de résolutions - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-projet-de-resolutions-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "ERIUM CI : Avis de convocation - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-erium-ci-avis-de-convocation-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "SIVC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB CI : Pouvoir Personne Physique - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-pouvoir-personne-physique-assemblee-generale-ordinaire",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-06-26T12:12:06Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1956,7 +1493,7 @@
       "tickers": [
         "TTLS"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1978,7 +1515,73 @@
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-06-26T12:12:00Z",
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "NOTATION",
+      "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Notation Financière",
+      "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Notation Financière",
+      "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--notation-financiere.pdf",
+      "date": "23/06/2026",
+      "date_iso": "2026-06-23",
+      "tickers": [
+        "SDSC"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BANK OF AFRICA MALI : BOA MALI _ Rapport d'activités - 1er trimestre 2026",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/bank-of-africa-mali-boa-mali--rapport-d-activites--1er-trimestre-2026.pdf",
+      "date": "23/06/2026",
+      "date_iso": "2026-06-23",
+      "tickers": [
+        "BOAM"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "DIVIDENDE",
+      "titre": "BICICI : BICI CI _ Paiement de dividendes - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/bicici-bici-ci--paiement-de-dividendes--exercice-2025.pdf",
+      "date": "17/06/2026",
+      "date_iso": "2026-06-17",
+      "tickers": [
+        "BICC"
+      ],
+      "date_collecte": "2026-06-29T14:04:03Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1986,298 +1589,95 @@
     }
   ],
   "par_ticker": {
-    "SIBC": [
-      {
-        "source": "RichBourse",
-        "source_type": "dividendes",
-        "source_authority": "secondary_unverified",
-        "source_rank": 10,
-        "source_role": "discovery",
-        "validation_policy": "primary_required",
-        "type": "DIVIDENDE",
-        "titre": "SIB : dividende 374 FCFA",
-        "resume": "Rendement indicatif RichBourse : 4.21%. Ex-dividende : 30/07/2026. Paiement : 31/07/2026.",
-        "lien": "https://www.richbourse.com/common/mouvements/index/SIBC",
-        "date": "29/09/2026",
-        "date_iso": "2026-09-29",
-        "tickers": [
-          "SIBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:08Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
-        "validation": "confirme_par_source_secondaire"
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "SIBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "SIB CI : Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-sib-ci-paiement-de-dividendes-exercice-2025",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "SIBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      }
-    ],
-    "STBC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Projet de résolutions - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "SITAB : SITAB CI _ Etats financiers - Exercice 2025 (Annule et remplace le précédent)",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--etats-financiers--exercice-2025-annule-et-remplace-le-precedent.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Avis de convocation - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--avis-de-convocation--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Pouvoir Personne Physique - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-physique--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Pouvoir Personne Morale - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-morale--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB CI : Pouvoir Personne Morale - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-pouvoir-personne-morale-assemblee-generale-ordinaire",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "SITAB CI : Etats financiers - Exercice 2025 (Annule et remplace le précédent)",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-etats-financiers-exercice-2025-annule-et-remplace-le-precedent",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-avis-de-convocation-assemblee-generale-ordinaire",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB CI : Projet de résolutions - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-projet-de-resolutions-assemblee-generale-ordinaire",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB CI : Pouvoir Personne Physique - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-pouvoir-personne-physique-assemblee-generale-ordinaire",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      }
-    ],
     "SIVC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 40,
+        "source_role": "editorial_news",
+        "validation_policy": "secondary_context",
+        "type": "RAPPORT",
+        "titre": "ERIUM CI : Les comptes 2025 confirment la baisse de 52 % du bénéfice anticipée par la société",
+        "resume": "(P) Les résultats annuels 2025 d'ERIUM CI confirment les anticipations annoncées quelques jours plus tôt par la socié... 29/06/2026 11:41",
+        "lien": "https://www.sikafinance.com/marches/erium-ci-les-comptes-2025-confirment-la-baisse-de-52-du-benefice-anticipee-par-la-societe_62602",
+        "date": "29/06/2026",
+        "date_iso": "2026-06-29",
+        "tickers": [
+          "SIVC"
+        ],
+        "date_collecte": "2026-06-29T14:04:05Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "ERIUM : ERIUM CI _ Etats financiers - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/erium-erium-ci--etats-financiers--exercice-2025.pdf",
+        "date": "26/06/2026",
+        "date_iso": "2026-06-26",
+        "tickers": [
+          "SIVC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "ERIUM : ERIUM CI _ Pouvoir - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/erium-erium-ci--pouvoir--assemblee-generale-ordinaire.pdf",
+        "date": "26/06/2026",
+        "date_iso": "2026-06-26",
+        "tickers": [
+          "SIVC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "ERIUM : ERIUM CI _ Projet de résolutions - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/erium-erium-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
+        "date": "26/06/2026",
+        "date_iso": "2026-06-26",
+        "tickers": [
+          "SIVC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
       {
         "source": "SikaFinance",
         "source_type": "communiques",
@@ -2294,29 +1694,7 @@
         "tickers": [
           "SIVC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "ERIUM CI : Avis de convocation - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-erium-ci-avis-de-convocation-assemblee-generale-ordinaire",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "SIVC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2338,11 +1716,123 @@
         "tickers": [
           "SIVC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 87,
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Information de contexte : impact direct à confirmer."
+      }
+    ],
+    "STBC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "SITAB : SITAB CI _ Projet de résolutions - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SITAB : SITAB CI _ Etats financiers - Exercice 2025 (Annule et remplace le précédent)",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--etats-financiers--exercice-2025-annule-et-remplace-le-precedent.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "SITAB : SITAB CI _ Avis de convocation - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--avis-de-convocation--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "SITAB : SITAB CI _ Pouvoir Personne Physique - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-physique--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "SITAB : SITAB CI _ Pouvoir Personne Morale - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-morale--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
       }
     ],
     "TTLS": [
@@ -2362,7 +1852,7 @@
         "tickers": [
           "TTLS"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2384,7 +1874,7 @@
         "tickers": [
           "TTLS"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2406,11 +1896,35 @@
         "tickers": [
           "TTLS"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 74,
         "importance": "Important",
         "impact": "Moyen",
         "pourquoi": "Information de contexte : impact direct à confirmer."
+      }
+    ],
+    "SIBC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "23/06/2026",
+        "date_iso": "2026-06-23",
+        "tickers": [
+          "SIBC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
       }
     ],
     "SDSC": [
@@ -2430,33 +1944,34 @@
         "tickers": [
           "SDSC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
       },
       {
-        "source": "RichBourse",
+        "source": "SikaFinance",
         "source_type": "actualites",
         "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "NOTATION",
-        "titre": "AFRICA GLOBAL LOGISTICS CI : Notation Financière",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-africa-global-logistics-ci-notation-financiere",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
+        "source_rank": 40,
+        "source_role": "editorial_news",
+        "validation_policy": "secondary_context",
+        "type": "ACTU",
+        "titre": "BRVM / Semaine 25 : Les investisseurs accélèrent leurs paris, AGL CI et BOA Niger en vedette",
+        "resume": "(P) À l'issue de la 25ᵉ séance de cotation, le marché actions de la BRVM poursuit sa trajectoire haussière. Cette d... 29/06/2026 10:42",
+        "lien": "https://www.sikafinance.com/marches/brvm-semaine-25-les-investisseurs-accelerent-leurs-paris-agl-ci-et-boa-niger-en-vedette_62599",
+        "date": "29/06/2026",
+        "date_iso": "2026-06-29",
         "tickers": [
+          "BOAN",
           "SDSC"
         ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 97,
+        "date_collecte": "2026-06-29T14:04:05Z",
+        "score_importance": 81,
         "importance": "Critique",
         "impact": "Fort",
-        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
+        "pourquoi": "Information de contexte : impact direct à confirmer."
       }
     ],
     "BOAM": [
@@ -2476,29 +1991,7 @@
         "tickers": [
           "BOAM"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "BOA MALI : Rapport d'activités - 1er trimestre 2026",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-boa-mali-rapport-dactivites-1er-trimestre-2026",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "BOAM"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2522,7 +2015,7 @@
         "tickers": [
           "BICC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2546,7 +2039,7 @@
         "tickers": [
           "PRSC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2570,7 +2063,7 @@
         "tickers": [
           "LNBB"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2592,7 +2085,7 @@
         "tickers": [
           "LNBB"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
@@ -2616,7 +2109,7 @@
         "tickers": [
           "SICC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2640,7 +2133,7 @@
         "tickers": [
           "BOAC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2664,29 +2157,7 @@
         "tickers": [
           "ONTBF"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "ONATEL BF : ONATEL BF _ Etats financiers approuvés - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/onatel-bf-onatel-bf--etats-financiers-approuves--exercice-2025.pdf",
-        "date": "11/06/2026",
-        "date_iso": "2026-06-11",
-        "tickers": [
-          "ONTBF"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2710,57 +2181,36 @@
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
       }
     ],
-    "FTSC": [
+    "BOAN": [
       {
         "source": "SikaFinance",
-        "source_type": "communiques",
+        "source_type": "actualites",
         "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "FILTISAC CI : FILTISAC CI _ Etats financiers - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--etats-financiers--exercice-2025.pdf",
-        "date": "10/06/2026",
-        "date_iso": "2026-06-10",
+        "source_rank": 40,
+        "source_role": "editorial_news",
+        "validation_policy": "secondary_context",
+        "type": "ACTU",
+        "titre": "BRVM / Semaine 25 : Les investisseurs accélèrent leurs paris, AGL CI et BOA Niger en vedette",
+        "resume": "(P) À l'issue de la 25ᵉ séance de cotation, le marché actions de la BRVM poursuit sa trajectoire haussière. Cette d... 29/06/2026 10:42",
+        "lien": "https://www.sikafinance.com/marches/brvm-semaine-25-les-investisseurs-accelerent-leurs-paris-agl-ci-et-boa-niger-en-vedette_62599",
+        "date": "29/06/2026",
+        "date_iso": "2026-06-29",
         "tickers": [
-          "FTSC"
+          "BOAN",
+          "SDSC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
+        "date_collecte": "2026-06-29T14:04:05Z",
+        "score_importance": 81,
         "importance": "Critique",
         "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "FILTISAC CI : FILTISAC CI _ Rapport d'activités - 1er trimestre 2026",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--rapport-d-activites--1er-trimestre-2026.pdf",
-        "date": "10/06/2026",
-        "date_iso": "2026-06-10",
-        "tickers": [
-          "FTSC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+        "pourquoi": "Information de contexte : impact direct à confirmer."
       }
     ],
     "BOAB": [
@@ -2780,7 +2230,7 @@
         "tickers": [
           "BOAB"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 74,
         "importance": "Important",
         "impact": "Moyen",
@@ -2788,28 +2238,6 @@
       }
     ],
     "SAFC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "ACTU",
-        "titre": "SAFCA CI : SAFCA CI _ Clôture des souscriptions - actions nouvelle",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/safca-ci-safca-ci--cloture-des-souscriptions--actions-nouvelle.pdf",
-        "date": "10/06/2026",
-        "date_iso": "2026-06-10",
-        "tickers": [
-          "SAFC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 74,
-        "importance": "Important",
-        "impact": "Moyen",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
-      },
       {
         "source": "SikaFinance",
         "source_type": "actualites",
@@ -2826,7 +2254,7 @@
         "tickers": [
           "SAFC"
         ],
-        "date_collecte": "2026-06-26T12:12:01Z",
+        "date_collecte": "2026-06-29T14:04:05Z",
         "score_importance": 57,
         "importance": "A surveiller",
         "impact": "Moyen",
@@ -2835,408 +2263,51 @@
     ]
   },
   "par_type": {
-    "DIVIDENDE": [
-      {
-        "source": "RichBourse",
-        "source_type": "dividendes",
-        "source_authority": "secondary_unverified",
-        "source_rank": 10,
-        "source_role": "discovery",
-        "validation_policy": "primary_required",
-        "type": "DIVIDENDE",
-        "titre": "SIB : dividende 374 FCFA",
-        "resume": "Rendement indicatif RichBourse : 4.21%. Ex-dividende : 30/07/2026. Paiement : 31/07/2026.",
-        "lien": "https://www.richbourse.com/common/mouvements/index/SIBC",
-        "date": "29/09/2026",
-        "date_iso": "2026-09-29",
-        "tickers": [
-          "SIBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:08Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
-        "validation": "confirme_par_source_secondaire"
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "TOTAL SENEGAL : TOTALENERGIES MARKETING SN _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "24/06/2026",
-        "date_iso": "2026-06-24",
-        "tickers": [
-          "TTLS"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "SIBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "SIB CI : Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-sib-ci-paiement-de-dividendes-exercice-2025",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "SIBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "BICICI : BICI CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/bicici-bici-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "17/06/2026",
-        "date_iso": "2026-06-17",
-        "tickers": [
-          "BICC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      }
-    ],
-    "AG": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Projet de résolutions - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Avis de convocation - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--avis-de-convocation--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Pouvoir Personne Physique - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-physique--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "ERIUM : ERIUM CI _ Avis de convocation - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/erium-erium-ci--avis-de-convocation--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "SIVC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Pouvoir Personne Morale - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-morale--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB CI : Pouvoir Personne Morale - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-pouvoir-personne-morale-assemblee-generale-ordinaire",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB CI : Avis de convocation - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-avis-de-convocation-assemblee-generale-ordinaire",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB CI : Projet de résolutions - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-projet-de-resolutions-assemblee-generale-ordinaire",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "ERIUM CI : Avis de convocation - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-erium-ci-avis-de-convocation-assemblee-generale-ordinaire",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "SIVC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB CI : Pouvoir Personne Physique - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-pouvoir-personne-physique-assemblee-generale-ordinaire",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "TRACTAFRIC MOTORS CI : TRACTAFRIC MOTORS CI _ Avis de convocation et Projets de résolutions - Assemblée Générale Mixte",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/tractafric-motors-ci-tractafric-motors-ci--avis-de-convocation-et-projets-de-resolutions--assemblee-generale-mixte.pdf",
-        "date": "15/06/2026",
-        "date_iso": "2026-06-15",
-        "tickers": [
-          "PRSC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "LOTERIE NATIONALE DU BENIN : LNB BN _ Avis de convocation - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/loterie-nationale-du-benin-lnb-bn--avis-de-convocation--assemblee-generale-ordinaire.pdf",
-        "date": "12/06/2026",
-        "date_iso": "2026-06-12",
-        "tickers": [
-          "LNBB"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "NSIA BANQUE : NSIA BANQUE CI _ Avis de convocation et Projet de résolutions - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/nsia-banque-nsia-banque-ci--avis-de-convocation-et-projet-de-resolutions--assemblee-generale-ordinaire.pdf",
-        "date": "11/06/2026",
-        "date_iso": "2026-06-11",
-        "tickers": [
-          "NSBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      }
-    ],
     "RAPPORT": [
+      {
+        "source": "SikaFinance",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 40,
+        "source_role": "editorial_news",
+        "validation_policy": "secondary_context",
+        "type": "RAPPORT",
+        "titre": "ERIUM CI : Les comptes 2025 confirment la baisse de 52 % du bénéfice anticipée par la société",
+        "resume": "(P) Les résultats annuels 2025 d'ERIUM CI confirment les anticipations annoncées quelques jours plus tôt par la socié... 29/06/2026 11:41",
+        "lien": "https://www.sikafinance.com/marches/erium-ci-les-comptes-2025-confirment-la-baisse-de-52-du-benefice-anticipee-par-la-societe_62602",
+        "date": "29/06/2026",
+        "date_iso": "2026-06-29",
+        "tickers": [
+          "SIVC"
+        ],
+        "date_collecte": "2026-06-29T14:04:05Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "ERIUM : ERIUM CI _ Etats financiers - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/erium-erium-ci--etats-financiers--exercice-2025.pdf",
+        "date": "26/06/2026",
+        "date_iso": "2026-06-26",
+        "tickers": [
+          "SIVC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
       {
         "source": "SikaFinance",
         "source_type": "communiques",
@@ -3253,29 +2324,7 @@
         "tickers": [
           "STBC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "SITAB CI : Etats financiers - Exercice 2025 (Annule et remplace le précédent)",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/25-06-2026-sitab-ci-etats-financiers-exercice-2025-annule-et-remplace-le-precedent",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3297,29 +2346,7 @@
         "tickers": [
           "BOAM"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "BOA MALI : Rapport d'activités - 1er trimestre 2026",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-boa-mali-rapport-dactivites-1er-trimestre-2026",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "BOAM"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3341,7 +2368,7 @@
         "tickers": [
           "TTLS"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3363,7 +2390,7 @@
         "tickers": [
           "SICC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3385,7 +2412,7 @@
         "tickers": [
           "BOAC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3407,11 +2434,35 @@
         "tickers": [
           "ONTBF"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      }
+    ],
+    "AG": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "ERIUM : ERIUM CI _ Pouvoir - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/erium-erium-ci--pouvoir--assemblee-generale-ordinaire.pdf",
+        "date": "26/06/2026",
+        "date_iso": "2026-06-26",
+        "tickers": [
+          "SIVC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
       },
       {
         "source": "SikaFinance",
@@ -3420,20 +2471,220 @@
         "source_rank": 60,
         "source_role": "document_mirror",
         "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "ONATEL BF : ONATEL BF _ Etats financiers approuvés - Exercice 2025",
+        "type": "AG",
+        "titre": "ERIUM : ERIUM CI _ Projet de résolutions - Assemblée Générale Ordinaire",
         "resume": "",
-        "lien": "https://www.sikafinance.com/docs/onatel-bf-onatel-bf--etats-financiers-approuves--exercice-2025.pdf",
+        "lien": "https://www.sikafinance.com/docs/erium-erium-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
+        "date": "26/06/2026",
+        "date_iso": "2026-06-26",
+        "tickers": [
+          "SIVC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "SITAB : SITAB CI _ Projet de résolutions - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "SITAB : SITAB CI _ Avis de convocation - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--avis-de-convocation--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "SITAB : SITAB CI _ Pouvoir Personne Physique - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-physique--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "ERIUM : ERIUM CI _ Avis de convocation - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/erium-erium-ci--avis-de-convocation--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "SIVC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "SITAB : SITAB CI _ Pouvoir Personne Morale - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-morale--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "TRACTAFRIC MOTORS CI : TRACTAFRIC MOTORS CI _ Avis de convocation et Projets de résolutions - Assemblée Générale Mixte",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/tractafric-motors-ci-tractafric-motors-ci--avis-de-convocation-et-projets-de-resolutions--assemblee-generale-mixte.pdf",
+        "date": "15/06/2026",
+        "date_iso": "2026-06-15",
+        "tickers": [
+          "PRSC"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "LOTERIE NATIONALE DU BENIN : LNB BN _ Avis de convocation - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/loterie-nationale-du-benin-lnb-bn--avis-de-convocation--assemblee-generale-ordinaire.pdf",
+        "date": "12/06/2026",
+        "date_iso": "2026-06-12",
+        "tickers": [
+          "LNBB"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "NSIA BANQUE : NSIA BANQUE CI _ Avis de convocation et Projet de résolutions - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/nsia-banque-nsia-banque-ci--avis-de-convocation-et-projet-de-resolutions--assemblee-generale-ordinaire.pdf",
         "date": "11/06/2026",
         "date_iso": "2026-06-11",
         "tickers": [
-          "ONTBF"
+          "NSBC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      }
+    ],
+    "DIVIDENDE": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "TOTAL SENEGAL : TOTALENERGIES MARKETING SN _ Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "24/06/2026",
+        "date_iso": "2026-06-24",
+        "tickers": [
+          "TTLS"
+        ],
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
       },
       {
         "source": "SikaFinance",
@@ -3442,20 +2693,20 @@
         "source_rank": 60,
         "source_role": "document_mirror",
         "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "FILTISAC CI : FILTISAC CI _ Etats financiers - Exercice 2025",
+        "type": "DIVIDENDE",
+        "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Paiement de dividendes - Exercice 2025",
         "resume": "",
-        "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--etats-financiers--exercice-2025.pdf",
-        "date": "10/06/2026",
-        "date_iso": "2026-06-10",
+        "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "23/06/2026",
+        "date_iso": "2026-06-23",
         "tickers": [
-          "FTSC"
+          "SIBC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
       },
       {
         "source": "SikaFinance",
@@ -3464,20 +2715,20 @@
         "source_rank": 60,
         "source_role": "document_mirror",
         "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "FILTISAC CI : FILTISAC CI _ Rapport d'activités - 1er trimestre 2026",
+        "type": "DIVIDENDE",
+        "titre": "BICICI : BICI CI _ Paiement de dividendes - Exercice 2025",
         "resume": "",
-        "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--rapport-d-activites--1er-trimestre-2026.pdf",
-        "date": "10/06/2026",
-        "date_iso": "2026-06-10",
+        "lien": "https://www.sikafinance.com/docs/bicici-bici-ci--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "17/06/2026",
+        "date_iso": "2026-06-17",
         "tickers": [
-          "FTSC"
+          "BICC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
       }
     ],
     "NOTATION": [
@@ -3497,30 +2748,8 @@
         "tickers": [
           "SDSC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "NOTATION",
-        "titre": "AFRICA GLOBAL LOGISTICS CI : Notation Financière",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/23-06-2026-africa-global-logistics-ci-notation-financiere",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "SDSC"
-        ],
-        "date_collecte": "2026-06-26T12:12:06Z",
-        "score_importance": 97,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
@@ -3543,8 +2772,8 @@
         "tickers": [
           "SIVC"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 87,
+        "date_collecte": "2026-06-29T14:04:03Z",
+        "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -3565,8 +2794,31 @@
         "tickers": [
           "LNBB"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 83,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Information de contexte : impact direct à confirmer."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 40,
+        "source_role": "editorial_news",
+        "validation_policy": "secondary_context",
+        "type": "ACTU",
+        "titre": "BRVM / Semaine 25 : Les investisseurs accélèrent leurs paris, AGL CI et BOA Niger en vedette",
+        "resume": "(P) À l'issue de la 25ᵉ séance de cotation, le marché actions de la BRVM poursuit sa trajectoire haussière. Cette d... 29/06/2026 10:42",
+        "lien": "https://www.sikafinance.com/marches/brvm-semaine-25-les-investisseurs-accelerent-leurs-paris-agl-ci-et-boa-niger-en-vedette_62599",
+        "date": "29/06/2026",
+        "date_iso": "2026-06-29",
+        "tickers": [
+          "BOAN",
+          "SDSC"
+        ],
+        "date_collecte": "2026-06-29T14:04:05Z",
+        "score_importance": 81,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -3587,7 +2839,7 @@
         "tickers": [
           "BOAB"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 74,
         "importance": "Important",
         "impact": "Moyen",
@@ -3609,29 +2861,7 @@
         "tickers": [
           "TTLS"
         ],
-        "date_collecte": "2026-06-26T12:12:00Z",
-        "score_importance": 74,
-        "importance": "Important",
-        "impact": "Moyen",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "ACTU",
-        "titre": "SAFCA CI : SAFCA CI _ Clôture des souscriptions - actions nouvelle",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/safca-ci-safca-ci--cloture-des-souscriptions--actions-nouvelle.pdf",
-        "date": "10/06/2026",
-        "date_iso": "2026-06-10",
-        "tickers": [
-          "SAFC"
-        ],
-        "date_collecte": "2026-06-26T12:12:00Z",
+        "date_collecte": "2026-06-29T14:04:03Z",
         "score_importance": 74,
         "importance": "Important",
         "impact": "Moyen",
@@ -3653,7 +2883,7 @@
         "tickers": [
           "SAFC"
         ],
-        "date_collecte": "2026-06-26T12:12:01Z",
+        "date_collecte": "2026-06-29T14:04:05Z",
         "score_importance": 57,
         "importance": "A surveiller",
         "impact": "Moyen",
@@ -3682,7 +2912,7 @@
     },
     "RichBourse:news": {
       "url": "https://www.richbourse.com/common/news/index",
-      "articles": 25,
+      "articles": 0,
       "ok": true,
       "source_rank": 25,
       "source_authority": "secondary",
@@ -3691,7 +2921,7 @@
     },
     "RichBourse:actualites": {
       "url": "https://www.richbourse.com/common/actualite/index",
-      "articles": 18,
+      "articles": 0,
       "ok": true,
       "source_rank": 30,
       "source_authority": "secondary",
@@ -3700,7 +2930,7 @@
     },
     "RichBourse:dividendes": {
       "url": "https://www.richbourse.com/common/dividende/index",
-      "articles": 20,
+      "articles": 0,
       "ok": true,
       "source_rank": 10,
       "source_authority": "secondary_unverified",
@@ -3740,11 +2970,11 @@
   },
   "filtrage": {
     "strict_action_news": true,
-    "entree": 132,
-    "sans_action_cotee": 83,
-    "dividendes_richbourse_non_confirmes": 12,
-    "sortie": 37
+    "entree": 69,
+    "sans_action_cotee": 41,
+    "dividendes_richbourse_non_confirmes": 0,
+    "sortie": 28
   },
   "erreurs": [],
-  "resume_ia": "Synthèse de veille BRVM - 26/06/"
+  "resume_ia": "**Synthèse de Veille BRVM - 29/06"
 }
