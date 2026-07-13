@@ -1,11 +1,11 @@
 {
   "schema_version": "veille_decisionnelle_v4",
-  "date": "10/07/2026",
-  "heure": "12:25 UTC",
-  "nb_total": 26,
+  "date": "13/07/2026",
+  "heure": "12:31 UTC",
+  "nb_total": 42,
   "impact_counts": {
-    "Fort": 23,
-    "Moyen": 3,
+    "Fort": 37,
+    "Moyen": 5,
     "Faible": 0
   },
   "ag": [
@@ -25,7 +25,29 @@
       "tickers": [
         "ORGT"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "AG",
+      "titre": "ORAGROUP TG : Avis de convocation et Projet de résolution - Assemblée Générale Mixte",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-oragroup-tg-avis-de-convocation-et-projet-de-resolution-assemblee-generale-mixte",
+      "date": "03/07/2026",
+      "date_iso": "2026-07-03",
+      "tickers": [
+        "ORGT"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -47,7 +69,7 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -69,7 +91,7 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -91,7 +113,7 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -113,7 +135,7 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -135,7 +157,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -157,7 +179,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -179,7 +201,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -201,11 +223,35 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+    }
+  ],
+  "rapports": [
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SITAB : SITAB CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
+      "tickers": [
+        "STBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
     },
     {
       "source": "SikaFinance",
@@ -214,23 +260,219 @@
       "source_rank": 60,
       "source_role": "document_mirror",
       "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB : SITAB CI _ Pouvoir Personne Morale - Assemblée Générale Ordinaire",
+      "type": "RAPPORT",
+      "titre": "ORANGE CI : ORANGE CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
       "resume": "",
-      "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-morale--assemblee-generale-ordinaire.pdf",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
+      "lien": "https://www.sikafinance.com/docs/orange-ci-orange-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
       "tickers": [
-        "STBC"
+        "ORAC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    }
-  ],
-  "rapports": [
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SITAB CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/10-07-2026-sitab-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
+      "tickers": [
+        "STBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ORANGE CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/10-07-2026-orange-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
+      "tickers": [
+        "ORAC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "SDSC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "PALMCI : PALM CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/palmci-palm-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "PALC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SGBCI : SOCIETE GENERALE CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/sgbci-societe-generale-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "SGBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "AFRICA GLOBAL LOGISTICS CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/08-07-2026-africa-global-logistics-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "SDSC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "PALM CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/08-07-2026-palm-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "PALC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ Etats financiers - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/coris-bank-international-bf-coris-bank-international-bf--etats-financiers--exercice-2025.pdf",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
+      "tickers": [
+        "CBIBF"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "CORIS BANK INTERNATIONAL BF : Etats financiers - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/07-07-2026-coris-bank-international-bf-etats-financiers-exercice-2025",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
+      "tickers": [
+        "CBIBF"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -247,7 +489,7 @@
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -269,7 +511,7 @@
       "tickers": [
         "ABJC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -291,7 +533,7 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -313,7 +555,7 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -335,11 +577,102 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SIB CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-sib-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "03/07/2026",
+      "date_iso": "2026-07-03",
+      "tickers": [
+        "SIBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 97,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SERVAIR ABIDJAN CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-servair-abidjan-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "03/07/2026",
+      "date_iso": "2026-07-03",
+      "tickers": [
+        "ABJC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 97,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "UNIWAX CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-uniwax-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "03/07/2026",
+      "date_iso": "2026-07-03",
+      "tickers": [
+        "UNXC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 97,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    }
+  ],
+  "dividendes": [
+    {
+      "source": "RichBourse",
+      "source_type": "dividendes",
+      "source_authority": "secondary_unverified",
+      "source_rank": 10,
+      "source_role": "discovery",
+      "validation_policy": "primary_required",
+      "type": "DIVIDENDE",
+      "titre": "SERVAIR : dividende 124 FCFA",
+      "resume": "Rendement indicatif RichBourse : 3.94%. Ex-dividende : 29/09/2026. Paiement : 30/09/2026.",
+      "lien": "https://www.richbourse.com/common/mouvements/index/ABJC",
+      "date": "29/09/2026",
+      "date_iso": "2026-09-29",
+      "tickers": [
+        "ABJC"
+      ],
+      "date_collecte": "2026-07-13T12:31:49Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+      "validation": "confirme_par_source_secondaire"
     },
     {
       "source": "SikaFinance",
@@ -348,23 +681,43 @@
       "source_rank": 60,
       "source_role": "document_mirror",
       "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "BANK OF AFRICA MALI : BOA MALI _ Rapport d'activités - 1er trimestre 2026",
+      "type": "DIVIDENDE",
+      "titre": "CIE CI : CIE CI _ Paiement de dividendes - Exercice 2025",
       "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bank-of-africa-mali-boa-mali--rapport-d-activites--1er-trimestre-2026.pdf",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
+      "lien": "https://www.sikafinance.com/docs/cie-ci-cie-ci--paiement-de-dividendes--exercice-2025.pdf",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
       "tickers": [
-        "BOAM"
+        "CIEC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    }
-  ],
-  "dividendes": [
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "DIVIDENDE",
+      "titre": "CIE CI : Paiement de dividendes - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/07-07-2026-cie-ci-paiement-de-dividendes-exercice-2025",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
+      "tickers": [
+        "CIEC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -381,51 +734,29 @@
       "tickers": [
         "ABJC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
     },
     {
-      "source": "SikaFinance",
-      "source_type": "communiques",
+      "source": "RichBourse",
+      "source_type": "actualites",
       "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
+      "source_rank": 30,
+      "source_role": "aggregator",
       "validation_policy": "match_brvm_registry",
       "type": "DIVIDENDE",
-      "titre": "TOTAL SENEGAL : TOTALENERGIES MARKETING SN _ Paiement de dividendes - Exercice 2025",
+      "titre": "SERVAIR ABIDJAN CI : Paiement de dividendes - Exercice 2025",
       "resume": "",
-      "lien": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--paiement-de-dividendes--exercice-2025.pdf",
-      "date": "24/06/2026",
-      "date_iso": "2026-06-24",
+      "lien": "https://www.richbourse.com/common/actualite/details/01-07-2026-servair-abidjan-ci-paiement-de-dividendes-exercice-2025",
+      "date": "01/07/2026",
+      "date_iso": "2026-07-01",
       "tickers": [
-        "TTLS"
+        "ABJC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "DIVIDENDE",
-      "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Paiement de dividendes - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--paiement-de-dividendes--exercice-2025.pdf",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
-      "tickers": [
-        "SIBC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:48Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -449,7 +780,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -471,29 +802,7 @@
       "tickers": [
         "SNTS"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Notation Financière",
-      "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Notation Financière",
-      "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--notation-financiere.pdf",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
-      "tickers": [
-        "SDSC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -511,16 +820,16 @@
       "source_role": "document_mirror",
       "validation_policy": "match_brvm_registry",
       "type": "ACTU",
-      "titre": "ERIUM : ERIUM CI _ Communiqué - Profit Warning",
+      "titre": "FILTISAC CI : FILTISAC CI _ Communiqué",
       "resume": "",
-      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--communique--profit-warning.pdf",
-      "date": "19/06/2026",
-      "date_iso": "2026-06-19",
+      "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--communique.pdf",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
       "tickers": [
-        "SIVC"
+        "FTSC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 83,
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 87,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -541,8 +850,30 @@
       "tickers": [
         "SNTS"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 74,
+      "importance": "Important",
+      "impact": "Moyen",
+      "pourquoi": "Information de contexte : impact direct à confirmer."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 40,
+      "source_role": "editorial_news",
+      "validation_policy": "secondary_context",
+      "type": "ACTU",
+      "titre": "BRVM / Semaine 27 : Le marché actions poursuit son ascension, CORIS BANK enflamme la cote à 29 000 FCFA",
+      "resume": "(P) La BRVM accélère sa dynamique haussière lors de la 27ᵉ semaine de cotation. Le BRVM Composite franchit un nouveau palie... 13/07/2026 11:28",
+      "lien": "https://www.sikafinance.com/marches/brvm-semaine-27-le-marche-actions-poursuit-son-ascension-coris-bank-enflamme-la-cote-a-29-000-fcfa_62923",
+      "date": "13/07/2026",
+      "date_iso": "2026-07-13",
+      "tickers": [
+        "CBIBF"
+      ],
+      "date_collecte": "2026-07-13T12:31:44Z",
+      "score_importance": 73,
       "importance": "Important",
       "impact": "Moyen",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -563,7 +894,7 @@
       "tickers": [
         "SAFC"
       ],
-      "date_collecte": "2026-07-10T12:25:32Z",
+      "date_collecte": "2026-07-13T12:31:44Z",
       "score_importance": 57,
       "importance": "A surveiller",
       "impact": "Moyen",
@@ -577,15 +908,37 @@
       "source_role": "media_context",
       "validation_policy": "secondary_context",
       "type": "ACTU",
-      "titre": "Côte d'Ivoire : Impact Fund Denmark injecte 28,6 millions $ dans NSIA Banque pour financer les MPME",
+      "titre": "NSIA Banque CI renforce son engagement en faveur de l’éducation des jeunes filles",
       "resume": "",
+      "lien": "https://www.agenceecofin.com/actualites/1007-140082-nsia-banque-ci-renforce-son-engagement-en-faveur-de-l-education-des-jeunes-filles",
+      "date": "",
+      "date_iso": null,
+      "tickers": [
+        "NSBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:53Z",
+      "score_importance": 46,
+      "importance": "A surveiller",
+      "impact": "Moyen",
+      "pourquoi": "Information de contexte : impact direct à confirmer."
+    },
+    {
+      "source": "AgenceEcofin",
+      "source_type": "finance",
+      "source_authority": "secondary",
+      "source_rank": 15,
+      "source_role": "media_context",
+      "validation_policy": "secondary_context",
+      "type": "ACTU",
+      "titre": "Côte d'Ivoire : Impact Fund Denmark injecte 28,6 millions $ dans NSIA Banque pour financer les MPME",
+      "resume": "L'accès au financement reste l'un des principaux freins au développement des MPME ivoiriennes. Celles-ci figurent pourtant parmi les principaux créateurs d'emplois du pays. NSIA Banque...",
       "lien": "https://www.agenceecofin.com/actualites-finance/1007-140066-cote-divoire-impact-fund-denmark-injecte-28-6-millions-dans-nsia-banque-pour-financer-les-mpme",
       "date": "",
       "date_iso": null,
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-10T12:25:40Z",
+      "date_collecte": "2026-07-13T12:31:53Z",
       "score_importance": 46,
       "importance": "A surveiller",
       "impact": "Moyen",
@@ -593,6 +946,315 @@
     }
   ],
   "tous": [
+    {
+      "source": "RichBourse",
+      "source_type": "dividendes",
+      "source_authority": "secondary_unverified",
+      "source_rank": 10,
+      "source_role": "discovery",
+      "validation_policy": "primary_required",
+      "type": "DIVIDENDE",
+      "titre": "SERVAIR : dividende 124 FCFA",
+      "resume": "Rendement indicatif RichBourse : 3.94%. Ex-dividende : 29/09/2026. Paiement : 30/09/2026.",
+      "lien": "https://www.richbourse.com/common/mouvements/index/ABJC",
+      "date": "29/09/2026",
+      "date_iso": "2026-09-29",
+      "tickers": [
+        "ABJC"
+      ],
+      "date_collecte": "2026-07-13T12:31:49Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+      "validation": "confirme_par_source_secondaire"
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SITAB : SITAB CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
+      "tickers": [
+        "STBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ORANGE CI : ORANGE CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/orange-ci-orange-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
+      "tickers": [
+        "ORAC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SITAB CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/10-07-2026-sitab-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
+      "tickers": [
+        "STBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ORANGE CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/10-07-2026-orange-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
+      "tickers": [
+        "ORAC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "SDSC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "PALMCI : PALM CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/palmci-palm-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "PALC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SGBCI : SOCIETE GENERALE CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/sgbci-societe-generale-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "SGBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "AFRICA GLOBAL LOGISTICS CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/08-07-2026-africa-global-logistics-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "SDSC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "PALM CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/08-07-2026-palm-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "PALC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ Etats financiers - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/coris-bank-international-bf-coris-bank-international-bf--etats-financiers--exercice-2025.pdf",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
+      "tickers": [
+        "CBIBF"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "DIVIDENDE",
+      "titre": "CIE CI : CIE CI _ Paiement de dividendes - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/cie-ci-cie-ci--paiement-de-dividendes--exercice-2025.pdf",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
+      "tickers": [
+        "CIEC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "CORIS BANK INTERNATIONAL BF : Etats financiers - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/07-07-2026-coris-bank-international-bf-etats-financiers-exercice-2025",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
+      "tickers": [
+        "CBIBF"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "DIVIDENDE",
+      "titre": "CIE CI : Paiement de dividendes - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/07-07-2026-cie-ci-paiement-de-dividendes-exercice-2025",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
+      "tickers": [
+        "CIEC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -609,7 +1271,7 @@
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -631,7 +1293,7 @@
       "tickers": [
         "ORGT"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -653,7 +1315,7 @@
       "tickers": [
         "ABJC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -675,7 +1337,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -697,11 +1359,33 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "AG",
+      "titre": "ORAGROUP TG : Avis de convocation et Projet de résolution - Assemblée Générale Mixte",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-oragroup-tg-avis-de-convocation-et-projet-de-resolution-assemblee-generale-mixte",
+      "date": "03/07/2026",
+      "date_iso": "2026-07-03",
+      "tickers": [
+        "ORGT"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
     },
     {
       "source": "SikaFinance",
@@ -719,7 +1403,29 @@
       "tickers": [
         "ABJC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "DIVIDENDE",
+      "titre": "SERVAIR ABIDJAN CI : Paiement de dividendes - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/01-07-2026-servair-abidjan-ci-paiement-de-dividendes-exercice-2025",
+      "date": "01/07/2026",
+      "date_iso": "2026-07-01",
+      "tickers": [
+        "ABJC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -741,7 +1447,7 @@
       "tickers": [
         "SNTS"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -763,7 +1469,7 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -785,7 +1491,7 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -807,7 +1513,7 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -829,7 +1535,7 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -851,7 +1557,7 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -873,7 +1579,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -895,7 +1601,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -917,7 +1623,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -939,7 +1645,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -961,118 +1667,74 @@
       "tickers": [
         "SIVC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
     },
     {
-      "source": "SikaFinance",
-      "source_type": "communiques",
+      "source": "RichBourse",
+      "source_type": "actualites",
       "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
+      "source_rank": 30,
+      "source_role": "aggregator",
       "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB : SITAB CI _ Pouvoir Personne Morale - Assemblée Générale Ordinaire",
+      "type": "RAPPORT",
+      "titre": "SIB CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
       "resume": "",
-      "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-morale--assemblee-generale-ordinaire.pdf",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "DIVIDENDE",
-      "titre": "TOTAL SENEGAL : TOTALENERGIES MARKETING SN _ Paiement de dividendes - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--paiement-de-dividendes--exercice-2025.pdf",
-      "date": "24/06/2026",
-      "date_iso": "2026-06-24",
-      "tickers": [
-        "TTLS"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "DIVIDENDE",
-      "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Paiement de dividendes - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--paiement-de-dividendes--exercice-2025.pdf",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
+      "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-sib-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "03/07/2026",
+      "date_iso": "2026-07-03",
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 97,
       "importance": "Critique",
       "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
     },
     {
-      "source": "SikaFinance",
-      "source_type": "communiques",
+      "source": "RichBourse",
+      "source_type": "actualites",
       "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Notation Financière",
-      "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Notation Financière",
-      "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--notation-financiere.pdf",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
-      "tickers": [
-        "SDSC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
+      "source_rank": 30,
+      "source_role": "aggregator",
       "validation_policy": "match_brvm_registry",
       "type": "RAPPORT",
-      "titre": "BANK OF AFRICA MALI : BOA MALI _ Rapport d'activités - 1er trimestre 2026",
+      "titre": "SERVAIR ABIDJAN CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
       "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bank-of-africa-mali-boa-mali--rapport-d-activites--1er-trimestre-2026.pdf",
-      "date": "23/06/2026",
-      "date_iso": "2026-06-23",
+      "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-servair-abidjan-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "03/07/2026",
+      "date_iso": "2026-07-03",
       "tickers": [
-        "BOAM"
+        "ABJC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 97,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "UNIWAX CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-uniwax-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "03/07/2026",
+      "date_iso": "2026-07-03",
+      "tickers": [
+        "UNXC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 97,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
@@ -1085,16 +1747,16 @@
       "source_role": "document_mirror",
       "validation_policy": "match_brvm_registry",
       "type": "ACTU",
-      "titre": "ERIUM : ERIUM CI _ Communiqué - Profit Warning",
+      "titre": "FILTISAC CI : FILTISAC CI _ Communiqué",
       "resume": "",
-      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--communique--profit-warning.pdf",
-      "date": "19/06/2026",
-      "date_iso": "2026-06-19",
+      "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--communique.pdf",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
       "tickers": [
-        "SIVC"
+        "FTSC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 83,
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 87,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -1115,8 +1777,30 @@
       "tickers": [
         "SNTS"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 74,
+      "importance": "Important",
+      "impact": "Moyen",
+      "pourquoi": "Information de contexte : impact direct à confirmer."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 40,
+      "source_role": "editorial_news",
+      "validation_policy": "secondary_context",
+      "type": "ACTU",
+      "titre": "BRVM / Semaine 27 : Le marché actions poursuit son ascension, CORIS BANK enflamme la cote à 29 000 FCFA",
+      "resume": "(P) La BRVM accélère sa dynamique haussière lors de la 27ᵉ semaine de cotation. Le BRVM Composite franchit un nouveau palie... 13/07/2026 11:28",
+      "lien": "https://www.sikafinance.com/marches/brvm-semaine-27-le-marche-actions-poursuit-son-ascension-coris-bank-enflamme-la-cote-a-29-000-fcfa_62923",
+      "date": "13/07/2026",
+      "date_iso": "2026-07-13",
+      "tickers": [
+        "CBIBF"
+      ],
+      "date_collecte": "2026-07-13T12:31:44Z",
+      "score_importance": 73,
       "importance": "Important",
       "impact": "Moyen",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -1137,7 +1821,7 @@
       "tickers": [
         "SAFC"
       ],
-      "date_collecte": "2026-07-10T12:25:32Z",
+      "date_collecte": "2026-07-13T12:31:44Z",
       "score_importance": 57,
       "importance": "A surveiller",
       "impact": "Moyen",
@@ -1151,15 +1835,37 @@
       "source_role": "media_context",
       "validation_policy": "secondary_context",
       "type": "ACTU",
-      "titre": "Côte d'Ivoire : Impact Fund Denmark injecte 28,6 millions $ dans NSIA Banque pour financer les MPME",
+      "titre": "NSIA Banque CI renforce son engagement en faveur de l’éducation des jeunes filles",
       "resume": "",
+      "lien": "https://www.agenceecofin.com/actualites/1007-140082-nsia-banque-ci-renforce-son-engagement-en-faveur-de-l-education-des-jeunes-filles",
+      "date": "",
+      "date_iso": null,
+      "tickers": [
+        "NSBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:53Z",
+      "score_importance": 46,
+      "importance": "A surveiller",
+      "impact": "Moyen",
+      "pourquoi": "Information de contexte : impact direct à confirmer."
+    },
+    {
+      "source": "AgenceEcofin",
+      "source_type": "finance",
+      "source_authority": "secondary",
+      "source_rank": 15,
+      "source_role": "media_context",
+      "validation_policy": "secondary_context",
+      "type": "ACTU",
+      "titre": "Côte d'Ivoire : Impact Fund Denmark injecte 28,6 millions $ dans NSIA Banque pour financer les MPME",
+      "resume": "L'accès au financement reste l'un des principaux freins au développement des MPME ivoiriennes. Celles-ci figurent pourtant parmi les principaux créateurs d'emplois du pays. NSIA Banque...",
       "lien": "https://www.agenceecofin.com/actualites-finance/1007-140066-cote-divoire-impact-fund-denmark-injecte-28-6-millions-dans-nsia-banque-pour-financer-les-mpme",
       "date": "",
       "date_iso": null,
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-10T12:25:40Z",
+      "date_collecte": "2026-07-13T12:31:53Z",
       "score_importance": 46,
       "importance": "A surveiller",
       "impact": "Moyen",
@@ -1167,6 +1873,315 @@
     }
   ],
   "prioritaires": [
+    {
+      "source": "RichBourse",
+      "source_type": "dividendes",
+      "source_authority": "secondary_unverified",
+      "source_rank": 10,
+      "source_role": "discovery",
+      "validation_policy": "primary_required",
+      "type": "DIVIDENDE",
+      "titre": "SERVAIR : dividende 124 FCFA",
+      "resume": "Rendement indicatif RichBourse : 3.94%. Ex-dividende : 29/09/2026. Paiement : 30/09/2026.",
+      "lien": "https://www.richbourse.com/common/mouvements/index/ABJC",
+      "date": "29/09/2026",
+      "date_iso": "2026-09-29",
+      "tickers": [
+        "ABJC"
+      ],
+      "date_collecte": "2026-07-13T12:31:49Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+      "validation": "confirme_par_source_secondaire"
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SITAB : SITAB CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
+      "tickers": [
+        "STBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ORANGE CI : ORANGE CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/orange-ci-orange-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
+      "tickers": [
+        "ORAC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SITAB CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/10-07-2026-sitab-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
+      "tickers": [
+        "STBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ORANGE CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/10-07-2026-orange-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "10/07/2026",
+      "date_iso": "2026-07-10",
+      "tickers": [
+        "ORAC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "SDSC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "PALMCI : PALM CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/palmci-palm-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "PALC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SGBCI : SOCIETE GENERALE CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/sgbci-societe-generale-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "SGBC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "AFRICA GLOBAL LOGISTICS CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/08-07-2026-africa-global-logistics-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "SDSC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "PALM CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/08-07-2026-palm-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+      "date": "08/07/2026",
+      "date_iso": "2026-07-08",
+      "tickers": [
+        "PALC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ Etats financiers - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/coris-bank-international-bf-coris-bank-international-bf--etats-financiers--exercice-2025.pdf",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
+      "tickers": [
+        "CBIBF"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "DIVIDENDE",
+      "titre": "CIE CI : CIE CI _ Paiement de dividendes - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/cie-ci-cie-ci--paiement-de-dividendes--exercice-2025.pdf",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
+      "tickers": [
+        "CIEC"
+      ],
+      "date_collecte": "2026-07-13T12:31:43Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "CORIS BANK INTERNATIONAL BF : Etats financiers - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/07-07-2026-coris-bank-international-bf-etats-financiers-exercice-2025",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
+      "tickers": [
+        "CBIBF"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "DIVIDENDE",
+      "titre": "CIE CI : Paiement de dividendes - Exercice 2025",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/07-07-2026-cie-ci-paiement-de-dividendes-exercice-2025",
+      "date": "07/07/2026",
+      "date_iso": "2026-07-07",
+      "tickers": [
+        "CIEC"
+      ],
+      "date_collecte": "2026-07-13T12:31:48Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -1183,393 +2198,38 @@
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-07-10T12:25:31Z",
+      "date_collecte": "2026-07-13T12:31:43Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "ORAGROUP TOGO : ORAGROUP TG _ Avis de convocation et Projet de résolution - Assemblée Générale Mixte",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/oragroup-togo-oragroup-tg--avis-de-convocation-et-projet-de-resolution--assemblee-generale-mixte.pdf",
-      "date": "03/07/2026",
-      "date_iso": "2026-07-03",
-      "tickers": [
-        "ORGT"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "SERVAIR ABIDJAN CI : SERVAIR ABIDJAN CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/servair-abidjan-ci-servair-abidjan-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
-      "date": "03/07/2026",
-      "date_iso": "2026-07-03",
-      "tickers": [
-        "ABJC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "BANK OF AFRICA CI : BOA CI _ Notation Financière",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bank-of-africa-ci-boa-ci--notation-financiere.pdf",
-      "date": "03/07/2026",
-      "date_iso": "2026-07-03",
-      "tickers": [
-        "BOAC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "UNIWAX CI : UNIWAX CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/uniwax-ci-uniwax-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
-      "date": "03/07/2026",
-      "date_iso": "2026-07-03",
-      "tickers": [
-        "UNXC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "DIVIDENDE",
-      "titre": "SERVAIR ABIDJAN CI : SERVAIR ABIDJAN CI _ Paiement de dividendes - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/servair-abidjan-ci-servair-abidjan-ci--paiement-de-dividendes--exercice-2025.pdf",
-      "date": "01/07/2026",
-      "date_iso": "2026-07-01",
-      "tickers": [
-        "ABJC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "SONATEL : SONATEL SN _ Notation financière",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--notation-financiere.pdf",
-      "date": "30/06/2026",
-      "date_iso": "2026-06-30",
-      "tickers": [
-        "SNTS"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "UNIWAX CI : UNIWAX CI _ Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/uniwax-ci-uniwax-ci--formulaire-de-vote-par-correspondance--assemblee-generale-ordinaire.pdf",
-      "date": "29/06/2026",
-      "date_iso": "2026-06-29",
-      "tickers": [
-        "UNXC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "UNIWAX CI : UNIWAX CI _ Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/uniwax-ci-uniwax-ci--avis-de-convocation-et-projet-de-resolution--assemblee-generale-ordinaire.pdf",
-      "date": "29/06/2026",
-      "date_iso": "2026-06-29",
-      "tickers": [
-        "UNXC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "ERIUM : ERIUM CI _ Etats financiers - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--etats-financiers--exercice-2025.pdf",
-      "date": "26/06/2026",
-      "date_iso": "2026-06-26",
-      "tickers": [
-        "SIVC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "ERIUM : ERIUM CI _ Pouvoir - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--pouvoir--assemblee-generale-ordinaire.pdf",
-      "date": "26/06/2026",
-      "date_iso": "2026-06-26",
-      "tickers": [
-        "SIVC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "ERIUM : ERIUM CI _ Projet de résolutions - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/erium-erium-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
-      "date": "26/06/2026",
-      "date_iso": "2026-06-26",
-      "tickers": [
-        "SIVC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB : SITAB CI _ Projet de résolutions - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "SITAB : SITAB CI _ Etats financiers - Exercice 2025 (Annule et remplace le précédent)",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--etats-financiers--exercice-2025-annule-et-remplace-le-precedent.pdf",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SITAB : SITAB CI _ Avis de convocation - Assemblée Générale Ordinaire",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--avis-de-convocation--assemblee-generale-ordinaire.pdf",
-      "date": "25/06/2026",
-      "date_iso": "2026-06-25",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-07-10T12:25:31Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
     }
   ],
   "par_ticker": {
-    "SIBC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
-        "date": "03/07/2026",
-        "date_iso": "2026-07-03",
-        "tickers": [
-          "SIBC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "SIBC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      }
-    ],
-    "ORGT": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "ORAGROUP TOGO : ORAGROUP TG _ Avis de convocation et Projet de résolution - Assemblée Générale Mixte",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/oragroup-togo-oragroup-tg--avis-de-convocation-et-projet-de-resolution--assemblee-generale-mixte.pdf",
-        "date": "03/07/2026",
-        "date_iso": "2026-07-03",
-        "tickers": [
-          "ORGT"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      }
-    ],
     "ABJC": [
+      {
+        "source": "RichBourse",
+        "source_type": "dividendes",
+        "source_authority": "secondary_unverified",
+        "source_rank": 10,
+        "source_role": "discovery",
+        "validation_policy": "primary_required",
+        "type": "DIVIDENDE",
+        "titre": "SERVAIR : dividende 124 FCFA",
+        "resume": "Rendement indicatif RichBourse : 3.94%. Ex-dividende : 29/09/2026. Paiement : 30/09/2026.",
+        "lien": "https://www.richbourse.com/common/mouvements/index/ABJC",
+        "date": "29/09/2026",
+        "date_iso": "2026-09-29",
+        "tickers": [
+          "ABJC"
+        ],
+        "date_collecte": "2026-07-13T12:31:49Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+        "validation": "confirme_par_source_secondaire"
+      },
       {
         "source": "SikaFinance",
         "source_type": "communiques",
@@ -1586,7 +2246,7 @@
         "tickers": [
           "ABJC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1608,11 +2268,557 @@
         "tickers": [
           "ABJC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "SERVAIR ABIDJAN CI : Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/01-07-2026-servair-abidjan-ci-paiement-de-dividendes-exercice-2025",
+        "date": "01/07/2026",
+        "date_iso": "2026-07-01",
+        "tickers": [
+          "ABJC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SERVAIR ABIDJAN CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-servair-abidjan-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "03/07/2026",
+        "date_iso": "2026-07-03",
+        "tickers": [
+          "ABJC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 97,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      }
+    ],
+    "STBC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SITAB : SITAB CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+        "date": "10/07/2026",
+        "date_iso": "2026-07-10",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SITAB CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/10-07-2026-sitab-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "10/07/2026",
+        "date_iso": "2026-07-10",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "SITAB : SITAB CI _ Projet de résolutions - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SITAB : SITAB CI _ Etats financiers - Exercice 2025 (Annule et remplace le précédent)",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--etats-financiers--exercice-2025-annule-et-remplace-le-precedent.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "SITAB : SITAB CI _ Avis de convocation - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--avis-de-convocation--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "SITAB : SITAB CI _ Pouvoir Personne Physique - Assemblée Générale Ordinaire",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-physique--assemblee-generale-ordinaire.pdf",
+        "date": "25/06/2026",
+        "date_iso": "2026-06-25",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      }
+    ],
+    "ORAC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "ORANGE CI : ORANGE CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/orange-ci-orange-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+        "date": "10/07/2026",
+        "date_iso": "2026-07-10",
+        "tickers": [
+          "ORAC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "ORANGE CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/10-07-2026-orange-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "10/07/2026",
+        "date_iso": "2026-07-10",
+        "tickers": [
+          "ORAC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      }
+    ],
+    "SDSC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+        "date": "08/07/2026",
+        "date_iso": "2026-07-08",
+        "tickers": [
+          "SDSC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "AFRICA GLOBAL LOGISTICS CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/08-07-2026-africa-global-logistics-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "08/07/2026",
+        "date_iso": "2026-07-08",
+        "tickers": [
+          "SDSC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      }
+    ],
+    "PALC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "PALMCI : PALM CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/palmci-palm-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+        "date": "08/07/2026",
+        "date_iso": "2026-07-08",
+        "tickers": [
+          "PALC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "PALM CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/08-07-2026-palm-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "08/07/2026",
+        "date_iso": "2026-07-08",
+        "tickers": [
+          "PALC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      }
+    ],
+    "SGBC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SGBCI : SOCIETE GENERALE CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sgbci-societe-generale-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+        "date": "08/07/2026",
+        "date_iso": "2026-07-08",
+        "tickers": [
+          "SGBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      }
+    ],
+    "CBIBF": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ Etats financiers - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/coris-bank-international-bf-coris-bank-international-bf--etats-financiers--exercice-2025.pdf",
+        "date": "07/07/2026",
+        "date_iso": "2026-07-07",
+        "tickers": [
+          "CBIBF"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "CORIS BANK INTERNATIONAL BF : Etats financiers - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/07-07-2026-coris-bank-international-bf-etats-financiers-exercice-2025",
+        "date": "07/07/2026",
+        "date_iso": "2026-07-07",
+        "tickers": [
+          "CBIBF"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 40,
+        "source_role": "editorial_news",
+        "validation_policy": "secondary_context",
+        "type": "ACTU",
+        "titre": "BRVM / Semaine 27 : Le marché actions poursuit son ascension, CORIS BANK enflamme la cote à 29 000 FCFA",
+        "resume": "(P) La BRVM accélère sa dynamique haussière lors de la 27ᵉ semaine de cotation. Le BRVM Composite franchit un nouveau palie... 13/07/2026 11:28",
+        "lien": "https://www.sikafinance.com/marches/brvm-semaine-27-le-marche-actions-poursuit-son-ascension-coris-bank-enflamme-la-cote-a-29-000-fcfa_62923",
+        "date": "13/07/2026",
+        "date_iso": "2026-07-13",
+        "tickers": [
+          "CBIBF"
+        ],
+        "date_collecte": "2026-07-13T12:31:44Z",
+        "score_importance": 73,
+        "importance": "Important",
+        "impact": "Moyen",
+        "pourquoi": "Information de contexte : impact direct à confirmer."
+      }
+    ],
+    "CIEC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "CIE CI : CIE CI _ Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/cie-ci-cie-ci--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "07/07/2026",
+        "date_iso": "2026-07-07",
+        "tickers": [
+          "CIEC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "CIE CI : Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/07-07-2026-cie-ci-paiement-de-dividendes-exercice-2025",
+        "date": "07/07/2026",
+        "date_iso": "2026-07-07",
+        "tickers": [
+          "CIEC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      }
+    ],
+    "SIBC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+        "date": "03/07/2026",
+        "date_iso": "2026-07-03",
+        "tickers": [
+          "SIBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SIB CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-sib-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "03/07/2026",
+        "date_iso": "2026-07-03",
+        "tickers": [
+          "SIBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 97,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      }
+    ],
+    "ORGT": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "ORAGROUP TOGO : ORAGROUP TG _ Avis de convocation et Projet de résolution - Assemblée Générale Mixte",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/oragroup-togo-oragroup-tg--avis-de-convocation-et-projet-de-resolution--assemblee-generale-mixte.pdf",
+        "date": "03/07/2026",
+        "date_iso": "2026-07-03",
+        "tickers": [
+          "ORGT"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "ORAGROUP TG : Avis de convocation et Projet de résolution - Assemblée Générale Mixte",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-oragroup-tg-avis-de-convocation-et-projet-de-resolution-assemblee-generale-mixte",
+        "date": "03/07/2026",
+        "date_iso": "2026-07-03",
+        "tickers": [
+          "ORGT"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
       }
     ],
     "BOAC": [
@@ -1632,7 +2838,7 @@
         "tickers": [
           "BOAC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1656,7 +2862,7 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1678,7 +2884,7 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1700,11 +2906,33 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "UNIWAX CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-uniwax-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "03/07/2026",
+        "date_iso": "2026-07-03",
+        "tickers": [
+          "UNXC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 97,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
       }
     ],
     "SNTS": [
@@ -1724,7 +2952,7 @@
         "tickers": [
           "SNTS"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1746,7 +2974,7 @@
         "tickers": [
           "SNTS"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 74,
         "importance": "Important",
         "impact": "Moyen",
@@ -1770,7 +2998,7 @@
         "tickers": [
           "SIVC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1792,7 +3020,7 @@
         "tickers": [
           "SIVC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1814,7 +3042,7 @@
         "tickers": [
           "SIVC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1836,12 +3064,14 @@
         "tickers": [
           "SIVC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
+      }
+    ],
+    "FTSC": [
       {
         "source": "SikaFinance",
         "source_type": "communiques",
@@ -1850,203 +3080,19 @@
         "source_role": "document_mirror",
         "validation_policy": "match_brvm_registry",
         "type": "ACTU",
-        "titre": "ERIUM : ERIUM CI _ Communiqué - Profit Warning",
+        "titre": "FILTISAC CI : FILTISAC CI _ Communiqué",
         "resume": "",
-        "lien": "https://www.sikafinance.com/docs/erium-erium-ci--communique--profit-warning.pdf",
-        "date": "19/06/2026",
-        "date_iso": "2026-06-19",
+        "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--communique.pdf",
+        "date": "07/07/2026",
+        "date_iso": "2026-07-07",
         "tickers": [
-          "SIVC"
+          "FTSC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 83,
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 87,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Information de contexte : impact direct à confirmer."
-      }
-    ],
-    "STBC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Projet de résolutions - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "SITAB : SITAB CI _ Etats financiers - Exercice 2025 (Annule et remplace le précédent)",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--etats-financiers--exercice-2025-annule-et-remplace-le-precedent.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Avis de convocation - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--avis-de-convocation--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Pouvoir Personne Physique - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-physique--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Pouvoir Personne Morale - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-morale--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      }
-    ],
-    "TTLS": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "TOTAL SENEGAL : TOTALENERGIES MARKETING SN _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "24/06/2026",
-        "date_iso": "2026-06-24",
-        "tickers": [
-          "TTLS"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      }
-    ],
-    "SDSC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "NOTATION",
-        "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Notation Financière",
-        "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Notation Financière",
-        "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--notation-financiere.pdf",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "SDSC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-      }
-    ],
-    "BOAM": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "BANK OF AFRICA MALI : BOA MALI _ Rapport d'activités - 1er trimestre 2026",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/bank-of-africa-mali-boa-mali--rapport-d-activites--1er-trimestre-2026.pdf",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "BOAM"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
       }
     ],
     "SAFC": [
@@ -2066,7 +3112,7 @@
         "tickers": [
           "SAFC"
         ],
-        "date_collecte": "2026-07-10T12:25:32Z",
+        "date_collecte": "2026-07-13T12:31:44Z",
         "score_importance": 57,
         "importance": "A surveiller",
         "impact": "Moyen",
@@ -2082,15 +3128,37 @@
         "source_role": "media_context",
         "validation_policy": "secondary_context",
         "type": "ACTU",
-        "titre": "Côte d'Ivoire : Impact Fund Denmark injecte 28,6 millions $ dans NSIA Banque pour financer les MPME",
+        "titre": "NSIA Banque CI renforce son engagement en faveur de l’éducation des jeunes filles",
         "resume": "",
+        "lien": "https://www.agenceecofin.com/actualites/1007-140082-nsia-banque-ci-renforce-son-engagement-en-faveur-de-l-education-des-jeunes-filles",
+        "date": "",
+        "date_iso": null,
+        "tickers": [
+          "NSBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:53Z",
+        "score_importance": 46,
+        "importance": "A surveiller",
+        "impact": "Moyen",
+        "pourquoi": "Information de contexte : impact direct à confirmer."
+      },
+      {
+        "source": "AgenceEcofin",
+        "source_type": "finance",
+        "source_authority": "secondary",
+        "source_rank": 15,
+        "source_role": "media_context",
+        "validation_policy": "secondary_context",
+        "type": "ACTU",
+        "titre": "Côte d'Ivoire : Impact Fund Denmark injecte 28,6 millions $ dans NSIA Banque pour financer les MPME",
+        "resume": "L'accès au financement reste l'un des principaux freins au développement des MPME ivoiriennes. Celles-ci figurent pourtant parmi les principaux créateurs d'emplois du pays. NSIA Banque...",
         "lien": "https://www.agenceecofin.com/actualites-finance/1007-140066-cote-divoire-impact-fund-denmark-injecte-28-6-millions-dans-nsia-banque-pour-financer-les-mpme",
         "date": "",
         "date_iso": null,
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-07-10T12:25:40Z",
+        "date_collecte": "2026-07-13T12:31:53Z",
         "score_importance": 46,
         "importance": "A surveiller",
         "impact": "Moyen",
@@ -2099,7 +3167,362 @@
     ]
   },
   "par_type": {
+    "DIVIDENDE": [
+      {
+        "source": "RichBourse",
+        "source_type": "dividendes",
+        "source_authority": "secondary_unverified",
+        "source_rank": 10,
+        "source_role": "discovery",
+        "validation_policy": "primary_required",
+        "type": "DIVIDENDE",
+        "titre": "SERVAIR : dividende 124 FCFA",
+        "resume": "Rendement indicatif RichBourse : 3.94%. Ex-dividende : 29/09/2026. Paiement : 30/09/2026.",
+        "lien": "https://www.richbourse.com/common/mouvements/index/ABJC",
+        "date": "29/09/2026",
+        "date_iso": "2026-09-29",
+        "tickers": [
+          "ABJC"
+        ],
+        "date_collecte": "2026-07-13T12:31:49Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+        "validation": "confirme_par_source_secondaire"
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "CIE CI : CIE CI _ Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/cie-ci-cie-ci--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "07/07/2026",
+        "date_iso": "2026-07-07",
+        "tickers": [
+          "CIEC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "CIE CI : Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/07-07-2026-cie-ci-paiement-de-dividendes-exercice-2025",
+        "date": "07/07/2026",
+        "date_iso": "2026-07-07",
+        "tickers": [
+          "CIEC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "SERVAIR ABIDJAN CI : SERVAIR ABIDJAN CI _ Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/servair-abidjan-ci-servair-abidjan-ci--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "01/07/2026",
+        "date_iso": "2026-07-01",
+        "tickers": [
+          "ABJC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "SERVAIR ABIDJAN CI : Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/01-07-2026-servair-abidjan-ci-paiement-de-dividendes-exercice-2025",
+        "date": "01/07/2026",
+        "date_iso": "2026-07-01",
+        "tickers": [
+          "ABJC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      }
+    ],
     "RAPPORT": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SITAB : SITAB CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+        "date": "10/07/2026",
+        "date_iso": "2026-07-10",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "ORANGE CI : ORANGE CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/orange-ci-orange-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+        "date": "10/07/2026",
+        "date_iso": "2026-07-10",
+        "tickers": [
+          "ORAC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SITAB CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/10-07-2026-sitab-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "10/07/2026",
+        "date_iso": "2026-07-10",
+        "tickers": [
+          "STBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "ORANGE CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/10-07-2026-orange-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "10/07/2026",
+        "date_iso": "2026-07-10",
+        "tickers": [
+          "ORAC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+        "date": "08/07/2026",
+        "date_iso": "2026-07-08",
+        "tickers": [
+          "SDSC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "PALMCI : PALM CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/palmci-palm-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+        "date": "08/07/2026",
+        "date_iso": "2026-07-08",
+        "tickers": [
+          "PALC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SGBCI : SOCIETE GENERALE CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sgbci-societe-generale-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
+        "date": "08/07/2026",
+        "date_iso": "2026-07-08",
+        "tickers": [
+          "SGBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "AFRICA GLOBAL LOGISTICS CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/08-07-2026-africa-global-logistics-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "08/07/2026",
+        "date_iso": "2026-07-08",
+        "tickers": [
+          "SDSC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "PALM CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/08-07-2026-palm-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "08/07/2026",
+        "date_iso": "2026-07-08",
+        "tickers": [
+          "PALC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ Etats financiers - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/coris-bank-international-bf-coris-bank-international-bf--etats-financiers--exercice-2025.pdf",
+        "date": "07/07/2026",
+        "date_iso": "2026-07-07",
+        "tickers": [
+          "CBIBF"
+        ],
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "CORIS BANK INTERNATIONAL BF : Etats financiers - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/07-07-2026-coris-bank-international-bf-etats-financiers-exercice-2025",
+        "date": "07/07/2026",
+        "date_iso": "2026-07-07",
+        "tickers": [
+          "CBIBF"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
       {
         "source": "SikaFinance",
         "source_type": "communiques",
@@ -2116,7 +3539,7 @@
         "tickers": [
           "SIBC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2138,7 +3561,7 @@
         "tickers": [
           "ABJC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2160,7 +3583,7 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2182,7 +3605,7 @@
         "tickers": [
           "SIVC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2204,30 +3627,74 @@
         "tickers": [
           "STBC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
       },
       {
-        "source": "SikaFinance",
-        "source_type": "communiques",
+        "source": "RichBourse",
+        "source_type": "actualites",
         "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
+        "source_rank": 30,
+        "source_role": "aggregator",
         "validation_policy": "match_brvm_registry",
         "type": "RAPPORT",
-        "titre": "BANK OF AFRICA MALI : BOA MALI _ Rapport d'activités - 1er trimestre 2026",
+        "titre": "SIB CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
         "resume": "",
-        "lien": "https://www.sikafinance.com/docs/bank-of-africa-mali-boa-mali--rapport-d-activites--1er-trimestre-2026.pdf",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
+        "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-sib-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "03/07/2026",
+        "date_iso": "2026-07-03",
         "tickers": [
-          "BOAM"
+          "SIBC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 97,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SERVAIR ABIDJAN CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-servair-abidjan-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "03/07/2026",
+        "date_iso": "2026-07-03",
+        "tickers": [
+          "ABJC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 97,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "UNIWAX CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-uniwax-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
+        "date": "03/07/2026",
+        "date_iso": "2026-07-03",
+        "tickers": [
+          "UNXC"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
+        "score_importance": 97,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
@@ -2250,7 +3717,29 @@
         "tickers": [
           "ORGT"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "AG",
+        "titre": "ORAGROUP TG : Avis de convocation et Projet de résolution - Assemblée Générale Mixte",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-oragroup-tg-avis-de-convocation-et-projet-de-resolution-assemblee-generale-mixte",
+        "date": "03/07/2026",
+        "date_iso": "2026-07-03",
+        "tickers": [
+          "ORGT"
+        ],
+        "date_collecte": "2026-07-13T12:31:48Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2272,7 +3761,7 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2294,7 +3783,7 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2316,7 +3805,7 @@
         "tickers": [
           "SIVC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2338,7 +3827,7 @@
         "tickers": [
           "SIVC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2360,7 +3849,7 @@
         "tickers": [
           "STBC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2382,7 +3871,7 @@
         "tickers": [
           "STBC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2404,7 +3893,7 @@
         "tickers": [
           "STBC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2426,29 +3915,7 @@
         "tickers": [
           "SIVC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "AG",
-        "titre": "SITAB : SITAB CI _ Pouvoir Personne Morale - Assemblée Générale Ordinaire",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--pouvoir-personne-morale--assemblee-generale-ordinaire.pdf",
-        "date": "25/06/2026",
-        "date_iso": "2026-06-25",
-        "tickers": [
-          "STBC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2472,7 +3939,7 @@
         "tickers": [
           "BOAC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2494,101 +3961,11 @@
         "tickers": [
           "SNTS"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "NOTATION",
-        "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Notation Financière",
-        "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Notation Financière",
-        "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--notation-financiere.pdf",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "SDSC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-      }
-    ],
-    "DIVIDENDE": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "SERVAIR ABIDJAN CI : SERVAIR ABIDJAN CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/servair-abidjan-ci-servair-abidjan-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "01/07/2026",
-        "date_iso": "2026-07-01",
-        "tickers": [
-          "ABJC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "TOTAL SENEGAL : TOTALENERGIES MARKETING SN _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "24/06/2026",
-        "date_iso": "2026-06-24",
-        "tickers": [
-          "TTLS"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "23/06/2026",
-        "date_iso": "2026-06-23",
-        "tickers": [
-          "SIBC"
-        ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
       }
     ],
     "ACTU": [
@@ -2600,16 +3977,16 @@
         "source_role": "document_mirror",
         "validation_policy": "match_brvm_registry",
         "type": "ACTU",
-        "titre": "ERIUM : ERIUM CI _ Communiqué - Profit Warning",
+        "titre": "FILTISAC CI : FILTISAC CI _ Communiqué",
         "resume": "",
-        "lien": "https://www.sikafinance.com/docs/erium-erium-ci--communique--profit-warning.pdf",
-        "date": "19/06/2026",
-        "date_iso": "2026-06-19",
+        "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--communique.pdf",
+        "date": "07/07/2026",
+        "date_iso": "2026-07-07",
         "tickers": [
-          "SIVC"
+          "FTSC"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
-        "score_importance": 83,
+        "date_collecte": "2026-07-13T12:31:43Z",
+        "score_importance": 87,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -2630,8 +4007,30 @@
         "tickers": [
           "SNTS"
         ],
-        "date_collecte": "2026-07-10T12:25:31Z",
+        "date_collecte": "2026-07-13T12:31:43Z",
         "score_importance": 74,
+        "importance": "Important",
+        "impact": "Moyen",
+        "pourquoi": "Information de contexte : impact direct à confirmer."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 40,
+        "source_role": "editorial_news",
+        "validation_policy": "secondary_context",
+        "type": "ACTU",
+        "titre": "BRVM / Semaine 27 : Le marché actions poursuit son ascension, CORIS BANK enflamme la cote à 29 000 FCFA",
+        "resume": "(P) La BRVM accélère sa dynamique haussière lors de la 27ᵉ semaine de cotation. Le BRVM Composite franchit un nouveau palie... 13/07/2026 11:28",
+        "lien": "https://www.sikafinance.com/marches/brvm-semaine-27-le-marche-actions-poursuit-son-ascension-coris-bank-enflamme-la-cote-a-29-000-fcfa_62923",
+        "date": "13/07/2026",
+        "date_iso": "2026-07-13",
+        "tickers": [
+          "CBIBF"
+        ],
+        "date_collecte": "2026-07-13T12:31:44Z",
+        "score_importance": 73,
         "importance": "Important",
         "impact": "Moyen",
         "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -2652,7 +4051,7 @@
         "tickers": [
           "SAFC"
         ],
-        "date_collecte": "2026-07-10T12:25:32Z",
+        "date_collecte": "2026-07-13T12:31:44Z",
         "score_importance": 57,
         "importance": "A surveiller",
         "impact": "Moyen",
@@ -2666,15 +4065,37 @@
         "source_role": "media_context",
         "validation_policy": "secondary_context",
         "type": "ACTU",
-        "titre": "Côte d'Ivoire : Impact Fund Denmark injecte 28,6 millions $ dans NSIA Banque pour financer les MPME",
+        "titre": "NSIA Banque CI renforce son engagement en faveur de l’éducation des jeunes filles",
         "resume": "",
+        "lien": "https://www.agenceecofin.com/actualites/1007-140082-nsia-banque-ci-renforce-son-engagement-en-faveur-de-l-education-des-jeunes-filles",
+        "date": "",
+        "date_iso": null,
+        "tickers": [
+          "NSBC"
+        ],
+        "date_collecte": "2026-07-13T12:31:53Z",
+        "score_importance": 46,
+        "importance": "A surveiller",
+        "impact": "Moyen",
+        "pourquoi": "Information de contexte : impact direct à confirmer."
+      },
+      {
+        "source": "AgenceEcofin",
+        "source_type": "finance",
+        "source_authority": "secondary",
+        "source_rank": 15,
+        "source_role": "media_context",
+        "validation_policy": "secondary_context",
+        "type": "ACTU",
+        "titre": "Côte d'Ivoire : Impact Fund Denmark injecte 28,6 millions $ dans NSIA Banque pour financer les MPME",
+        "resume": "L'accès au financement reste l'un des principaux freins au développement des MPME ivoiriennes. Celles-ci figurent pourtant parmi les principaux créateurs d'emplois du pays. NSIA Banque...",
         "lien": "https://www.agenceecofin.com/actualites-finance/1007-140066-cote-divoire-impact-fund-denmark-injecte-28-6-millions-dans-nsia-banque-pour-financer-les-mpme",
         "date": "",
         "date_iso": null,
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-07-10T12:25:40Z",
+        "date_collecte": "2026-07-13T12:31:53Z",
         "score_importance": 46,
         "importance": "A surveiller",
         "impact": "Moyen",
@@ -2703,7 +4124,7 @@
     },
     "RichBourse:news": {
       "url": "https://www.richbourse.com/common/news/index",
-      "articles": 0,
+      "articles": 25,
       "ok": true,
       "source_rank": 25,
       "source_authority": "secondary",
@@ -2712,7 +4133,7 @@
     },
     "RichBourse:actualites": {
       "url": "https://www.richbourse.com/common/actualite/index",
-      "articles": 0,
+      "articles": 20,
       "ok": true,
       "source_rank": 30,
       "source_authority": "secondary",
@@ -2721,7 +4142,7 @@
     },
     "RichBourse:dividendes": {
       "url": "https://www.richbourse.com/common/dividende/index",
-      "articles": 0,
+      "articles": 20,
       "ok": true,
       "source_rank": 10,
       "source_authority": "secondary_unverified",
@@ -2761,11 +4182,11 @@
   },
   "filtrage": {
     "strict_action_news": true,
-    "entree": 70,
-    "sans_action_cotee": 44,
-    "dividendes_richbourse_non_confirmes": 0,
-    "sortie": 26
+    "entree": 135,
+    "sans_action_cotee": 81,
+    "dividendes_richbourse_non_confirmes": 12,
+    "sortie": 42
   },
   "erreurs": [],
-  "resume_ia": "**Synthèse de veille BRVM - 10/07"
+  "resume_ia": "Synthèse de veille BRVM - 13/07/2"
 }
