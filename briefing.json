@@ -1,462 +1,98 @@
 {
-  "date": "14/07/2026",
-  "heure": "11:25 UTC",
+  "date": "15/07/2026",
+  "heure": "11:30 UTC",
   "modele": "Groq (Fiches) + Gemini (Global)",
   "stats_marche": {
     "nb_titres": 47,
-    "nb_hausse": 23,
-    "nb_baisse": 22,
-    "nb_stable": 2,
-    "variation_moyenne": 0.62
+    "nb_hausse": 19,
+    "nb_baisse": 19,
+    "nb_stable": 9,
+    "variation_moyenne": 0.68
   },
-  "nb_actualites": 43,
-  "briefing_global": "### Lecture du marché\n\nLa séance du mardi 14 juillet 2026 a montré une dynamique globalement équilibrée sur la BRVM, avec 23 titres en hausse contre 22 en baisse et 2 stables sur un panel de 47 titres. La variation moyenne du panel s'est établie à +0.62%, témoignant d'une",
+  "nb_actualites": 45,
+  "briefing_global": "### Lecture du marché\n\nLa séance du mercredi 15 juillet 2026 a révélé un marché relativement équilibré sur la BRVM, avec un nombre égal de titres en hausse et en baisse (19 chacun), tandis que 9 valeurs sont restées stables sur les 47 cotées. La variation moyenne du panel s'est établie à une progression modeste de",
   "fiches": {
-    "SDCC.ci": {
-      "ticker": "SDCC.ci",
-      "nom": "SODECI",
-      "secteur": "SERVICES",
-      "prix": "11340",
-      "variation": -6.4,
-      "perf_1m": -7.01,
-      "perf_3m": 58.6,
-      "perf_ytd": 95.52,
-      "rsi": 22.3,
-      "score_signal": 7,
-      "analyse": "**SODECI — PRUDENCE**\n**Technique :** Le RSI est actuellement à 22,3, indiquant une situation de survente, tandis que le MACD est en baisse, confirmant la tendance baissière. Les bandes de Bollinger montrent que le prix est en dessous de la bande inférieure, ce qui pourrait indiquer un potentiel rebond.\n**Fondamental :** SODECI bénéficie de revenus stables et régulés en tant que concession d'eau et d'électricité en Côte d'Ivoire, ce qui constitue un atout dans un contexte macroéconomique incertain. Cependant, la performance récente du titre avec une baisse de 7% sur le mois dernier pourrait susciter une certaine prudence.\n**Avis pédagogique :** Avec un score signal de 7/12, notre lecture est prudente, avec un niveau de conviction modéré, compte tenu de la situation technique et fondamentale actuelle.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": 177.42,
-        "signal": 298.51,
-        "histo": -121.09,
-        "tendance": "baissiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 12314.0,
-        "middle": 11985.0,
-        "lower": 11656.0,
-        "pct_b": -0.48,
-        "position": "en-dessous bande inferieure"
-      }
-    },
-    "SIVC.ci": {
-      "ticker": "SIVC.ci",
-      "nom": "ERIUM",
-      "secteur": "SERVICES",
-      "prix": "2210",
-      "variation": 7.28,
-      "perf_1m": -21.91,
-      "perf_3m": -24.44,
-      "perf_ytd": 39.87,
-      "rsi": 32.8,
-      "score_signal": 5,
-      "analyse": "**ERIUM — SURVEILLANCE**\n**Technique :** Le RSI est à 32,8, ce qui indique une situation de survente, tandis que le MACD est en baisse, confirmant la tendance baissière. Les bandes de Bollinger montrent que le prix est dans les bandes, sans signal clair de rebond ou de poursuite de la baisse.\n**Fondamental :** ERIUM opère dans un contexte sectoriel où les performances peuvent varier en fonction des conditions économiques générales. La baisse de 21,9% sur le mois dernier est notable et justifie une surveillance étroite.\n**Avis pédagogique :** Avec un score signal de 5/12, notre lecture est de surveillance, avec un niveau de conviction faible, en raison de la performance récente et de la situation technique actuelle.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": -183.62,
-        "signal": -143.55,
-        "histo": -40.07,
-        "tendance": "baissiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 2996.0,
-        "middle": 2455.0,
-        "lower": 1914.0,
-        "pct_b": 0.27,
-        "position": "dans les bandes"
-      }
-    },
-    "SDSC.ci": {
-      "ticker": "SDSC.ci",
-      "nom": "AFRICA GLOBAL LOGISTICS",
-      "secteur": "SERVICES",
-      "prix": "2190",
-      "variation": -0.9,
-      "perf_1m": 10.61,
-      "perf_3m": 16.8,
-      "perf_ytd": 44.55,
-      "rsi": 30.5,
-      "score_signal": 3,
-      "analyse": "**AFRICA GLOBAL LOGISTICS — FAVORABLE**\n**Technique :** Le RSI est à 30,5, indiquant une situation de survente, mais le MACD est en baisse, ce qui pourrait être un signal de rebond. Les bandes de Bollinger montrent que le prix est dans les bandes, sans signal clair de direction.\n**Fondamental :** Africa Global Logistics opère dans un secteur où la demande de services logistiques peut être stable, ce qui pourrait soutenir les performances du titre. La hausse de 10,6% sur le mois dernier est un signal positif.\n**Avis pédagogique :** Avec un score signal de 3/12, notre lecture est favorable, avec un niveau de conviction modéré, compte tenu de la performance récente et de la situation technique actuelle.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": 62.25,
-        "signal": 110.77,
-        "histo": -48.52,
-        "tendance": "baissiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 2587.0,
-        "middle": 2384.0,
-        "lower": 2180.0,
-        "pct_b": 0.02,
-        "position": "dans les bandes"
-      }
-    },
-    "FTSC.ci": {
-      "ticker": "FTSC.ci",
-      "nom": "FILTISAC CI",
-      "secteur": "SERVICES",
-      "prix": "1990",
-      "variation": 0.76,
-      "perf_1m": -10.76,
-      "perf_3m": -11.95,
-      "perf_ytd": -10.36,
-      "rsi": 36.8,
-      "score_signal": 3,
-      "analyse": "**FILTISAC CI — PRUDENCE**\n**Technique :** Le RSI est actuellement à 36,8, indiquant une légère sous-évaluation, tandis que le MACD haussier suggère une tendance positive. Les bandes de Bollinger indiquent que le prix est dans les limites de la volatilité normale.\n**Fondamental :** FILTISAC CI est lié au secteur du BTP et de l'industrie en Côte d'Ivoire, ce qui peut influencer ses performances. Les actualités macroéconomiques positives dans le secteur pourraient avoir un impact favorable sur le titre.\n**Avis pédagogique :** Avec un score signal de 3/12 et une performance à court terme en baisse, il est conseillé d'aborder ce titre avec prudence, niveau de conviction modéré.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": -62.33,
-        "signal": -66.63,
-        "histo": 4.31,
-        "tendance": "haussiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 2192.0,
-        "middle": 2035.0,
-        "lower": 1878.0,
-        "pct_b": 0.36,
-        "position": "dans les bandes"
-      }
-    },
-    "SAFC.ci": {
-      "ticker": "SAFC.ci",
-      "nom": "SAFCA CI",
-      "secteur": "SERVICES",
-      "prix": "4480",
-      "variation": 4.92,
-      "perf_1m": 21.08,
-      "perf_3m": -29.28,
-      "perf_ytd": 35.55,
-      "rsi": 39.7,
-      "score_signal": 3,
-      "analyse": "**SAFCA CI — FAVORABLE**\n**Technique :** Le RSI à 39,7 indique une légère sous-évaluation, tandis que le MACD baissier pourrait suggérer une correction. Cependant, l'Ichimoku bullish et le Z-score positif laissent entrevoir une potentialité haussière.\n**Fondamental :** Le contexte macroéconomique du secteur dans lequel évolue SAFCA CI pourrait influencer ses performances, mais les informations disponibles sont limitées pour une analyse approfondie.\n**Avis pédagogique :** Avec une performance à court terme en hausse de 21,1% et un score signal de 3/12, il y a une certaine attractivité, niveau de conviction modéré.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": 79.69,
-        "signal": 116.07,
-        "histo": -36.38,
-        "tendance": "baissiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 4949.0,
-        "middle": 4441.0,
-        "lower": 3933.0,
-        "pct_b": 0.54,
-        "position": "dans les bandes"
-      }
-    },
-    "STAC.ci": {
-      "ticker": "STAC.ci",
-      "nom": "SETAO CI",
-      "secteur": "SERVICES",
-      "prix": "3175",
-      "variation": -0.78,
-      "perf_1m": -10.56,
-      "perf_3m": 5.83,
-      "perf_ytd": 139.62,
-      "rsi": 36.1,
-      "score_signal": 3,
-      "analyse": "**SETAO CI — SURVEILLANCE**\n**Technique :** Le RSI à 36,1 suggère une sous-évaluation, mais le MACD baissier indique une tendance négative. Les bandes de Bollinger montrent que le prix est dans les limites de la volatilité normale.\n**Fondamental :** SETAO CI est un titre de niche avec faible liquidité, ce qui peut rendre ses performances volatiles et difficilement prévisibles.\n**Avis pédagogique :** Avec un score signal de 3/12 et une performance à court terme en baisse, il est recommandé de surveiller ce titre de près, niveau de conviction faible.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": -6.98,
-        "signal": 57.61,
-        "histo": -64.6,
-        "tendance": "baissiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 3774.0,
-        "middle": 3422.0,
-        "lower": 3069.0,
-        "pct_b": 0.15,
-        "position": "dans les bandes"
-      }
-    },
-    "SICC.ci": {
-      "ticker": "SICC.ci",
-      "nom": "SICOR",
-      "secteur": "SERVICES",
-      "prix": "5100",
-      "variation": -1.83,
-      "perf_1m": 13.84,
-      "perf_3m": 20.71,
-      "perf_ytd": 54.55,
-      "rsi": 76.3,
-      "score_signal": 3,
-      "analyse": "**SICOR — PRUDENCE**\n**Technique :** Le RSI à 76,3 indique une situation de surachat, tandis que le MACD haussier et les bandes de Bollinger dans lesquelles le prix évolue suggèrent une certaine stabilité. Cependant, l'Ichimoku avec un prix au-dessus du nuage mais un signal TK/KJ bearish introduit une certaine incertitude.\n**Fondamental :** SICOR, étant un titre de niche avec faible liquidité, peut présenter des risques de volatilité élevée et des difficultés pour les investisseurs à entrer ou sortir du marché. Son secteur d'activité spécifique nécessite une analyse approfondie pour comprendre les facteurs clés de succès.\n**Avis pédagogique :** Avec un score signal de 3/12 et une performance sur 1 mois de +13,8%, il est important d'aborder SICOR avec prudence, considérant les indicateurs techniques et fondamentaux avec un niveau de conviction modéré.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": 201.72,
-        "signal": 159.95,
-        "histo": 41.78,
-        "tendance": "haussiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 5467.0,
-        "middle": 4770.0,
-        "lower": 4073.0,
-        "pct_b": 0.74,
-        "position": "dans les bandes"
-      }
-    },
-    "CIEC.ci": {
-      "ticker": "CIEC.ci",
-      "nom": "CIE CI",
-      "secteur": "SERVICES",
-      "prix": "5325",
-      "variation": -0.28,
-      "perf_1m": 6.61,
-      "perf_3m": 69.59,
-      "perf_ytd": 125.64,
-      "rsi": 71.7,
-      "score_signal": 2,
-      "analyse": "**CIE CI — FAVORABLE**\n**Technique :** Le RSI à 71,7 indique une tendance haussière, même si le MACD est baissier, les bandes de Bollinger contiennent le prix, et l'Ichimoku montre un prix au-dessus du nuage avec un signal TK/KJ bullish, suggérant une tendance globale positive.\n**Fondamental :** En tant que concession d'électricité en Côte d'Ivoire, CIE CI bénéficie de revenus stables et régulés, offrant une certaine sécurité pour les investisseurs. Son secteur est moins exposé aux fluctuations économiques générales.\n**Avis pédagogique :** Avec une performance sur 1 mois de +6,6% et un score signal de 2/12, CIE CI semble présenter une opportunité intéressante, mais il est essentiel d'évaluer les facteurs fondamentaux et techniques avec un niveau de conviction fort.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": 224.08,
-        "signal": 265.72,
-        "histo": -41.64,
-        "tendance": "baissiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 5582.0,
-        "middle": 5200.0,
-        "lower": 4817.0,
-        "pct_b": 0.66,
-        "position": "dans les bandes"
-      }
-    },
-    "SEMC.ci": {
-      "ticker": "SEMC.ci",
-      "nom": "CROWN SIEM",
-      "secteur": "SERVICES",
-      "prix": "1470",
-      "variation": 1.03,
-      "perf_1m": -6.37,
-      "perf_3m": -22.22,
-      "perf_ytd": 96.0,
-      "rsi": 33.3,
-      "score_signal": 2,
-      "analyse": "**CROWN SIEM — SURVEILLANCE**\n**Technique :** Le RSI à 33,3 indique une situation de sous-achat, mais le MACD baissier et les bandes de Bollinger qui contiennent le prix suggèrent une tendance négative. L'Ichimoku avec un prix en dessous du nuage et un signal TK/KJ bearish renforce cette tendance baissière.\n**Fondamental :** En tant que titre de niche, CROWN SIEM peut être sensible aux fluctuations du marché et présente des défis en termes de liquidité. Son secteur d'activité spécifique nécessite une analyse approfondie pour comprendre les facteurs clés de succès.\n**Avis pédagogique :** Avec une performance sur 1 mois de -6,4% et un score signal de 2/12, il est recommandé de surveiller de près CROWN SIEM, en considérant les indicateurs techniques et fondamentaux avec un niveau de conviction faible.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": -37.7,
-        "signal": -29.26,
-        "histo": -8.44,
-        "tendance": "baissiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 1644.0,
-        "middle": 1512.0,
-        "lower": 1379.0,
-        "pct_b": 0.34,
-        "position": "dans les bandes"
-      }
-    },
-    "ONTBF.bf": {
-      "ticker": "ONTBF.bf",
-      "nom": "ONATEL BF",
-      "secteur": "TELECOM",
-      "prix": "2700",
-      "variation": -3.57,
-      "perf_1m": -4.09,
-      "perf_3m": -3.4,
-      "perf_ytd": 8.65,
-      "rsi": 30.8,
-      "score_signal": 6,
-      "analyse": "**ONATEL BF — SURVEILLANCE**\n**Technique :** Le RSI est actuellement à 30,8, indiquant une situation de survente, tandis que le MACD est baissier, confirmant la tendance négative. Les bandes de Bollinger montrent que le prix est en dessous de la bande inférieure, ce qui pourrait indiquer une correction à court terme.\n**Fondamental :** Le secteur des télécoms dans la zone UEMOA est influencé par la concurrence accrue, notamment avec l'arrivée de Wave sur le marché du mobile money, ce qui pourrait impacter les revenus d'ONATEL BF.\n**Avis pédagogique :** Avec un score signal de 6/12 et une performance négative sur le mois, il est prudent de surveiller de près l'évolution d'ONATEL BF, niveau de conviction modéré.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": -18.83,
-        "signal": -12.63,
-        "histo": -6.2,
-        "tendance": "baissiere",
-        "croisement": "croisement_baissier"
-      },
-      "bollinger": {
-        "upper": 2869.0,
-        "middle": 2794.0,
-        "lower": 2719.0,
-        "pct_b": -0.13,
-        "position": "en-dessous bande inferieure"
-      }
-    },
-    "SNTS.sn": {
-      "ticker": "SNTS.sn",
-      "nom": "SONATEL",
-      "secteur": "TELECOM",
-      "prix": "30900",
-      "variation": 0.0,
-      "perf_1m": 8.8,
-      "perf_3m": 8.42,
-      "perf_ytd": 18.3,
-      "rsi": 80.0,
-      "score_signal": 3,
-      "analyse": "**SONATEL — FAVORABLE**\n**Technique :** Le RSI est à 80,0, proche d'une situation de surachat, mais le MACD est haussier, soutenant la tendance positive. Les bandes de Bollinger montrent que le prix évolue dans les bandes, sans signe de correction immédiate.\n**Fondamental :** SONATEL bénéficie de sa position de leader régional et de la croissance des revenus non-voix, notamment grâce à Orange Money, ce qui renforce sa solidité financière et justifie ses dividendes réguliers et élevés.\n**Avis pédagogique :** Avec une performance positive sur le mois et un score signal de 3/12, SONATEL apparaît comme un titre défensif solide, niveau de conviction fort.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": 596.55,
-        "signal": 350.58,
-        "histo": 245.97,
-        "tendance": "haussiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 31287.0,
-        "middle": 29196.0,
-        "lower": 27105.0,
-        "pct_b": 0.91,
-        "position": "dans les bandes"
-      }
-    },
-    "ORAC.ci": {
-      "ticker": "ORAC.ci",
-      "nom": "ORANGE CI",
-      "secteur": "TELECOM",
-      "prix": "16000",
-      "variation": -3.0,
-      "perf_1m": 2.24,
-      "perf_3m": 5.51,
-      "perf_ytd": 12.28,
-      "rsi": 41.5,
-      "score_signal": 3,
-      "analyse": "**ORANGE CI — PRUDENCE**\n**Technique :** Le RSI est à 41,5, indiquant une situation neutre, tandis que le MACD est baissier, signalant une possible correction. Les bandes de Bollinger montrent que le prix évolue dans les bandes, sans signe de tendance claire.\n**Fondamental :** ORANGE CI est exposé à la concurrence dans le secteur des télécoms, mais bénéficie également de la croissance des services de mobile money, ce qui pourrait soutenir ses revenus.\n**Avis pédagogique :** Avec un score signal de 3/12 et une performance légèrement positive sur le mois, il est prudent d'aborder ORANGE CI avec prudence, niveau de conviction modéré.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": 78.72,
-        "signal": 166.99,
-        "histo": -88.28,
-        "tendance": "baissiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 17147.0,
-        "middle": 16409.0,
-        "lower": 15671.0,
-        "pct_b": 0.22,
-        "position": "dans les bandes"
-      }
-    },
-    "TTLC.ci": {
-      "ticker": "TTLC.ci",
-      "nom": "TOTAL CI",
-      "secteur": "ENERGIE",
-      "prix": "2990",
-      "variation": 6.79,
-      "perf_1m": 4.18,
-      "perf_3m": 6.98,
-      "perf_ytd": 28.05,
-      "rsi": 55.2,
-      "score_signal": 6,
-      "analyse": "**TOTAL CI — FAVORABLE**\n**Technique :** Le RSI à 55,2 indique une tendance haussière, tandis que le MACD et les bandes de Bollinger confirment cette tendance avec une position dans les bandes. L'Ichimoku avec un prix au-dessus du nuage et des lignes TK/KJ bullish renforce cette analyse.\n**Fondamental :** Le contexte macro du secteur énergétique, avec une hausse du prix du Brent, pourrait avoir un impact positif sur la valorisation des actifs pétroliers amont de TOTAL CI, même si les marges de distribution pourraient être sous pression.\n**Avis pédagogique :** Avec un score signal de 6/12 et une performance sur 1 mois de +4,2%, notre lecture est favorable avec un niveau de conviction modéré, compte tenu de l'évolution du marché énergétique et des facteurs macroéconomiques qui pourraient influencer les performances de l'entreprise.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": 14.79,
-        "signal": 11.78,
-        "histo": 3.01,
-        "tendance": "haussiere",
-        "croisement": "croisement_haussier"
-      },
-      "bollinger": {
-        "upper": 2999.0,
-        "middle": 2880.0,
-        "lower": 2761.0,
-        "pct_b": 0.96,
-        "position": "dans les bandes"
-      }
-    },
-    "TTLS.sn": {
-      "ticker": "TTLS.sn",
-      "nom": "TOTAL SENEGAL",
-      "secteur": "ENERGIE",
-      "prix": "4295",
-      "variation": 0.82,
-      "perf_1m": 25.4,
-      "perf_3m": 33.59,
-      "perf_ytd": 71.8,
-      "rsi": 81.2,
-      "score_signal": 4,
-      "analyse": "**TOTAL SENEGAL — FAVORABLE**\n**Technique :** Le RSI à 81,2 indique une tendance très haussière, avec un MACD haussier et des bandes de Bollinger qui soutiennent cette tendance. L'Ichimoku avec un prix au-dessus du nuage et des lignes TK/KJ bullish confirme cette analyse.\n**Fondamental :** Le contexte énergétique au Sénégal, avec le développement du gaz naturel, pourrait avoir un impact positif sur les performances de TOTAL SENEGAL, notamment avec des projets comme Sangomar qui changent la donne énergétique à moyen terme.\n**Avis pédagogique :** Avec un score signal de 4/12 et une performance sur 1 mois de +25,4%, notre lecture est favorable avec un niveau de conviction fort, compte tenu de l'évolution positive du secteur énergétique au Sénégal et des perspectives de croissance de l'entreprise.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": 255.82,
-        "signal": 214.92,
-        "histo": 40.9,
-        "tendance": "haussiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 4595.0,
-        "middle": 3835.0,
-        "lower": 3075.0,
-        "pct_b": 0.8,
-        "position": "dans les bandes"
-      }
-    },
     "ETIT.tg": {
       "ticker": "ETIT.tg",
       "nom": "ETI TOGO",
       "secteur": "BANQUE",
-      "prix": "68",
-      "variation": 6.25,
-      "perf_1m": 112.5,
-      "perf_3m": 126.67,
-      "perf_ytd": 195.65,
+      "prix": "73",
+      "variation": 7.35,
+      "perf_1m": 128.12,
+      "perf_3m": 160.71,
+      "perf_ytd": 217.39,
       "rsi": NaN,
       "score_signal": 6,
-      "analyse": "**ETI TOGO — FAVORABLE**\n**Technique :** Le titre présente un profil technique haussier avec un MACD bullish et un prix au-dessus de la bande supérieure de Bollinger, indiquant une tendance à la hausse. L'Ichimoku confirme cette tendance avec un prix au-dessus du nuage et des lignes TK/KJ bullish.\n**Fondamental :** Le secteur bancaire de la zone UEMOA bénéficie d'un contexte de liquidité correcte avec un taux directeur BCEAO stable à 3,5%, ce qui pourrait soutenir la croissance des crédits à l'économie et avoir un impact positif sur les banques comme ETI TOGO.\n**Avis pédagogique :** Avec un score signal de 6/12 et une performance sur 1 mois de +112,5%, notre lecture est favorable avec un niveau de conviction modéré, compte tenu de la volatilité potentielle du titre.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**ETI TOGO — FAVORABLE**\n**Technique :** Le RSI n'est pas disponible, mais le MACD est haussier et le prix est au-dessus de la bande supérieure de Bollinger, indiquant une tendance positive. L'Ichimoku confirme cette tendance avec un prix au-dessus du nuage et un signal TK/KJ bullish.\n**Fondamental :** Le contexte macroéconomique de la zone UEMOA, avec un taux directeur BCEAO stable à 3,5%, devrait soutenir la croissance des crédits à l'économie, ce qui pourrait bénéficier à ETI TOGO.\n**Avis pédagogique :** Avec un score signal de 6/12 et une performance sur 1 mois de +128,1%, notre conviction est MODEREE pour ETI TOGO, compte tenu de son potentiel de croissance dans un contexte économique favorable.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 7.9,
-        "signal": 5.23,
-        "histo": 2.67,
+        "macd": 8.93,
+        "signal": 5.97,
+        "histo": 2.96,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 66.0,
-        "middle": 44.0,
-        "lower": 22.0,
+        "upper": 71.0,
+        "middle": 46.0,
+        "lower": 21.0,
         "pct_b": 1.04,
         "position": "au-dessus bande superieure"
       }
     },
-    "CBIBF.bf": {
-      "ticker": "CBIBF.bf",
-      "nom": "CORIS BANK BF",
+    "BOABF.bf": {
+      "ticker": "BOABF.bf",
+      "nom": "BOA BURKINA",
       "secteur": "BANQUE",
-      "prix": "30005",
-      "variation": 1.33,
-      "perf_1m": 37.64,
-      "perf_3m": 91.11,
-      "perf_ytd": 178.34,
-      "rsi": 98.0,
+      "prix": "6350",
+      "variation": 4.1,
+      "perf_1m": 17.59,
+      "perf_3m": 12.79,
+      "perf_ytd": 69.33,
+      "rsi": 93.6,
       "score_signal": 5,
-      "analyse": "**CORIS BANK BF — PRUDENCE**\n**Technique :** Le titre affiche un profil technique haussier avec un MACD bullish et un prix au-dessus de la bande supérieure de Bollinger, mais l'RSI élevé à 98,0 suggère une surchauffe potentielle. L'Ichimoku confirme la tendance haussière.\n**Fondamental :** Les banques de la zone UEMOA, comme CORIS BANK BF, sont exposées aux risques souverains de leurs pays respectifs, ce qui pourrait impacter leur stabilité financière, notamment dans un contexte de tensions sécuritaires dans certaines régions.\n**Avis pédagogique :** Avec un score signal de 5/12 et une performance sur 1 mois de +37,6%, notre lecture est prudente en raison de l'RSI élevé et des risques potentiels liés à l'exposition souveraine, avec un niveau de conviction faible.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**BOA BURKINA — PRUDENCE**\n**Technique :** Le RSI est élevé à 93,6, indiquant une surchauffe, tandis que le MACD est haussier et le prix est au-dessus de la bande supérieure de Bollinger, signalant une tendance positive mais potentiellement vulnérable à une correction. L'Ichimoku confirme cette tendance avec un prix au-dessus du nuage et un signal TK/KJ bullish.\n**Fondamental :** BOA BURKINA est exposé aux risques souverains de son pays, notamment dans un contexte sécuritaire difficile, ce qui pourrait impacter négativement ses performances.\n**Avis pédagogique :** Avec un score signal de 5/12 et une performance sur 1 mois de +17,6%, notre conviction est FAIBLE pour BOA BURKINA, en raison des risques souverains et de la surchauffe du titre.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 2010.7,
-        "signal": 1370.52,
-        "histo": 640.18,
+        "macd": 164.06,
+        "signal": 121.41,
+        "histo": 42.65,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 29434.0,
-        "middle": 24048.0,
-        "lower": 18662.0,
-        "pct_b": 1.05,
+        "upper": 6313.0,
+        "middle": 5805.0,
+        "lower": 5297.0,
+        "pct_b": 1.04,
+        "position": "au-dessus bande superieure"
+      }
+    },
+    "BOAC.ci": {
+      "ticker": "BOAC.ci",
+      "nom": "BOA CI",
+      "secteur": "BANQUE",
+      "prix": "9750",
+      "variation": 1.35,
+      "perf_1m": 9.37,
+      "perf_3m": 16.07,
+      "perf_ytd": 35.79,
+      "rsi": 75.4,
+      "score_signal": 4,
+      "analyse": "**BOA CI — FAVORABLE**\n**Technique :** Le RSI est à 75,4, le MACD est haussier, et le prix est au-dessus de la bande supérieure de Bollinger, indiquant une tendance positive. L'Ichimoku confirme cette tendance avec un prix au-dessus du nuage et un signal TK/KJ bullish.\n**Fondamental :** BOA CI, en tant que banque ivoirienne, bénéficie d'un contexte macroéconomique stable et d'une exposition limitée aux zones de tension, ce qui la rend plus solide que certaines de ses homologues de la région.\n**Avis pédagogique :** Avec un score signal de 4/12 et une performance sur 1 mois de +9,4%, notre conviction est MODEREE pour BOA CI, compte tenu de sa solidité fondamentale et de son potentiel de croissance dans un contexte économique régional stable.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": 164.53,
+        "signal": 131.8,
+        "histo": 32.73,
+        "tendance": "haussiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 9694.0,
+        "middle": 9311.0,
+        "lower": 8928.0,
+        "pct_b": 1.07,
         "position": "au-dessus bande superieure"
       }
     },
@@ -464,26 +100,26 @@
       "ticker": "BOAM.ml",
       "nom": "BOA MALI",
       "secteur": "BANQUE",
-      "prix": "5595",
-      "variation": 2.66,
-      "perf_1m": 20.84,
-      "perf_3m": 21.9,
-      "perf_ytd": 39.88,
-      "rsi": 82.0,
+      "prix": "5685",
+      "variation": 1.61,
+      "perf_1m": 26.19,
+      "perf_3m": 22.26,
+      "perf_ytd": 42.12,
+      "rsi": 79.2,
       "score_signal": 4,
-      "analyse": "**BOA MALI — SURVEILLANCE**\n**Technique :** Le titre présente un profil technique haussier avec un MACD bullish, mais l'Ichimoku et les bandes de Bollinger sont moins clairs, nécessitant une surveillance de l'évolution du titre. L'RSI à 82,0 indique une tendance haussière mais sans surchauffe excessive.\n**Fondamental :** BOA MALI, comme d'autres banques de la zone UEMOA, est exposé aux risques souverains, notamment dans un contexte de tensions sécuritaires au Mali, ce qui pourrait impacter la stabilité et la croissance des crédits.\n**Avis pédagogique :** Avec un score signal de 4/12 et une performance sur 1 mois de +20,8%, notre lecture est de surveillance en raison des risques souverains et de l'incertitude liée à la situation sécuritaire au Mali, avec un niveau de conviction faible.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**BOA MALI — PRUDENCE**\n**Technique :** Le RSI à 79,2 indique une situation de surachat, tandis que le MACD haussier et les bandes de Bollinger dans lesquelles le prix évolue suggèrent une tendance positive. Cependant, l'Ichimoku bullish et le Z-score élevé à +2,78 pourraient indiquer une surévaluation.\n**Fondamental :** Le contexte macroéconomique de la zone UEMOA, avec un taux directeur BCEAO stable à 3,5%, est globalement favorable. Cependant, BOA Mali est exposé aux risques souverains et sécuritaires de son pays d'implantation, ce qui pourrait impacter la qualité de ses actifs.\n**Avis pédagogique :** Avec un score signal de 4/12 et une performance à court terme de +26,2%, il convient d'aborder ce titre avec prudence, compte tenu des risques potentiels liés à son exposition géographique. Niveau de conviction : MODERÉ.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 186.56,
-        "signal": 105.92,
-        "histo": 80.64,
+        "macd": 212.75,
+        "signal": 127.29,
+        "histo": 85.46,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 5650.0,
-        "middle": 4916.0,
-        "lower": 4182.0,
+        "upper": 5752.0,
+        "middle": 4978.0,
+        "lower": 4205.0,
         "pct_b": 0.96,
         "position": "dans les bandes"
       }
@@ -492,27 +128,27 @@
       "ticker": "BOAN.ne",
       "nom": "BOA NIGER",
       "secteur": "BANQUE",
-      "prix": "4710",
-      "variation": -1.67,
-      "perf_1m": 27.3,
-      "perf_3m": 66.43,
-      "perf_ytd": 80.46,
-      "rsi": 75.4,
+      "prix": "4755",
+      "variation": 0.96,
+      "perf_1m": 28.34,
+      "perf_3m": 58.5,
+      "perf_ytd": 82.18,
+      "rsi": 72.5,
       "score_signal": 4,
-      "analyse": "**BOA NIGER — PRUDENCE**\n**Technique :** Le RSI est à 75,4, indiquant une légère surchauffe, tandis que le MACD est haussier et le prix se situe dans les bandes de Bollinger. L'Ichimoku confirme cette tendance haussière avec un prix au-dessus du nuage et des lignes TK/KJ bullish.\n**Fondamental :** Le contexte macro sectoriel bancaire de la zone UEMOA, notamment l'exposition aux risques souverains de certains pays comme le Niger, doit être pris en compte pour évaluer la solidité de BOA NIGER.\n**Avis pédagogique :** Avec un score signal de 4/12 et une performance à 1 mois de +27,3%, il est important de surveiller les indicateurs techniques et fondamentaux pour une évaluation plus précise, niveau de conviction MODERÉ.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**BOA NIGER — PRUDENCE**\n**Technique :** Le RSI à 72,5 et le MACD haussier suggèrent une tendance positive, tandis que les bandes de Bollinger contiennent le prix. L'Ichimoku bullish et le Z-score à +2,59 indiquent une dynamique haussière mais également une possible surévaluation.\n**Fondamental :** Comme pour BOA Mali, le contexte macroéconomique est globalement favorable, mais BOA Niger est exposé aux mêmes types de risques souverains et sécuritaires, notamment dans son pays d'implantation, ce qui pourrait affecter la qualité de son portefeuille de crédits.\n**Avis pédagogique :** Avec une performance à court terme de +28,3% et un score signal de 4/12, il est conseillé d'adopter une attitude prudente en raison des risques géopolitiques associés. Niveau de conviction : MODERÉ.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 227.55,
-        "signal": 175.56,
-        "histo": 52.0,
+        "macd": 242.75,
+        "signal": 189.0,
+        "histo": 53.75,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 4746.0,
-        "middle": 4141.0,
-        "lower": 3536.0,
-        "pct_b": 0.97,
+        "upper": 4821.0,
+        "middle": 4194.0,
+        "lower": 3567.0,
+        "pct_b": 0.95,
         "position": "dans les bandes"
       }
     },
@@ -521,54 +157,54 @@
       "nom": "BICB BENIN",
       "secteur": "BANQUE",
       "prix": "6480",
-      "variation": 2.05,
-      "perf_1m": 16.97,
-      "perf_3m": 25.83,
+      "variation": 0.0,
+      "perf_1m": 15.71,
+      "perf_3m": 26.81,
       "perf_ytd": 30.25,
-      "rsi": 78.9,
+      "rsi": 80.3,
       "score_signal": 4,
-      "analyse": "**BICB BENIN — FAVORABLE**\n**Technique :** Le RSI est à 78,9, proche d'une surchauffe, mais le MACD reste haussier et le prix évolue dans les bandes de Bollinger. L'Ichimoku confirme cette tendance avec un prix au-dessus du nuage et des lignes TK/KJ bullish.\n**Fondamental :** Le secteur bancaire de la zone UEMOA bénéficie d'une croissance des crédits à l'économie, notamment dans l'infrastructure et le commerce, ce qui pourrait soutenir la performance de BICB BENIN.\n**Avis pédagogique :** Avec une performance à 1 mois de +17,0% et un score signal de 4/12, l'avis est plutôt favorable, niveau de conviction MODERÉ.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**BICB BENIN — FAVORABLE**\n**Technique :** Le RSI à 80,3 indique une situation de surachat, mais le MACD haussier et l'évolution du prix dans les bandes de Bollinger suggèrent une tendance positive. L'Ichimoku bullish et le Z-score à +2,10 soutiennent cette tendance.\n**Fondamental :** Le contexte macroéconomique de la zone UEMOA est favorable, et BICB Benin, bien que moins exposé aux risques souverains et sécuritaires que les autres banques de la région, bénéficie d'une croissance des crédits à l'économie portée par l'infrastructure et le commerce.\n**Avis pédagogique :** Avec une performance à court terme de +15,7% et un score signal de 4/12, ce titre apparaît plus solide que les précédents, compte tenu de son exposition géographique moins risquée. Niveau de conviction : FORT.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 241.14,
-        "signal": 204.09,
-        "histo": 37.05,
+        "macd": 245.81,
+        "signal": 212.44,
+        "histo": 33.37,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 6560.0,
-        "middle": 6008.0,
-        "lower": 5455.0,
-        "pct_b": 0.93,
+        "upper": 6608.0,
+        "middle": 6052.0,
+        "lower": 5496.0,
+        "pct_b": 0.89,
         "position": "dans les bandes"
       }
     },
-    "BOABF.bf": {
-      "ticker": "BOABF.bf",
-      "nom": "BOA BURKINA",
+    "CBIBF.bf": {
+      "ticker": "CBIBF.bf",
+      "nom": "CORIS BANK BF",
       "secteur": "BANQUE",
-      "prix": "6100",
-      "variation": 0.83,
-      "perf_1m": 9.22,
-      "perf_3m": 8.35,
-      "perf_ytd": 62.67,
-      "rsi": 91.5,
-      "score_signal": 3,
-      "analyse": "**BOA BURKINA — SURVEILLANCE**\n**Technique :** Le RSI est élevé à 91,5, indiquant une surchauffe, mais le MACD est toujours haussier et le prix se maintient dans les bandes de Bollinger. L'Ichimoku reste bullish avec un prix au-dessus du nuage et des lignes TK/KJ bullish.\n**Fondamental :** L'exposition de BOA BURKINA aux risques souverains du Burkina Faso, notamment dans un contexte sécuritaire tendu, nécessite une surveillance étroite de la situation.\n**Avis pédagogique :** Avec un score signal de 3/12 et une performance à 1 mois de +9,2%, il est essentiel de suivre de près les développements macro et les indicateurs techniques pour une évaluation plus précise, niveau de conviction FAIBLE.",
-      "genere_le": "14/07/2026 11:25",
+      "prix": "30000",
+      "variation": -0.02,
+      "perf_1m": 35.84,
+      "perf_3m": 81.82,
+      "perf_ytd": 178.29,
+      "rsi": 98.0,
+      "score_signal": 4,
+      "analyse": "**CORIS BANK BF — PRUDENCE**\n**Technique :** Le RSI à 98,0 indique une situation de surachat, ce qui pourrait entraîner une correction à court terme. Le MACD haussier et les bandes de Bollinger dans lesquelles le prix évolue suggèrent une tendance haussière, mais avec une prudence due au niveau élevé du RSI.\n**Fondamental :** Le contexte macroéconomique de la zone UEMOA, avec un taux directeur BCEAO stable à 3,5%, devrait soutenir la croissance des crédits à l'économie, bénéficiant ainsi aux banques comme CORIS BANK BF. Cependant, l'exposition aux risques souverains dans certaines zones de la région nécessite une surveillance.\n**Avis pédagogique :** Avec un score signal de 4/12 et une performance sur 1 mois de +35,8%, il est important de rester prudent face à cette évolution rapide, niveau de conviction MODERÉ.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 139.92,
-        "signal": 110.75,
-        "histo": 29.17,
+        "macd": 2167.25,
+        "signal": 1529.87,
+        "histo": 637.39,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 6240.0,
-        "middle": 5753.0,
-        "lower": 5265.0,
-        "pct_b": 0.86,
+        "upper": 30357.0,
+        "middle": 24448.0,
+        "lower": 18539.0,
+        "pct_b": 0.97,
         "position": "dans les bandes"
       }
     },
@@ -576,55 +212,55 @@
       "ticker": "NSBC.ci",
       "nom": "NSIA BANQUE",
       "secteur": "BANQUE",
-      "prix": "21950",
-      "variation": 1.18,
-      "perf_1m": 14.62,
-      "perf_3m": 54.9,
-      "perf_ytd": 91.79,
-      "rsi": 89.0,
+      "prix": "21260",
+      "variation": -3.14,
+      "perf_1m": 11.19,
+      "perf_3m": 49.77,
+      "perf_ytd": 85.76,
+      "rsi": 73.5,
       "score_signal": 3,
-      "analyse": "**NSIA BANQUE — FAVORABLE**\n**Technique :** Le RSI à 89,0 indique une tendance haussière, confirmée par le MACD également haussier. Les bandes de Bollinger sont dans les bandes, ce qui suggère une certaine stabilité.\n**Fondamental :** Le contexte macro sectoriel bancaire UEMOA est favorable, avec une croissance des crédits à l'économie portée par l'infrastructure et le commerce. NSIA BANQUE CI est considérée comme une banque solide avec une faible exposition aux zones de tension.\n**Avis pédagogique :** Avec un score signal de 3/12 et une performance sur 1 mois de +14,6%, notre conviction est MODEREE pour NSIA BANQUE, compte tenu de son exposition limitée aux risques souverains et de son engagement en faveur de l'éducation et du développement des MPME.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**NSIA BANQUE — FAVORABLE**\n**Technique :** Le RSI à 73,5 et le MACD haussier indiquent une tendance positive, soutenue par le prix se situant au-dessus du nuage Ichimoku, signalant une orientation bullish. Les bandes de Bollinger contiennent le prix, limitant les risques de correction immédiate.\n**Fondamental :** NSIA BANQUE, avec une faible exposition aux zones de tension, bénéficie d'un contexte macroéconomique favorable dans la zone UEMOA, notamment en Côte d'Ivoire, où la croissance des crédits à l'économie est soutenue.\n**Avis pédagogique :** Avec une performance sur 1 mois de +11,2% et un score signal de 3/12, NSIA BANQUE présente une tendance haussière solide, niveau de conviction FORT.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 933.12,
-        "signal": 802.34,
-        "histo": 130.77,
+        "macd": 899.71,
+        "signal": 821.82,
+        "histo": 77.89,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 22056.0,
-        "middle": 20052.0,
-        "lower": 18048.0,
-        "pct_b": 0.97,
+        "upper": 22179.0,
+        "middle": 20161.0,
+        "lower": 18143.0,
+        "pct_b": 0.77,
         "position": "dans les bandes"
       }
     },
-    "BOAC.ci": {
-      "ticker": "BOAC.ci",
-      "nom": "BOA CI",
+    "BICC.ci": {
+      "ticker": "BICC.ci",
+      "nom": "BICICI",
       "secteur": "BANQUE",
-      "prix": "9620",
-      "variation": 1.26,
-      "perf_1m": 7.49,
-      "perf_3m": 14.52,
-      "perf_ytd": 33.98,
-      "rsi": 64.2,
-      "score_signal": 2,
-      "analyse": "**BOA CI — PRUDENCE**\n**Technique :** Le RSI à 64,2 et le MACD haussier suggèrent une tendance positive, mais les bandes de Bollinger dans les bandes indiquent une certaine prudence. L'Ichimoku est bullish, mais le Z-score à +2,25 nécessite une surveillance.\n**Fondamental :** BOA CI est exposé aux risques souverains de son pays, ce qui pourrait impacter sa stabilité financière. Cependant, la croissance des crédits à l'économie reste portée par l'infrastructure et le commerce.\n**Avis pédagogique :** Avec un score signal de 2/12 et une performance sur 1 mois de +7,5%, notre conviction est FAIBLE pour BOA CI, en raison de son exposition aux risques souverains et de la nécessité de surveiller de près son évolution.",
-      "genere_le": "14/07/2026 11:25",
+      "prix": "28600",
+      "variation": -0.17,
+      "perf_1m": 1.08,
+      "perf_3m": 21.7,
+      "perf_ytd": 47.08,
+      "rsi": 59.9,
+      "score_signal": 1,
+      "analyse": "**BICICI — NEUTRE**\n**Technique :** Le RSI à 59,9 et le MACD baissier suggèrent une légère correction ou une pause dans la tendance haussière. Le prix se situant au-dessus du nuage Ichimoku et les bandes de Bollinger contenant le prix indiquent une stabilité à court terme.\n**Fondamental :** BICICI, comme banque ivoirienne solide avec une faible exposition aux zones de tension, bénéficie du contexte économique favorable en Côte d'Ivoire, mais la croissance des crédits à l'économie et les risques NPL nécessitent une surveillance.\n**Avis pédagogique :** Avec une performance sur 1 mois de +1,1% et un score signal de 1/12, BICICI présente une situation neutre, nécessitant une surveillance de la tendance future, niveau de conviction FAIBLE.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 144.73,
-        "signal": 123.62,
-        "histo": 21.11,
-        "tendance": "haussiere",
+        "macd": 182.35,
+        "signal": 278.85,
+        "histo": -96.5,
+        "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 9624.0,
-        "middle": 9272.0,
-        "lower": 8920.0,
-        "pct_b": 0.99,
+        "upper": 29549.0,
+        "middle": 28638.0,
+        "lower": 27727.0,
+        "pct_b": 0.48,
         "position": "dans les bandes"
       }
     },
@@ -632,27 +268,27 @@
       "ticker": "ORGT.tg",
       "nom": "ORAGROUP TOGO",
       "secteur": "BANQUE",
-      "prix": "2690",
-      "variation": 1.51,
-      "perf_1m": -0.74,
-      "perf_3m": -21.69,
-      "perf_ytd": 12.08,
-      "rsi": 59.8,
+      "prix": "2670",
+      "variation": -0.74,
+      "perf_1m": -1.66,
+      "perf_3m": -21.7,
+      "perf_ytd": 11.25,
+      "rsi": 53.8,
       "score_signal": 1,
-      "analyse": "**ORAGROUP TOGO — SURVEILLANCE**\n**Technique :** Le RSI à 59,8 et le MACD haussier sont mitigés par l'Ichimoku bearish et le Z-score négatif, indiquant une tendance incertaine. Les bandes de Bollinger sont dans les bandes, ce qui suggère une stabilité relative.\n**Fondamental :** ORAGROUP TOGO opère dans un contexte macro sectoriel bancaire UEMOA avec des défis liés aux risques souverains et à la liquidité. La performance sur 1 mois de -0,7% nécessite une surveillance étroite.\n**Avis pédagogique :** Avec un score signal de 1/12, notre conviction est FAIBLE pour ORAGROUP TOGO, en raison de son exposition aux risques et de la nécessité de surveiller de près son évolution et ses fondamentaux.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**ORAGROUP TOGO — PRUDENCE**\n**Technique :** Le RSI est à 53,8, indiquant une tendance neutre, tandis que le MACD est haussier, mais le prix est en dessous du nuage Ichimoku, ce qui pourrait indiquer une tendance baissière. Les bandes de Bollinger sont dans les bandes, ce qui suggère une volatilité moyenne.\n**Fondamental :** Le secteur bancaire de la zone UEMOA est caractérisé par une liquidité correcte, mais les banques comme ORAGROUP TOGO sont exposées aux risques souverains de leurs pays respectifs, ce qui pourrait impacter leur stabilité financière.\n**Avis pédagogique :** Avec un score signal de 1/12 et une performance sur 1 mois de -1,7%, il est recommandé d'exercer la prudence avec ce titre, avec un niveau de conviction modéré.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": -20.08,
-        "signal": -24.54,
-        "histo": 4.47,
+        "macd": -20.41,
+        "signal": -23.72,
+        "histo": 3.3,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2770.0,
-        "middle": 2686.0,
-        "lower": 2602.0,
-        "pct_b": 0.52,
+        "upper": 2765.0,
+        "middle": 2683.0,
+        "lower": 2601.0,
+        "pct_b": 0.42,
         "position": "dans les bandes"
       }
     },
@@ -660,27 +296,27 @@
       "ticker": "SGBC.ci",
       "nom": "SGBCI",
       "secteur": "BANQUE",
-      "prix": "38890",
-      "variation": -0.28,
-      "perf_1m": -0.27,
-      "perf_3m": 17.85,
-      "perf_ytd": 30.09,
-      "rsi": 48.8,
+      "prix": "38200",
+      "variation": -1.77,
+      "perf_1m": -1.8,
+      "perf_3m": 15.76,
+      "perf_ytd": 27.78,
+      "rsi": 43.5,
       "score_signal": 1,
-      "analyse": "[Fiche non extraite pour SGBC.ci]",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**SGBCI — FAVORABLE**\n**Technique :** Le RSI est à 43,5, indiquant une tendance baissière, mais le prix est au-dessus du nuage Ichimoku, ce qui pourrait indiquer une tendance haussière à long terme. Le MACD est baissier, mais les bandes de Bollinger sont dans les bandes, ce qui suggère une volatilité moyenne.\n**Fondamental :** SGBCI est l'un des bancaires CI solides avec une faible exposition aux zones de tension, ce qui la rend moins vulnérable aux risques souverains et aux risques NPL.\n**Avis pédagogique :** Avec un score signal de 1/12 et une performance sur 1 mois de -1,8%, il est recommandé d'avoir une lecture favorable de ce titre, avec un niveau de conviction fort.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 328.84,
-        "signal": 425.35,
-        "histo": -96.5,
+        "macd": 258.78,
+        "signal": 392.03,
+        "histo": -133.26,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 39807.0,
-        "middle": 38846.0,
-        "lower": 37885.0,
-        "pct_b": 0.52,
+        "upper": 39819.0,
+        "middle": 38816.0,
+        "lower": 37812.0,
+        "pct_b": 0.19,
         "position": "dans les bandes"
       }
     },
@@ -688,111 +324,419 @@
       "ticker": "SIBC.ci",
       "nom": "SIB CI",
       "secteur": "BANQUE",
-      "prix": "8990",
-      "variation": 0.45,
-      "perf_1m": 1.93,
-      "perf_3m": 28.43,
-      "perf_ytd": 56.35,
-      "rsi": 61.8,
+      "prix": "8900",
+      "variation": -1.0,
+      "perf_1m": 1.14,
+      "perf_3m": 27.14,
+      "perf_ytd": 54.78,
+      "rsi": 53.9,
       "score_signal": 1,
-      "analyse": "**Société Ivoirienne de Banque — FAVORABLE**\n**Technique :** Le RSI à 61,8 indique une situation favorable, tandis que le MACD baissier et les bandes de Bollinger suggèrent une tendance à la baisse. Cependant, le prix se situe au-dessus du nuage Ichimoku et la ligne TK/KJ est bullish, indiquant une possible poursuite de la tendance haussière.\n**Fondamental :** La SIB CI bénéficie d'un contexte macroéconomique stable dans la zone UEMOA, avec un taux directeur BCEAO stable à 3,5%, et une croissance des crédits à l'économie portée par l'infrastructure et le commerce. La banque a une faible exposition aux zones de tension.\n**Avis pédagogique :** Avec un score signal de 1/12 et une performance sur 1 mois de +1,9%, il est favorable de considérer la SIB CI, niveau de conviction MODERE.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**SIB CI — NEUTRE**\n**Technique :** Le RSI est à 53,9, indiquant une tendance neutre, tandis que le MACD est baissier, mais le prix est au-dessus du nuage Ichimoku, ce qui pourrait indiquer une tendance haussière à long terme. Les bandes de Bollinger sont dans les bandes, ce qui suggère une volatilité moyenne.\n**Fondamental :** SIB CI est également l'un des bancaires CI solides, mais son exposition aux risques NPL et aux risques souverains doit être surveillée de près.\n**Avis pédagogique :** Avec un score signal de 1/12 et une performance sur 1 mois de +1,1%, il est recommandé d'avoir une lecture neutre de ce titre, avec un niveau de conviction modéré.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 164.55,
-        "signal": 199.46,
-        "histo": -34.91,
+        "macd": 149.15,
+        "signal": 189.4,
+        "histo": -40.25,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 9121.0,
-        "middle": 8884.0,
-        "lower": 8647.0,
-        "pct_b": 0.72,
+        "upper": 9106.0,
+        "middle": 8896.0,
+        "lower": 8687.0,
+        "pct_b": 0.51,
         "position": "dans les bandes"
+      }
+    },
+    "SDCC.ci": {
+      "ticker": "SDCC.ci",
+      "nom": "SODECI",
+      "secteur": "SERVICES",
+      "prix": "11300",
+      "variation": -0.35,
+      "perf_1m": -6.22,
+      "perf_3m": 58.26,
+      "perf_ytd": 94.83,
+      "rsi": 21.7,
+      "score_signal": 5,
+      "analyse": "**SODECI — PRUDENCE**\n**Technique :** Le RSI est actuellement à 21,7, indiquant une situation de survente, tandis que le MACD est en baisse, confirmant une tendance baissière. Les bandes de Bollinger montrent que le prix est en dessous de la bande inférieure, ce qui pourrait indiquer un rebond potentiel.\n**Fondamental :** SODECI bénéficie de revenus stables et régulés en tant que concession d'eau et d'électricité en Côte d'Ivoire, ce qui offre une certaine sécurité dans un contexte macroéconomique incertain.\n**Avis pédagogique :** Avec un score signal de 5/12 et une performance sur 1 mois de -6,2%, il est prudent de surveiller l'évolution de SODECI, niveau de conviction modéré.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": 115.28,
+        "signal": 261.87,
+        "histo": -146.58,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 12399.0,
+        "middle": 11950.0,
+        "lower": 11501.0,
+        "pct_b": -0.22,
+        "position": "en-dessous bande inferieure"
+      }
+    },
+    "SIVC.ci": {
+      "ticker": "SIVC.ci",
+      "nom": "ERIUM",
+      "secteur": "SERVICES",
+      "prix": "2375",
+      "variation": 7.47,
+      "perf_1m": -15.18,
+      "perf_3m": -15.18,
+      "perf_ytd": 50.32,
+      "rsi": 36.0,
+      "score_signal": 5,
+      "analyse": "**ERIUM — SURVEILLANCE**\n**Technique :** Le RSI est à 36,0, ce qui n'indique pas clairement une situation de survente ou de surachat, tandis que le MACD est en baisse, suggérant une tendance baissière. Les bandes de Bollinger montrent que le prix est dans les bandes, indiquant une volatilité moyenne.\n**Fondamental :** ERIUM opère dans un contexte sectoriel qui nécessite une analyse plus approfondie pour comprendre ses perspectives, étant donné les informations limitées disponibles.\n**Avis pédagogique :** Avec un score signal de 5/12 et une performance sur 1 mois de -15,2%, il est nécessaire de surveiller de près l'évolution d'ERIUM, niveau de conviction faible.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": -161.64,
+        "signal": -147.17,
+        "histo": -14.47,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 2952.0,
+        "middle": 2434.0,
+        "lower": 1916.0,
+        "pct_b": 0.44,
+        "position": "dans les bandes"
+      }
+    },
+    "SDSC.ci": {
+      "ticker": "SDSC.ci",
+      "nom": "AFRICA GLOBAL LOGISTICS",
+      "secteur": "SERVICES",
+      "prix": "2350",
+      "variation": 7.31,
+      "perf_1m": 10.59,
+      "perf_3m": 27.72,
+      "perf_ytd": 55.12,
+      "rsi": 43.7,
+      "score_signal": 3,
+      "analyse": "**AFRICA GLOBAL LOGISTICS — FAVORABLE**\n**Technique :** Le RSI est à 43,7, indiquant une situation qui n'est pas clairement de survente ou de surachat, tandis que le MACD est en baisse, mais les bandes de Bollinger montrent que le prix est dans les bandes, suggérant une volatilité moyenne. L'Ichimoku indique une tendance haussière.\n**Fondamental :** Africa Global Logistics opère dans un secteur qui pourrait bénéficier de la croissance économique et du développement des infrastructures en Afrique de l'Ouest.\n**Avis pédagogique :** Avec un score signal de 3/12 et une performance sur 1 mois de +10,6%, l'avis est favorable, niveau de conviction modéré.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": 59.07,
+        "signal": 100.43,
+        "histo": -41.36,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 2585.0,
+        "middle": 2387.0,
+        "lower": 2189.0,
+        "pct_b": 0.41,
+        "position": "dans les bandes"
+      }
+    },
+    "SAFC.ci": {
+      "ticker": "SAFC.ci",
+      "nom": "SAFCA CI",
+      "secteur": "SERVICES",
+      "prix": "4400",
+      "variation": -1.79,
+      "perf_1m": 18.92,
+      "perf_3m": -24.91,
+      "perf_ytd": 33.13,
+      "rsi": 40.3,
+      "score_signal": 3,
+      "analyse": "**SAFCA CI — PRUDENCE**\n**Technique :** Le RSI est actuellement à 40,3, indiquant une légère sous-évaluation, tandis que le MACD est en baisse, suggérant une tendance négative. Les bandes de Bollinger indiquent une volatilité moyenne.\n**Fondamental :** Le contexte macro sectoriel de SAFCA CI est influencé par les tendances du marché ivoirien, notamment dans le secteur des services et de l'industrie. La performance récente de +18,9% sur un mois pourrait être un facteur à prendre en compte.\n**Avis pédagogique :** Avec un score signal de 3/12, notre lecture est prudente, avec un niveau de conviction modéré, en raison de la tendance baissière du MACD et de la volatilité moyenne des bandes de Bollinger.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": 73.36,
+        "signal": 107.53,
+        "histo": -34.17,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 4916.0,
+        "middle": 4464.0,
+        "lower": 4011.0,
+        "pct_b": 0.43,
+        "position": "dans les bandes"
+      }
+    },
+    "SICC.ci": {
+      "ticker": "SICC.ci",
+      "nom": "SICOR",
+      "secteur": "SERVICES",
+      "prix": "5100",
+      "variation": 0.0,
+      "perf_1m": 13.84,
+      "perf_3m": 29.77,
+      "perf_ytd": 54.55,
+      "rsi": 76.3,
+      "score_signal": 3,
+      "analyse": "**SICOR — FAVORABLE**\n**Technique :** Le RSI est élevé à 76,3, indiquant une surévaluation potentielle, tandis que le MACD est haussier, suggérant une tendance positive. Les bandes de Bollinger indiquent une volatilité moyenne.\n**Fondamental :** SICOR opère dans un contexte de niche avec faible liquidité, ce qui peut influencer sa performance. La tendance haussière récente et le score signal de 3/12 sont des facteurs à considérer.\n**Avis pédagogique :** Avec une tendance haussière du MACD et un RSI élevé, notre lecture est favorable, avec un niveau de conviction modéré, en raison de la surévaluation potentielle et de la faible liquidité du titre.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": 194.64,
+        "signal": 166.88,
+        "histo": 27.75,
+        "tendance": "haussiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 5498.0,
+        "middle": 4802.0,
+        "lower": 4106.0,
+        "pct_b": 0.71,
+        "position": "dans les bandes"
+      }
+    },
+    "STAC.ci": {
+      "ticker": "STAC.ci",
+      "nom": "SETAO CI",
+      "secteur": "SERVICES",
+      "prix": "3100",
+      "variation": -2.36,
+      "perf_1m": -11.43,
+      "perf_3m": 5.08,
+      "perf_ytd": 133.96,
+      "rsi": 24.5,
+      "score_signal": 2,
+      "analyse": "**SETAO CI — SURVEILLANCE**\n**Technique :** Le RSI est bas à 24,5, indiquant une sous-évaluation, tandis que le MACD est en baisse, suggérant une tendance négative. Les bandes de Bollinger indiquent une volatilité moyenne.\n**Fondamental :** SETAO CI opère dans un contexte de niche avec faible liquidité, ce qui peut influencer sa performance. La tendance baissière récente et le score signal de 2/12 sont des facteurs à considérer.\n**Avis pédagogique :** Avec une tendance baissière du MACD et un RSI bas, notre lecture est de surveillance, avec un niveau de conviction faible, en raison de la faible liquidité et de la tendance négative du titre.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": -21.59,
+        "signal": 41.77,
+        "histo": -63.36,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 3780.0,
+        "middle": 3402.0,
+        "lower": 3024.0,
+        "pct_b": 0.1,
+        "position": "dans les bandes"
+      }
+    },
+    "SEMC.ci": {
+      "ticker": "SEMC.ci",
+      "nom": "CROWN SIEM",
+      "secteur": "SERVICES",
+      "prix": "1495",
+      "variation": 1.7,
+      "perf_1m": -5.38,
+      "perf_3m": -14.57,
+      "perf_ytd": 99.33,
+      "rsi": 41.4,
+      "score_signal": 2,
+      "analyse": "**CROWN SIEM — PRUDENCE**\n**Technique :** Le RSI est à 41,4, indiquant une légère tendance baissière, tandis que le MACD est également baissier. Les bandes de Bollinger sont dans les bandes, ce qui suggère une volatilité moyenne.\n**Fondamental :** CROWN SIEM est un titre de niche avec faible liquidité, ce qui peut rendre son cours sensible aux variations de marché et aux annonces sectorielles.\n**Avis pédagogique :** Avec un score signal de 2/12 et un RSI en territoire neutre, il est prudent de surveiller l'évolution de CROWN SIEM, niveau de conviction MODERÉ.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": -32.89,
+        "signal": -29.99,
+        "histo": -2.9,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 1634.0,
+        "middle": 1507.0,
+        "lower": 1379.0,
+        "pct_b": 0.45,
+        "position": "dans les bandes"
+      }
+    },
+    "CIEC.ci": {
+      "ticker": "CIEC.ci",
+      "nom": "CIE CI",
+      "secteur": "SERVICES",
+      "prix": "5200",
+      "variation": -2.35,
+      "perf_1m": 4.1,
+      "perf_3m": 67.74,
+      "perf_ytd": 120.34,
+      "rsi": 56.4,
+      "score_signal": 1,
+      "analyse": "**CIE CI — FAVORABLE**\n**Technique :** Le RSI est à 56,4, indiquant une tendance haussière, tandis que le MACD est baissier, ce qui pourrait indiquer un retournement de tendance. Les bandes de Bollinger sont dans les bandes, ce qui suggère une volatilité moyenne.\n**Fondamental :** En tant que concession d'eau et d'électricité en Côte d'Ivoire, CIE CI bénéficie de revenus stables et régulés, ce qui peut assurer une certaine stabilité à son cours.\n**Avis pédagogique :** Avec un score signal de 1/12 et un RSI en territoire haussier, CIE CI semble présenter des perspectives favorables, niveau de conviction MODERÉ.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": 200.12,
+        "signal": 252.6,
+        "histo": -52.48,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 5580.0,
+        "middle": 5210.0,
+        "lower": 4840.0,
+        "pct_b": 0.49,
+        "position": "dans les bandes"
+      }
+    },
+    "FTSC.ci": {
+      "ticker": "FTSC.ci",
+      "nom": "FILTISAC CI",
+      "secteur": "SERVICES",
+      "prix": "1990",
+      "variation": 0.0,
+      "perf_1m": -10.16,
+      "perf_3m": -8.72,
+      "perf_ytd": -10.36,
+      "rsi": 58.1,
+      "score_signal": 1,
+      "analyse": "**FILTISAC CI — SURVEILLANCE**\n**Technique :** Le RSI est à 58,1, indiquant une tendance haussière, tandis que le MACD est haussier, ce qui confirme cette tendance. Les bandes de Bollinger sont dans les bandes, ce qui suggère une volatilité moyenne.\n**Fondamental :** FILTISAC CI est lié au BTP et à l'industrie ivoirienne, ce qui peut rendre son cours sensible aux variations sectorielles et aux annonces économiques.\n**Avis pédagogique :** Avec un score signal de 1/12 et un RSI en territoire haussier, il est nécessaire de surveiller l'évolution de FILTISAC CI, niveau de conviction FAIBLE.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": -59.34,
+        "signal": -65.17,
+        "histo": 5.84,
+        "tendance": "haussiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 2165.0,
+        "middle": 2025.0,
+        "lower": 1885.0,
+        "pct_b": 0.38,
+        "position": "dans les bandes"
+      }
+    },
+    "PALC.ci": {
+      "ticker": "PALC.ci",
+      "nom": "PALMCI",
+      "secteur": "AGRICULTURE",
+      "prix": "8500",
+      "variation": -3.08,
+      "perf_1m": -3.13,
+      "perf_3m": 4.94,
+      "perf_ytd": 4.94,
+      "rsi": 35.5,
+      "score_signal": 5,
+      "analyse": "**Cours :** 8,500 FCFA | **Variation :** -3.08% | **RSI :** 35.5\n___\n\n#### Analyse Technique\n* **Momentum :** Le RSI à 35,5 indique une tendance baissière, tandis que le MACD neutre suggère une absence de forte dynamique haussière ou baissière.\n* **Volatilité & Tendance :** Les bandes de Bollinger en-dessous de la bande inférieure, combinées à un Z-Score légèrement positif, indiquent une volatilité accrue et une tendance potentielle à la hausse, mais l'Ichimoku avec un prix au-dessus du nuage et TK/KJ bullish soutient une perspective haussière.\n* **Biais directionnel :** Haussier, compte tenu de l'indicateur Ichimoku et de la position du prix par rapport au nuage.\n\n####  Analyse Fondamentale & Catalyseurs\nLes actualités récentes sur PALMCI, notamment le bilan semestriel du contrat de liquidité, n'ont pas d'impact direct sur la valeur de l'action. Cependant, le contexte macro-sectoriel de l'agro-industrie, avec des facteurs tels que les prix mondiaux de l'huile de palme et du caoutchouc, ainsi que les conditions climatiques, influencent la performance de l'entreprise. Les risques liés à El Nino/La Nina et à la volatilité des matières premières mondiales doivent être surveillés. La stabilisation du FCFA et la demande régionale sont des facteurs positifs pour l'agro-industrie.\n\n####  Lecture pédagogique\n> **Lecture :** FAVORABLE\n> **Conviction :** MODÉRÉE\n> **Horizon :** Court terme\n> \n> *Il est essentiel de surveiller l'évolution des prix des matières premières et les conditions climatiques pour anticiper les mouvements futurs de l'action PALMCI.*",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": 95.54,
+        "signal": 140.4,
+        "histo": -44.85,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 8914.0,
+        "middle": 8738.0,
+        "lower": 8562.0,
+        "pct_b": -0.18,
+        "position": "en-dessous bande inferieure"
       }
     },
     "BNBC.ci": {
       "ticker": "BNBC.ci",
       "nom": "BERNABE",
       "secteur": "DISTRIBUTION",
-      "prix": "1770",
-      "variation": 0.85,
-      "perf_1m": -5.85,
-      "perf_3m": 12.74,
-      "perf_ytd": 25.53,
-      "rsi": 20.3,
+      "prix": "1750",
+      "variation": -1.13,
+      "perf_1m": -6.91,
+      "perf_3m": 11.82,
+      "perf_ytd": 24.11,
+      "rsi": 20.5,
       "score_signal": 5,
-      "analyse": "**BERNABE — PRUDENCE**\n**Technique :** Le RSI est actuellement à 20,3, indiquant une situation de survente, tandis que le MACD est en baisse et le prix est en dessous de la bande inférieure de Bollinger, ce qui suggère une tendance baissière. Cependant, l'Ichimoku montre un prix au-dessus du nuage, ce qui pourrait indiquer une tendance haussière à long terme.\n**Fondamental :** Le secteur de la distribution automobile et industrielle, dans lequel opère BERNABE, est corrélé à la croissance du BTP et des infrastructures en Côte d'Ivoire, ce qui pourrait avoir un impact sur la demande pour les produits de l'entreprise.\n**Avis pédagogique :** Avec un score signal de 5/12 et une performance sur 1 mois de -5,8%, il est prudent de surveiller l'évolution de BERNABE, niveau de conviction modéré.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**BERNABE — PRUDENCE**\n**Technique :** Le RSI est actuellement à 20,5, indiquant une situation de survente, tandis que le MACD est en baisse, confirmant la tendance baissière. Les bandes de Bollinger montrent que le prix est en dessous de la bande inférieure, ce qui pourrait indiquer une potentialité de rebond.\n**Fondamental :** Le secteur de la distribution automobile et industrielle, dans lequel opère BERNABE, est corrélé à la croissance du BTP et des infrastructures en Côte d'Ivoire. La demande pour les produits de BERNABE pourrait donc être impactée par les tendances macroéconomiques du pays.\n**Avis pédagogique :** Avec un score signal de 5/12 et une performance sur 1 mois de -6,9%, il est prudent de surveiller l'évolution de BERNABE, mais sans prendre de position forte pour le moment, niveau de conviction modéré.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 20.62,
-        "signal": 61.68,
-        "histo": -41.06,
+        "macd": 7.97,
+        "signal": 50.94,
+        "histo": -42.97,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2121.0,
-        "middle": 1952.0,
-        "lower": 1784.0,
-        "pct_b": -0.04,
+        "upper": 2135.0,
+        "middle": 1945.0,
+        "lower": 1754.0,
+        "pct_b": -0.01,
         "position": "en-dessous bande inferieure"
-      }
-    },
-    "NEIC.ci": {
-      "ticker": "NEIC.ci",
-      "nom": "NEI CEDA CI",
-      "secteur": "DISTRIBUTION",
-      "prix": "2150",
-      "variation": 7.5,
-      "perf_1m": 1.65,
-      "perf_3m": 55.23,
-      "perf_ytd": 79.17,
-      "rsi": 36.8,
-      "score_signal": 5,
-      "analyse": "**NEI CEDA CI — NEUTRE**\n**Technique :** Le RSI est à 36,8, ce qui indique une situation de survente, tandis que le MACD est en baisse et le prix est dans les bandes de Bollinger, ce qui suggère une tendance stable. L'Ichimoku montre un prix au-dessus du nuage, ce qui pourrait indiquer une tendance haussière à long terme.\n**Fondamental :** Le contexte macro sectoriel de NEI CEDA CI n'est pas clairement défini dans les informations fournies, il est donc difficile de donner une analyse fondamentale précise.\n**Avis pédagogique :** Avec un score signal de 5/12 et une performance sur 1 mois de +1,6%, il est difficile de prendre une position claire sur NEI CEDA CI, niveau de conviction faible.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": 9.99,
-        "signal": 51.93,
-        "histo": -41.95,
-        "tendance": "baissiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 2483.0,
-        "middle": 2265.0,
-        "lower": 2047.0,
-        "pct_b": 0.24,
-        "position": "dans les bandes"
       }
     },
     "UNXC.ci": {
       "ticker": "UNXC.ci",
       "nom": "UNIWAX CI",
       "secteur": "DISTRIBUTION",
-      "prix": "1440",
-      "variation": 7.46,
-      "perf_1m": -26.9,
-      "perf_3m": -22.37,
-      "perf_ytd": 2.86,
-      "rsi": 23.8,
+      "prix": "1545",
+      "variation": 7.29,
+      "perf_1m": -21.97,
+      "perf_3m": -17.38,
+      "perf_ytd": 10.36,
+      "rsi": 30.0,
       "score_signal": 5,
-      "analyse": "**UNIWAX CI — SURVEILLANCE**\n**Technique :** Le RSI est à 23,8, ce qui indique une situation de survente, tandis que le MACD est en baisse et le prix est dans les bandes de Bollinger, ce qui suggère une tendance baissière. L'Ichimoku montre un prix en dessous du nuage, ce qui confirme la tendance baissière.\n**Fondamental :** Le marché du tissu wax, sur lequel opère UNIWAX CI, est un marché de niche avec une forte concurrence asiatique, ce qui pourrait avoir un impact négatif sur la demande pour les produits de l'entreprise.\n**Avis pédagogique :** Avec un score signal de 5/12 et une performance sur 1 mois de -26,9%, il est nécessaire de surveiller de près l'évolution de UNIWAX CI, niveau de conviction fort.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**UNIWAX CI — SURVEILLANCE**\n**Technique :** Le RSI est à 30,0, indiquant une situation de survente, et le MACD est en baisse, confirmant la tendance baissière. Les bandes de Bollinger montrent que le prix est dans les bandes, ce qui pourrait indiquer une volatilité réduite.\n**Fondamental :** UNIWAX CI opère dans le marché de niche du tissu wax, qui est soumis à une forte concurrence asiatique. La sensibilité du titre aux fluctuations du marché et à la concurrence est donc élevée.\n**Avis pédagogique :** Avec un score signal de 5/12 et une performance sur 1 mois de -22,0%, il est nécessaire de surveiller de près l'évolution de UNIWAX CI, niveau de conviction faible.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": -147.26,
-        "signal": -97.67,
-        "histo": -49.58,
+        "macd": -134.39,
+        "signal": -105.02,
+        "histo": -29.38,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2270.0,
-        "middle": 1718.0,
-        "lower": 1167.0,
-        "pct_b": 0.25,
+        "upper": 2241.0,
+        "middle": 1697.0,
+        "lower": 1154.0,
+        "pct_b": 0.36,
+        "position": "dans les bandes"
+      }
+    },
+    "NEIC.ci": {
+      "ticker": "NEIC.ci",
+      "nom": "NEI CEDA CI",
+      "secteur": "DISTRIBUTION",
+      "prix": "2310",
+      "variation": 7.44,
+      "perf_1m": 3.59,
+      "perf_3m": 67.39,
+      "perf_ytd": 92.5,
+      "rsi": 50.6,
+      "score_signal": 3,
+      "analyse": "**NEI CEDA CI — FAVORABLE**\n**Technique :** Le RSI est à 50,6, indiquant une situation neutre, et le MACD est en baisse, mais les bandes de Bollinger montrent que le prix est dans les bandes, ce qui pourrait indiquer une stabilité.\n**Fondamental :** NEI CEDA CI opère dans un contexte macroéconomique qui pourrait être favorable à sa croissance, étant donné les tendances positives dans le secteur auquel il appartient.\n**Avis pédagogique :** Avec un score signal de 3/12 et une performance sur 1 mois de +3,6%, l'avis est favorable, niveau de conviction modéré.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": 20.02,
+        "signal": 45.55,
+        "histo": -25.53,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 2479.0,
+        "middle": 2263.0,
+        "lower": 2047.0,
+        "pct_b": 0.61,
+        "position": "dans les bandes"
+      }
+    },
+    "SLBC.ci": {
+      "ticker": "SLBC.ci",
+      "nom": "SOLIBRA CI",
+      "secteur": "DISTRIBUTION",
+      "prix": "39105",
+      "variation": 0.01,
+      "perf_1m": 0.53,
+      "perf_3m": -2.2,
+      "perf_ytd": 35.31,
+      "rsi": 54.9,
+      "score_signal": 2,
+      "analyse": "**SOLIBRA CI — PRUDENCE**\n**Technique :** Le RSI à 54,9 indique une tendance neutre, tandis que le MACD baissier et les bandes de Bollinger dans lesquelles le prix évolue suggèrent une certaine stabilité mais également une potentielle baisse. L'Ichimoku montre un prix dans le nuage, indiquant une neutralité, avec des lignes TK/KJ bullish, ce qui pourrait indiquer une légère tendance haussière à court terme.\n**Fondamental :** Étant donné que SOLIBRA CI opère dans un contexte macroéconomique où la demande dans le secteur de la distribution est corrélée à la croissance du BTP et des infrastructures, la stabilité du titre pourrait être influencée par ces facteurs macroéconomiques.\n**Avis pédagogique :** Avec un score signal de 2/12 et une performance sur 1 mois de +0,5%, notre conviction est modérée, considérant les indicateurs techniques et fondamentaux qui ne présentent pas de signaux forts d'achat ou de vente.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": 331.02,
+        "signal": 351.85,
+        "histo": -20.83,
+        "tendance": "baissiere",
+        "croisement": "croisement_baissier"
+      },
+      "bollinger": {
+        "upper": 40711.0,
+        "middle": 39175.0,
+        "lower": 37640.0,
+        "pct_b": 0.48,
         "position": "dans les bandes"
       }
     },
@@ -801,110 +745,26 @@
       "nom": "UNILEVER CI",
       "secteur": "DISTRIBUTION",
       "prix": "53735",
-      "variation": 6.41,
+      "variation": 0.0,
       "perf_1m": -7.35,
-      "perf_3m": -13.32,
+      "perf_3m": -13.33,
       "perf_ytd": 57.01,
       "rsi": 38.4,
-      "score_signal": 4,
-      "analyse": "**Unilever CI — PRUDENCE**\n**Technique :** Le RSI est actuellement à 38,4, indiquant une légère sous-évaluation, tandis que le MACD est en baisse et les bandes de Bollinger sont dans les bandes, ce qui suggère une volatilité réduite. Le prix est en dessous du nuage Ichimoku, ce qui est un signal baissier.\n**Fondamental :** Le secteur de la consommation des ménages, dans lequel opère Unilever CI, est sensible au pouvoir d'achat, qui peut être affecté par les conditions économiques générales. La croissance du BTP et des infrastructures en Côte d'Ivoire peut également avoir un impact sur la demande pour les produits de l'entreprise.\n**Avis pédagogique :** Avec un score signal de 4/12 et une performance sur 1 mois de -7,3%, il est prudent de surveiller de près l'évolution de Unilever CI, avec un niveau de conviction modéré.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": -1361.49,
-        "signal": -1142.98,
-        "histo": -218.5,
-        "tendance": "baissiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 59564.0,
-        "middle": 54996.0,
-        "lower": 50427.0,
-        "pct_b": 0.36,
-        "position": "dans les bandes"
-      }
-    },
-    "NTLC.ci": {
-      "ticker": "NTLC.ci",
-      "nom": "NESTLE CI",
-      "secteur": "DISTRIBUTION",
-      "prix": "16000",
-      "variation": -1.54,
-      "perf_1m": 6.67,
-      "perf_3m": 33.39,
-      "perf_ytd": 50.23,
-      "rsi": 66.5,
-      "score_signal": 3,
-      "analyse": "**Nestle CI — FAVORABLE**\n**Technique :** Le RSI est à 66,5, indiquant une légère surévaluation, tandis que le MACD est en baisse, mais les bandes de Bollinger sont dans les bandes, ce qui suggère une volatilité réduite. Le prix est au-dessus du nuage Ichimoku, ce qui est un signal haussier.\n**Fondamental :** Le secteur de la consommation des ménages, dans lequel opère Nestle CI, est sensible au pouvoir d'achat, mais la marque bénéficie d'une forte notoriété et d'une gamme de produits diversifiés. La croissance du marché ivoirien peut soutenir la demande pour les produits de l'entreprise.\n**Avis pédagogique :** Avec un score signal de 3/12 et une performance sur 1 mois de +6,7%, Nestle CI semble présenter des perspectives favorables, avec un niveau de conviction modéré.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": 670.42,
-        "signal": 707.61,
-        "histo": -37.19,
-        "tendance": "baissiere",
-        "croisement": "croisement_baissier"
-      },
-      "bollinger": {
-        "upper": 17020.0,
-        "middle": 15589.0,
-        "lower": 14158.0,
-        "pct_b": 0.64,
-        "position": "dans les bandes"
-      }
-    },
-    "STBC.ci": {
-      "ticker": "STBC.ci",
-      "nom": "SITAB",
-      "secteur": "DISTRIBUTION",
-      "prix": "24200",
-      "variation": 0.39,
-      "perf_1m": 10.5,
-      "perf_3m": 16.35,
-      "perf_ytd": 22.35,
-      "rsi": 71.7,
       "score_signal": 2,
-      "analyse": "**SITAB — NEUTRE**\n**Technique :** Le RSI est à 71,7, indiquant une surévaluation, tandis que le MACD est en baisse, mais les bandes de Bollinger sont dans les bandes, ce qui suggère une volatilité réduite. Le prix est au-dessus du nuage Ichimoku, ce qui est un signal haussier.\n**Fondamental :** Le secteur dans lequel opère SITAB peut être affecté par les conditions économiques générales et la concurrence. La croissance du marché ivoirien peut soutenir la demande pour les produits de l'entreprise.\n**Avis pédagogique :** Avec un score signal de 2/12 et une performance sur 1 mois de +10,5%, SITAB semble présenter des perspectives neutres, avec un niveau de conviction faible. Il est important de surveiller de près l'évolution de l'entreprise.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**UNILEVER CI — SURVEILLANCE**\n**Technique :** Le RSI à 38,4 indique une tendance baissière, renforcée par un MACD baissier et un prix qui se situe dans les bandes de Bollinger, suggérant une possible poursuite de la baisse. L'Ichimoku confirme cette tendance avec un prix en-dessous du nuage et des lignes TK/KJ bearish.\n**Fondamental :** UNILEVER CI, sensible au pouvoir d'achat des ménages, pourrait subir les conséquences d'une éventuelle baisse de la consommation des ménages en Côte d'Ivoire, ce qui affecterait négativement les performances du titre.\n**Avis pédagogique :** Avec une performance sur 1 mois de -7,3% et un score signal de 2/12, notre conviction est faible, considérant les indicateurs techniques et fondamentaux qui suggèrent une prudence accrue.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 665.33,
-        "signal": 694.44,
-        "histo": -29.11,
+        "macd": -1263.49,
+        "signal": -1167.09,
+        "histo": -96.4,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 25694.0,
-        "middle": 23522.0,
-        "lower": 21350.0,
-        "pct_b": 0.66,
-        "position": "dans les bandes"
-      }
-    },
-    "CFAC.ci": {
-      "ticker": "CFAC.ci",
-      "nom": "CFAO CI",
-      "secteur": "DISTRIBUTION",
-      "prix": "1550",
-      "variation": -1.59,
-      "perf_1m": -3.12,
-      "perf_3m": 3.33,
-      "perf_ytd": 8.39,
-      "rsi": 40.7,
-      "score_signal": 2,
-      "analyse": "**CFAO CI — PRUDENCE**\n**Technique :** Le RSI est à 40,7, indiquant une légère sous-évaluation, tandis que le MACD est baissier, suggérant une tendance négative. Les bandes de Bollinger sont dans les bandes, ce qui indique une volatilité moyenne.\n**Fondamental :** Le secteur de la distribution automobile et industrielle est corrélé à la croissance du BTP et des infrastructures en Côte d'Ivoire, ce qui peut avoir un impact sur les ventes de CFAO CI. La concurrence dans le secteur est également un facteur à surveiller.\n**Avis pédagogique :** Avec un score signal de 2/12 et une performance sur 1 mois de -3,1%, il est prudent de surveiller l'évolution de CFAO CI, niveau de conviction modéré.",
-      "genere_le": "14/07/2026 11:25",
-      "macd": {
-        "macd": -1.01,
-        "signal": 26.59,
-        "histo": -27.6,
-        "tendance": "baissiere",
-        "croisement": "neutre"
-      },
-      "bollinger": {
-        "upper": 1867.0,
-        "middle": 1691.0,
-        "lower": 1515.0,
-        "pct_b": 0.1,
+        "upper": 59494.0,
+        "middle": 54902.0,
+        "lower": 50310.0,
+        "pct_b": 0.37,
         "position": "dans les bandes"
       }
     },
@@ -913,26 +773,26 @@
       "nom": "SERVAIR ABIDJAN",
       "secteur": "DISTRIBUTION",
       "prix": "3125",
-      "variation": -0.79,
-      "perf_1m": -6.72,
-      "perf_3m": -8.89,
+      "variation": 0.0,
+      "perf_1m": -10.71,
+      "perf_3m": -9.42,
       "perf_ytd": 7.76,
-      "rsi": 18.6,
+      "rsi": 23.5,
       "score_signal": 2,
-      "analyse": "**SERVAIR ABIDJAN — SURVEILLANCE**\n**Technique :** Le RSI est à 18,6, indiquant une forte sous-évaluation, tandis que le MACD est baissier, suggérant une tendance négative. Les bandes de Bollinger sont dans les bandes, ce qui indique une volatilité moyenne.\n**Fondamental :** Le trafic aérien à Abidjan est en croissance post-COVID, ce qui peut avoir un impact positif sur les activités de SERVAIR ABIDJAN. Cependant, la concurrence dans le secteur est également un facteur à surveiller.\n**Avis pédagogique :** Avec un score signal de 2/12 et une performance sur 1 mois de -6,7%, il est nécessaire de surveiller de près l'évolution de SERVAIR ABIDJAN, niveau de conviction faible.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**SERVAIR ABIDJAN — SURVEILLANCE**\n**Technique :** Le RSI à 23,5 indique une forte tendance baissière, avec un MACD baissier et un prix qui évolue dans les bandes de Bollinger, ce qui pourrait signifier une poursuite de la baisse. L'Ichimoku montre un prix en-dessous du nuage et des lignes TK/KJ bearish, renforçant cette tendance.\n**Fondamental :** SERVAIR ABIDJAN, dépendant du trafic aérien à Abidjan, pourrait bénéficier de la croissance post-COVID, mais les indicateurs techniques actuels suggèrent une grande prudence.\n**Avis pédagogique :** Avec une performance sur 1 mois de -10,7% et un score signal de 2/12, notre conviction est faible, considérant les indicateurs techniques et fondamentaux qui conseillent une surveillance étroite du titre.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": -16.67,
-        "signal": 10.36,
-        "histo": -27.03,
+        "macd": -20.88,
+        "signal": 4.11,
+        "histo": -25.0,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 3548.0,
-        "middle": 3286.0,
-        "lower": 3024.0,
-        "pct_b": 0.19,
+        "upper": 3499.0,
+        "middle": 3264.0,
+        "lower": 3029.0,
+        "pct_b": 0.2,
         "position": "dans les bandes"
       }
     },
@@ -940,83 +800,195 @@
       "ticker": "PRSC.ci",
       "nom": "TRACTAFRIC MOTORS",
       "secteur": "DISTRIBUTION",
-      "prix": "4400",
-      "variation": 2.8,
-      "perf_1m": 7.98,
-      "perf_3m": -11.91,
-      "perf_ytd": 13.55,
-      "rsi": 35.5,
+      "prix": "4300",
+      "variation": -2.27,
+      "perf_1m": 4.88,
+      "perf_3m": -13.91,
+      "perf_ytd": 10.97,
+      "rsi": 31.0,
       "score_signal": 2,
-      "analyse": "**TRACTAFRIC MOTORS — FAVORABLE**\n**Technique :** Le RSI est à 35,5, indiquant une légère sous-évaluation, tandis que le MACD est baissier, suggérant une tendance négative. Cependant, les bandes de Bollinger sont dans les bandes, ce qui indique une volatilité moyenne, et le prix a augmenté de 2,80% aujourd'hui.\n**Fondamental :** Le secteur de la distribution automobile et industrielle est corrélé à la croissance du BTP et des infrastructures en Côte d'Ivoire, ce qui peut avoir un impact positif sur les ventes de TRACTAFRIC MOTORS.\n**Avis pédagogique :** Avec un score signal de 2/12 et une performance sur 1 mois de +8,0%, il y a une légère tendance favorable pour TRACTAFRIC MOTORS, niveau de conviction modéré.",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**TRACTAFRIC MOTORS — PRUDENCE**\n**Technique :** Le RSI est actuellement à 31,0, indiquant une tendance baissière, tandis que le MACD confirme cette tendance. Les bandes de Bollinger indiquent une volatilité moyenne.\n**Fondamental :** Le secteur de la distribution automobile et industrielle, dans lequel opère TRACTAFRIC MOTORS, est corrélé à la croissance du BTP et des infrastructures en Côte d'Ivoire, ce qui peut influencer la demande pour les produits de l'entreprise.\n**Avis pédagogique :** Avec un score signal de 2/12 et une performance sur 1 mois de +4,9%, il est prudent de surveiller l'évolution de TRACTAFRIC MOTORS, conviction modérée.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 18.37,
-        "signal": 56.28,
-        "histo": -37.91,
+        "macd": 4.2,
+        "signal": 45.87,
+        "histo": -41.66,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 4844.0,
-        "middle": 4530.0,
-        "lower": 4216.0,
-        "pct_b": 0.29,
+        "upper": 4807.0,
+        "middle": 4540.0,
+        "lower": 4273.0,
+        "pct_b": 0.05,
         "position": "dans les bandes"
       }
     },
-    "SLBC.ci": {
-      "ticker": "SLBC.ci",
-      "nom": "SOLIBRA CI",
+    "STBC.ci": {
+      "ticker": "STBC.ci",
+      "nom": "SITAB",
       "secteur": "DISTRIBUTION",
-      "prix": "39100",
-      "variation": -2.03,
-      "perf_1m": 0.26,
-      "perf_3m": 0.26,
-      "perf_ytd": 35.29,
-      "rsi": 57.6,
+      "prix": "24195",
+      "variation": -0.02,
+      "perf_1m": 9.98,
+      "perf_3m": 20.67,
+      "perf_ytd": 22.32,
+      "rsi": 69.8,
       "score_signal": 1,
-      "analyse": "**Cours :** 39,100 FCFA | **Variation :** -2.03% | **RSI :** 57.6\n___\n\n#### Analyse Technique\n* **Momentum :** Le RSI à 57,6 et le MACD haussier indiquent une tendance positive, mais sans excès, laissant place à une poursuite de la progression.\n* **Volatilité & Tendance :** Les bandes de Bollinger contiennent le cours, tandis que l'Ichimoku indique une neutralité avec un signal haussier de la ligne de base et de la ligne de signal, et un Z-Score légèrement positif, suggérant une stabilité avec une légère tendance à la hausse.\n* **Biais directionnel :** Haussier.\n\n####  Analyse Fondamentale & Catalyseurs\nL'annonce de paiement de dividendes par SOLIBRA CI pour l'exercice 2025 est un facteur positif pour l'action, reflétant la santé financière de l'entreprise. Le contexte macro-sectoriel, avec une demande corrélée à la croissance du BTP et des infrastructures en Côte d'Ivoire, offre des opportunités pour les entreprises de distribution comme SOLIBRA CI. Cependant, il est important de surveiller l'évolution du pouvoir d'achat des ménages, qui peut impacter la consommation et, par extension, les performances de l'entreprise.\n\n####  Lecture pédagogique\n> **Lecture :** FAVORABLE\n> **Conviction :** MODÉRÉE\n> **Horizon :** Court terme\n> \n> *Il est essentiel de suivre de près l'évolution des indicateurs techniques et les actualités sectorielles pour confirmer la tendance haussière et évaluer les risques potentiels avant toute décision d'investissement.*",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**SITAB — FAVORABLE**\n**Technique :** Le RSI est à 69,8, proche d'un niveau de surachat, mais le MACD est baissier, ce qui pourrait indiquer une correction. Les bandes de Bollinger sont dans les bandes, indiquant une volatilité moyenne.\n**Fondamental :** SITAB opère dans un secteur qui peut être sensible aux facteurs macro-économiques, mais son marché spécifique peut présenter des opportunités de croissance.\n**Avis pédagogique :** Avec un score signal de 1/12 et une performance sur 1 mois de +10,0%, SITAB semble favorable, conviction modérée.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 393.55,
-        "signal": 357.06,
-        "histo": 36.49,
+        "macd": 630.97,
+        "signal": 681.74,
+        "histo": -50.78,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 25710.0,
+        "middle": 23627.0,
+        "lower": 21545.0,
+        "pct_b": 0.64,
+        "position": "dans les bandes"
+      }
+    },
+    "CFAC.ci": {
+      "ticker": "CFAC.ci",
+      "nom": "CFAO CI",
+      "secteur": "DISTRIBUTION",
+      "prix": "1605",
+      "variation": 3.55,
+      "perf_1m": -0.31,
+      "perf_3m": 3.55,
+      "perf_ytd": 12.24,
+      "rsi": 54.5,
+      "score_signal": 0,
+      "analyse": "**CFAO CI — NEUTRE**\n**Technique :** Le RSI est à 54,5, indiquant une tendance neutre, tandis que le MACD est baissier. Les bandes de Bollinger sont dans les bandes, indiquant une volatilité moyenne.\n**Fondamental :** CFAO CI opère dans la distribution automobile et industrielle, secteur corrélé à la croissance du BTP et des infrastructures en Côte d'Ivoire, ce qui peut avoir un impact sur la demande.\n**Avis pédagogique :** Avec un score signal de 0/12 et une performance sur 1 mois de -0,3%, CFAO CI semble neutre, conviction faible.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": -3.91,
+        "signal": 20.49,
+        "histo": -24.4,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 1868.0,
+        "middle": 1689.0,
+        "lower": 1510.0,
+        "pct_b": 0.26,
+        "position": "dans les bandes"
+      }
+    },
+    "ONTBF.bf": {
+      "ticker": "ONTBF.bf",
+      "nom": "ONATEL BF",
+      "secteur": "TELECOM",
+      "prix": "2700",
+      "variation": 0.0,
+      "perf_1m": -5.26,
+      "perf_3m": -0.74,
+      "perf_ytd": 8.65,
+      "rsi": 30.8,
+      "score_signal": 4,
+      "analyse": "**ONATEL BF — PRUDENCE**\n**Technique :** Le RSI est actuellement à 30,8, indiquant une situation de survente, tandis que le MACD est baissier, confirmant la tendance négative. Les bandes de Bollinger montrent que le prix est en dessous de la bande inférieure, ce qui pourrait indiquer un potentiel rebond.\n**Fondamental :** Dans le contexte macro du secteur des télécoms en UEMOA, ONATEL BF fait face à une concurrence accrue, notamment avec l'arrivée de Wave sur le marché du mobile money, ce qui pourrait impacter ses revenus non-voix.\n**Avis pédagogique :** Avec un score signal de 4/12 et une performance négative sur le mois, il est prudent de surveiller de près l'évolution d'ONATEL BF, niveau de conviction modéré.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": -24.71,
+        "signal": -15.05,
+        "histo": -9.67,
+        "tendance": "baissiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 2874.0,
+        "middle": 2789.0,
+        "lower": 2703.0,
+        "pct_b": -0.02,
+        "position": "en-dessous bande inferieure"
+      }
+    },
+    "SNTS.sn": {
+      "ticker": "SNTS.sn",
+      "nom": "SONATEL",
+      "secteur": "TELECOM",
+      "prix": "31505",
+      "variation": 1.96,
+      "perf_1m": 10.93,
+      "perf_3m": 14.56,
+      "perf_ytd": 20.62,
+      "rsi": 82.6,
+      "score_signal": 3,
+      "analyse": "**SONATEL — FAVORABLE**\n**Technique :** Le RSI est à 82,6, indiquant une situation de surachat, mais le MACD est haussier, soutenant la tendance positive. Les bandes de Bollinger montrent que le prix évolue dans les bandes, sans signe de rupture.\n**Fondamental :** En tant que leader régional, SONATEL bénéficie de la pénétration croissante du mobile money, ce qui accélère ses revenus non-voix, et verse des dividendes réguliers et élevés, ce qui en fait un titre défensif attractif.\n**Avis pédagogique :** Avec une performance positive de 10,9% sur le mois et un score signal de 3/12, SONATEL semble solide, niveau de conviction fort.",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": 672.35,
+        "signal": 414.94,
+        "histo": 257.42,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 40707.0,
-        "middle": 39170.0,
-        "lower": 37633.0,
-        "pct_b": 0.48,
+        "upper": 31636.0,
+        "middle": 29361.0,
+        "lower": 27086.0,
+        "pct_b": 0.97,
         "position": "dans les bandes"
       }
     },
-    "PALC.ci": {
-      "ticker": "PALC.ci",
-      "nom": "PALMCI",
-      "secteur": "AGRICULTURE",
-      "prix": "8770",
-      "variation": -0.57,
-      "perf_1m": -0.11,
-      "perf_3m": 9.15,
-      "perf_ytd": 8.27,
-      "rsi": 52.7,
+    "ORAC.ci": {
+      "ticker": "ORAC.ci",
+      "nom": "ORANGE CI",
+      "secteur": "TELECOM",
+      "prix": "16160",
+      "variation": 1.0,
+      "perf_1m": 2.28,
+      "perf_3m": 7.73,
+      "perf_ytd": 13.4,
+      "rsi": 50.2,
       "score_signal": 1,
-      "analyse": "**Cours :** 8,770 FCFA | **Variation :** -0.57% | **RSI :** 52.7\n___\n\n#### Analyse Technique\n* **Momentum :** Le RSI à 52,7 et le MACD baissier suggèrent une tendance neutre, avec une légère prépondérance à la baisse.\n* **Volatilité & Tendance :** Les bandes de Bollinger indiquent une volatilité contenue, tandis que l'Ichimoku bullish et le Z-Score légèrement positif (+0,98) laissent entrevoir une tendance haussière à court terme.\n* **Biais directionnel :** Neutre, avec une légère tendance baissière.\n\n####  Analyse Fondamentale & Catalyseurs\nLe secteur agricole de la UEMOA, dans lequel évolue PALMCI, est exposé à des facteurs macro-économiques tels que les prix mondiaux de l'huile de palme et du caoutchouc, ainsi qu'aux conditions climatiques. Les actualités récentes sur le contrat de liquidité de PALMCI et les communiqués sectoriels sur FILTISAC CI et NSIA BANQUE CI n'ont pas d'impact direct sur la valorisation de l'action. Cependant, la stabilité du FCFA et la demande régionale pour les produits agro-industriels constituent des facteurs favorables. Les risques liés à El Nino/La Nina et à la volatilité des matières premières mondiales doivent être surveillés.\n\n####  Lecture pédagogique\n> **Lecture :** NEUTRE\n> **Conviction :** MODÉRÉE\n> **Horizon :** Court terme\n> \n> *Il est essentiel de surveiller l'évolution des prix mondiaux des matières premières et les conditions climatiques pour ajuster sa stratégie d'investissement dans PALMCI.*",
-      "genere_le": "14/07/2026 11:25",
+      "analyse": "**ORANGE CI — NEUTRE**\n**Technique :** Le RSI est à 50,2, indiquant une situation neutre, tandis que le MACD est baissier, mais les bandes de Bollinger montrent que le prix évolue dans les bandes, sans signe de rupture.\n**Fondamental :** Orange CI, comme les autres opérateurs de télécoms dans la région, doit faire face à la concurrence et aux régulations tarifaires, mais bénéficie également de la croissance du mobile money avec Orange Money.\n**Avis pédagogique :** Avec un score signal de 1/12 et une performance modeste de 2,3% sur le mois, il est difficile de prendre une position tranchée sur Orange CI, niveau de conviction faible.",
+      "genere_le": "15/07/2026 11:30",
       "macd": {
-        "macd": 126.73,
-        "signal": 151.61,
-        "histo": -24.88,
+        "macd": 58.88,
+        "signal": 145.37,
+        "histo": -86.49,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 8888.0,
-        "middle": 8752.0,
-        "lower": 8616.0,
-        "pct_b": 0.57,
+        "upper": 17125.0,
+        "middle": 16424.0,
+        "lower": 15724.0,
+        "pct_b": 0.31,
+        "position": "dans les bandes"
+      }
+    },
+    "TTLS.sn": {
+      "ticker": "TTLS.sn",
+      "nom": "TOTAL SENEGAL",
+      "secteur": "ENERGIE",
+      "prix": "4440",
+      "variation": 3.38,
+      "perf_1m": 32.54,
+      "perf_3m": 35.37,
+      "perf_ytd": 77.6,
+      "rsi": 83.0,
+      "score_signal": 4,
+      "analyse": "**Cours :** 4,440 FCFA | **Variation :** +3.38% | **RSI :** 83.0\n___\n\n#### Analyse Technique\n* **Momentum :** Le RSI à 83,0 indique un niveau élevé de momentum, avec un risque de repli à court terme, tandis que le MACD haussier mais neutre suggère une poursuite de la tendance à la hausse.\n* **Volatilité & Tendance :** Les bandes de Bollinger indiquent une volatilité contenue, avec le prix actuel situé dans les bandes, tandis que l'Ichimoku bullish et le Z-Score positif (+2,21) suggèrent une tendance haussière.\n* **Biais directionnel :** Haussier.\n\n####  Analyse Fondamentale & Catalyseurs\nLes actualités sectorielles, notamment les communiqués de NSIA BANQUE, BICICI et FILTISAC CI, n'ont pas d'impact direct sur TOTAL SENEGAL. Cependant, le contexte macro-sectoriel de l'énergie dans la région UEMOA, avec les tensions géopolitiques et les variations du prix du brent, peut impacter les marges de distribution de TOTAL CI et VIVO ENERGY. La présence de TOTAL SN au Sénégal, où le gaz naturel change la donne énergétique à moyen terme, offre des opportunités de valorisation des actifs pétroliers amont.\n\n####  Lecture pédagogique\n> **Lecture :** PRUDENCE\n> **Conviction :** MODÉRÉE\n> **Horizon :** Court terme\n> \n> *Il est essentiel de surveiller l'évolution du RSI et du prix du brent pour déterminer si le momentum haussier peut se poursuivre ou si un repli est attendu, avant de prendre toute décision.*",
+      "genere_le": "15/07/2026 11:30",
+      "macd": {
+        "macd": 264.5,
+        "signal": 224.84,
+        "histo": 39.66,
+        "tendance": "haussiere",
+        "croisement": "neutre"
+      },
+      "bollinger": {
+        "upper": 4664.0,
+        "middle": 3888.0,
+        "lower": 3111.0,
+        "pct_b": 0.86,
         "position": "dans les bandes"
       }
     }
@@ -1026,25 +998,25 @@
       "ticker": "BOAB.bj",
       "nom": "BOA BENIN",
       "secteur": "BANQUE",
-      "prix": "8800",
-      "variation": 0.57,
-      "perf_1m": 0.23,
-      "perf_3m": 15.03,
-      "perf_ytd": 50.43,
-      "vol_moy_20j": 6511,
-      "rsi": 43.5,
+      "prix": "8840",
+      "variation": 0.45,
+      "perf_1m": 1.03,
+      "perf_3m": 10.71,
+      "perf_ytd": 51.11,
+      "vol_moy_20j": 6334,
+      "rsi": 44.1,
       "macd": {
-        "macd": -1.21,
-        "signal": 32.65,
-        "histo": -33.86,
+        "macd": -7.33,
+        "signal": 24.65,
+        "histo": -31.98,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 9212.0,
-        "middle": 8950.0,
-        "lower": 8689.0,
-        "pct_b": 0.21,
+        "upper": 9197.0,
+        "middle": 8958.0,
+        "lower": 8718.0,
+        "pct_b": 0.25,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -1054,45 +1026,47 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": -0.85,
+      "z_score": -0.69,
       "score_signal": 1
     },
     {
       "ticker": "BOABF.bf",
       "nom": "BOA BURKINA",
       "secteur": "BANQUE",
-      "prix": "6100",
-      "variation": 0.83,
-      "perf_1m": 9.22,
-      "perf_3m": 8.35,
-      "perf_ytd": 62.67,
-      "vol_moy_20j": 6366,
-      "rsi": 91.5,
+      "prix": "6350",
+      "variation": 4.1,
+      "perf_1m": 17.59,
+      "perf_3m": 12.79,
+      "perf_ytd": 69.33,
+      "vol_moy_20j": 6226,
+      "rsi": 93.6,
       "macd": {
-        "macd": 139.92,
-        "signal": 110.75,
-        "histo": 29.17,
+        "macd": 164.06,
+        "signal": 121.41,
+        "histo": 42.65,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 6240.0,
-        "middle": 5753.0,
-        "lower": 5265.0,
-        "pct_b": 0.86,
-        "position": "dans les bandes"
+        "upper": 6313.0,
+        "middle": 5805.0,
+        "lower": 5297.0,
+        "pct_b": 1.04,
+        "position": "au-dessus bande superieure"
       },
       "ichimoku": {
-        "tenkan": 5975.0,
-        "kijun": 5700.0,
+        "tenkan": 6145.0,
+        "kijun": 5825.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 2.44,
-      "score_signal": 3,
+      "z_score": 3.19,
+      "score_signal": 5,
       "raisons_selection": [
-        "RSI suresvalue (91.5)"
+        "RSI suresvalue (93.6)",
+        "Bollinger : au-dessus bande superieure",
+        "Perf 1M (+17.6%)"
       ],
       "actualites_liees": []
     },
@@ -1100,37 +1074,39 @@
       "ticker": "BOAC.ci",
       "nom": "BOA CI",
       "secteur": "BANQUE",
-      "prix": "9620",
-      "variation": 1.26,
-      "perf_1m": 7.49,
-      "perf_3m": 14.52,
-      "perf_ytd": 33.98,
-      "vol_moy_20j": 14283,
-      "rsi": 64.2,
+      "prix": "9750",
+      "variation": 1.35,
+      "perf_1m": 9.37,
+      "perf_3m": 16.07,
+      "perf_ytd": 35.79,
+      "vol_moy_20j": 14718,
+      "rsi": 75.4,
       "macd": {
-        "macd": 144.73,
-        "signal": 123.62,
-        "histo": 21.11,
+        "macd": 164.53,
+        "signal": 131.8,
+        "histo": 32.73,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 9624.0,
-        "middle": 9272.0,
-        "lower": 8920.0,
-        "pct_b": 0.99,
-        "position": "dans les bandes"
+        "upper": 9694.0,
+        "middle": 9311.0,
+        "lower": 8928.0,
+        "pct_b": 1.07,
+        "position": "au-dessus bande superieure"
       },
       "ichimoku": {
-        "tenkan": 9408.0,
-        "kijun": 9215.0,
+        "tenkan": 9472.0,
+        "kijun": 9280.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 2.25,
-      "score_signal": 2,
+      "z_score": 2.52,
+      "score_signal": 4,
       "raisons_selection": [
+        "RSI suresvalue (75.4)",
+        "Bollinger : au-dessus bande superieure",
         "Actualite : BANK OF AFRICA CI : BOA CI _ Notation Financière"
       ],
       "actualites_liees": [
@@ -1150,7 +1126,7 @@
           "tickers": [
             "BOAC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1162,39 +1138,39 @@
       "ticker": "BOAM.ml",
       "nom": "BOA MALI",
       "secteur": "BANQUE",
-      "prix": "5595",
-      "variation": 2.66,
-      "perf_1m": 20.84,
-      "perf_3m": 21.9,
-      "perf_ytd": 39.88,
-      "vol_moy_20j": 9200,
-      "rsi": 82.0,
+      "prix": "5685",
+      "variation": 1.61,
+      "perf_1m": 26.19,
+      "perf_3m": 22.26,
+      "perf_ytd": 42.12,
+      "vol_moy_20j": 8929,
+      "rsi": 79.2,
       "macd": {
-        "macd": 186.56,
-        "signal": 105.92,
-        "histo": 80.64,
+        "macd": 212.75,
+        "signal": 127.29,
+        "histo": 85.46,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 5650.0,
-        "middle": 4916.0,
-        "lower": 4182.0,
+        "upper": 5752.0,
+        "middle": 4978.0,
+        "lower": 4205.0,
         "pct_b": 0.96,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 5272.0,
-        "kijun": 5010.0,
+        "tenkan": 5318.0,
+        "kijun": 5055.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 2.75,
+      "z_score": 2.78,
       "score_signal": 4,
       "raisons_selection": [
-        "RSI suresvalue (82.0)",
-        "Perf 1M (+20.8%)"
+        "RSI suresvalue (79.2)",
+        "Perf 1M (+26.2%)"
       ],
       "actualites_liees": []
     },
@@ -1202,25 +1178,25 @@
       "ticker": "BOAN.ne",
       "nom": "BOA NIGER",
       "secteur": "BANQUE",
-      "prix": "4710",
-      "variation": -1.67,
-      "perf_1m": 27.3,
-      "perf_3m": 66.43,
-      "perf_ytd": 80.46,
-      "vol_moy_20j": 12002,
-      "rsi": 75.4,
+      "prix": "4755",
+      "variation": 0.96,
+      "perf_1m": 28.34,
+      "perf_3m": 58.5,
+      "perf_ytd": 82.18,
+      "vol_moy_20j": 12211,
+      "rsi": 72.5,
       "macd": {
-        "macd": 227.55,
-        "signal": 175.56,
-        "histo": 52.0,
+        "macd": 242.75,
+        "signal": 189.0,
+        "histo": 53.75,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 4746.0,
-        "middle": 4141.0,
-        "lower": 3536.0,
-        "pct_b": 0.97,
+        "upper": 4821.0,
+        "middle": 4194.0,
+        "lower": 3567.0,
+        "pct_b": 0.95,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -1230,11 +1206,11 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 2.7,
+      "z_score": 2.59,
       "score_signal": 4,
       "raisons_selection": [
-        "RSI suresvalue (75.4)",
-        "Perf 1M (+27.3%)"
+        "RSI suresvalue (72.5)",
+        "Perf 1M (+28.3%)"
       ],
       "actualites_liees": []
     },
@@ -1242,35 +1218,35 @@
       "ticker": "BOAS.sn",
       "nom": "BOA SENEGAL",
       "secteur": "BANQUE",
-      "prix": "7300",
-      "variation": 0.0,
-      "perf_1m": -0.34,
-      "perf_3m": 8.15,
-      "perf_ytd": 39.31,
-      "vol_moy_20j": 12432,
-      "rsi": 49.5,
+      "prix": "7315",
+      "variation": 0.21,
+      "perf_1m": 0.41,
+      "perf_3m": 8.37,
+      "perf_ytd": 39.6,
+      "vol_moy_20j": 12979,
+      "rsi": 51.3,
       "macd": {
-        "macd": -30.62,
-        "signal": -26.97,
-        "histo": -3.65,
+        "macd": -28.75,
+        "signal": -27.32,
+        "histo": -1.42,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
         "upper": 7452.0,
-        "middle": 7338.0,
-        "lower": 7223.0,
-        "pct_b": 0.34,
+        "middle": 7339.0,
+        "lower": 7227.0,
+        "pct_b": 0.39,
         "position": "dans les bandes"
       },
       "ichimoku": {
         "tenkan": 7320.0,
-        "kijun": 7350.0,
+        "kijun": 7325.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": -0.66,
+      "z_score": -0.63,
       "score_signal": 1
     },
     {
@@ -1278,38 +1254,38 @@
       "nom": "BICB BENIN",
       "secteur": "BANQUE",
       "prix": "6480",
-      "variation": 2.05,
-      "perf_1m": 16.97,
-      "perf_3m": 25.83,
+      "variation": 0.0,
+      "perf_1m": 15.71,
+      "perf_3m": 26.81,
       "perf_ytd": 30.25,
-      "vol_moy_20j": 13820,
-      "rsi": 78.9,
+      "vol_moy_20j": 13791,
+      "rsi": 80.3,
       "macd": {
-        "macd": 241.14,
-        "signal": 204.09,
-        "histo": 37.05,
+        "macd": 245.81,
+        "signal": 212.44,
+        "histo": 33.37,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 6560.0,
-        "middle": 6008.0,
-        "lower": 5455.0,
-        "pct_b": 0.93,
+        "upper": 6608.0,
+        "middle": 6052.0,
+        "lower": 5496.0,
+        "pct_b": 0.89,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 6182.0,
-        "kijun": 6000.0,
+        "tenkan": 6190.0,
+        "kijun": 6002.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 2.24,
+      "z_score": 2.1,
       "score_signal": 4,
       "raisons_selection": [
-        "RSI suresvalue (78.9)",
-        "Perf 1M (+17.0%)"
+        "RSI suresvalue (80.3)",
+        "Perf 1M (+15.7%)"
       ],
       "actualites_liees": []
     },
@@ -1317,25 +1293,25 @@
       "ticker": "BICC.ci",
       "nom": "BICICI",
       "secteur": "BANQUE",
-      "prix": "28650",
-      "variation": -0.52,
-      "perf_1m": 0.54,
-      "perf_3m": 23.23,
-      "perf_ytd": 47.34,
-      "vol_moy_20j": 531,
-      "rsi": 51.9,
+      "prix": "28600",
+      "variation": -0.17,
+      "perf_1m": 1.08,
+      "perf_3m": 21.7,
+      "perf_ytd": 47.08,
+      "vol_moy_20j": 539,
+      "rsi": 59.9,
       "macd": {
-        "macd": 199.03,
-        "signal": 302.97,
-        "histo": -103.94,
+        "macd": 182.35,
+        "signal": 278.85,
+        "histo": -96.5,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 29590.0,
-        "middle": 28596.0,
-        "lower": 27602.0,
-        "pct_b": 0.53,
+        "upper": 29549.0,
+        "middle": 28638.0,
+        "lower": 27727.0,
+        "pct_b": 0.48,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -1345,47 +1321,95 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.69,
-      "score_signal": 1
+      "z_score": 0.63,
+      "score_signal": 1,
+      "raisons_selection": [
+        "Actualite : BICICI : BICI CI _ Communiqué"
+      ],
+      "actualites_liees": [
+        {
+          "source": "SikaFinance",
+          "source_type": "communiques",
+          "source_authority": "secondary",
+          "source_rank": 60,
+          "source_role": "document_mirror",
+          "validation_policy": "match_brvm_registry",
+          "type": "ACTU",
+          "titre": "BICICI : BICI CI _ Communiqué",
+          "resume": "",
+          "lien": "https://www.sikafinance.com/docs/bicici-bici-ci--communique.pdf",
+          "date": "13/07/2026",
+          "date_iso": "2026-07-13",
+          "tickers": [
+            "BICC"
+          ],
+          "date_collecte": "2026-07-14T19:20:11Z",
+          "score_importance": 92,
+          "importance": "Critique",
+          "impact": "Fort",
+          "pourquoi": "Information de contexte : impact direct à confirmer."
+        },
+        {
+          "source": "AgenceEcofin",
+          "source_type": "finance",
+          "source_authority": "secondary",
+          "source_rank": 15,
+          "source_role": "media_context",
+          "validation_policy": "secondary_context",
+          "type": "CAPITAL",
+          "titre": "Côte d’Ivoire : BNI cède sa participation de 21,09 % dans la BICICI à Brandon & Mcain Capital",
+          "resume": "",
+          "lien": "https://www.agenceecofin.com/actualites-finance/1407-140164-cote-d-ivoire-bni-cede-sa-participation-de-21-09-dans-la-bicici-a-brandon-mcain-capital",
+          "date": "",
+          "date_iso": null,
+          "tickers": [
+            "BICC"
+          ],
+          "date_collecte": "2026-07-14T19:20:22Z",
+          "score_importance": 67,
+          "importance": "Important",
+          "impact": "Moyen",
+          "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
+        }
+      ]
     },
     {
       "ticker": "CBIBF.bf",
       "nom": "CORIS BANK BF",
       "secteur": "BANQUE",
-      "prix": "30005",
-      "variation": 1.33,
-      "perf_1m": 37.64,
-      "perf_3m": 91.11,
-      "perf_ytd": 178.34,
-      "vol_moy_20j": 1210,
+      "prix": "30000",
+      "variation": -0.02,
+      "perf_1m": 35.84,
+      "perf_3m": 81.82,
+      "perf_ytd": 178.29,
+      "vol_moy_20j": 1244,
       "rsi": 98.0,
       "macd": {
-        "macd": 2010.7,
-        "signal": 1370.52,
-        "histo": 640.18,
+        "macd": 2167.25,
+        "signal": 1529.87,
+        "histo": 637.39,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 29434.0,
-        "middle": 24048.0,
-        "lower": 18662.0,
-        "pct_b": 1.05,
-        "position": "au-dessus bande superieure"
+        "upper": 30357.0,
+        "middle": 24448.0,
+        "lower": 18539.0,
+        "pct_b": 0.97,
+        "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 26752.0,
-        "kijun": 25502.0,
+        "tenkan": 27002.0,
+        "kijun": 25800.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 2.75,
-      "score_signal": 5,
+      "z_score": 2.56,
+      "score_signal": 4,
       "raisons_selection": [
         "RSI suresvalue (98.0)",
-        "Bollinger : au-dessus bande superieure",
-        "Perf 1M (+37.6%)",
+        "Perf 1M (+35.8%)",
         "Actualite : CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ "
       ],
       "actualites_liees": [
@@ -1405,7 +1429,7 @@
           "tickers": [
             "CBIBF"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1427,7 +1451,7 @@
           "tickers": [
             "CBIBF"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1439,25 +1463,25 @@
       "ticker": "ECOC.ci",
       "nom": "ECOBANK CI",
       "secteur": "BANQUE",
-      "prix": "16700",
-      "variation": -0.57,
-      "perf_1m": -0.57,
-      "perf_3m": 6.37,
-      "perf_ytd": 4.38,
-      "vol_moy_20j": 7906,
-      "rsi": 52.3,
+      "prix": "16370",
+      "variation": -1.98,
+      "perf_1m": -2.39,
+      "perf_3m": 4.2,
+      "perf_ytd": 2.31,
+      "vol_moy_20j": 7623,
+      "rsi": 48.6,
       "macd": {
-        "macd": 66.82,
-        "signal": 81.78,
-        "histo": -14.96,
+        "macd": 32.45,
+        "signal": 71.91,
+        "histo": -39.46,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 17276.0,
-        "middle": 16712.0,
-        "lower": 16148.0,
-        "pct_b": 0.49,
+        "upper": 17283.0,
+        "middle": 16706.0,
+        "lower": 16128.0,
+        "pct_b": 0.21,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -1467,48 +1491,70 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.68,
+      "z_score": -0.45,
       "score_signal": 1
     },
     {
       "ticker": "NSBC.ci",
       "nom": "NSIA BANQUE",
       "secteur": "BANQUE",
-      "prix": "21950",
-      "variation": 1.18,
-      "perf_1m": 14.62,
-      "perf_3m": 54.9,
-      "perf_ytd": 91.79,
-      "vol_moy_20j": 1096,
-      "rsi": 89.0,
+      "prix": "21260",
+      "variation": -3.14,
+      "perf_1m": 11.19,
+      "perf_3m": 49.77,
+      "perf_ytd": 85.76,
+      "vol_moy_20j": 1119,
+      "rsi": 73.5,
       "macd": {
-        "macd": 933.12,
-        "signal": 802.34,
-        "histo": 130.77,
+        "macd": 899.71,
+        "signal": 821.82,
+        "histo": 77.89,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 22056.0,
-        "middle": 20052.0,
-        "lower": 18048.0,
-        "pct_b": 0.97,
+        "upper": 22179.0,
+        "middle": 20161.0,
+        "lower": 18143.0,
+        "pct_b": 0.77,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 20802.0,
-        "kijun": 20425.0,
+        "tenkan": 21000.0,
+        "kijun": 20455.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.62,
+      "z_score": 1.29,
       "score_signal": 3,
       "raisons_selection": [
-        "RSI suresvalue (89.0)",
-        "Actualite : NSIA BANQUE CI : Communiqué"
+        "RSI suresvalue (73.5)",
+        "Actualite : NSIA BANQUE : NSIA BANQUE CI _ Communiqué"
       ],
       "actualites_liees": [
+        {
+          "source": "SikaFinance",
+          "source_type": "communiques",
+          "source_authority": "secondary",
+          "source_rank": 60,
+          "source_role": "document_mirror",
+          "validation_policy": "match_brvm_registry",
+          "type": "ACTU",
+          "titre": "NSIA BANQUE : NSIA BANQUE CI _ Communiqué",
+          "resume": "",
+          "lien": "https://www.sikafinance.com/docs/nsia-banque-nsia-banque-ci--communique.pdf",
+          "date": "13/07/2026",
+          "date_iso": "2026-07-13",
+          "tickers": [
+            "NSBC"
+          ],
+          "date_collecte": "2026-07-14T19:20:11Z",
+          "score_importance": 92,
+          "importance": "Critique",
+          "impact": "Fort",
+          "pourquoi": "Information de contexte : impact direct à confirmer."
+        },
         {
           "source": "RichBourse",
           "source_type": "actualites",
@@ -1525,7 +1571,7 @@
           "tickers": [
             "NSBC"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 85,
           "importance": "Critique",
           "impact": "Fort",
@@ -1547,7 +1593,7 @@
           "tickers": [
             "NSBC"
           ],
-          "date_collecte": "2026-07-13T19:23:25Z",
+          "date_collecte": "2026-07-14T19:20:22Z",
           "score_importance": 46,
           "importance": "A surveiller",
           "impact": "Moyen",
@@ -1569,7 +1615,7 @@
           "tickers": [
             "NSBC"
           ],
-          "date_collecte": "2026-07-13T19:23:25Z",
+          "date_collecte": "2026-07-14T19:20:22Z",
           "score_importance": 46,
           "importance": "A surveiller",
           "impact": "Moyen",
@@ -1581,40 +1627,62 @@
       "ticker": "ORGT.tg",
       "nom": "ORAGROUP TOGO",
       "secteur": "BANQUE",
-      "prix": "2690",
-      "variation": 1.51,
-      "perf_1m": -0.74,
-      "perf_3m": -21.69,
-      "perf_ytd": 12.08,
-      "vol_moy_20j": 4510,
-      "rsi": 59.8,
+      "prix": "2670",
+      "variation": -0.74,
+      "perf_1m": -1.66,
+      "perf_3m": -21.7,
+      "perf_ytd": 11.25,
+      "vol_moy_20j": 4501,
+      "rsi": 53.8,
       "macd": {
-        "macd": -20.08,
-        "signal": -24.54,
-        "histo": 4.47,
+        "macd": -20.41,
+        "signal": -23.72,
+        "histo": 3.3,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2770.0,
-        "middle": 2686.0,
-        "lower": 2602.0,
-        "pct_b": 0.52,
+        "upper": 2765.0,
+        "middle": 2683.0,
+        "lower": 2601.0,
+        "pct_b": 0.42,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 2725.0,
-        "kijun": 2758.0,
+        "tenkan": 2722.0,
+        "kijun": 2722.0,
         "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -0.22,
+      "z_score": -0.29,
       "score_signal": 1,
       "raisons_selection": [
-        "Actualite : ORAGROUP TOGO : ORAGROUP TG _ Avis de convocation et Projet "
+        "Actualite : ORAGROUP TG : Bilan semestriel du contrat de liquidité -1er "
       ],
       "actualites_liees": [
+        {
+          "source": "RichBourse",
+          "source_type": "actualites",
+          "source_authority": "secondary",
+          "source_rank": 30,
+          "source_role": "aggregator",
+          "validation_policy": "match_brvm_registry",
+          "type": "RAPPORT",
+          "titre": "ORAGROUP TG : Bilan semestriel du contrat de liquidité -1er semestre 2026",
+          "resume": "",
+          "lien": "https://www.richbourse.com/common/actualite/details/14-07-2026-oragroup-tg-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2026",
+          "date": "14/07/2026",
+          "date_iso": "2026-07-14",
+          "tickers": [
+            "ORGT"
+          ],
+          "date_collecte": "2026-07-14T19:20:16Z",
+          "score_importance": 100,
+          "importance": "Critique",
+          "impact": "Fort",
+          "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+        },
         {
           "source": "SikaFinance",
           "source_type": "communiques",
@@ -1631,7 +1699,7 @@
           "tickers": [
             "ORGT"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1653,7 +1721,7 @@
           "tickers": [
             "ORGT"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1665,25 +1733,25 @@
       "ticker": "SGBC.ci",
       "nom": "SGBCI",
       "secteur": "BANQUE",
-      "prix": "38890",
-      "variation": -0.28,
-      "perf_1m": -0.27,
-      "perf_3m": 17.85,
-      "perf_ytd": 30.09,
-      "vol_moy_20j": 3104,
-      "rsi": 48.8,
+      "prix": "38200",
+      "variation": -1.77,
+      "perf_1m": -1.8,
+      "perf_3m": 15.76,
+      "perf_ytd": 27.78,
+      "vol_moy_20j": 3055,
+      "rsi": 43.5,
       "macd": {
-        "macd": 328.84,
-        "signal": 425.35,
-        "histo": -96.5,
+        "macd": 258.78,
+        "signal": 392.03,
+        "histo": -133.26,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 39807.0,
-        "middle": 38846.0,
-        "lower": 37885.0,
-        "pct_b": 0.52,
+        "upper": 39819.0,
+        "middle": 38816.0,
+        "lower": 37812.0,
+        "pct_b": 0.19,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -1693,7 +1761,7 @@
         "signal_tk_kj": "bearish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": 0.85,
+      "z_score": 0.46,
       "score_signal": 1,
       "raisons_selection": [
         "Actualite : SGBCI : SOCIETE GENERALE CI _ Bilan semestriel du contrat de"
@@ -1715,7 +1783,7 @@
           "tickers": [
             "SGBC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1727,25 +1795,25 @@
       "ticker": "SIBC.ci",
       "nom": "SIB CI",
       "secteur": "BANQUE",
-      "prix": "8990",
-      "variation": 0.45,
-      "perf_1m": 1.93,
-      "perf_3m": 28.43,
-      "perf_ytd": 56.35,
-      "vol_moy_20j": 11419,
-      "rsi": 61.8,
+      "prix": "8900",
+      "variation": -1.0,
+      "perf_1m": 1.14,
+      "perf_3m": 27.14,
+      "perf_ytd": 54.78,
+      "vol_moy_20j": 12069,
+      "rsi": 53.9,
       "macd": {
-        "macd": 164.55,
-        "signal": 199.46,
-        "histo": -34.91,
+        "macd": 149.15,
+        "signal": 189.4,
+        "histo": -40.25,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 9121.0,
-        "middle": 8884.0,
-        "lower": 8647.0,
-        "pct_b": 0.72,
+        "upper": 9106.0,
+        "middle": 8896.0,
+        "lower": 8687.0,
+        "pct_b": 0.51,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -1755,7 +1823,7 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.96,
+      "z_score": 0.81,
       "score_signal": 1,
       "raisons_selection": [
         "Actualite : SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Bilan semestriel "
@@ -1777,7 +1845,7 @@
           "tickers": [
             "SIBC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1789,73 +1857,73 @@
       "ticker": "SMBC.ci",
       "nom": "SMB CI",
       "secteur": "BANQUE",
-      "prix": "16605",
-      "variation": -3.99,
-      "perf_1m": 2.18,
-      "perf_3m": 42.53,
-      "perf_ytd": 74.79,
-      "vol_moy_20j": 1064,
-      "rsi": 55.1,
+      "prix": "17000",
+      "variation": 2.38,
+      "perf_1m": 4.62,
+      "perf_3m": 47.38,
+      "perf_ytd": 78.95,
+      "vol_moy_20j": 1113,
+      "rsi": 56.2,
       "macd": {
-        "macd": 707.16,
-        "signal": 863.83,
-        "histo": -156.67,
+        "macd": 650.3,
+        "signal": 821.12,
+        "histo": -170.82,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 18293.0,
-        "middle": 16790.0,
-        "lower": 15287.0,
-        "pct_b": 0.44,
+        "upper": 18298.0,
+        "middle": 16840.0,
+        "lower": 15382.0,
+        "pct_b": 0.55,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 17368.0,
-        "kijun": 15868.0,
+        "tenkan": 17168.0,
+        "kijun": 16018.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.95,
+      "z_score": 1.09,
       "score_signal": 1
     },
     {
       "ticker": "SNTS.sn",
       "nom": "SONATEL",
       "secteur": "TELECOM",
-      "prix": "30900",
-      "variation": 0.0,
-      "perf_1m": 8.8,
-      "perf_3m": 8.42,
-      "perf_ytd": 18.3,
-      "vol_moy_20j": 6228,
-      "rsi": 80.0,
+      "prix": "31505",
+      "variation": 1.96,
+      "perf_1m": 10.93,
+      "perf_3m": 14.56,
+      "perf_ytd": 20.62,
+      "vol_moy_20j": 8316,
+      "rsi": 82.6,
       "macd": {
-        "macd": 596.55,
-        "signal": 350.58,
-        "histo": 245.97,
+        "macd": 672.35,
+        "signal": 414.94,
+        "histo": 257.42,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 31287.0,
-        "middle": 29196.0,
-        "lower": 27105.0,
-        "pct_b": 0.91,
+        "upper": 31636.0,
+        "middle": 29361.0,
+        "lower": 27086.0,
+        "pct_b": 0.97,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 30200.0,
-        "kijun": 29575.0,
+        "tenkan": 30452.0,
+        "kijun": 29828.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 2.7,
+      "z_score": 3.1,
       "score_signal": 3,
       "raisons_selection": [
-        "RSI suresvalue (80.0)",
+        "RSI suresvalue (82.6)",
         "Actualite : SONATEL : SONATEL SN _ Notation financière"
       ],
       "actualites_liees": [
@@ -1875,7 +1943,7 @@
           "tickers": [
             "SNTS"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1897,7 +1965,7 @@
           "tickers": [
             "SNTS"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 74,
           "importance": "Important",
           "impact": "Moyen",
@@ -1909,25 +1977,25 @@
       "ticker": "ORAC.ci",
       "nom": "ORANGE CI",
       "secteur": "TELECOM",
-      "prix": "16000",
-      "variation": -3.0,
-      "perf_1m": 2.24,
-      "perf_3m": 5.51,
-      "perf_ytd": 12.28,
-      "vol_moy_20j": 2736,
-      "rsi": 41.5,
+      "prix": "16160",
+      "variation": 1.0,
+      "perf_1m": 2.28,
+      "perf_3m": 7.73,
+      "perf_ytd": 13.4,
+      "vol_moy_20j": 5155,
+      "rsi": 50.2,
       "macd": {
-        "macd": 78.72,
-        "signal": 166.99,
-        "histo": -88.28,
+        "macd": 58.88,
+        "signal": 145.37,
+        "histo": -86.49,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 17147.0,
-        "middle": 16409.0,
-        "lower": 15671.0,
-        "pct_b": 0.22,
+        "upper": 17125.0,
+        "middle": 16424.0,
+        "lower": 15724.0,
+        "pct_b": 0.31,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -1937,10 +2005,9 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.16,
-      "score_signal": 3,
+      "z_score": 0.4,
+      "score_signal": 1,
       "raisons_selection": [
-        "RSI survendu (41.5)",
         "Actualite : ORANGE CI : ORANGE CI _ Bilan semestriel du contrat de liqui"
       ],
       "actualites_liees": [
@@ -1960,7 +2027,7 @@
           "tickers": [
             "ORAC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1982,7 +2049,7 @@
           "tickers": [
             "ORAC"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1995,38 +2062,37 @@
       "nom": "ONATEL BF",
       "secteur": "TELECOM",
       "prix": "2700",
-      "variation": -3.57,
-      "perf_1m": -4.09,
-      "perf_3m": -3.4,
+      "variation": 0.0,
+      "perf_1m": -5.26,
+      "perf_3m": -0.74,
       "perf_ytd": 8.65,
-      "vol_moy_20j": 4885,
+      "vol_moy_20j": 5063,
       "rsi": 30.8,
       "macd": {
-        "macd": -18.83,
-        "signal": -12.63,
-        "histo": -6.2,
+        "macd": -24.71,
+        "signal": -15.05,
+        "histo": -9.67,
         "tendance": "baissiere",
-        "croisement": "croisement_baissier"
+        "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2869.0,
-        "middle": 2794.0,
-        "lower": 2719.0,
-        "pct_b": -0.13,
+        "upper": 2874.0,
+        "middle": 2789.0,
+        "lower": 2703.0,
+        "pct_b": -0.02,
         "position": "en-dessous bande inferieure"
       },
       "ichimoku": {
-        "tenkan": 2820.0,
-        "kijun": 2845.0,
+        "tenkan": 2752.0,
+        "kijun": 2820.0,
         "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -1.65,
-      "score_signal": 6,
+      "z_score": -1.58,
+      "score_signal": 4,
       "raisons_selection": [
         "RSI survendu (30.8)",
-        "MACD croisement_baissier",
         "Bollinger : en-dessous bande inferieure"
       ],
       "actualites_liees": []
@@ -2035,25 +2101,25 @@
       "ticker": "CIEC.ci",
       "nom": "CIE CI",
       "secteur": "SERVICES",
-      "prix": "5325",
-      "variation": -0.28,
-      "perf_1m": 6.61,
-      "perf_3m": 69.59,
-      "perf_ytd": 125.64,
-      "vol_moy_20j": 5556,
-      "rsi": 71.7,
+      "prix": "5200",
+      "variation": -2.35,
+      "perf_1m": 4.1,
+      "perf_3m": 67.74,
+      "perf_ytd": 120.34,
+      "vol_moy_20j": 5322,
+      "rsi": 56.4,
       "macd": {
-        "macd": 224.08,
-        "signal": 265.72,
-        "histo": -41.64,
+        "macd": 200.12,
+        "signal": 252.6,
+        "histo": -52.48,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 5582.0,
-        "middle": 5200.0,
-        "lower": 4817.0,
-        "pct_b": 0.66,
+        "upper": 5580.0,
+        "middle": 5210.0,
+        "lower": 4840.0,
+        "pct_b": 0.49,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -2063,10 +2129,9 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.03,
-      "score_signal": 2,
+      "z_score": 0.85,
+      "score_signal": 1,
       "raisons_selection": [
-        "RSI suresvalue (71.7)",
         "Actualite : CIE CI : CIE CI _ Paiement de dividendes - Exercice 2025"
       ],
       "actualites_liees": [
@@ -2086,7 +2151,7 @@
           "tickers": [
             "CIEC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -2108,7 +2173,7 @@
           "tickers": [
             "CIEC"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -2120,40 +2185,39 @@
       "ticker": "SDCC.ci",
       "nom": "SODECI",
       "secteur": "SERVICES",
-      "prix": "11340",
-      "variation": -6.4,
-      "perf_1m": -7.01,
-      "perf_3m": 58.6,
-      "perf_ytd": 95.52,
-      "vol_moy_20j": 1557,
-      "rsi": 22.3,
+      "prix": "11300",
+      "variation": -0.35,
+      "perf_1m": -6.22,
+      "perf_3m": 58.26,
+      "perf_ytd": 94.83,
+      "vol_moy_20j": 1704,
+      "rsi": 21.7,
       "macd": {
-        "macd": 177.42,
-        "signal": 298.51,
-        "histo": -121.09,
+        "macd": 115.28,
+        "signal": 261.87,
+        "histo": -146.58,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 12314.0,
-        "middle": 11985.0,
-        "lower": 11656.0,
-        "pct_b": -0.48,
+        "upper": 12399.0,
+        "middle": 11950.0,
+        "lower": 11501.0,
+        "pct_b": -0.22,
         "position": "en-dessous bande inferieure"
       },
       "ichimoku": {
-        "tenkan": 11660.0,
+        "tenkan": 11658.0,
         "kijun": 11688.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": 0.19,
-      "score_signal": 7,
+      "z_score": 0.11,
+      "score_signal": 5,
       "raisons_selection": [
-        "RSI survendu (22.3)",
-        "Bollinger : en-dessous bande inferieure",
-        "Variation notable (-6.40%)"
+        "RSI survendu (21.7)",
+        "Bollinger : en-dessous bande inferieure"
       ],
       "actualites_liees": []
     },
@@ -2161,79 +2225,74 @@
       "ticker": "TTLC.ci",
       "nom": "TOTAL CI",
       "secteur": "ENERGIE",
-      "prix": "2990",
-      "variation": 6.79,
-      "perf_1m": 4.18,
-      "perf_3m": 6.98,
-      "perf_ytd": 28.05,
-      "vol_moy_20j": 9809,
-      "rsi": 55.2,
+      "prix": "2945",
+      "variation": -1.51,
+      "perf_1m": 2.61,
+      "perf_3m": 5.37,
+      "perf_ytd": 26.12,
+      "vol_moy_20j": 9506,
+      "rsi": 54.9,
       "macd": {
-        "macd": 14.79,
-        "signal": 11.78,
-        "histo": 3.01,
+        "macd": 17.4,
+        "signal": 12.9,
+        "histo": 4.5,
         "tendance": "haussiere",
-        "croisement": "croisement_haussier"
+        "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2999.0,
-        "middle": 2880.0,
-        "lower": 2761.0,
-        "pct_b": 0.96,
+        "upper": 3004.0,
+        "middle": 2888.0,
+        "lower": 2771.0,
+        "pct_b": 0.75,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 2895.0,
+        "tenkan": 2942.0,
         "kijun": 2878.0,
-        "position_nuage": "au-dessus du nuage (bullish)",
+        "position_nuage": "dans le nuage (neutre)",
         "signal_tk_kj": "bullish",
-        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
+        "synthese": "Prix dans le nuage (neutre), TK/KJ bullish"
       },
-      "z_score": 1.71,
-      "score_signal": 6,
-      "raisons_selection": [
-        "MACD croisement_haussier",
-        "Variation notable (+6.79%)"
-      ],
-      "actualites_liees": []
+      "z_score": 1.04,
+      "score_signal": 1
     },
     {
       "ticker": "TTLS.sn",
       "nom": "TOTAL SENEGAL",
       "secteur": "ENERGIE",
-      "prix": "4295",
-      "variation": 0.82,
-      "perf_1m": 25.4,
-      "perf_3m": 33.59,
-      "perf_ytd": 71.8,
-      "vol_moy_20j": 3285,
-      "rsi": 81.2,
+      "prix": "4440",
+      "variation": 3.38,
+      "perf_1m": 32.54,
+      "perf_3m": 35.37,
+      "perf_ytd": 77.6,
+      "vol_moy_20j": 3279,
+      "rsi": 83.0,
       "macd": {
-        "macd": 255.82,
-        "signal": 214.92,
-        "histo": 40.9,
+        "macd": 264.5,
+        "signal": 224.84,
+        "histo": 39.66,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 4595.0,
-        "middle": 3835.0,
-        "lower": 3075.0,
-        "pct_b": 0.8,
+        "upper": 4664.0,
+        "middle": 3888.0,
+        "lower": 3111.0,
+        "pct_b": 0.86,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 4155.0,
+        "tenkan": 4278.0,
         "kijun": 3910.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 2.03,
+      "z_score": 2.21,
       "score_signal": 4,
       "raisons_selection": [
-        "RSI suresvalue (81.2)",
-        "Perf 1M (+25.4%)"
+        "RSI suresvalue (83.0)",
+        "Perf 1M (+32.5%)"
       ],
       "actualites_liees": []
     },
@@ -2242,34 +2301,34 @@
       "nom": "VIVO ENERGY CI",
       "secteur": "ENERGIE",
       "prix": "2200",
-      "variation": -0.23,
+      "variation": 0.0,
       "perf_1m": 5.77,
-      "perf_3m": 10.0,
+      "perf_3m": 10.55,
       "perf_ytd": 52.25,
-      "vol_moy_20j": 4008,
+      "vol_moy_20j": 4118,
       "rsi": 56.2,
       "macd": {
-        "macd": 43.08,
-        "signal": 45.7,
-        "histo": -2.62,
+        "macd": 40.72,
+        "signal": 44.7,
+        "histo": -3.98,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2269.0,
-        "middle": 2167.0,
-        "lower": 2066.0,
-        "pct_b": 0.66,
+        "upper": 2258.0,
+        "middle": 2175.0,
+        "lower": 2092.0,
+        "pct_b": 0.65,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 2222.0,
-        "kijun": 2150.0,
+        "tenkan": 2210.0,
+        "kijun": 2158.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.32,
+      "z_score": 1.27,
       "score_signal": 1
     },
     {
@@ -2277,75 +2336,73 @@
       "nom": "NESTLE CI",
       "secteur": "DISTRIBUTION",
       "prix": "16000",
-      "variation": -1.54,
-      "perf_1m": 6.67,
-      "perf_3m": 33.39,
+      "variation": 0.0,
+      "perf_1m": 5.61,
+      "perf_3m": 35.59,
       "perf_ytd": 50.23,
-      "vol_moy_20j": 1339,
-      "rsi": 66.5,
+      "vol_moy_20j": 1305,
+      "rsi": 69.1,
       "macd": {
-        "macd": 670.42,
-        "signal": 707.61,
-        "histo": -37.19,
+        "macd": 622.15,
+        "signal": 690.52,
+        "histo": -68.37,
         "tendance": "baissiere",
-        "croisement": "croisement_baissier"
+        "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 17020.0,
-        "middle": 15589.0,
-        "lower": 14158.0,
-        "pct_b": 0.64,
+        "upper": 17045.0,
+        "middle": 15647.0,
+        "lower": 14249.0,
+        "pct_b": 0.63,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 15998.0,
-        "kijun": 14850.0,
+        "tenkan": 16028.0,
+        "kijun": 14995.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.26,
-      "score_signal": 3,
-      "raisons_selection": [
-        "MACD croisement_baissier"
-      ],
-      "actualites_liees": []
+      "z_score": 1.21,
+      "score_signal": 1
     },
     {
       "ticker": "PALC.ci",
       "nom": "PALMCI",
       "secteur": "AGRICULTURE",
-      "prix": "8770",
-      "variation": -0.57,
-      "perf_1m": -0.11,
-      "perf_3m": 9.15,
-      "perf_ytd": 8.27,
-      "vol_moy_20j": 4768,
-      "rsi": 52.7,
+      "prix": "8500",
+      "variation": -3.08,
+      "perf_1m": -3.13,
+      "perf_3m": 4.94,
+      "perf_ytd": 4.94,
+      "vol_moy_20j": 4779,
+      "rsi": 35.5,
       "macd": {
-        "macd": 126.73,
-        "signal": 151.61,
-        "histo": -24.88,
+        "macd": 95.54,
+        "signal": 140.4,
+        "histo": -44.85,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 8888.0,
-        "middle": 8752.0,
-        "lower": 8616.0,
-        "pct_b": 0.57,
-        "position": "dans les bandes"
+        "upper": 8914.0,
+        "middle": 8738.0,
+        "lower": 8562.0,
+        "pct_b": -0.18,
+        "position": "en-dessous bande inferieure"
       },
       "ichimoku": {
-        "tenkan": 8725.0,
-        "kijun": 8575.0,
+        "tenkan": 8700.0,
+        "kijun": 8670.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.98,
-      "score_signal": 1,
+      "z_score": 0.44,
+      "score_signal": 5,
       "raisons_selection": [
+        "RSI survendu (35.5)",
+        "Bollinger : en-dessous bande inferieure",
         "Actualite : PALMCI : PALM CI _ Bilan semestriel du contrat de liquidité "
       ],
       "actualites_liees": [
@@ -2365,7 +2422,7 @@
           "tickers": [
             "PALC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -2387,7 +2444,7 @@
           "tickers": [
             "PALC"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -2399,73 +2456,72 @@
       "ticker": "SPHC.ci",
       "nom": "SAPH CI",
       "secteur": "AGRICULTURE",
-      "prix": "7580",
-      "variation": 0.4,
-      "perf_1m": -1.37,
-      "perf_3m": 6.76,
-      "perf_ytd": -4.05,
-      "vol_moy_20j": 1693,
-      "rsi": 48.5,
+      "prix": "7500",
+      "variation": -1.06,
+      "perf_1m": -1.32,
+      "perf_3m": 7.53,
+      "perf_ytd": -5.06,
+      "vol_moy_20j": 1826,
+      "rsi": 46.8,
       "macd": {
-        "macd": 75.67,
-        "signal": 114.05,
-        "histo": -38.38,
+        "macd": 54.46,
+        "signal": 102.13,
+        "histo": -47.68,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 7993.0,
-        "middle": 7692.0,
-        "lower": 7392.0,
-        "pct_b": 0.31,
+        "upper": 7998.0,
+        "middle": 7688.0,
+        "lower": 7378.0,
+        "pct_b": 0.2,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 7758.0,
+        "tenkan": 7752.0,
         "kijun": 7648.0,
-        "position_nuage": "dans le nuage (neutre)",
+        "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
-        "synthese": "Prix dans le nuage (neutre), TK/KJ bullish"
+        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.62,
-      "score_signal": 0
+      "z_score": 0.38,
+      "score_signal": 1
     },
     {
       "ticker": "STBC.ci",
       "nom": "SITAB",
       "secteur": "DISTRIBUTION",
-      "prix": "24200",
-      "variation": 0.39,
-      "perf_1m": 10.5,
-      "perf_3m": 16.35,
-      "perf_ytd": 22.35,
-      "vol_moy_20j": 5437,
-      "rsi": 71.7,
+      "prix": "24195",
+      "variation": -0.02,
+      "perf_1m": 9.98,
+      "perf_3m": 20.67,
+      "perf_ytd": 22.32,
+      "vol_moy_20j": 5289,
+      "rsi": 69.8,
       "macd": {
-        "macd": 665.33,
-        "signal": 694.44,
-        "histo": -29.11,
+        "macd": 630.97,
+        "signal": 681.74,
+        "histo": -50.78,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 25694.0,
-        "middle": 23522.0,
-        "lower": 21350.0,
-        "pct_b": 0.66,
+        "upper": 25710.0,
+        "middle": 23627.0,
+        "lower": 21545.0,
+        "pct_b": 0.64,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 24525.0,
-        "kijun": 23435.0,
+        "tenkan": 24375.0,
+        "kijun": 23448.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.53,
-      "score_signal": 2,
+      "z_score": 1.48,
+      "score_signal": 1,
       "raisons_selection": [
-        "RSI suresvalue (71.7)",
         "Actualite : SITAB : SITAB CI _ Bilan semestriel du contrat de liquidité "
       ],
       "actualites_liees": [
@@ -2485,7 +2541,7 @@
           "tickers": [
             "STBC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -2507,77 +2563,11 @@
           "tickers": [
             "STBC"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
           "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-        },
-        {
-          "source": "SikaFinance",
-          "source_type": "communiques",
-          "source_authority": "secondary",
-          "source_rank": 60,
-          "source_role": "document_mirror",
-          "validation_policy": "match_brvm_registry",
-          "type": "AG",
-          "titre": "SITAB : SITAB CI _ Projet de résolutions - Assemblée Générale Ordinaire",
-          "resume": "",
-          "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
-          "date": "25/06/2026",
-          "date_iso": "2026-06-25",
-          "tickers": [
-            "STBC"
-          ],
-          "date_collecte": "2026-07-13T19:23:15Z",
-          "score_importance": 100,
-          "importance": "Critique",
-          "impact": "Fort",
-          "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-        },
-        {
-          "source": "SikaFinance",
-          "source_type": "communiques",
-          "source_authority": "secondary",
-          "source_rank": 60,
-          "source_role": "document_mirror",
-          "validation_policy": "match_brvm_registry",
-          "type": "RAPPORT",
-          "titre": "SITAB : SITAB CI _ Etats financiers - Exercice 2025 (Annule et remplace le précédent)",
-          "resume": "",
-          "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--etats-financiers--exercice-2025-annule-et-remplace-le-precedent.pdf",
-          "date": "25/06/2026",
-          "date_iso": "2026-06-25",
-          "tickers": [
-            "STBC"
-          ],
-          "date_collecte": "2026-07-13T19:23:15Z",
-          "score_importance": 100,
-          "importance": "Critique",
-          "impact": "Fort",
-          "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-        },
-        {
-          "source": "SikaFinance",
-          "source_type": "communiques",
-          "source_authority": "secondary",
-          "source_rank": 60,
-          "source_role": "document_mirror",
-          "validation_policy": "match_brvm_registry",
-          "type": "AG",
-          "titre": "SITAB : SITAB CI _ Avis de convocation - Assemblée Générale Ordinaire",
-          "resume": "",
-          "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--avis-de-convocation--assemblee-generale-ordinaire.pdf",
-          "date": "25/06/2026",
-          "date_iso": "2026-06-25",
-          "tickers": [
-            "STBC"
-          ],
-          "date_collecte": "2026-07-13T19:23:15Z",
-          "score_importance": 100,
-          "importance": "Critique",
-          "impact": "Fort",
-          "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
         }
       ]
     },
@@ -2585,24 +2575,24 @@
       "ticker": "SLBC.ci",
       "nom": "SOLIBRA CI",
       "secteur": "DISTRIBUTION",
-      "prix": "39100",
-      "variation": -2.03,
-      "perf_1m": 0.26,
-      "perf_3m": 0.26,
-      "perf_ytd": 35.29,
-      "vol_moy_20j": 1828,
-      "rsi": 57.6,
+      "prix": "39105",
+      "variation": 0.01,
+      "perf_1m": 0.53,
+      "perf_3m": -2.2,
+      "perf_ytd": 35.31,
+      "vol_moy_20j": 1832,
+      "rsi": 54.9,
       "macd": {
-        "macd": 393.55,
-        "signal": 357.06,
-        "histo": 36.49,
-        "tendance": "haussiere",
-        "croisement": "neutre"
+        "macd": 331.02,
+        "signal": 351.85,
+        "histo": -20.83,
+        "tendance": "baissiere",
+        "croisement": "croisement_baissier"
       },
       "bollinger": {
-        "upper": 40707.0,
-        "middle": 39170.0,
-        "lower": 37633.0,
+        "upper": 40711.0,
+        "middle": 39175.0,
+        "lower": 37640.0,
         "pct_b": 0.48,
         "position": "dans les bandes"
       },
@@ -2614,11 +2604,57 @@
         "synthese": "Prix dans le nuage (neutre), TK/KJ bullish"
       },
       "z_score": 0.7,
-      "score_signal": 1,
+      "score_signal": 2,
       "raisons_selection": [
-        "Actualite : SOLIBRA CI : Paiement de dividendes - Exercice 2025"
+        "MACD croisement_baissier",
+        "Actualite : SOLIBRA : dividende 1 871.76 FCFA"
       ],
       "actualites_liees": [
+        {
+          "source": "RichBourse",
+          "source_type": "dividendes",
+          "source_authority": "secondary_unverified",
+          "source_rank": 10,
+          "source_role": "discovery",
+          "validation_policy": "primary_required",
+          "type": "DIVIDENDE",
+          "titre": "SOLIBRA : dividende 1 871.76 FCFA",
+          "resume": "Rendement indicatif RichBourse : 4.79%. Ex-dividende : 29/07/2026. Paiement : 30/07/2026.",
+          "lien": "https://www.richbourse.com/common/mouvements/index/SLBC",
+          "date": "29/09/2026",
+          "date_iso": "2026-09-29",
+          "tickers": [
+            "SLBC"
+          ],
+          "date_collecte": "2026-07-14T19:20:19Z",
+          "score_importance": 100,
+          "importance": "Critique",
+          "impact": "Fort",
+          "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+          "validation": "confirme_par_source_secondaire"
+        },
+        {
+          "source": "SikaFinance",
+          "source_type": "communiques",
+          "source_authority": "secondary",
+          "source_rank": 60,
+          "source_role": "document_mirror",
+          "validation_policy": "match_brvm_registry",
+          "type": "DIVIDENDE",
+          "titre": "SOLIBRA CI : SOLIBRA CI _ Paiement de dividendes - Exercice 2025",
+          "resume": "",
+          "lien": "https://www.sikafinance.com/docs/solibra-ci-solibra-ci--paiement-de-dividendes--exercice-2025.pdf",
+          "date": "13/07/2026",
+          "date_iso": "2026-07-13",
+          "tickers": [
+            "SLBC"
+          ],
+          "date_collecte": "2026-07-14T19:20:11Z",
+          "score_importance": 100,
+          "importance": "Critique",
+          "impact": "Fort",
+          "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+        },
         {
           "source": "RichBourse",
           "source_type": "actualites",
@@ -2635,7 +2671,7 @@
           "tickers": [
             "SLBC"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -2648,34 +2684,34 @@
       "nom": "SUCRIVOIRE",
       "secteur": "AGRICULTURE",
       "prix": "3460",
-      "variation": -1.0,
-      "perf_1m": 8.29,
-      "perf_3m": 73.43,
+      "variation": 0.0,
+      "perf_1m": 9.84,
+      "perf_3m": 68.78,
       "perf_ytd": 226.42,
-      "vol_moy_20j": 10824,
-      "rsi": 66.8,
+      "vol_moy_20j": 10292,
+      "rsi": 65.7,
       "macd": {
-        "macd": 190.81,
-        "signal": 205.65,
-        "histo": -14.84,
+        "macd": 180.13,
+        "signal": 200.55,
+        "histo": -20.42,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 3755.0,
-        "middle": 3296.0,
-        "lower": 2836.0,
-        "pct_b": 0.68,
+        "upper": 3769.0,
+        "middle": 3314.0,
+        "lower": 2859.0,
+        "pct_b": 0.66,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 3482.0,
-        "kijun": 3230.0,
+        "tenkan": 3492.0,
+        "kijun": 3248.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.34,
+      "z_score": 1.3,
       "score_signal": 1
     },
     {
@@ -2683,24 +2719,24 @@
       "nom": "UNILEVER CI",
       "secteur": "DISTRIBUTION",
       "prix": "53735",
-      "variation": 6.41,
+      "variation": 0.0,
       "perf_1m": -7.35,
-      "perf_3m": -13.32,
+      "perf_3m": -13.33,
       "perf_ytd": 57.01,
-      "vol_moy_20j": 29,
+      "vol_moy_20j": 30,
       "rsi": 38.4,
       "macd": {
-        "macd": -1361.49,
-        "signal": -1142.98,
-        "histo": -218.5,
+        "macd": -1263.49,
+        "signal": -1167.09,
+        "histo": -96.4,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 59564.0,
-        "middle": 54996.0,
-        "lower": 50427.0,
-        "pct_b": 0.36,
+        "upper": 59494.0,
+        "middle": 54902.0,
+        "lower": 50310.0,
+        "pct_b": 0.37,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -2710,11 +2746,10 @@
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -1.29,
-      "score_signal": 4,
+      "z_score": -1.25,
+      "score_signal": 2,
       "raisons_selection": [
-        "RSI survendu (38.4)",
-        "Variation notable (+6.41%)"
+        "RSI survendu (38.4)"
       ],
       "actualites_liees": []
     },
@@ -2722,25 +2757,25 @@
       "ticker": "SDSC.ci",
       "nom": "AFRICA GLOBAL LOGISTICS",
       "secteur": "SERVICES",
-      "prix": "2190",
-      "variation": -0.9,
-      "perf_1m": 10.61,
-      "perf_3m": 16.8,
-      "perf_ytd": 44.55,
-      "vol_moy_20j": 22916,
-      "rsi": 30.5,
+      "prix": "2350",
+      "variation": 7.31,
+      "perf_1m": 10.59,
+      "perf_3m": 27.72,
+      "perf_ytd": 55.12,
+      "vol_moy_20j": 23105,
+      "rsi": 43.7,
       "macd": {
-        "macd": 62.25,
-        "signal": 110.77,
-        "histo": -48.52,
+        "macd": 59.07,
+        "signal": 100.43,
+        "histo": -41.36,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2587.0,
-        "middle": 2384.0,
-        "lower": 2180.0,
-        "pct_b": 0.02,
+        "upper": 2585.0,
+        "middle": 2387.0,
+        "lower": 2189.0,
+        "pct_b": 0.41,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -2750,10 +2785,10 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.5,
+      "z_score": 0.99,
       "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (30.5)",
+        "Variation notable (+7.31%)",
         "Actualite : AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Bilan"
       ],
       "actualites_liees": [
@@ -2773,7 +2808,7 @@
           "tickers": [
             "SDSC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -2795,7 +2830,7 @@
           "tickers": [
             "SDSC"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -2807,38 +2842,38 @@
       "ticker": "BNBC.ci",
       "nom": "BERNABE",
       "secteur": "DISTRIBUTION",
-      "prix": "1770",
-      "variation": 0.85,
-      "perf_1m": -5.85,
-      "perf_3m": 12.74,
-      "perf_ytd": 25.53,
-      "vol_moy_20j": 2975,
-      "rsi": 20.3,
+      "prix": "1750",
+      "variation": -1.13,
+      "perf_1m": -6.91,
+      "perf_3m": 11.82,
+      "perf_ytd": 24.11,
+      "vol_moy_20j": 2897,
+      "rsi": 20.5,
       "macd": {
-        "macd": 20.62,
-        "signal": 61.68,
-        "histo": -41.06,
+        "macd": 7.97,
+        "signal": 50.94,
+        "histo": -42.97,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2121.0,
-        "middle": 1952.0,
-        "lower": 1784.0,
-        "pct_b": -0.04,
+        "upper": 2135.0,
+        "middle": 1945.0,
+        "lower": 1754.0,
+        "pct_b": -0.01,
         "position": "en-dessous bande inferieure"
       },
       "ichimoku": {
         "tenkan": 1875.0,
-        "kijun": 1875.0,
+        "kijun": 1890.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": 0.23,
+      "z_score": 0.12,
       "score_signal": 5,
       "raisons_selection": [
-        "RSI survendu (20.3)",
+        "RSI survendu (20.5)",
         "Bollinger : en-dessous bande inferieure"
       ],
       "actualites_liees": []
@@ -2847,25 +2882,25 @@
       "ticker": "CFAC.ci",
       "nom": "CFAO CI",
       "secteur": "DISTRIBUTION",
-      "prix": "1550",
-      "variation": -1.59,
-      "perf_1m": -3.12,
-      "perf_3m": 3.33,
-      "perf_ytd": 8.39,
-      "vol_moy_20j": 4961,
-      "rsi": 40.7,
+      "prix": "1605",
+      "variation": 3.55,
+      "perf_1m": -0.31,
+      "perf_3m": 3.55,
+      "perf_ytd": 12.24,
+      "vol_moy_20j": 5309,
+      "rsi": 54.5,
       "macd": {
-        "macd": -1.01,
-        "signal": 26.59,
-        "histo": -27.6,
+        "macd": -3.91,
+        "signal": 20.49,
+        "histo": -24.4,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 1867.0,
-        "middle": 1691.0,
-        "lower": 1515.0,
-        "pct_b": 0.1,
+        "upper": 1868.0,
+        "middle": 1689.0,
+        "lower": 1510.0,
+        "pct_b": 0.26,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -2875,13 +2910,34 @@
         "signal_tk_kj": "bearish",
         "synthese": "Prix dans le nuage (neutre), TK/KJ bearish"
       },
-      "z_score": -0.16,
-      "score_signal": 2,
+      "z_score": 0.26,
+      "score_signal": 0,
       "raisons_selection": [
-        "RSI survendu (40.7)",
-        "Actualite : CFAO MOTORS CI : Rapport annuel - Exercice 2025"
+        "Actualite : CFAO CI : CFAO MOTORS CI _ Rapport annuel - Exercice 2025"
       ],
       "actualites_liees": [
+        {
+          "source": "SikaFinance",
+          "source_type": "communiques",
+          "source_authority": "secondary",
+          "source_rank": 60,
+          "source_role": "document_mirror",
+          "validation_policy": "match_brvm_registry",
+          "type": "RAPPORT",
+          "titre": "CFAO CI : CFAO MOTORS CI _ Rapport annuel - Exercice 2025",
+          "resume": "",
+          "lien": "https://www.sikafinance.com/docs/cfao-ci-cfao-motors-ci--rapport-annuel--exercice-2025.pdf",
+          "date": "13/07/2026",
+          "date_iso": "2026-07-13",
+          "tickers": [
+            "CFAC"
+          ],
+          "date_collecte": "2026-07-14T19:20:11Z",
+          "score_importance": 100,
+          "importance": "Critique",
+          "impact": "Fort",
+          "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+        },
         {
           "source": "RichBourse",
           "source_type": "actualites",
@@ -2898,7 +2954,7 @@
           "tickers": [
             "CFAC"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -2911,24 +2967,24 @@
       "nom": "FILTISAC CI",
       "secteur": "SERVICES",
       "prix": "1990",
-      "variation": 0.76,
-      "perf_1m": -10.76,
-      "perf_3m": -11.95,
+      "variation": 0.0,
+      "perf_1m": -10.16,
+      "perf_3m": -8.72,
       "perf_ytd": -10.36,
-      "vol_moy_20j": 6988,
-      "rsi": 36.8,
+      "vol_moy_20j": 6932,
+      "rsi": 58.1,
       "macd": {
-        "macd": -62.33,
-        "signal": -66.63,
-        "histo": 4.31,
+        "macd": -59.34,
+        "signal": -65.17,
+        "histo": 5.84,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2192.0,
-        "middle": 2035.0,
-        "lower": 1878.0,
-        "pct_b": 0.36,
+        "upper": 2165.0,
+        "middle": 2025.0,
+        "lower": 1885.0,
+        "pct_b": 0.38,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -2938,10 +2994,9 @@
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -1.4,
-      "score_signal": 3,
+      "z_score": -1.35,
+      "score_signal": 1,
       "raisons_selection": [
-        "RSI survendu (36.8)",
         "Actualite : FILTISAC CI : FILTISAC CI _ Communiqué"
       ],
       "actualites_liees": [
@@ -2961,7 +3016,7 @@
           "tickers": [
             "FTSC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 87,
           "importance": "Critique",
           "impact": "Fort",
@@ -2973,39 +3028,38 @@
       "ticker": "NEIC.ci",
       "nom": "NEI CEDA CI",
       "secteur": "DISTRIBUTION",
-      "prix": "2150",
-      "variation": 7.5,
-      "perf_1m": 1.65,
-      "perf_3m": 55.23,
-      "perf_ytd": 79.17,
-      "vol_moy_20j": 2262,
-      "rsi": 36.8,
+      "prix": "2310",
+      "variation": 7.44,
+      "perf_1m": 3.59,
+      "perf_3m": 67.39,
+      "perf_ytd": 92.5,
+      "vol_moy_20j": 2245,
+      "rsi": 50.6,
       "macd": {
-        "macd": 9.99,
-        "signal": 51.93,
-        "histo": -41.95,
+        "macd": 20.02,
+        "signal": 45.55,
+        "histo": -25.53,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2483.0,
-        "middle": 2265.0,
+        "upper": 2479.0,
+        "middle": 2263.0,
         "lower": 2047.0,
-        "pct_b": 0.24,
+        "pct_b": 0.61,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 2165.0,
+        "tenkan": 2155.0,
         "kijun": 2180.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": 0.45,
-      "score_signal": 5,
+      "z_score": 1.23,
+      "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (36.8)",
-        "Variation notable (+7.50%)"
+        "Variation notable (+7.44%)"
       ],
       "actualites_liees": []
     },
@@ -3013,39 +3067,39 @@
       "ticker": "SAFC.ci",
       "nom": "SAFCA CI",
       "secteur": "SERVICES",
-      "prix": "4480",
-      "variation": 4.92,
-      "perf_1m": 21.08,
-      "perf_3m": -29.28,
-      "perf_ytd": 35.55,
-      "vol_moy_20j": 6715,
-      "rsi": 39.7,
+      "prix": "4400",
+      "variation": -1.79,
+      "perf_1m": 18.92,
+      "perf_3m": -24.91,
+      "perf_ytd": 33.13,
+      "vol_moy_20j": 6657,
+      "rsi": 40.3,
       "macd": {
-        "macd": 79.69,
-        "signal": 116.07,
-        "histo": -36.38,
+        "macd": 73.36,
+        "signal": 107.53,
+        "histo": -34.17,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 4949.0,
-        "middle": 4441.0,
-        "lower": 3933.0,
-        "pct_b": 0.54,
+        "upper": 4916.0,
+        "middle": 4464.0,
+        "lower": 4011.0,
+        "pct_b": 0.43,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 4325.0,
+        "tenkan": 4300.0,
         "kijun": 4268.0,
         "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bullish"
       },
-      "z_score": 1.18,
+      "z_score": 0.95,
       "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (39.7)",
-        "Perf 1M (+21.1%)",
+        "RSI survendu (40.3)",
+        "Perf 1M (+18.9%)",
         "Actualite : Simulateur de dilution SAFCA"
       ],
       "actualites_liees": [
@@ -3065,7 +3119,7 @@
           "tickers": [
             "SAFC"
           ],
-          "date_collecte": "2026-07-13T19:23:17Z",
+          "date_collecte": "2026-07-14T19:20:13Z",
           "score_importance": 57,
           "importance": "A surveiller",
           "impact": "Moyen",
@@ -3078,37 +3132,37 @@
       "nom": "SERVAIR ABIDJAN",
       "secteur": "DISTRIBUTION",
       "prix": "3125",
-      "variation": -0.79,
-      "perf_1m": -6.72,
-      "perf_3m": -8.89,
+      "variation": 0.0,
+      "perf_1m": -10.71,
+      "perf_3m": -9.42,
       "perf_ytd": 7.76,
-      "vol_moy_20j": 1878,
-      "rsi": 18.6,
+      "vol_moy_20j": 2293,
+      "rsi": 23.5,
       "macd": {
-        "macd": -16.67,
-        "signal": 10.36,
-        "histo": -27.03,
+        "macd": -20.88,
+        "signal": 4.11,
+        "histo": -25.0,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 3548.0,
-        "middle": 3286.0,
-        "lower": 3024.0,
-        "pct_b": 0.19,
+        "upper": 3499.0,
+        "middle": 3264.0,
+        "lower": 3029.0,
+        "pct_b": 0.2,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 3238.0,
+        "tenkan": 3230.0,
         "kijun": 3230.0,
         "position_nuage": "en-dessous du nuage (bearish)",
-        "signal_tk_kj": "bullish",
-        "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bullish"
+        "signal_tk_kj": "bearish",
+        "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": 0.02,
+      "z_score": 0.03,
       "score_signal": 2,
       "raisons_selection": [
-        "RSI survendu (18.6)",
+        "RSI survendu (23.5)",
         "Actualite : SERVAIR : dividende 124 FCFA"
       ],
       "actualites_liees": [
@@ -3128,7 +3182,7 @@
           "tickers": [
             "ABJC"
           ],
-          "date_collecte": "2026-07-13T19:23:21Z",
+          "date_collecte": "2026-07-14T19:20:19Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -3151,7 +3205,7 @@
           "tickers": [
             "ABJC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -3173,33 +3227,11 @@
           "tickers": [
             "ABJC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
           "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-        },
-        {
-          "source": "RichBourse",
-          "source_type": "actualites",
-          "source_authority": "secondary",
-          "source_rank": 30,
-          "source_role": "aggregator",
-          "validation_policy": "match_brvm_registry",
-          "type": "RAPPORT",
-          "titre": "SERVAIR ABIDJAN CI : Bilan semestriel du contrat de liquidité -1er semestre 2025",
-          "resume": "",
-          "lien": "https://www.richbourse.com/common/actualite/details/03-07-2026-servair-abidjan-ci-bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025",
-          "date": "03/07/2026",
-          "date_iso": "2026-07-03",
-          "tickers": [
-            "ABJC"
-          ],
-          "date_collecte": "2026-07-13T19:23:19Z",
-          "score_importance": 97,
-          "importance": "Critique",
-          "impact": "Fort",
-          "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
         }
       ]
     },
@@ -3207,38 +3239,38 @@
       "ticker": "STAC.ci",
       "nom": "SETAO CI",
       "secteur": "SERVICES",
-      "prix": "3175",
-      "variation": -0.78,
-      "perf_1m": -10.56,
-      "perf_3m": 5.83,
-      "perf_ytd": 139.62,
-      "vol_moy_20j": 3933,
-      "rsi": 36.1,
+      "prix": "3100",
+      "variation": -2.36,
+      "perf_1m": -11.43,
+      "perf_3m": 5.08,
+      "perf_ytd": 133.96,
+      "vol_moy_20j": 3932,
+      "rsi": 24.5,
       "macd": {
-        "macd": -6.98,
-        "signal": 57.61,
-        "histo": -64.6,
+        "macd": -21.59,
+        "signal": 41.77,
+        "histo": -63.36,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 3774.0,
-        "middle": 3422.0,
-        "lower": 3069.0,
-        "pct_b": 0.15,
+        "upper": 3780.0,
+        "middle": 3402.0,
+        "lower": 3024.0,
+        "pct_b": 0.1,
         "position": "dans les bandes"
       },
       "ichimoku": {
         "tenkan": 3180.0,
         "kijun": 3252.0,
-        "position_nuage": "au-dessus du nuage (bullish)",
+        "position_nuage": "dans le nuage (neutre)",
         "signal_tk_kj": "bearish",
-        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
+        "synthese": "Prix dans le nuage (neutre), TK/KJ bearish"
       },
-      "z_score": 0.14,
-      "score_signal": 3,
+      "z_score": -0.09,
+      "score_signal": 2,
       "raisons_selection": [
-        "RSI survendu (36.1)"
+        "RSI survendu (24.5)"
       ],
       "actualites_liees": []
     },
@@ -3246,35 +3278,35 @@
       "ticker": "CABC.ci",
       "nom": "SICABLE CI",
       "secteur": "SERVICES",
-      "prix": "3910",
-      "variation": -1.14,
-      "perf_1m": -2.25,
-      "perf_3m": 0.39,
-      "perf_ytd": 65.68,
-      "vol_moy_20j": 1837,
-      "rsi": 47.3,
+      "prix": "3800",
+      "variation": -2.81,
+      "perf_1m": -5.12,
+      "perf_3m": -2.06,
+      "perf_ytd": 61.02,
+      "vol_moy_20j": 2246,
+      "rsi": 45.0,
       "macd": {
-        "macd": 56.53,
-        "signal": 109.14,
-        "histo": -52.61,
+        "macd": 28.55,
+        "signal": 93.02,
+        "histo": -64.47,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 4541.0,
-        "middle": 4108.0,
-        "lower": 3675.0,
-        "pct_b": 0.27,
+        "upper": 4550.0,
+        "middle": 4097.0,
+        "lower": 3644.0,
+        "pct_b": 0.17,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 4278.0,
+        "tenkan": 4205.0,
         "kijun": 4250.0,
         "position_nuage": "au-dessus du nuage (bullish)",
-        "signal_tk_kj": "bullish",
-        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
+        "signal_tk_kj": "bearish",
+        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": 0.29,
+      "z_score": -0.07,
       "score_signal": 1
     },
     {
@@ -3282,34 +3314,34 @@
       "nom": "SICOR",
       "secteur": "SERVICES",
       "prix": "5100",
-      "variation": -1.83,
+      "variation": 0.0,
       "perf_1m": 13.84,
-      "perf_3m": 20.71,
+      "perf_3m": 29.77,
       "perf_ytd": 54.55,
-      "vol_moy_20j": 84,
+      "vol_moy_20j": 88,
       "rsi": 76.3,
       "macd": {
-        "macd": 201.72,
-        "signal": 159.95,
-        "histo": 41.78,
+        "macd": 194.64,
+        "signal": 166.88,
+        "histo": 27.75,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 5467.0,
-        "middle": 4770.0,
-        "lower": 4073.0,
-        "pct_b": 0.74,
+        "upper": 5498.0,
+        "middle": 4802.0,
+        "lower": 4106.0,
+        "pct_b": 0.71,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 4815.0,
+        "tenkan": 5125.0,
         "kijun": 4815.0,
         "position_nuage": "au-dessus du nuage (bullish)",
-        "signal_tk_kj": "bearish",
-        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
+        "signal_tk_kj": "bullish",
+        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.85,
+      "z_score": 1.76,
       "score_signal": 3,
       "raisons_selection": [
         "RSI suresvalue (76.3)"
@@ -3320,38 +3352,38 @@
       "ticker": "PRSC.ci",
       "nom": "TRACTAFRIC MOTORS",
       "secteur": "DISTRIBUTION",
-      "prix": "4400",
-      "variation": 2.8,
-      "perf_1m": 7.98,
-      "perf_3m": -11.91,
-      "perf_ytd": 13.55,
-      "vol_moy_20j": 990,
-      "rsi": 35.5,
+      "prix": "4300",
+      "variation": -2.27,
+      "perf_1m": 4.88,
+      "perf_3m": -13.91,
+      "perf_ytd": 10.97,
+      "vol_moy_20j": 1006,
+      "rsi": 31.0,
       "macd": {
-        "macd": 18.37,
-        "signal": 56.28,
-        "histo": -37.91,
+        "macd": 4.2,
+        "signal": 45.87,
+        "histo": -41.66,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 4844.0,
-        "middle": 4530.0,
-        "lower": 4216.0,
-        "pct_b": 0.29,
+        "upper": 4807.0,
+        "middle": 4540.0,
+        "lower": 4273.0,
+        "pct_b": 0.05,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 4450.0,
+        "tenkan": 4365.0,
         "kijun": 4408.0,
         "position_nuage": "en-dessous du nuage (bearish)",
-        "signal_tk_kj": "bullish",
-        "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bullish"
+        "signal_tk_kj": "bearish",
+        "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": 0.46,
+      "z_score": 0.19,
       "score_signal": 2,
       "raisons_selection": [
-        "RSI survendu (35.5)"
+        "RSI survendu (31.0)"
       ],
       "actualites_liees": []
     },
@@ -3359,43 +3391,87 @@
       "ticker": "UNXC.ci",
       "nom": "UNIWAX CI",
       "secteur": "DISTRIBUTION",
-      "prix": "1440",
-      "variation": 7.46,
-      "perf_1m": -26.9,
-      "perf_3m": -22.37,
-      "perf_ytd": 2.86,
-      "vol_moy_20j": 20107,
-      "rsi": 23.8,
+      "prix": "1545",
+      "variation": 7.29,
+      "perf_1m": -21.97,
+      "perf_3m": -17.38,
+      "perf_ytd": 10.36,
+      "vol_moy_20j": 20180,
+      "rsi": 30.0,
       "macd": {
-        "macd": -147.26,
-        "signal": -97.67,
-        "histo": -49.58,
+        "macd": -134.39,
+        "signal": -105.02,
+        "histo": -29.38,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2270.0,
-        "middle": 1718.0,
-        "lower": 1167.0,
-        "pct_b": 0.25,
+        "upper": 2241.0,
+        "middle": 1697.0,
+        "lower": 1154.0,
+        "pct_b": 0.36,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 1445.0,
+        "tenkan": 1382.0,
         "kijun": 1592.0,
         "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -1.91,
+      "z_score": -1.29,
       "score_signal": 5,
       "raisons_selection": [
-        "RSI survendu (23.8)",
-        "Variation notable (+7.46%)",
-        "Perf 1M (-26.9%)",
-        "Actualite : UNIWAX CI : Rapport d'activités - 1er semestre 2026"
+        "RSI survendu (30.0)",
+        "Variation notable (+7.29%)",
+        "Perf 1M (-22.0%)",
+        "Actualite : UNIWAX CI : UNIWAX CI _ Etats financiers - Exercice 2025"
       ],
       "actualites_liees": [
+        {
+          "source": "SikaFinance",
+          "source_type": "communiques",
+          "source_authority": "secondary",
+          "source_rank": 60,
+          "source_role": "document_mirror",
+          "validation_policy": "match_brvm_registry",
+          "type": "RAPPORT",
+          "titre": "UNIWAX CI : UNIWAX CI _ Etats financiers - Exercice 2025",
+          "resume": "",
+          "lien": "https://www.sikafinance.com/docs/uniwax-ci-uniwax-ci--etats-financiers--exercice-2025.pdf",
+          "date": "13/07/2026",
+          "date_iso": "2026-07-13",
+          "tickers": [
+            "UNXC"
+          ],
+          "date_collecte": "2026-07-14T19:20:11Z",
+          "score_importance": 100,
+          "importance": "Critique",
+          "impact": "Fort",
+          "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+        },
+        {
+          "source": "SikaFinance",
+          "source_type": "communiques",
+          "source_authority": "secondary",
+          "source_rank": 60,
+          "source_role": "document_mirror",
+          "validation_policy": "match_brvm_registry",
+          "type": "RAPPORT",
+          "titre": "UNIWAX CI : UNIWAX CI _ Rapport d'activités - 1er semestre 2026",
+          "resume": "",
+          "lien": "https://www.sikafinance.com/docs/uniwax-ci-uniwax-ci--rapport-d-activites--1er-semestre-2026.pdf",
+          "date": "13/07/2026",
+          "date_iso": "2026-07-13",
+          "tickers": [
+            "UNXC"
+          ],
+          "date_collecte": "2026-07-14T19:20:11Z",
+          "score_importance": 100,
+          "importance": "Critique",
+          "impact": "Fort",
+          "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+        },
         {
           "source": "RichBourse",
           "source_type": "actualites",
@@ -3412,7 +3488,7 @@
           "tickers": [
             "UNXC"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -3434,7 +3510,7 @@
           "tickers": [
             "UNXC"
           ],
-          "date_collecte": "2026-07-13T19:23:19Z",
+          "date_collecte": "2026-07-14T19:20:16Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -3456,55 +3532,11 @@
           "tickers": [
             "UNXC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
           "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-        },
-        {
-          "source": "SikaFinance",
-          "source_type": "communiques",
-          "source_authority": "secondary",
-          "source_rank": 60,
-          "source_role": "document_mirror",
-          "validation_policy": "match_brvm_registry",
-          "type": "AG",
-          "titre": "UNIWAX CI : UNIWAX CI _ Formulaire de vote par correspondance - Assemblée Générale Ordinaire",
-          "resume": "",
-          "lien": "https://www.sikafinance.com/docs/uniwax-ci-uniwax-ci--formulaire-de-vote-par-correspondance--assemblee-generale-ordinaire.pdf",
-          "date": "29/06/2026",
-          "date_iso": "2026-06-29",
-          "tickers": [
-            "UNXC"
-          ],
-          "date_collecte": "2026-07-13T19:23:15Z",
-          "score_importance": 100,
-          "importance": "Critique",
-          "impact": "Fort",
-          "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-        },
-        {
-          "source": "SikaFinance",
-          "source_type": "communiques",
-          "source_authority": "secondary",
-          "source_rank": 60,
-          "source_role": "document_mirror",
-          "validation_policy": "match_brvm_registry",
-          "type": "AG",
-          "titre": "UNIWAX CI : UNIWAX CI _ Avis de convocation et Projet de résolution - Assemblée Générale Ordinaire",
-          "resume": "",
-          "lien": "https://www.sikafinance.com/docs/uniwax-ci-uniwax-ci--avis-de-convocation-et-projet-de-resolution--assemblee-generale-ordinaire.pdf",
-          "date": "29/06/2026",
-          "date_iso": "2026-06-29",
-          "tickers": [
-            "UNXC"
-          ],
-          "date_collecte": "2026-07-13T19:23:15Z",
-          "score_importance": 100,
-          "importance": "Critique",
-          "impact": "Fort",
-          "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
         }
       ]
     },
@@ -3512,38 +3544,38 @@
       "ticker": "SEMC.ci",
       "nom": "CROWN SIEM",
       "secteur": "SERVICES",
-      "prix": "1470",
-      "variation": 1.03,
-      "perf_1m": -6.37,
-      "perf_3m": -22.22,
-      "perf_ytd": 96.0,
-      "vol_moy_20j": 4455,
-      "rsi": 33.3,
+      "prix": "1495",
+      "variation": 1.7,
+      "perf_1m": -5.38,
+      "perf_3m": -14.57,
+      "perf_ytd": 99.33,
+      "vol_moy_20j": 4362,
+      "rsi": 41.4,
       "macd": {
-        "macd": -37.7,
-        "signal": -29.26,
-        "histo": -8.44,
+        "macd": -32.89,
+        "signal": -29.99,
+        "histo": -2.9,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 1644.0,
-        "middle": 1512.0,
+        "upper": 1634.0,
+        "middle": 1507.0,
         "lower": 1379.0,
-        "pct_b": 0.34,
+        "pct_b": 0.45,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 1442.0,
-        "kijun": 1500.0,
+        "tenkan": 1435.0,
+        "kijun": 1485.0,
         "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -0.77,
+      "z_score": -0.4,
       "score_signal": 2,
       "raisons_selection": [
-        "RSI survendu (33.3)"
+        "RSI survendu (41.4)"
       ],
       "actualites_liees": []
     },
@@ -3551,40 +3583,40 @@
       "ticker": "SIVC.ci",
       "nom": "ERIUM",
       "secteur": "SERVICES",
-      "prix": "2210",
-      "variation": 7.28,
-      "perf_1m": -21.91,
-      "perf_3m": -24.44,
-      "perf_ytd": 39.87,
-      "vol_moy_20j": 9198,
-      "rsi": 32.8,
+      "prix": "2375",
+      "variation": 7.47,
+      "perf_1m": -15.18,
+      "perf_3m": -15.18,
+      "perf_ytd": 50.32,
+      "vol_moy_20j": 9737,
+      "rsi": 36.0,
       "macd": {
-        "macd": -183.62,
-        "signal": -143.55,
-        "histo": -40.07,
+        "macd": -161.64,
+        "signal": -147.17,
+        "histo": -14.47,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2996.0,
-        "middle": 2455.0,
-        "lower": 1914.0,
-        "pct_b": 0.27,
+        "upper": 2952.0,
+        "middle": 2434.0,
+        "lower": 1916.0,
+        "pct_b": 0.44,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 2175.0,
-        "kijun": 2360.0,
+        "tenkan": 2152.0,
+        "kijun": 2348.0,
         "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -1.9,
+      "z_score": -1.2,
       "score_signal": 5,
       "raisons_selection": [
-        "RSI survendu (32.8)",
-        "Variation notable (+7.28%)",
-        "Perf 1M (-21.9%)",
+        "RSI survendu (36.0)",
+        "Variation notable (+7.47%)",
+        "Perf 1M (-15.2%)",
         "Actualite : ERIUM : ERIUM CI _ Etats financiers - Exercice 2025"
       ],
       "actualites_liees": [
@@ -3604,7 +3636,7 @@
           "tickers": [
             "SIVC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -3626,51 +3658,7 @@
           "tickers": [
             "SIVC"
           ],
-          "date_collecte": "2026-07-13T19:23:15Z",
-          "score_importance": 100,
-          "importance": "Critique",
-          "impact": "Fort",
-          "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-        },
-        {
-          "source": "SikaFinance",
-          "source_type": "communiques",
-          "source_authority": "secondary",
-          "source_rank": 60,
-          "source_role": "document_mirror",
-          "validation_policy": "match_brvm_registry",
-          "type": "AG",
-          "titre": "ERIUM : ERIUM CI _ Projet de résolutions - Assemblée Générale Ordinaire",
-          "resume": "",
-          "lien": "https://www.sikafinance.com/docs/erium-erium-ci--projet-de-resolutions--assemblee-generale-ordinaire.pdf",
-          "date": "26/06/2026",
-          "date_iso": "2026-06-26",
-          "tickers": [
-            "SIVC"
-          ],
-          "date_collecte": "2026-07-13T19:23:15Z",
-          "score_importance": 100,
-          "importance": "Critique",
-          "impact": "Fort",
-          "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-        },
-        {
-          "source": "SikaFinance",
-          "source_type": "communiques",
-          "source_authority": "secondary",
-          "source_rank": 60,
-          "source_role": "document_mirror",
-          "validation_policy": "match_brvm_registry",
-          "type": "AG",
-          "titre": "ERIUM : ERIUM CI _ Avis de convocation - Assemblée Générale Ordinaire",
-          "resume": "",
-          "lien": "https://www.sikafinance.com/docs/erium-erium-ci--avis-de-convocation--assemblee-generale-ordinaire.pdf",
-          "date": "25/06/2026",
-          "date_iso": "2026-06-25",
-          "tickers": [
-            "SIVC"
-          ],
-          "date_collecte": "2026-07-13T19:23:15Z",
+          "date_collecte": "2026-07-14T19:20:11Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -3682,40 +3670,40 @@
       "ticker": "ETIT.tg",
       "nom": "ETI TOGO",
       "secteur": "BANQUE",
-      "prix": "68",
-      "variation": 6.25,
-      "perf_1m": 112.5,
-      "perf_3m": 126.67,
-      "perf_ytd": 195.65,
-      "vol_moy_20j": 2049825,
+      "prix": "73",
+      "variation": 7.35,
+      "perf_1m": 128.12,
+      "perf_3m": 160.71,
+      "perf_ytd": 217.39,
+      "vol_moy_20j": 2141188,
       "rsi": NaN,
       "macd": {
-        "macd": 7.9,
-        "signal": 5.23,
-        "histo": 2.67,
+        "macd": 8.93,
+        "signal": 5.97,
+        "histo": 2.96,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 66.0,
-        "middle": 44.0,
-        "lower": 22.0,
+        "upper": 71.0,
+        "middle": 46.0,
+        "lower": 21.0,
         "pct_b": 1.04,
         "position": "au-dessus bande superieure"
       },
       "ichimoku": {
-        "tenkan": 54.0,
-        "kijun": 49.0,
+        "tenkan": 60.0,
+        "kijun": 52.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 3.39,
+      "z_score": 3.38,
       "score_signal": 6,
       "raisons_selection": [
         "Bollinger : au-dessus bande superieure",
-        "Variation notable (+6.25%)",
-        "Perf 1M (+112.5%)"
+        "Variation notable (+7.35%)",
+        "Perf 1M (+128.1%)"
       ],
       "actualites_liees": []
     },
@@ -3723,70 +3711,70 @@
       "ticker": "LNBB.bj",
       "nom": "LOTERIE BENIN",
       "secteur": "SERVICES",
-      "prix": "4345",
-      "variation": -1.59,
-      "perf_1m": 13.3,
-      "perf_3m": 12.71,
-      "perf_ytd": 1.16,
-      "vol_moy_20j": 4141,
-      "rsi": 60.7,
+      "prix": "4340",
+      "variation": -0.12,
+      "perf_1m": 12.73,
+      "perf_3m": 12.44,
+      "perf_ytd": 1.05,
+      "vol_moy_20j": 3425,
+      "rsi": 60.6,
       "macd": {
-        "macd": 96.38,
-        "signal": 96.81,
-        "histo": -0.43,
+        "macd": 96.15,
+        "signal": 96.68,
+        "histo": -0.53,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 4543.0,
-        "middle": 4193.0,
-        "lower": 3843.0,
-        "pct_b": 0.72,
+        "upper": 4542.0,
+        "middle": 4215.0,
+        "lower": 3888.0,
+        "pct_b": 0.69,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 4275.0,
-        "kijun": 4140.0,
+        "tenkan": 4260.0,
+        "kijun": 4142.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.79,
+      "z_score": 1.68,
       "score_signal": 1
     },
     {
       "ticker": "SOGC.ci",
       "nom": "SOGB",
       "secteur": "AGRICULTURE",
-      "prix": "8195",
-      "variation": -1.97,
-      "perf_1m": -3.53,
-      "perf_3m": 3.47,
-      "perf_ytd": 3.73,
-      "vol_moy_20j": 2740,
+      "prix": "8200",
+      "variation": 0.06,
+      "perf_1m": -3.36,
+      "perf_3m": 3.54,
+      "perf_ytd": 3.8,
+      "vol_moy_20j": 2831,
       "rsi": 46.6,
       "macd": {
-        "macd": 91.93,
-        "signal": 129.07,
-        "histo": -37.15,
+        "macd": 69.82,
+        "signal": 117.22,
+        "histo": -47.4,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 8631.0,
-        "middle": 8365.0,
-        "lower": 8099.0,
-        "pct_b": 0.18,
+        "upper": 8630.0,
+        "middle": 8355.0,
+        "lower": 8080.0,
+        "pct_b": 0.22,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 8480.0,
+        "tenkan": 8400.0,
         "kijun": 8310.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.47,
+      "z_score": 0.45,
       "score_signal": 1
     }
   ]
