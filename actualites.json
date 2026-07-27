@@ -1,32 +1,54 @@
 {
   "schema_version": "veille_decisionnelle_v4",
-  "date": "24/07/2026",
-  "heure": "11:42 UTC",
-  "nb_total": 42,
+  "date": "27/07/2026",
+  "heure": "12:55 UTC",
+  "nb_total": 41,
   "impact_counts": {
-    "Fort": 41,
-    "Moyen": 1,
+    "Fort": 39,
+    "Moyen": 2,
     "Faible": 0
   },
   "ag": [],
   "rapports": [
     {
       "source": "SikaFinance",
-      "source_type": "actualites",
+      "source_type": "communiques",
       "source_authority": "secondary",
-      "source_rank": 40,
-      "source_role": "editorial_news",
-      "validation_policy": "secondary_context",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
       "type": "RAPPORT",
-      "titre": "BOA Bénin : La hausse des provisions érode le bénéfice semestriel de 6 %",
-      "resume": "(P) Bank Of Africa Bénin a publié le 20 juillet son rapport d'activité du premier semestre 2026. Si la banque continue d'af... 24/07/2026 09:55",
-      "lien": "https://www.sikafinance.com/marches/boa-benin-la-hausse-des-provisions-erode-le-benefice-semestriel-de-6-_63198",
+      "titre": "SONATEL : SONATEL SN _ Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--rapport-d-activites--1er-semestre-2026.pdf",
       "date": "24/07/2026",
       "date_iso": "2026-07-24",
       "tickers": [
-        "BOAB"
+        "SNTS"
       ],
-      "date_collecte": "2026-07-24T11:42:12Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SONATEL SN : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/24-07-2026-sonatel-sn-rapport-dactivites-1er-semestre-2026",
+      "date": "24/07/2026",
+      "date_iso": "2026-07-24",
+      "tickers": [
+        "SNTS"
+      ],
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -48,7 +70,7 @@
       "tickers": [
         "BOAB"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -70,7 +92,7 @@
       "tickers": [
         "SHEC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -92,7 +114,7 @@
       "tickers": [
         "SHEC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -114,7 +136,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -136,7 +158,7 @@
       "tickers": [
         "BOAS"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -158,7 +180,7 @@
       "tickers": [
         "BOAM"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -180,7 +202,7 @@
       "tickers": [
         "BOAN"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -202,7 +224,7 @@
       "tickers": [
         "BOAB"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -224,7 +246,7 @@
       "tickers": [
         "BOABF"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -246,7 +268,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -268,7 +290,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -290,7 +312,7 @@
       "tickers": [
         "ORGT"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -312,7 +334,7 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -334,7 +356,7 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -356,51 +378,7 @@
       "tickers": [
         "CFAC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "UNIWAX CI : Etats financiers - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-uniwax-ci-etats-financiers-exercice-2025",
-      "date": "13/07/2026",
-      "date_iso": "2026-07-13",
-      "tickers": [
-        "UNXC"
-      ],
-      "date_collecte": "2026-07-24T11:42:15Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "CFAO MOTORS CI : Rapport annuel - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-cfao-motors-ci-rapport-annuel-exercice-2025",
-      "date": "13/07/2026",
-      "date_iso": "2026-07-13",
-      "tickers": [
-        "CFAC"
-      ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -422,7 +400,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -444,7 +422,7 @@
       "tickers": [
         "ORAC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -466,7 +444,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -488,7 +466,7 @@
       "tickers": [
         "PALC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -510,7 +488,7 @@
       "tickers": [
         "SGBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -532,29 +510,7 @@
       "tickers": [
         "CBIBF"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
-      "date": "03/07/2026",
-      "date_iso": "2026-07-03",
-      "tickers": [
-        "SIBC"
-      ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -576,10 +532,32 @@
       "tickers": [
         "ORGT"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 97,
       "importance": "Critique",
       "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "AgenceEcofin",
+      "source_type": "finance",
+      "source_authority": "secondary",
+      "source_rank": 15,
+      "source_role": "media_context",
+      "validation_policy": "secondary_context",
+      "type": "RAPPORT",
+      "titre": "Sonatel dépasse 1,5 Md€ de chiffre d’affaires au 1er semestre mais…",
+      "resume": "En franchissant pour la première fois les 1000 milliards de FCFA de chiffre d’affaires sur six mois, soit environ 1,5 milliard d’euros, l’entreprise dont...",
+      "lien": "https://www.agenceecofin.com/actualites-finance/2707-140527-sonatel-depasse-1-5-md-de-chiffre-d-affaires-au-1er-semestre-mais",
+      "date": "",
+      "date_iso": null,
+      "tickers": [
+        "SNTS"
+      ],
+      "date_collecte": "2026-07-27T12:55:31Z",
+      "score_importance": 68,
+      "importance": "Important",
+      "impact": "Moyen",
       "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
     }
   ],
@@ -593,14 +571,14 @@
       "validation_policy": "primary_required",
       "type": "DIVIDENDE",
       "titre": "SOGB : dividende 501.6 FCFA",
-      "resume": "Rendement indicatif RichBourse : 6.04%. Ex-dividende : 05/08/2026. Paiement : 06/08/2026.",
+      "resume": "Rendement indicatif RichBourse : 6.1%. Ex-dividende : 05/08/2026. Paiement : 06/08/2026.",
       "lien": "https://www.richbourse.com/common/mouvements/index/SOGC",
       "date": "29/09/2026",
       "date_iso": "2026-09-29",
       "tickers": [
         "SOGC"
       ],
-      "date_collecte": "2026-07-24T11:42:17Z",
+      "date_collecte": "2026-07-27T12:55:28Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -616,14 +594,14 @@
       "validation_policy": "primary_required",
       "type": "DIVIDENDE",
       "titre": "NSIA BANQUE : dividende 675.98 FCFA",
-      "resume": "Rendement indicatif RichBourse : 2.94%. Ex-dividende : 03/08/2026. Paiement : 04/08/2026.",
+      "resume": "Rendement indicatif RichBourse : 2.89%. Ex-dividende : 03/08/2026. Paiement : 04/08/2026.",
       "lien": "https://www.richbourse.com/common/mouvements/index/NSBC",
       "date": "29/09/2026",
       "date_iso": "2026-09-29",
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-24T11:42:17Z",
+      "date_collecte": "2026-07-27T12:55:28Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -639,14 +617,14 @@
       "validation_policy": "primary_required",
       "type": "DIVIDENDE",
       "titre": "SOLIBRA : dividende 1 871.76 FCFA",
-      "resume": "Rendement indicatif RichBourse : 4.68%. Ex-dividende : 29/07/2026. Paiement : 30/07/2026.",
+      "resume": "Rendement indicatif RichBourse : 4.74%. Ex-dividende : 29/07/2026. Paiement : 30/07/2026.",
       "lien": "https://www.richbourse.com/common/mouvements/index/SLBC",
       "date": "29/09/2026",
       "date_iso": "2026-09-29",
       "tickers": [
         "SLBC"
       ],
-      "date_collecte": "2026-07-24T11:42:17Z",
+      "date_collecte": "2026-07-27T12:55:28Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -669,7 +647,7 @@
       "tickers": [
         "SOGC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -691,7 +669,7 @@
       "tickers": [
         "SOGC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -713,7 +691,7 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -735,7 +713,7 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -757,7 +735,7 @@
       "tickers": [
         "LNBB"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -779,7 +757,7 @@
       "tickers": [
         "SLBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -801,29 +779,7 @@
       "tickers": [
         "SLBC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "DIVIDENDE",
-      "titre": "CIE CI : CIE CI _ Paiement de dividendes - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/cie-ci-cie-ci--paiement-de-dividendes--exercice-2025.pdf",
-      "date": "07/07/2026",
-      "date_iso": "2026-07-07",
-      "tickers": [
-        "CIEC"
-      ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -831,9 +787,76 @@
     }
   ],
   "notations": [],
-  "capitaux": [],
+  "capitaux": [
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "CAPITAL",
+      "titre": "SAFCA CI : SAFCA CI _ Admission à la cote des actions nouvelles de la société",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/safca-ci-safca-ci--admission-a-la-cote-des-actions-nouvelles-de-la-societe.pdf",
+      "date": "24/07/2026",
+      "date_iso": "2026-07-24",
+      "tickers": [
+        "SAFC"
+      ],
+      "date_collecte": "2026-07-27T12:55:21Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "CAPITAL",
+      "titre": "SAFCA CI : Admission à la cote des actions nouvelles de la société",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/24-07-2026-safca-ci-admission-a-la-cote-des-actions-nouvelles-de-la-societe",
+      "date": "24/07/2026",
+      "date_iso": "2026-07-24",
+      "tickers": [
+        "SAFC"
+      ],
+      "date_collecte": "2026-07-27T12:55:26Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
+    }
+  ],
   "macro": [],
   "autres": [
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "ACTU",
+      "titre": "SONATEL : SONATEL SN _ Communiqué de Presse",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--communique-de-presse.pdf",
+      "date": "24/07/2026",
+      "date_iso": "2026-07-24",
+      "tickers": [
+        "SNTS"
+      ],
+      "date_collecte": "2026-07-27T12:55:21Z",
+      "score_importance": 87,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Information de contexte : impact direct à confirmer."
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -850,7 +873,7 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
@@ -872,53 +895,9 @@
       "tickers": [
         "BICC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 83,
       "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Information de contexte : impact direct à confirmer."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "ACTU",
-      "titre": "FILTISAC CI : FILTISAC CI _ Communiqué",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--communique.pdf",
-      "date": "07/07/2026",
-      "date_iso": "2026-07-07",
-      "tickers": [
-        "FTSC"
-      ],
-      "date_collecte": "2026-07-24T11:42:10Z",
-      "score_importance": 83,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Information de contexte : impact direct à confirmer."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "ACTU",
-      "titre": "NSIA BANQUE CI : Communiqué",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-nsia-banque-ci-communique",
-      "date": "13/07/2026",
-      "date_iso": "2026-07-13",
-      "tickers": [
-        "NSBC"
-      ],
-      "date_collecte": "2026-07-24T11:42:15Z",
-      "score_importance": 76,
-      "importance": "Important",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
     },
@@ -938,7 +917,7 @@
       "tickers": [
         "SAFC"
       ],
-      "date_collecte": "2026-07-24T11:42:12Z",
+      "date_collecte": "2026-07-27T12:55:23Z",
       "score_importance": 57,
       "importance": "A surveiller",
       "impact": "Moyen",
@@ -955,14 +934,14 @@
       "validation_policy": "primary_required",
       "type": "DIVIDENDE",
       "titre": "SOGB : dividende 501.6 FCFA",
-      "resume": "Rendement indicatif RichBourse : 6.04%. Ex-dividende : 05/08/2026. Paiement : 06/08/2026.",
+      "resume": "Rendement indicatif RichBourse : 6.1%. Ex-dividende : 05/08/2026. Paiement : 06/08/2026.",
       "lien": "https://www.richbourse.com/common/mouvements/index/SOGC",
       "date": "29/09/2026",
       "date_iso": "2026-09-29",
       "tickers": [
         "SOGC"
       ],
-      "date_collecte": "2026-07-24T11:42:17Z",
+      "date_collecte": "2026-07-27T12:55:28Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -978,14 +957,14 @@
       "validation_policy": "primary_required",
       "type": "DIVIDENDE",
       "titre": "NSIA BANQUE : dividende 675.98 FCFA",
-      "resume": "Rendement indicatif RichBourse : 2.94%. Ex-dividende : 03/08/2026. Paiement : 04/08/2026.",
+      "resume": "Rendement indicatif RichBourse : 2.89%. Ex-dividende : 03/08/2026. Paiement : 04/08/2026.",
       "lien": "https://www.richbourse.com/common/mouvements/index/NSBC",
       "date": "29/09/2026",
       "date_iso": "2026-09-29",
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-24T11:42:17Z",
+      "date_collecte": "2026-07-27T12:55:28Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1001,14 +980,14 @@
       "validation_policy": "primary_required",
       "type": "DIVIDENDE",
       "titre": "SOLIBRA : dividende 1 871.76 FCFA",
-      "resume": "Rendement indicatif RichBourse : 4.68%. Ex-dividende : 29/07/2026. Paiement : 30/07/2026.",
+      "resume": "Rendement indicatif RichBourse : 4.74%. Ex-dividende : 29/07/2026. Paiement : 30/07/2026.",
       "lien": "https://www.richbourse.com/common/mouvements/index/SLBC",
       "date": "29/09/2026",
       "date_iso": "2026-09-29",
       "tickers": [
         "SLBC"
       ],
-      "date_collecte": "2026-07-24T11:42:17Z",
+      "date_collecte": "2026-07-27T12:55:28Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1017,25 +996,91 @@
     },
     {
       "source": "SikaFinance",
-      "source_type": "actualites",
+      "source_type": "communiques",
       "source_authority": "secondary",
-      "source_rank": 40,
-      "source_role": "editorial_news",
-      "validation_policy": "secondary_context",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
       "type": "RAPPORT",
-      "titre": "BOA Bénin : La hausse des provisions érode le bénéfice semestriel de 6 %",
-      "resume": "(P) Bank Of Africa Bénin a publié le 20 juillet son rapport d'activité du premier semestre 2026. Si la banque continue d'af... 24/07/2026 09:55",
-      "lien": "https://www.sikafinance.com/marches/boa-benin-la-hausse-des-provisions-erode-le-benefice-semestriel-de-6-_63198",
+      "titre": "SONATEL : SONATEL SN _ Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--rapport-d-activites--1er-semestre-2026.pdf",
       "date": "24/07/2026",
       "date_iso": "2026-07-24",
       "tickers": [
-        "BOAB"
+        "SNTS"
       ],
-      "date_collecte": "2026-07-24T11:42:12Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "CAPITAL",
+      "titre": "SAFCA CI : SAFCA CI _ Admission à la cote des actions nouvelles de la société",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/safca-ci-safca-ci--admission-a-la-cote-des-actions-nouvelles-de-la-societe.pdf",
+      "date": "24/07/2026",
+      "date_iso": "2026-07-24",
+      "tickers": [
+        "SAFC"
+      ],
+      "date_collecte": "2026-07-27T12:55:21Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SONATEL SN : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/24-07-2026-sonatel-sn-rapport-dactivites-1er-semestre-2026",
+      "date": "24/07/2026",
+      "date_iso": "2026-07-24",
+      "tickers": [
+        "SNTS"
+      ],
+      "date_collecte": "2026-07-27T12:55:26Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "CAPITAL",
+      "titre": "SAFCA CI : Admission à la cote des actions nouvelles de la société",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/24-07-2026-safca-ci-admission-a-la-cote-des-actions-nouvelles-de-la-societe",
+      "date": "24/07/2026",
+      "date_iso": "2026-07-24",
+      "tickers": [
+        "SAFC"
+      ],
+      "date_collecte": "2026-07-27T12:55:26Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
     },
     {
       "source": "SikaFinance",
@@ -1053,7 +1098,7 @@
       "tickers": [
         "BOAB"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1075,7 +1120,7 @@
       "tickers": [
         "SOGC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1097,7 +1142,7 @@
       "tickers": [
         "SOGC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1119,7 +1164,7 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1141,7 +1186,7 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1163,7 +1208,7 @@
       "tickers": [
         "SHEC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1185,7 +1230,7 @@
       "tickers": [
         "LNBB"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1207,7 +1252,7 @@
       "tickers": [
         "SHEC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1229,7 +1274,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1251,7 +1296,7 @@
       "tickers": [
         "BOAS"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1273,7 +1318,7 @@
       "tickers": [
         "BOAM"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1295,7 +1340,7 @@
       "tickers": [
         "BOAN"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1317,7 +1362,7 @@
       "tickers": [
         "BOAB"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1339,7 +1384,7 @@
       "tickers": [
         "BOABF"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1361,7 +1406,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1383,7 +1428,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1405,7 +1450,7 @@
       "tickers": [
         "ORGT"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1427,7 +1472,7 @@
       "tickers": [
         "SLBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1449,7 +1494,7 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1471,7 +1516,7 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1493,7 +1538,7 @@
       "tickers": [
         "CFAC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1515,55 +1560,11 @@
       "tickers": [
         "SLBC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "UNIWAX CI : Etats financiers - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-uniwax-ci-etats-financiers-exercice-2025",
-      "date": "13/07/2026",
-      "date_iso": "2026-07-13",
-      "tickers": [
-        "UNXC"
-      ],
-      "date_collecte": "2026-07-24T11:42:15Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "CFAO MOTORS CI : Rapport annuel - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-cfao-motors-ci-rapport-annuel-exercice-2025",
-      "date": "13/07/2026",
-      "date_iso": "2026-07-13",
-      "tickers": [
-        "CFAC"
-      ],
-      "date_collecte": "2026-07-24T11:42:15Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
     },
     {
       "source": "SikaFinance",
@@ -1581,7 +1582,7 @@
       "tickers": [
         "STBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1603,7 +1604,7 @@
       "tickers": [
         "ORAC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1625,7 +1626,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1647,7 +1648,7 @@
       "tickers": [
         "PALC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1669,7 +1670,7 @@
       "tickers": [
         "SGBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1691,51 +1692,7 @@
       "tickers": [
         "CBIBF"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "DIVIDENDE",
-      "titre": "CIE CI : CIE CI _ Paiement de dividendes - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/cie-ci-cie-ci--paiement-de-dividendes--exercice-2025.pdf",
-      "date": "07/07/2026",
-      "date_iso": "2026-07-07",
-      "tickers": [
-        "CIEC"
-      ],
-      "date_collecte": "2026-07-24T11:42:10Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
-      "date": "03/07/2026",
-      "date_iso": "2026-07-03",
-      "tickers": [
-        "SIBC"
-      ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1757,11 +1714,33 @@
       "tickers": [
         "ORGT"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 97,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "ACTU",
+      "titre": "SONATEL : SONATEL SN _ Communiqué de Presse",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--communique-de-presse.pdf",
+      "date": "24/07/2026",
+      "date_iso": "2026-07-24",
+      "tickers": [
+        "SNTS"
+      ],
+      "date_collecte": "2026-07-27T12:55:21Z",
+      "score_importance": 87,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Information de contexte : impact direct à confirmer."
     },
     {
       "source": "SikaFinance",
@@ -1779,7 +1758,7 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
@@ -1801,55 +1780,33 @@
       "tickers": [
         "BICC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
     },
     {
-      "source": "SikaFinance",
-      "source_type": "communiques",
+      "source": "AgenceEcofin",
+      "source_type": "finance",
       "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "ACTU",
-      "titre": "FILTISAC CI : FILTISAC CI _ Communiqué",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--communique.pdf",
-      "date": "07/07/2026",
-      "date_iso": "2026-07-07",
+      "source_rank": 15,
+      "source_role": "media_context",
+      "validation_policy": "secondary_context",
+      "type": "RAPPORT",
+      "titre": "Sonatel dépasse 1,5 Md€ de chiffre d’affaires au 1er semestre mais…",
+      "resume": "En franchissant pour la première fois les 1000 milliards de FCFA de chiffre d’affaires sur six mois, soit environ 1,5 milliard d’euros, l’entreprise dont...",
+      "lien": "https://www.agenceecofin.com/actualites-finance/2707-140527-sonatel-depasse-1-5-md-de-chiffre-d-affaires-au-1er-semestre-mais",
+      "date": "",
+      "date_iso": null,
       "tickers": [
-        "FTSC"
+        "SNTS"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
-      "score_importance": 83,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Information de contexte : impact direct à confirmer."
-    },
-    {
-      "source": "RichBourse",
-      "source_type": "actualites",
-      "source_authority": "secondary",
-      "source_rank": 30,
-      "source_role": "aggregator",
-      "validation_policy": "match_brvm_registry",
-      "type": "ACTU",
-      "titre": "NSIA BANQUE CI : Communiqué",
-      "resume": "",
-      "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-nsia-banque-ci-communique",
-      "date": "13/07/2026",
-      "date_iso": "2026-07-13",
-      "tickers": [
-        "NSBC"
-      ],
-      "date_collecte": "2026-07-24T11:42:15Z",
-      "score_importance": 76,
+      "date_collecte": "2026-07-27T12:55:31Z",
+      "score_importance": 68,
       "importance": "Important",
-      "impact": "Fort",
-      "pourquoi": "Information de contexte : impact direct à confirmer."
+      "impact": "Moyen",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
     },
     {
       "source": "SikaFinance",
@@ -1867,7 +1824,7 @@
       "tickers": [
         "SAFC"
       ],
-      "date_collecte": "2026-07-24T11:42:12Z",
+      "date_collecte": "2026-07-27T12:55:23Z",
       "score_importance": 57,
       "importance": "A surveiller",
       "impact": "Moyen",
@@ -1884,14 +1841,14 @@
       "validation_policy": "primary_required",
       "type": "DIVIDENDE",
       "titre": "SOGB : dividende 501.6 FCFA",
-      "resume": "Rendement indicatif RichBourse : 6.04%. Ex-dividende : 05/08/2026. Paiement : 06/08/2026.",
+      "resume": "Rendement indicatif RichBourse : 6.1%. Ex-dividende : 05/08/2026. Paiement : 06/08/2026.",
       "lien": "https://www.richbourse.com/common/mouvements/index/SOGC",
       "date": "29/09/2026",
       "date_iso": "2026-09-29",
       "tickers": [
         "SOGC"
       ],
-      "date_collecte": "2026-07-24T11:42:17Z",
+      "date_collecte": "2026-07-27T12:55:28Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1907,14 +1864,14 @@
       "validation_policy": "primary_required",
       "type": "DIVIDENDE",
       "titre": "NSIA BANQUE : dividende 675.98 FCFA",
-      "resume": "Rendement indicatif RichBourse : 2.94%. Ex-dividende : 03/08/2026. Paiement : 04/08/2026.",
+      "resume": "Rendement indicatif RichBourse : 2.89%. Ex-dividende : 03/08/2026. Paiement : 04/08/2026.",
       "lien": "https://www.richbourse.com/common/mouvements/index/NSBC",
       "date": "29/09/2026",
       "date_iso": "2026-09-29",
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-24T11:42:17Z",
+      "date_collecte": "2026-07-27T12:55:28Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1930,14 +1887,14 @@
       "validation_policy": "primary_required",
       "type": "DIVIDENDE",
       "titre": "SOLIBRA : dividende 1 871.76 FCFA",
-      "resume": "Rendement indicatif RichBourse : 4.68%. Ex-dividende : 29/07/2026. Paiement : 30/07/2026.",
+      "resume": "Rendement indicatif RichBourse : 4.74%. Ex-dividende : 29/07/2026. Paiement : 30/07/2026.",
       "lien": "https://www.richbourse.com/common/mouvements/index/SLBC",
       "date": "29/09/2026",
       "date_iso": "2026-09-29",
       "tickers": [
         "SLBC"
       ],
-      "date_collecte": "2026-07-24T11:42:17Z",
+      "date_collecte": "2026-07-27T12:55:28Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1946,25 +1903,91 @@
     },
     {
       "source": "SikaFinance",
-      "source_type": "actualites",
+      "source_type": "communiques",
       "source_authority": "secondary",
-      "source_rank": 40,
-      "source_role": "editorial_news",
-      "validation_policy": "secondary_context",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
       "type": "RAPPORT",
-      "titre": "BOA Bénin : La hausse des provisions érode le bénéfice semestriel de 6 %",
-      "resume": "(P) Bank Of Africa Bénin a publié le 20 juillet son rapport d'activité du premier semestre 2026. Si la banque continue d'af... 24/07/2026 09:55",
-      "lien": "https://www.sikafinance.com/marches/boa-benin-la-hausse-des-provisions-erode-le-benefice-semestriel-de-6-_63198",
+      "titre": "SONATEL : SONATEL SN _ Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--rapport-d-activites--1er-semestre-2026.pdf",
       "date": "24/07/2026",
       "date_iso": "2026-07-24",
       "tickers": [
-        "BOAB"
+        "SNTS"
       ],
-      "date_collecte": "2026-07-24T11:42:12Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "CAPITAL",
+      "titre": "SAFCA CI : SAFCA CI _ Admission à la cote des actions nouvelles de la société",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/safca-ci-safca-ci--admission-a-la-cote-des-actions-nouvelles-de-la-societe.pdf",
+      "date": "24/07/2026",
+      "date_iso": "2026-07-24",
+      "tickers": [
+        "SAFC"
+      ],
+      "date_collecte": "2026-07-27T12:55:21Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SONATEL SN : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/24-07-2026-sonatel-sn-rapport-dactivites-1er-semestre-2026",
+      "date": "24/07/2026",
+      "date_iso": "2026-07-24",
+      "tickers": [
+        "SNTS"
+      ],
+      "date_collecte": "2026-07-27T12:55:26Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "CAPITAL",
+      "titre": "SAFCA CI : Admission à la cote des actions nouvelles de la société",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/details/24-07-2026-safca-ci-admission-a-la-cote-des-actions-nouvelles-de-la-societe",
+      "date": "24/07/2026",
+      "date_iso": "2026-07-24",
+      "tickers": [
+        "SAFC"
+      ],
+      "date_collecte": "2026-07-27T12:55:26Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
     },
     {
       "source": "SikaFinance",
@@ -1982,7 +2005,7 @@
       "tickers": [
         "BOAB"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -2004,7 +2027,7 @@
       "tickers": [
         "SOGC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -2026,7 +2049,7 @@
       "tickers": [
         "SOGC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -2048,7 +2071,7 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -2070,7 +2093,7 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -2092,7 +2115,7 @@
       "tickers": [
         "SHEC"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -2114,7 +2137,7 @@
       "tickers": [
         "LNBB"
       ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:21Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -2136,73 +2159,7 @@
       "tickers": [
         "SHEC"
       ],
-      "date_collecte": "2026-07-24T11:42:15Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "SITAB : SITAB CI _ Rapport annuel - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/sitab-sitab-ci--rapport-annuel--exercice-2025.pdf",
-      "date": "15/07/2026",
-      "date_iso": "2026-07-15",
-      "tickers": [
-        "STBC"
-      ],
-      "date_collecte": "2026-07-24T11:42:10Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "BANK OF AFRICA SENEGAL : BOA SN _ Bilan semestriel du contrat de liquidité -1er semestre 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bank-of-africa-senegal-boa-sn--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2026.pdf",
-      "date": "15/07/2026",
-      "date_iso": "2026-07-15",
-      "tickers": [
-        "BOAS"
-      ],
-      "date_collecte": "2026-07-24T11:42:10Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "BANK OF AFRICA MALI : BOA ML _ Bilan semestriel du contrat de liquidité -1er semestre 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bank-of-africa-mali-boa-ml--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2026.pdf",
-      "date": "15/07/2026",
-      "date_iso": "2026-07-15",
-      "tickers": [
-        "BOAM"
-      ],
-      "date_collecte": "2026-07-24T11:42:10Z",
+      "date_collecte": "2026-07-27T12:55:26Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -2220,14 +2177,14 @@
         "validation_policy": "primary_required",
         "type": "DIVIDENDE",
         "titre": "SOGB : dividende 501.6 FCFA",
-        "resume": "Rendement indicatif RichBourse : 6.04%. Ex-dividende : 05/08/2026. Paiement : 06/08/2026.",
+        "resume": "Rendement indicatif RichBourse : 6.1%. Ex-dividende : 05/08/2026. Paiement : 06/08/2026.",
         "lien": "https://www.richbourse.com/common/mouvements/index/SOGC",
         "date": "29/09/2026",
         "date_iso": "2026-09-29",
         "tickers": [
           "SOGC"
         ],
-        "date_collecte": "2026-07-24T11:42:17Z",
+        "date_collecte": "2026-07-27T12:55:28Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2250,7 +2207,7 @@
         "tickers": [
           "SOGC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2272,7 +2229,7 @@
         "tickers": [
           "SOGC"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2289,14 +2246,14 @@
         "validation_policy": "primary_required",
         "type": "DIVIDENDE",
         "titre": "NSIA BANQUE : dividende 675.98 FCFA",
-        "resume": "Rendement indicatif RichBourse : 2.94%. Ex-dividende : 03/08/2026. Paiement : 04/08/2026.",
+        "resume": "Rendement indicatif RichBourse : 2.89%. Ex-dividende : 03/08/2026. Paiement : 04/08/2026.",
         "lien": "https://www.richbourse.com/common/mouvements/index/NSBC",
         "date": "29/09/2026",
         "date_iso": "2026-09-29",
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-07-24T11:42:17Z",
+        "date_collecte": "2026-07-27T12:55:28Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2319,7 +2276,7 @@
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2341,7 +2298,7 @@
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2363,31 +2320,9 @@
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 83,
         "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "ACTU",
-        "titre": "NSIA BANQUE CI : Communiqué",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-nsia-banque-ci-communique",
-        "date": "13/07/2026",
-        "date_iso": "2026-07-13",
-        "tickers": [
-          "NSBC"
-        ],
-        "date_collecte": "2026-07-24T11:42:15Z",
-        "score_importance": 76,
-        "importance": "Important",
         "impact": "Fort",
         "pourquoi": "Information de contexte : impact direct à confirmer."
       }
@@ -2402,14 +2337,14 @@
         "validation_policy": "primary_required",
         "type": "DIVIDENDE",
         "titre": "SOLIBRA : dividende 1 871.76 FCFA",
-        "resume": "Rendement indicatif RichBourse : 4.68%. Ex-dividende : 29/07/2026. Paiement : 30/07/2026.",
+        "resume": "Rendement indicatif RichBourse : 4.74%. Ex-dividende : 29/07/2026. Paiement : 30/07/2026.",
         "lien": "https://www.richbourse.com/common/mouvements/index/SLBC",
         "date": "29/09/2026",
         "date_iso": "2026-09-29",
         "tickers": [
           "SLBC"
         ],
-        "date_collecte": "2026-07-24T11:42:17Z",
+        "date_collecte": "2026-07-27T12:55:28Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2432,7 +2367,7 @@
         "tickers": [
           "SLBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2454,14 +2389,148 @@
         "tickers": [
           "SLBC"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
       }
     ],
-    "BOAB": [
+    "SNTS": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SONATEL : SONATEL SN _ Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--rapport-d-activites--1er-semestre-2026.pdf",
+        "date": "24/07/2026",
+        "date_iso": "2026-07-24",
+        "tickers": [
+          "SNTS"
+        ],
+        "date_collecte": "2026-07-27T12:55:21Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SONATEL SN : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/24-07-2026-sonatel-sn-rapport-dactivites-1er-semestre-2026",
+        "date": "24/07/2026",
+        "date_iso": "2026-07-24",
+        "tickers": [
+          "SNTS"
+        ],
+        "date_collecte": "2026-07-27T12:55:26Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "ACTU",
+        "titre": "SONATEL : SONATEL SN _ Communiqué de Presse",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--communique-de-presse.pdf",
+        "date": "24/07/2026",
+        "date_iso": "2026-07-24",
+        "tickers": [
+          "SNTS"
+        ],
+        "date_collecte": "2026-07-27T12:55:21Z",
+        "score_importance": 87,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Information de contexte : impact direct à confirmer."
+      },
+      {
+        "source": "AgenceEcofin",
+        "source_type": "finance",
+        "source_authority": "secondary",
+        "source_rank": 15,
+        "source_role": "media_context",
+        "validation_policy": "secondary_context",
+        "type": "RAPPORT",
+        "titre": "Sonatel dépasse 1,5 Md€ de chiffre d’affaires au 1er semestre mais…",
+        "resume": "En franchissant pour la première fois les 1000 milliards de FCFA de chiffre d’affaires sur six mois, soit environ 1,5 milliard d’euros, l’entreprise dont...",
+        "lien": "https://www.agenceecofin.com/actualites-finance/2707-140527-sonatel-depasse-1-5-md-de-chiffre-d-affaires-au-1er-semestre-mais",
+        "date": "",
+        "date_iso": null,
+        "tickers": [
+          "SNTS"
+        ],
+        "date_collecte": "2026-07-27T12:55:31Z",
+        "score_importance": 68,
+        "importance": "Important",
+        "impact": "Moyen",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      }
+    ],
+    "SAFC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "CAPITAL",
+        "titre": "SAFCA CI : SAFCA CI _ Admission à la cote des actions nouvelles de la société",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/safca-ci-safca-ci--admission-a-la-cote-des-actions-nouvelles-de-la-societe.pdf",
+        "date": "24/07/2026",
+        "date_iso": "2026-07-24",
+        "tickers": [
+          "SAFC"
+        ],
+        "date_collecte": "2026-07-27T12:55:21Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "CAPITAL",
+        "titre": "SAFCA CI : Admission à la cote des actions nouvelles de la société",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/24-07-2026-safca-ci-admission-a-la-cote-des-actions-nouvelles-de-la-societe",
+        "date": "24/07/2026",
+        "date_iso": "2026-07-24",
+        "tickers": [
+          "SAFC"
+        ],
+        "date_collecte": "2026-07-27T12:55:26Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
+      },
       {
         "source": "SikaFinance",
         "source_type": "actualites",
@@ -2469,21 +2538,23 @@
         "source_rank": 40,
         "source_role": "editorial_news",
         "validation_policy": "secondary_context",
-        "type": "RAPPORT",
-        "titre": "BOA Bénin : La hausse des provisions érode le bénéfice semestriel de 6 %",
-        "resume": "(P) Bank Of Africa Bénin a publié le 20 juillet son rapport d'activité du premier semestre 2026. Si la banque continue d'af... 24/07/2026 09:55",
-        "lien": "https://www.sikafinance.com/marches/boa-benin-la-hausse-des-provisions-erode-le-benefice-semestriel-de-6-_63198",
-        "date": "24/07/2026",
-        "date_iso": "2026-07-24",
+        "type": "ACTU",
+        "titre": "Simulateur de dilution SAFCA",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/marches/simulateur_dilution_safca",
+        "date": "",
+        "date_iso": null,
         "tickers": [
-          "BOAB"
+          "SAFC"
         ],
-        "date_collecte": "2026-07-24T11:42:12Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
+        "date_collecte": "2026-07-27T12:55:23Z",
+        "score_importance": 57,
+        "importance": "A surveiller",
+        "impact": "Moyen",
+        "pourquoi": "Information de contexte : impact direct à confirmer."
+      }
+    ],
+    "BOAB": [
       {
         "source": "SikaFinance",
         "source_type": "communiques",
@@ -2500,7 +2571,7 @@
         "tickers": [
           "BOAB"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2522,7 +2593,7 @@
         "tickers": [
           "BOAB"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2546,7 +2617,7 @@
         "tickers": [
           "SHEC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2568,7 +2639,7 @@
         "tickers": [
           "SHEC"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2592,7 +2663,7 @@
         "tickers": [
           "LNBB"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2616,7 +2687,7 @@
         "tickers": [
           "STBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2638,7 +2709,7 @@
         "tickers": [
           "STBC"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2660,7 +2731,7 @@
         "tickers": [
           "STBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2684,7 +2755,7 @@
         "tickers": [
           "BOAS"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2708,7 +2779,7 @@
         "tickers": [
           "BOAM"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2732,7 +2803,7 @@
         "tickers": [
           "BOAN"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2756,7 +2827,7 @@
         "tickers": [
           "BOABF"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2780,7 +2851,7 @@
         "tickers": [
           "BOAC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2804,7 +2875,7 @@
         "tickers": [
           "ORGT"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2826,7 +2897,7 @@
         "tickers": [
           "ORGT"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 97,
         "importance": "Critique",
         "impact": "Fort",
@@ -2850,7 +2921,7 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2872,29 +2943,7 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "UNIWAX CI : Etats financiers - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-uniwax-ci-etats-financiers-exercice-2025",
-        "date": "13/07/2026",
-        "date_iso": "2026-07-13",
-        "tickers": [
-          "UNXC"
-        ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2918,29 +2967,7 @@
         "tickers": [
           "CFAC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "CFAO MOTORS CI : Rapport annuel - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-cfao-motors-ci-rapport-annuel-exercice-2025",
-        "date": "13/07/2026",
-        "date_iso": "2026-07-13",
-        "tickers": [
-          "CFAC"
-        ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2964,7 +2991,7 @@
         "tickers": [
           "ORAC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2988,7 +3015,7 @@
         "tickers": [
           "SDSC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3012,7 +3039,7 @@
         "tickers": [
           "PALC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3036,7 +3063,7 @@
         "tickers": [
           "SGBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3060,55 +3087,7 @@
         "tickers": [
           "CBIBF"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      }
-    ],
-    "CIEC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "CIE CI : CIE CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/cie-ci-cie-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "07/07/2026",
-        "date_iso": "2026-07-07",
-        "tickers": [
-          "CIEC"
-        ],
-        "date_collecte": "2026-07-24T11:42:10Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      }
-    ],
-    "SIBC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
-        "date": "03/07/2026",
-        "date_iso": "2026-07-03",
-        "tickers": [
-          "SIBC"
-        ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3132,58 +3111,10 @@
         "tickers": [
           "BICC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
-      }
-    ],
-    "FTSC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "ACTU",
-        "titre": "FILTISAC CI : FILTISAC CI _ Communiqué",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--communique.pdf",
-        "date": "07/07/2026",
-        "date_iso": "2026-07-07",
-        "tickers": [
-          "FTSC"
-        ],
-        "date_collecte": "2026-07-24T11:42:10Z",
-        "score_importance": 83,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
-      }
-    ],
-    "SAFC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 40,
-        "source_role": "editorial_news",
-        "validation_policy": "secondary_context",
-        "type": "ACTU",
-        "titre": "Simulateur de dilution SAFCA",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/marches/simulateur_dilution_safca",
-        "date": "",
-        "date_iso": null,
-        "tickers": [
-          "SAFC"
-        ],
-        "date_collecte": "2026-07-24T11:42:12Z",
-        "score_importance": 57,
-        "importance": "A surveiller",
-        "impact": "Moyen",
         "pourquoi": "Information de contexte : impact direct à confirmer."
       }
     ]
@@ -3199,14 +3130,14 @@
         "validation_policy": "primary_required",
         "type": "DIVIDENDE",
         "titre": "SOGB : dividende 501.6 FCFA",
-        "resume": "Rendement indicatif RichBourse : 6.04%. Ex-dividende : 05/08/2026. Paiement : 06/08/2026.",
+        "resume": "Rendement indicatif RichBourse : 6.1%. Ex-dividende : 05/08/2026. Paiement : 06/08/2026.",
         "lien": "https://www.richbourse.com/common/mouvements/index/SOGC",
         "date": "29/09/2026",
         "date_iso": "2026-09-29",
         "tickers": [
           "SOGC"
         ],
-        "date_collecte": "2026-07-24T11:42:17Z",
+        "date_collecte": "2026-07-27T12:55:28Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3222,14 +3153,14 @@
         "validation_policy": "primary_required",
         "type": "DIVIDENDE",
         "titre": "NSIA BANQUE : dividende 675.98 FCFA",
-        "resume": "Rendement indicatif RichBourse : 2.94%. Ex-dividende : 03/08/2026. Paiement : 04/08/2026.",
+        "resume": "Rendement indicatif RichBourse : 2.89%. Ex-dividende : 03/08/2026. Paiement : 04/08/2026.",
         "lien": "https://www.richbourse.com/common/mouvements/index/NSBC",
         "date": "29/09/2026",
         "date_iso": "2026-09-29",
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-07-24T11:42:17Z",
+        "date_collecte": "2026-07-27T12:55:28Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3245,14 +3176,14 @@
         "validation_policy": "primary_required",
         "type": "DIVIDENDE",
         "titre": "SOLIBRA : dividende 1 871.76 FCFA",
-        "resume": "Rendement indicatif RichBourse : 4.68%. Ex-dividende : 29/07/2026. Paiement : 30/07/2026.",
+        "resume": "Rendement indicatif RichBourse : 4.74%. Ex-dividende : 29/07/2026. Paiement : 30/07/2026.",
         "lien": "https://www.richbourse.com/common/mouvements/index/SLBC",
         "date": "29/09/2026",
         "date_iso": "2026-09-29",
         "tickers": [
           "SLBC"
         ],
-        "date_collecte": "2026-07-24T11:42:17Z",
+        "date_collecte": "2026-07-27T12:55:28Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3275,7 +3206,7 @@
         "tickers": [
           "SOGC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3297,7 +3228,7 @@
         "tickers": [
           "SOGC"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3319,7 +3250,7 @@
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3341,7 +3272,7 @@
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3363,7 +3294,7 @@
         "tickers": [
           "LNBB"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3385,7 +3316,7 @@
         "tickers": [
           "SLBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3407,29 +3338,7 @@
         "tickers": [
           "SLBC"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "CIE CI : CIE CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/cie-ci-cie-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "07/07/2026",
-        "date_iso": "2026-07-07",
-        "tickers": [
-          "CIEC"
-        ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3439,21 +3348,43 @@
     "RAPPORT": [
       {
         "source": "SikaFinance",
-        "source_type": "actualites",
+        "source_type": "communiques",
         "source_authority": "secondary",
-        "source_rank": 40,
-        "source_role": "editorial_news",
-        "validation_policy": "secondary_context",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
         "type": "RAPPORT",
-        "titre": "BOA Bénin : La hausse des provisions érode le bénéfice semestriel de 6 %",
-        "resume": "(P) Bank Of Africa Bénin a publié le 20 juillet son rapport d'activité du premier semestre 2026. Si la banque continue d'af... 24/07/2026 09:55",
-        "lien": "https://www.sikafinance.com/marches/boa-benin-la-hausse-des-provisions-erode-le-benefice-semestriel-de-6-_63198",
+        "titre": "SONATEL : SONATEL SN _ Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--rapport-d-activites--1er-semestre-2026.pdf",
         "date": "24/07/2026",
         "date_iso": "2026-07-24",
         "tickers": [
-          "BOAB"
+          "SNTS"
         ],
-        "date_collecte": "2026-07-24T11:42:12Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SONATEL SN : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/24-07-2026-sonatel-sn-rapport-dactivites-1er-semestre-2026",
+        "date": "24/07/2026",
+        "date_iso": "2026-07-24",
+        "tickers": [
+          "SNTS"
+        ],
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3475,7 +3406,7 @@
         "tickers": [
           "BOAB"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3497,7 +3428,7 @@
         "tickers": [
           "SHEC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3519,7 +3450,7 @@
         "tickers": [
           "SHEC"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3541,7 +3472,7 @@
         "tickers": [
           "STBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3563,7 +3494,7 @@
         "tickers": [
           "BOAS"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3585,7 +3516,7 @@
         "tickers": [
           "BOAM"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3607,7 +3538,7 @@
         "tickers": [
           "BOAN"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3629,7 +3560,7 @@
         "tickers": [
           "BOAB"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3651,7 +3582,7 @@
         "tickers": [
           "BOABF"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3673,7 +3604,7 @@
         "tickers": [
           "BOAC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3695,7 +3626,7 @@
         "tickers": [
           "STBC"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3717,7 +3648,7 @@
         "tickers": [
           "ORGT"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3739,7 +3670,7 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3761,7 +3692,7 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3783,51 +3714,7 @@
         "tickers": [
           "CFAC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "UNIWAX CI : Etats financiers - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-uniwax-ci-etats-financiers-exercice-2025",
-        "date": "13/07/2026",
-        "date_iso": "2026-07-13",
-        "tickers": [
-          "UNXC"
-        ],
-        "date_collecte": "2026-07-24T11:42:15Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "CFAO MOTORS CI : Rapport annuel - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-cfao-motors-ci-rapport-annuel-exercice-2025",
-        "date": "13/07/2026",
-        "date_iso": "2026-07-13",
-        "tickers": [
-          "CFAC"
-        ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3849,7 +3736,7 @@
         "tickers": [
           "STBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3871,7 +3758,7 @@
         "tickers": [
           "ORAC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3893,7 +3780,7 @@
         "tickers": [
           "SDSC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3915,7 +3802,7 @@
         "tickers": [
           "PALC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3937,7 +3824,7 @@
         "tickers": [
           "SGBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -3959,29 +3846,7 @@
         "tickers": [
           "CBIBF"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "SOCIETE IVOIRIENNE DE BANQUE CI : SIB CI _ Bilan semestriel du contrat de liquidité -1er semestre 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--bilan-semestriel-du-contrat-de-liquidite-1er-semestre-2025.pdf",
-        "date": "03/07/2026",
-        "date_iso": "2026-07-03",
-        "tickers": [
-          "SIBC"
-        ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -4003,14 +3868,104 @@
         "tickers": [
           "ORGT"
         ],
-        "date_collecte": "2026-07-24T11:42:15Z",
+        "date_collecte": "2026-07-27T12:55:26Z",
         "score_importance": 97,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "AgenceEcofin",
+        "source_type": "finance",
+        "source_authority": "secondary",
+        "source_rank": 15,
+        "source_role": "media_context",
+        "validation_policy": "secondary_context",
+        "type": "RAPPORT",
+        "titre": "Sonatel dépasse 1,5 Md€ de chiffre d’affaires au 1er semestre mais…",
+        "resume": "En franchissant pour la première fois les 1000 milliards de FCFA de chiffre d’affaires sur six mois, soit environ 1,5 milliard d’euros, l’entreprise dont...",
+        "lien": "https://www.agenceecofin.com/actualites-finance/2707-140527-sonatel-depasse-1-5-md-de-chiffre-d-affaires-au-1er-semestre-mais",
+        "date": "",
+        "date_iso": null,
+        "tickers": [
+          "SNTS"
+        ],
+        "date_collecte": "2026-07-27T12:55:31Z",
+        "score_importance": 68,
+        "importance": "Important",
+        "impact": "Moyen",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      }
+    ],
+    "CAPITAL": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "CAPITAL",
+        "titre": "SAFCA CI : SAFCA CI _ Admission à la cote des actions nouvelles de la société",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/safca-ci-safca-ci--admission-a-la-cote-des-actions-nouvelles-de-la-societe.pdf",
+        "date": "24/07/2026",
+        "date_iso": "2026-07-24",
+        "tickers": [
+          "SAFC"
+        ],
+        "date_collecte": "2026-07-27T12:55:21Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "CAPITAL",
+        "titre": "SAFCA CI : Admission à la cote des actions nouvelles de la société",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/details/24-07-2026-safca-ci-admission-a-la-cote-des-actions-nouvelles-de-la-societe",
+        "date": "24/07/2026",
+        "date_iso": "2026-07-24",
+        "tickers": [
+          "SAFC"
+        ],
+        "date_collecte": "2026-07-27T12:55:26Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
       }
     ],
     "ACTU": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "ACTU",
+        "titre": "SONATEL : SONATEL SN _ Communiqué de Presse",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--communique-de-presse.pdf",
+        "date": "24/07/2026",
+        "date_iso": "2026-07-24",
+        "tickers": [
+          "SNTS"
+        ],
+        "date_collecte": "2026-07-27T12:55:21Z",
+        "score_importance": 87,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Information de contexte : impact direct à confirmer."
+      },
       {
         "source": "SikaFinance",
         "source_type": "communiques",
@@ -4027,7 +3982,7 @@
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
@@ -4049,53 +4004,9 @@
         "tickers": [
           "BICC"
         ],
-        "date_collecte": "2026-07-24T11:42:10Z",
+        "date_collecte": "2026-07-27T12:55:21Z",
         "score_importance": 83,
         "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "ACTU",
-        "titre": "FILTISAC CI : FILTISAC CI _ Communiqué",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--communique.pdf",
-        "date": "07/07/2026",
-        "date_iso": "2026-07-07",
-        "tickers": [
-          "FTSC"
-        ],
-        "date_collecte": "2026-07-24T11:42:10Z",
-        "score_importance": 83,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
-      },
-      {
-        "source": "RichBourse",
-        "source_type": "actualites",
-        "source_authority": "secondary",
-        "source_rank": 30,
-        "source_role": "aggregator",
-        "validation_policy": "match_brvm_registry",
-        "type": "ACTU",
-        "titre": "NSIA BANQUE CI : Communiqué",
-        "resume": "",
-        "lien": "https://www.richbourse.com/common/actualite/details/13-07-2026-nsia-banque-ci-communique",
-        "date": "13/07/2026",
-        "date_iso": "2026-07-13",
-        "tickers": [
-          "NSBC"
-        ],
-        "date_collecte": "2026-07-24T11:42:15Z",
-        "score_importance": 76,
-        "importance": "Important",
         "impact": "Fort",
         "pourquoi": "Information de contexte : impact direct à confirmer."
       },
@@ -4115,7 +4026,7 @@
         "tickers": [
           "SAFC"
         ],
-        "date_collecte": "2026-07-24T11:42:12Z",
+        "date_collecte": "2026-07-27T12:55:23Z",
         "score_importance": 57,
         "importance": "A surveiller",
         "impact": "Moyen",
@@ -4153,7 +4064,7 @@
     },
     "RichBourse:actualites": {
       "url": "https://www.richbourse.com/common/actualite/index",
-      "articles": 25,
+      "articles": 24,
       "ok": true,
       "source_rank": 30,
       "source_authority": "secondary",
@@ -4202,11 +4113,11 @@
   },
   "filtrage": {
     "strict_action_news": true,
-    "entree": 139,
+    "entree": 138,
     "sans_action_cotee": 87,
     "dividendes_richbourse_non_confirmes": 10,
-    "sortie": 42
+    "sortie": 41
   },
   "erreurs": [],
-  "resume_ia": "**Synthèse de Veille BRVM - 24/07"
+  "resume_ia": "**Synthèse de Veille BRVM - 27 Juillet"
 }
