@@ -2,7 +2,7 @@
 
 Données CSV publiques synchronisées depuis BRVMetrics.
 
-- Dernière synchronisation: 2026-08-10 17:52 UTC
+- Dernière synchronisation: 2026-08-11 18:00 UTC
 - CSV publiés: 47
 - Format: Date;Ouverture;Haut;Bas;Cloture;Volume;Valeur;Variation
 
