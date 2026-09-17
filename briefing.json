@@ -1,54 +1,53 @@
 {
-  "date": "16/09/2026",
-  "heure": "14:38 UTC",
+  "date": "17/09/2026",
+  "heure": "14:43 UTC",
   "modele": "Groq (Fiches) + Gemini (Global)",
   "stats_marche": {
     "nb_titres": 47,
-    "nb_hausse": 14,
-    "nb_baisse": 26,
-    "nb_stable": 7,
-    "variation_moyenne": -0.8
+    "nb_hausse": 12,
+    "nb_baisse": 30,
+    "nb_stable": 5,
+    "variation_moyenne": -0.81
   },
-  "nb_actualites": 27,
-  "briefing_global": "### Lecture du marché\n\nLa séance du mercredi 16 septembre 2026 a été majoritairement baissière sur la BRVM, avec 26 titres en recul contre 14 en hausse et 7 stables sur un panel de 47 valeurs cotées. La variation moyenne du marché s'est établie à -0.80%, reflétant une tendance négative généralisée. Cette dispersion des performances, majoritairement à la baisse, souligne une prudence des investisseurs. Comme souvent sur la BRVM, il convient de rappeler que la liquidité peut rester limitée sur certains titres, ce qui peut amplifier les mouvements de prix sur des volumes faibles.\n\n### Faits marquants\n\n*   **Saison des rapports semestriels :** Plusieurs sociétés clés, dont ECOBANK CI (ECOC), SAPH CI (SPHC), SAFCA CI (SAFC), CORIS BANK INTERNATIONAL BF (CBIBF) et SGBCI (SGBC), ont publié leurs rapports d'activités du 1er semestre 2026 via SikaFinance. Ces documents fournissent des données fondamentales essentielles sur les bénéfices, chiffres d'affaires et perspectives, permettant une mise à jour de l'évaluation des performances récentes des émetteurs.\n*   **Annonces de dividendes :** Des sociétés comme SMB CI (SMBC), SODECI (SDCC), NEI CEDA CI (NEIC) et VIVO ENERGY CI (SHEC) ont communiqué sur le paiement de leurs dividendes pour l'exercice 2025 (Source : SikaFinance). Ces annonces sont des éléments importants pour le calcul du rendement des actionnaires et peuvent potentiellement influencer l'ajustement des cours au moment du détachement.\n*   **Mises à jour de notations financières :** Plusieurs entités, notamment NSIA BANQUE (NSBC), PALMCI (PALC), CORIS BANK INTERNATIONAL BF (CBIBF), BANK OF AFRICA BURKINA FASO (BOABF) et BANK OF AFRICA BENIN (BOAB), ont fait l'objet de nouvelles notations financières (Source : SikaFinance). Ces évaluations peuvent modifier la perception du risque et la confiance des investisseurs vis-à-vis de ces émetteurs.\n\n### Titres à surveiller\n\nLe radar de l'analyste quantitatif n'ayant pas généré de signaux forts exploitables pour cette séance, aucun titre spécifique n'est mis en avant pour une surveillance technique particulière. Les investisseurs sont invités à se référer aux publications fondamentales récentes pour affiner leur analyse.\n\n---\n*Disclaimer : Briefing généré par intelligence artificielle à partir de modèles quantitatifs. Ne constitue pas une incitation à l'achat ou à la vente.*",
+  "nb_actualites": 28,
+  "briefing_global": "### Lecture du marché\n\nLa séance du jeudi 17 septembre 2026 a été marquée par une tendance majoritairement baissière sur la BRVM, avec 30 titres en recul sur les 47 cotés, et une variation moyenne du panel de -0.81%. Cette dynamique négative suggère une prudence généralisée des investisseurs, dans",
   "fiches": {},
   "tous_les_signaux": [
     {
       "ticker": "BOAB.bj",
       "nom": "BOA BENIN",
       "secteur": "BANQUE",
-      "prix": "10200",
-      "variation": 0.0,
-      "perf_1m": 15.91,
-      "perf_3m": 14.03,
-      "perf_ytd": 74.36,
-      "vol_moy_20j": 5605,
-      "rsi": 44.1,
+      "prix": "10000",
+      "variation": -1.96,
+      "perf_1m": 6.38,
+      "perf_3m": 12.99,
+      "perf_ytd": 70.94,
+      "vol_moy_20j": 5127,
+      "rsi": 50.0,
       "macd": {
-        "macd": 274.67,
-        "signal": 321.57,
-        "histo": -46.9,
+        "macd": 244.25,
+        "signal": 306.1,
+        "histo": -61.86,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 10693.0,
-        "middle": 10089.0,
-        "lower": 9484.0,
-        "pct_b": 0.59,
+        "upper": 10524.0,
+        "middle": 10134.0,
+        "lower": 9743.0,
+        "pct_b": 0.33,
         "position": "dans les bandes"
       },
       "ichimoku": {
         "tenkan": 10250.0,
-        "kijun": 9525.0,
+        "kijun": 9535.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.34,
-      "score_signal": 2,
+      "z_score": 1.02,
+      "score_signal": 1,
       "raisons_selection": [
-        "Perf 1M (+15.9%)",
         "Actualite : BANK OF AFRICA BENIN : BOA BN _ Notation Financière"
       ],
       "actualites_liees": [
@@ -68,7 +67,7 @@
           "tickers": [
             "BOAB"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -80,38 +79,38 @@
       "ticker": "BOABF.bf",
       "nom": "BOA BURKINA",
       "secteur": "BANQUE",
-      "prix": "8495",
-      "variation": -2.36,
-      "perf_1m": 16.37,
-      "perf_3m": 57.46,
-      "perf_ytd": 126.53,
-      "vol_moy_20j": 9254,
-      "rsi": 46.9,
+      "prix": "8150",
+      "variation": -4.06,
+      "perf_1m": 10.88,
+      "perf_3m": 46.71,
+      "perf_ytd": 117.33,
+      "vol_moy_20j": 9193,
+      "rsi": 20.1,
       "macd": {
-        "macd": 383.03,
-        "signal": 463.95,
-        "histo": -80.92,
+        "macd": 308.35,
+        "signal": 432.83,
+        "histo": -124.48,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 9723.0,
-        "middle": 8582.0,
-        "lower": 7440.0,
-        "pct_b": 0.46,
+        "upper": 9618.0,
+        "middle": 8624.0,
+        "lower": 7630.0,
+        "pct_b": 0.26,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 8848.0,
+        "tenkan": 8698.0,
         "kijun": 8100.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.97,
-      "score_signal": 2,
+      "z_score": 0.59,
+      "score_signal": 3,
       "raisons_selection": [
-        "Perf 1M (+16.4%)",
+        "RSI survendu (20.1)",
         "Actualite : BANK OF AFRICA BURKINA FASO : BOA BF _ Notation Financière"
       ],
       "actualites_liees": [
@@ -131,7 +130,7 @@
           "tickers": [
             "BOABF"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -153,7 +152,7 @@
           "tickers": [
             "BOABF"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -175,7 +174,7 @@
           "tickers": [
             "BOABF"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -187,38 +186,38 @@
       "ticker": "BOAC.ci",
       "nom": "BOA CI",
       "secteur": "BANQUE",
-      "prix": "12200",
-      "variation": -1.61,
-      "perf_1m": -8.96,
-      "perf_3m": 34.73,
-      "perf_ytd": 69.92,
-      "vol_moy_20j": 11812,
-      "rsi": 19.4,
+      "prix": "12150",
+      "variation": -0.41,
+      "perf_1m": -9.67,
+      "perf_3m": 29.95,
+      "perf_ytd": 69.22,
+      "vol_moy_20j": 11515,
+      "rsi": 21.6,
       "macd": {
-        "macd": 151.27,
-        "signal": 278.56,
-        "histo": -127.29,
+        "macd": 116.93,
+        "signal": 246.23,
+        "histo": -129.3,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 13278.0,
-        "middle": 12634.0,
-        "lower": 11991.0,
-        "pct_b": 0.16,
+        "upper": 13174.0,
+        "middle": 12577.0,
+        "lower": 11980.0,
+        "pct_b": 0.14,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 12455.0,
-        "kijun": 12525.0,
+        "tenkan": 12355.0,
+        "kijun": 12802.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": 0.52,
+      "z_score": 0.45,
       "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (19.4)"
+        "RSI survendu (21.6)"
       ],
       "actualites_liees": []
     },
@@ -226,35 +225,35 @@
       "ticker": "BOAM.ml",
       "nom": "BOA MALI",
       "secteur": "BANQUE",
-      "prix": "7000",
-      "variation": -1.34,
-      "perf_1m": 13.18,
-      "perf_3m": 55.38,
-      "perf_ytd": 75.0,
-      "vol_moy_20j": 6529,
-      "rsi": 61.5,
+      "prix": "6995",
+      "variation": -0.07,
+      "perf_1m": 13.28,
+      "perf_3m": 53.57,
+      "perf_ytd": 74.88,
+      "vol_moy_20j": 6497,
+      "rsi": 63.6,
       "macd": {
-        "macd": 300.54,
-        "signal": 281.97,
-        "histo": 18.57,
+        "macd": 289.62,
+        "signal": 283.5,
+        "histo": 6.13,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 7257.0,
-        "middle": 6675.0,
-        "lower": 6093.0,
-        "pct_b": 0.78,
+        "upper": 7280.0,
+        "middle": 6710.0,
+        "lower": 6141.0,
+        "pct_b": 0.75,
         "position": "dans les bandes"
       },
       "ichimoku": {
         "tenkan": 6798.0,
-        "kijun": 6460.0,
+        "kijun": 6525.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.66,
+      "z_score": 1.61,
       "score_signal": 2,
       "raisons_selection": [
         "Actualite : BANK OF AFRICA MALI : BOA ML _ Notation Financière"
@@ -276,7 +275,7 @@
           "tickers": [
             "BOAM"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -288,60 +287,64 @@
       "ticker": "BOAN.ne",
       "nom": "BOA NIGER",
       "secteur": "BANQUE",
-      "prix": "5360",
-      "variation": -3.86,
-      "perf_1m": 4.08,
-      "perf_3m": 44.67,
-      "perf_ytd": 105.36,
-      "vol_moy_20j": 6278,
-      "rsi": 50.2,
+      "prix": "5355",
+      "variation": -0.09,
+      "perf_1m": 3.98,
+      "perf_3m": 42.42,
+      "perf_ytd": 105.17,
+      "vol_moy_20j": 6053,
+      "rsi": 30.4,
       "macd": {
-        "macd": 95.84,
-        "signal": 112.83,
-        "histo": -16.98,
+        "macd": 80.38,
+        "signal": 106.34,
+        "histo": -25.95,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 5665.0,
-        "middle": 5426.0,
-        "lower": 5187.0,
-        "pct_b": 0.36,
+        "upper": 5640.0,
+        "middle": 5436.0,
+        "lower": 5232.0,
+        "pct_b": 0.3,
         "position": "dans les bandes"
       },
       "ichimoku": {
         "tenkan": 5492.0,
-        "kijun": 5328.0,
+        "kijun": 5372.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.48,
-      "score_signal": 1
+      "z_score": 0.44,
+      "score_signal": 3,
+      "raisons_selection": [
+        "RSI survendu (30.4)"
+      ],
+      "actualites_liees": []
     },
     {
       "ticker": "BOAS.sn",
       "nom": "BOA SENEGAL",
       "secteur": "BANQUE",
-      "prix": "8300",
+      "prix": "8250",
       "variation": -0.6,
-      "perf_1m": 6.41,
-      "perf_3m": 12.16,
-      "perf_ytd": 58.4,
-      "vol_moy_20j": 14018,
-      "rsi": 38.8,
+      "perf_1m": 5.77,
+      "perf_3m": 10.81,
+      "perf_ytd": 57.44,
+      "vol_moy_20j": 13166,
+      "rsi": 39.0,
       "macd": {
-        "macd": 115.83,
-        "signal": 138.18,
-        "histo": -22.35,
+        "macd": 106.52,
+        "signal": 131.85,
+        "histo": -25.33,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 8612.0,
-        "middle": 8263.0,
-        "lower": 7914.0,
-        "pct_b": 0.55,
+        "upper": 8558.0,
+        "middle": 8286.0,
+        "lower": 8013.0,
+        "pct_b": 0.43,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -351,10 +354,10 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.17,
+      "z_score": 1.0,
       "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (38.8)"
+        "RSI survendu (39.0)"
       ],
       "actualites_liees": []
     },
@@ -362,39 +365,39 @@
       "ticker": "BICB.bj",
       "nom": "BICB BENIN",
       "secteur": "BANQUE",
-      "prix": "10550",
-      "variation": 0.48,
-      "perf_1m": 24.19,
-      "perf_3m": 80.34,
-      "perf_ytd": 112.06,
-      "vol_moy_20j": 16922,
-      "rsi": 79.9,
+      "prix": "10500",
+      "variation": -0.47,
+      "perf_1m": 26.58,
+      "perf_3m": 78.88,
+      "perf_ytd": 111.06,
+      "vol_moy_20j": 10521,
+      "rsi": 78.7,
       "macd": {
-        "macd": 722.93,
-        "signal": 682.42,
-        "histo": 40.51,
+        "macd": 705.89,
+        "signal": 687.12,
+        "histo": 18.77,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 11340.0,
-        "middle": 9446.0,
-        "lower": 7551.0,
-        "pct_b": 0.79,
+        "upper": 11434.0,
+        "middle": 9550.0,
+        "lower": 7667.0,
+        "pct_b": 0.75,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 10195.0,
-        "kijun": 9230.0,
+        "tenkan": 10445.0,
+        "kijun": 9325.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.81,
+      "z_score": 1.69,
       "score_signal": 4,
       "raisons_selection": [
-        "RSI suresvalue (79.9)",
-        "Perf 1M (+24.2%)"
+        "RSI suresvalue (78.7)",
+        "Perf 1M (+26.6%)"
       ],
       "actualites_liees": []
     },
@@ -402,38 +405,38 @@
       "ticker": "BICC.ci",
       "nom": "BICICI",
       "secteur": "BANQUE",
-      "prix": "31050",
-      "variation": -5.95,
-      "perf_1m": 7.09,
-      "perf_3m": 9.16,
-      "perf_ytd": 59.68,
-      "vol_moy_20j": 957,
-      "rsi": 60.1,
+      "prix": "31700",
+      "variation": 2.09,
+      "perf_1m": 9.31,
+      "perf_3m": 11.54,
+      "perf_ytd": 63.02,
+      "vol_moy_20j": 820,
+      "rsi": 59.2,
       "macd": {
-        "macd": 1011.71,
-        "signal": 978.57,
-        "histo": 33.14,
-        "tendance": "haussiere",
-        "croisement": "neutre"
+        "macd": 908.39,
+        "signal": 964.54,
+        "histo": -56.15,
+        "tendance": "baissiere",
+        "croisement": "croisement_baissier"
       },
       "bollinger": {
-        "upper": 34971.0,
-        "middle": 31009.0,
-        "lower": 27047.0,
-        "pct_b": 0.51,
+        "upper": 35012.0,
+        "middle": 31134.0,
+        "lower": 27256.0,
+        "pct_b": 0.57,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 33840.0,
+        "tenkan": 33050.0,
         "kijun": 31900.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.88,
-      "score_signal": 4,
+      "z_score": 1.21,
+      "score_signal": 3,
       "raisons_selection": [
-        "Variation notable (-5.95%)"
+        "MACD croisement_baissier"
       ],
       "actualites_liees": []
     },
@@ -441,39 +444,39 @@
       "ticker": "CBIBF.bf",
       "nom": "CORIS BANK BF",
       "secteur": "BANQUE",
-      "prix": "34300",
-      "variation": 1.17,
-      "perf_1m": 21.14,
-      "perf_3m": 53.12,
-      "perf_ytd": 218.18,
-      "vol_moy_20j": 1737,
-      "rsi": 87.2,
+      "prix": "34450",
+      "variation": 0.44,
+      "perf_1m": 21.6,
+      "perf_3m": 60.23,
+      "perf_ytd": 219.57,
+      "vol_moy_20j": 1661,
+      "rsi": 87.5,
       "macd": {
-        "macd": 1581.17,
-        "signal": 1389.0,
-        "histo": 192.17,
+        "macd": 1587.63,
+        "signal": 1428.73,
+        "histo": 158.91,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 35776.0,
-        "middle": 31464.0,
-        "lower": 27151.0,
-        "pct_b": 0.83,
+        "upper": 36055.0,
+        "middle": 31751.0,
+        "lower": 27447.0,
+        "pct_b": 0.81,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 33650.0,
-        "kijun": 31150.0,
+        "tenkan": 33775.0,
+        "kijun": 31225.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 2.11,
+      "z_score": 2.08,
       "score_signal": 4,
       "raisons_selection": [
-        "RSI suresvalue (87.2)",
-        "Perf 1M (+21.1%)",
+        "RSI suresvalue (87.5)",
+        "Perf 1M (+21.6%)",
         "Actualite : CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ "
       ],
       "actualites_liees": [
@@ -493,7 +496,7 @@
           "tickers": [
             "CBIBF"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -515,7 +518,7 @@
           "tickers": [
             "CBIBF"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -537,7 +540,7 @@
           "tickers": [
             "CBIBF"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -549,25 +552,25 @@
       "ticker": "ECOC.ci",
       "nom": "ECOBANK CI",
       "secteur": "BANQUE",
-      "prix": "16950",
-      "variation": -0.88,
-      "perf_1m": 5.9,
-      "perf_3m": 2.73,
-      "perf_ytd": 5.94,
-      "vol_moy_20j": 3602,
-      "rsi": 53.3,
+      "prix": "17005",
+      "variation": 0.32,
+      "perf_1m": 0.71,
+      "perf_3m": 1.55,
+      "perf_ytd": 6.28,
+      "vol_moy_20j": 3751,
+      "rsi": 52.1,
       "macd": {
-        "macd": 204.04,
-        "signal": 242.47,
-        "histo": -38.43,
+        "macd": 178.53,
+        "signal": 229.68,
+        "histo": -51.15,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 17793.0,
-        "middle": 17048.0,
-        "lower": 16303.0,
-        "pct_b": 0.43,
+        "upper": 17773.0,
+        "middle": 17074.0,
+        "lower": 16374.0,
+        "pct_b": 0.45,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -577,7 +580,7 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.77,
+      "z_score": 0.85,
       "score_signal": 1,
       "raisons_selection": [
         "Actualite : ECOBANK CI : ECOBANK CI _ Rapport d'activités - 1er semestre"
@@ -599,7 +602,7 @@
           "tickers": [
             "ECOC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -612,28 +615,28 @@
       "nom": "NSIA BANQUE",
       "secteur": "BANQUE",
       "prix": "24500",
-      "variation": 1.24,
-      "perf_1m": 6.29,
-      "perf_3m": 28.68,
+      "variation": 0.0,
+      "perf_1m": 5.56,
+      "perf_3m": 27.9,
       "perf_ytd": 114.07,
-      "vol_moy_20j": 4216,
-      "rsi": 70.2,
+      "vol_moy_20j": 4151,
+      "rsi": 73.5,
       "macd": {
-        "macd": 438.31,
-        "signal": 340.69,
-        "histo": 97.62,
+        "macd": 450.43,
+        "signal": 362.64,
+        "histo": 87.79,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 24994.0,
-        "middle": 23407.0,
-        "lower": 21820.0,
-        "pct_b": 0.84,
+        "upper": 25128.0,
+        "middle": 23482.0,
+        "lower": 21835.0,
+        "pct_b": 0.81,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 23980.0,
+        "tenkan": 23998.0,
         "kijun": 23748.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
@@ -642,7 +645,7 @@
       "z_score": 1.5,
       "score_signal": 3,
       "raisons_selection": [
-        "RSI suresvalue (70.2)",
+        "RSI suresvalue (73.5)",
         "Actualite : NSIA BANQUE : FCTC NSIA BANQUE _ Notation Financière - FCTC "
       ],
       "actualites_liees": [
@@ -662,11 +665,33 @@
           "tickers": [
             "NSBC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
           "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
+        },
+        {
+          "source": "AgenceEcofin",
+          "source_type": "finance",
+          "source_authority": "secondary",
+          "source_rank": 15,
+          "source_role": "media_context",
+          "validation_policy": "secondary_context",
+          "type": "ACTU",
+          "titre": "NSIA Banque CI réaffirme son engagement en faveur de l’employabilité et de l’entrepreneuriat",
+          "resume": "",
+          "lien": "https://www.agenceecofin.com/actualites/1609-141623-nsia-banque-ci-reaffirme-son-engagement-en-faveur-de-l-employabilite-et-de-l-entrepreneuriat",
+          "date": "",
+          "date_iso": null,
+          "tickers": [
+            "NSBC"
+          ],
+          "date_collecte": "2026-09-16T20:56:52Z",
+          "score_importance": 46,
+          "importance": "A surveiller",
+          "impact": "Moyen",
+          "pourquoi": "Information de contexte : impact direct à confirmer."
         }
       ]
     },
@@ -674,25 +699,25 @@
       "ticker": "ORGT.tg",
       "nom": "ORAGROUP TOGO",
       "secteur": "BANQUE",
-      "prix": "3230",
-      "variation": -0.62,
-      "perf_1m": 5.56,
-      "perf_3m": 20.52,
-      "perf_ytd": 34.58,
-      "vol_moy_20j": 4453,
-      "rsi": 53.2,
+      "prix": "3250",
+      "variation": 0.62,
+      "perf_1m": 7.08,
+      "perf_3m": 21.95,
+      "perf_ytd": 35.42,
+      "vol_moy_20j": 4406,
+      "rsi": 56.4,
       "macd": {
-        "macd": 65.67,
-        "signal": 79.06,
-        "histo": -13.39,
+        "macd": 60.86,
+        "signal": 75.42,
+        "histo": -14.56,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 3389.0,
-        "middle": 3223.0,
-        "lower": 3056.0,
-        "pct_b": 0.52,
+        "upper": 3385.0,
+        "middle": 3231.0,
+        "lower": 3076.0,
+        "pct_b": 0.56,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -702,45 +727,44 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.92,
+      "z_score": 0.97,
       "score_signal": 1
     },
     {
       "ticker": "SGBC.ci",
       "nom": "SGBCI",
       "secteur": "BANQUE",
-      "prix": "37800",
-      "variation": -3.08,
-      "perf_1m": -3.82,
-      "perf_3m": -3.08,
-      "perf_ytd": 26.44,
-      "vol_moy_20j": 7298,
-      "rsi": 47.5,
+      "prix": "38900",
+      "variation": 2.91,
+      "perf_1m": -0.77,
+      "perf_3m": -0.64,
+      "perf_ytd": 30.12,
+      "vol_moy_20j": 7728,
+      "rsi": 54.4,
       "macd": {
-        "macd": -12.2,
-        "signal": 24.69,
-        "histo": -36.88,
+        "macd": 17.17,
+        "signal": 23.18,
+        "histo": -6.02,
         "tendance": "baissiere",
-        "croisement": "croisement_baissier"
+        "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 39741.0,
-        "middle": 38636.0,
-        "lower": 37532.0,
-        "pct_b": 0.12,
+        "upper": 39685.0,
+        "middle": 38616.0,
+        "lower": 37548.0,
+        "pct_b": 0.63,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 38548.0,
+        "tenkan": 38925.0,
         "kijun": 39000.0,
-        "position_nuage": "dans le nuage (neutre)",
+        "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bearish",
-        "synthese": "Prix dans le nuage (neutre), TK/KJ bearish"
+        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": -1.28,
-      "score_signal": 2,
+      "z_score": 0.76,
+      "score_signal": 1,
       "raisons_selection": [
-        "MACD croisement_baissier",
         "Actualite : SGBCI : SOCIETE GENERALE CI _ Rapport d'activités - 1er seme"
       ],
       "actualites_liees": [
@@ -760,7 +784,7 @@
           "tickers": [
             "SGBC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -782,7 +806,7 @@
           "tickers": [
             "SGBC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -794,77 +818,73 @@
       "ticker": "SIBC.ci",
       "nom": "SIB CI",
       "secteur": "BANQUE",
-      "prix": "9200",
-      "variation": -1.08,
-      "perf_1m": -1.08,
-      "perf_3m": 6.36,
-      "perf_ytd": 60.0,
-      "vol_moy_20j": 15852,
-      "rsi": 52.4,
+      "prix": "9180",
+      "variation": -0.22,
+      "perf_1m": -1.13,
+      "perf_3m": 3.79,
+      "perf_ytd": 59.65,
+      "vol_moy_20j": 15546,
+      "rsi": 49.0,
       "macd": {
-        "macd": 45.39,
-        "signal": 46.78,
-        "histo": -1.39,
+        "macd": 38.3,
+        "signal": 45.08,
+        "histo": -6.78,
         "tendance": "baissiere",
-        "croisement": "croisement_baissier"
+        "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 9372.0,
-        "middle": 9184.0,
-        "lower": 8996.0,
-        "pct_b": 0.54,
+        "upper": 9371.0,
+        "middle": 9183.0,
+        "lower": 8995.0,
+        "pct_b": 0.49,
         "position": "dans les bandes"
       },
       "ichimoku": {
         "tenkan": 9225.0,
-        "kijun": 9250.0,
+        "kijun": 9150.0,
         "position_nuage": "au-dessus du nuage (bullish)",
-        "signal_tk_kj": "bearish",
-        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
+        "signal_tk_kj": "bullish",
+        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.56,
-      "score_signal": 3,
-      "raisons_selection": [
-        "MACD croisement_baissier"
-      ],
-      "actualites_liees": []
+      "z_score": 0.44,
+      "score_signal": 1
     },
     {
       "ticker": "SMBC.ci",
       "nom": "SMB CI",
       "secteur": "BANQUE",
-      "prix": "18480",
-      "variation": 0.98,
-      "perf_1m": 12.37,
-      "perf_3m": 16.59,
-      "perf_ytd": 94.53,
-      "vol_moy_20j": 2668,
-      "rsi": 76.7,
+      "prix": "18390",
+      "variation": -0.49,
+      "perf_1m": 11.83,
+      "perf_3m": 15.3,
+      "perf_ytd": 93.58,
+      "vol_moy_20j": 2626,
+      "rsi": 84.5,
       "macd": {
-        "macd": 495.33,
-        "signal": 394.11,
-        "histo": 101.22,
+        "macd": 500.55,
+        "signal": 415.4,
+        "histo": 85.15,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 18664.0,
-        "middle": 17415.0,
-        "lower": 16166.0,
-        "pct_b": 0.93,
+        "upper": 18753.0,
+        "middle": 17510.0,
+        "lower": 16266.0,
+        "pct_b": 0.85,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 17850.0,
+        "tenkan": 18000.0,
         "kijun": 17428.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 2.14,
+      "z_score": 1.95,
       "score_signal": 3,
       "raisons_selection": [
-        "RSI suresvalue (76.7)",
+        "RSI suresvalue (84.5)",
         "Actualite : SMB CI : SMB CI _ Paiement de dividendes - Exercice 2025"
       ],
       "actualites_liees": [
@@ -884,7 +904,7 @@
           "tickers": [
             "SMBC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -896,39 +916,40 @@
       "ticker": "SNTS.sn",
       "nom": "SONATEL",
       "secteur": "TELECOM",
-      "prix": "39245",
-      "variation": 0.01,
-      "perf_1m": 23.03,
-      "perf_3m": 40.16,
-      "perf_ytd": 50.25,
-      "vol_moy_20j": 11928,
-      "rsi": 90.6,
+      "prix": "38800",
+      "variation": -1.13,
+      "perf_1m": 19.38,
+      "perf_3m": 37.83,
+      "perf_ytd": 48.55,
+      "vol_moy_20j": 13154,
+      "rsi": 79.4,
       "macd": {
-        "macd": 1737.0,
-        "signal": 1705.66,
-        "histo": 31.34,
-        "tendance": "haussiere",
-        "croisement": "neutre"
+        "macd": 1650.37,
+        "signal": 1694.6,
+        "histo": -44.23,
+        "tendance": "baissiere",
+        "croisement": "croisement_baissier"
       },
       "bollinger": {
-        "upper": 40655.0,
-        "middle": 37340.0,
-        "lower": 34024.0,
-        "pct_b": 0.79,
+        "upper": 40629.0,
+        "middle": 37560.0,
+        "lower": 34491.0,
+        "pct_b": 0.7,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 38748.0,
+        "tenkan": 38750.0,
         "kijun": 35500.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.77,
-      "score_signal": 4,
+      "z_score": 1.56,
+      "score_signal": 5,
       "raisons_selection": [
-        "RSI suresvalue (90.6)",
-        "Perf 1M (+23.0%)"
+        "RSI suresvalue (79.4)",
+        "MACD croisement_baissier",
+        "Perf 1M (+19.4%)"
       ],
       "actualites_liees": []
     },
@@ -936,38 +957,39 @@
       "ticker": "ORAC.ci",
       "nom": "ORANGE CI",
       "secteur": "TELECOM",
-      "prix": "22500",
-      "variation": 0.0,
-      "perf_1m": 21.29,
-      "perf_3m": 41.51,
-      "perf_ytd": 57.89,
-      "vol_moy_20j": 4909,
-      "rsi": 67.6,
+      "prix": "22395",
+      "variation": -0.47,
+      "perf_1m": 17.87,
+      "perf_3m": 34.14,
+      "perf_ytd": 57.16,
+      "vol_moy_20j": 4985,
+      "rsi": 63.1,
       "macd": {
-        "macd": 1080.72,
-        "signal": 1080.02,
-        "histo": 0.7,
-        "tendance": "haussiere",
-        "croisement": "neutre"
+        "macd": 1051.55,
+        "signal": 1074.33,
+        "histo": -22.78,
+        "tendance": "baissiere",
+        "croisement": "croisement_baissier"
       },
       "bollinger": {
-        "upper": 22887.0,
-        "middle": 21353.0,
-        "lower": 19819.0,
-        "pct_b": 0.87,
+        "upper": 22831.0,
+        "middle": 21498.0,
+        "lower": 20164.0,
+        "pct_b": 0.84,
         "position": "dans les bandes"
       },
       "ichimoku": {
         "tenkan": 22240.0,
-        "kijun": 20215.0,
+        "kijun": 20240.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.67,
-      "score_signal": 3,
+      "z_score": 1.55,
+      "score_signal": 4,
       "raisons_selection": [
-        "Perf 1M (+21.3%)"
+        "MACD croisement_baissier",
+        "Perf 1M (+17.9%)"
       ],
       "actualites_liees": []
     },
@@ -975,109 +997,111 @@
       "ticker": "ONTBF.bf",
       "nom": "ONATEL BF",
       "secteur": "TELECOM",
-      "prix": "2870",
-      "variation": 0.0,
-      "perf_1m": -1.03,
-      "perf_3m": 4.36,
-      "perf_ytd": 15.49,
-      "vol_moy_20j": 5546,
-      "rsi": 47.5,
+      "prix": "2830",
+      "variation": -1.39,
+      "perf_1m": -2.41,
+      "perf_3m": 4.81,
+      "perf_ytd": 13.88,
+      "vol_moy_20j": 4964,
+      "rsi": 39.1,
       "macd": {
-        "macd": -0.03,
-        "signal": 4.43,
-        "histo": -4.46,
+        "macd": -3.76,
+        "signal": 2.79,
+        "histo": -6.56,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2949.0,
-        "middle": 2888.0,
-        "lower": 2827.0,
-        "pct_b": 0.35,
+        "upper": 2942.0,
+        "middle": 2882.0,
+        "lower": 2822.0,
+        "pct_b": 0.06,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 2880.0,
+        "tenkan": 2890.0,
         "kijun": 2872.0,
-        "position_nuage": "au-dessus du nuage (bullish)",
+        "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bullish",
-        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
+        "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bullish"
       },
-      "z_score": 0.24,
-      "score_signal": 1
+      "z_score": -0.25,
+      "score_signal": 2,
+      "raisons_selection": [
+        "RSI survendu (39.1)"
+      ],
+      "actualites_liees": []
     },
     {
       "ticker": "CIEC.ci",
       "nom": "CIE CI",
       "secteur": "SERVICES",
-      "prix": "6800",
-      "variation": -2.58,
-      "perf_1m": 14.86,
-      "perf_3m": 36.14,
-      "perf_ytd": 188.14,
-      "vol_moy_20j": 7591,
-      "rsi": 45.8,
+      "prix": "6650",
+      "variation": -2.21,
+      "perf_1m": 4.56,
+      "perf_3m": 33.13,
+      "perf_ytd": 181.78,
+      "vol_moy_20j": 8430,
+      "rsi": 49.2,
       "macd": {
-        "macd": 324.5,
-        "signal": 372.76,
-        "histo": -48.26,
+        "macd": 279.4,
+        "signal": 354.09,
+        "histo": -74.69,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 7389.0,
-        "middle": 6908.0,
-        "lower": 6427.0,
-        "pct_b": 0.39,
+        "upper": 7393.0,
+        "middle": 6899.0,
+        "lower": 6405.0,
+        "pct_b": 0.25,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 7000.0,
-        "kijun": 6300.0,
+        "tenkan": 7050.0,
+        "kijun": 6375.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.06,
+      "z_score": 0.85,
       "score_signal": 1
     },
     {
       "ticker": "SDCC.ci",
       "nom": "SODECI",
       "secteur": "SERVICES",
-      "prix": "13885",
-      "variation": 2.81,
-      "perf_1m": 16.73,
-      "perf_3m": 15.8,
-      "perf_ytd": 139.4,
-      "vol_moy_20j": 2425,
-      "rsi": 74.4,
+      "prix": "13400",
+      "variation": -3.49,
+      "perf_1m": 11.95,
+      "perf_3m": 11.76,
+      "perf_ytd": 131.03,
+      "vol_moy_20j": 2418,
+      "rsi": 61.2,
       "macd": {
-        "macd": 444.26,
-        "signal": 401.04,
-        "histo": 43.21,
+        "macd": 417.26,
+        "signal": 404.29,
+        "histo": 12.97,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 14226.0,
-        "middle": 12955.0,
-        "lower": 11683.0,
-        "pct_b": 0.87,
+        "upper": 14244.0,
+        "middle": 13018.0,
+        "lower": 11791.0,
+        "pct_b": 0.66,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 13725.0,
+        "tenkan": 14025.0,
         "kijun": 13025.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 2.28,
-      "score_signal": 4,
+      "z_score": 1.54,
+      "score_signal": 2,
       "raisons_selection": [
-        "RSI suresvalue (74.4)",
-        "Perf 1M (+16.7%)",
         "Actualite : SODECI : SODE CI _ Paiement de dividendes - Exercice 2025"
       ],
       "actualites_liees": [
@@ -1097,7 +1121,7 @@
           "tickers": [
             "SDCC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1110,37 +1134,37 @@
       "nom": "TOTAL CI",
       "secteur": "ENERGIE",
       "prix": "3285",
-      "variation": 1.23,
-      "perf_1m": 2.34,
-      "perf_3m": 15.47,
+      "variation": 0.0,
+      "perf_1m": -0.45,
+      "perf_3m": 13.28,
       "perf_ytd": 40.69,
-      "vol_moy_20j": 8099,
-      "rsi": 26.5,
+      "vol_moy_20j": 8232,
+      "rsi": 28.5,
       "macd": {
-        "macd": 39.95,
-        "signal": 68.09,
-        "histo": -28.14,
+        "macd": 36.25,
+        "signal": 61.72,
+        "histo": -25.48,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 3551.0,
-        "middle": 3349.0,
-        "lower": 3146.0,
-        "pct_b": 0.34,
+        "upper": 3549.0,
+        "middle": 3352.0,
+        "lower": 3154.0,
+        "pct_b": 0.33,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 3260.0,
+        "tenkan": 3250.0,
         "kijun": 3260.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": 0.81,
+      "z_score": 0.78,
       "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (26.5)",
+        "RSI survendu (28.5)",
         "Actualite : TOTAL CI : TOTALENERGIES MARKETING CI _ Paiement de dividend"
       ],
       "actualites_liees": [
@@ -1160,7 +1184,7 @@
           "tickers": [
             "TTLC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1172,25 +1196,25 @@
       "ticker": "TTLS.sn",
       "nom": "TOTAL SENEGAL",
       "secteur": "ENERGIE",
-      "prix": "3990",
-      "variation": -0.25,
-      "perf_1m": 7.84,
-      "perf_3m": 14.16,
-      "perf_ytd": 59.6,
-      "vol_moy_20j": 2380,
-      "rsi": 66.7,
+      "prix": "3950",
+      "variation": -1.0,
+      "perf_1m": 3.95,
+      "perf_3m": 12.86,
+      "perf_ytd": 58.0,
+      "vol_moy_20j": 2372,
+      "rsi": 76.8,
       "macd": {
-        "macd": 50.42,
-        "signal": 33.5,
-        "histo": 16.92,
+        "macd": 52.65,
+        "signal": 37.33,
+        "histo": 15.32,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 4006.0,
-        "middle": 3845.0,
-        "lower": 3684.0,
-        "pct_b": 0.95,
+        "upper": 4010.0,
+        "middle": 3858.0,
+        "lower": 3706.0,
+        "pct_b": 0.8,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -1200,48 +1224,51 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.63,
-      "score_signal": 2
+      "z_score": 0.49,
+      "score_signal": 3,
+      "raisons_selection": [
+        "RSI suresvalue (76.8)"
+      ],
+      "actualites_liees": []
     },
     {
       "ticker": "SHEC.ci",
       "nom": "VIVO ENERGY CI",
       "secteur": "ENERGIE",
-      "prix": "2910",
-      "variation": 6.2,
-      "perf_1m": 23.83,
-      "perf_3m": 38.57,
-      "perf_ytd": 101.38,
-      "vol_moy_20j": 6249,
-      "rsi": 88.9,
+      "prix": "2930",
+      "variation": 0.69,
+      "perf_1m": 22.08,
+      "perf_3m": 35.02,
+      "perf_ytd": 102.77,
+      "vol_moy_20j": 6596,
+      "rsi": 90.0,
       "macd": {
-        "macd": 101.08,
-        "signal": 66.46,
-        "histo": 34.62,
+        "macd": 122.42,
+        "signal": 77.65,
+        "histo": 44.77,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2739.0,
-        "middle": 2492.0,
-        "lower": 2244.0,
-        "pct_b": 1.35,
+        "upper": 2829.0,
+        "middle": 2518.0,
+        "lower": 2207.0,
+        "pct_b": 1.16,
         "position": "au-dessus bande superieure"
       },
       "ichimoku": {
-        "tenkan": 2655.0,
-        "kijun": 2555.0,
+        "tenkan": 2665.0,
+        "kijun": 2565.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 3.66,
-      "score_signal": 7,
+      "z_score": 3.3,
+      "score_signal": 5,
       "raisons_selection": [
-        "RSI suresvalue (88.9)",
+        "RSI suresvalue (90.0)",
         "Bollinger : au-dessus bande superieure",
-        "Variation notable (+6.20%)",
-        "Perf 1M (+23.8%)",
+        "Perf 1M (+22.1%)",
         "Actualite : VIVO ENERGY CI : VIVO ENERGY CI _ Paiement de dividendes - E"
       ],
       "actualites_liees": [
@@ -1261,7 +1288,7 @@
           "tickers": [
             "SHEC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1273,35 +1300,35 @@
       "ticker": "NTLC.ci",
       "nom": "NESTLE CI",
       "secteur": "DISTRIBUTION",
-      "prix": "16500",
-      "variation": -2.37,
-      "perf_1m": -5.17,
-      "perf_3m": 9.31,
-      "perf_ytd": 54.93,
-      "vol_moy_20j": 1663,
-      "rsi": 46.7,
+      "prix": "16400",
+      "variation": -0.61,
+      "perf_1m": -5.48,
+      "perf_3m": 9.3,
+      "perf_ytd": 53.99,
+      "vol_moy_20j": 1732,
+      "rsi": 46.0,
       "macd": {
-        "macd": 45.12,
-        "signal": 96.3,
-        "histo": -51.18,
+        "macd": 6.89,
+        "signal": 78.42,
+        "histo": -71.53,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 17620.0,
-        "middle": 16837.0,
-        "lower": 16054.0,
-        "pct_b": 0.28,
+        "upper": 17610.0,
+        "middle": 16807.0,
+        "lower": 16004.0,
+        "pct_b": 0.25,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 17350.0,
+        "tenkan": 17250.0,
         "kijun": 16958.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": -0.33,
+      "z_score": -0.54,
       "score_signal": 1
     },
     {
@@ -1310,23 +1337,23 @@
       "secteur": "AGRICULTURE",
       "prix": "8600",
       "variation": 0.0,
-      "perf_1m": -7.53,
-      "perf_3m": -0.58,
+      "perf_1m": -8.51,
+      "perf_3m": -0.92,
       "perf_ytd": 6.17,
-      "vol_moy_20j": 3065,
-      "rsi": 35.5,
+      "vol_moy_20j": 3045,
+      "rsi": 37.9,
       "macd": {
-        "macd": -166.42,
-        "signal": -79.52,
-        "histo": -86.91,
+        "macd": -163.96,
+        "signal": -96.41,
+        "histo": -67.55,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 9969.0,
-        "middle": 9050.0,
-        "lower": 8132.0,
-        "pct_b": 0.25,
+        "upper": 9902.0,
+        "middle": 9000.0,
+        "lower": 8099.0,
+        "pct_b": 0.28,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -1336,10 +1363,10 @@
         "signal_tk_kj": "bearish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": -1.05,
+      "z_score": -1.02,
       "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (35.5)",
+        "RSI survendu (37.9)",
         "Actualite : PALMCI : PALM CI _ Notation Financière"
       ],
       "actualites_liees": [
@@ -1359,7 +1386,7 @@
           "tickers": [
             "PALC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1372,37 +1399,37 @@
       "nom": "SAPH CI",
       "secteur": "AGRICULTURE",
       "prix": "8180",
-      "variation": 0.99,
-      "perf_1m": -2.62,
-      "perf_3m": 7.99,
+      "variation": 0.0,
+      "perf_1m": -9.01,
+      "perf_3m": 8.13,
       "perf_ytd": 3.54,
-      "vol_moy_20j": 8633,
-      "rsi": 33.9,
+      "vol_moy_20j": 8233,
+      "rsi": 37.6,
       "macd": {
-        "macd": -31.65,
-        "signal": 203.78,
-        "histo": -235.44,
+        "macd": -68.61,
+        "signal": 149.31,
+        "histo": -217.91,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 10620.0,
-        "middle": 9153.0,
-        "lower": 7686.0,
-        "pct_b": 0.17,
+        "upper": 10587.0,
+        "middle": 9079.0,
+        "lower": 7571.0,
+        "pct_b": 0.2,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 9118.0,
-        "kijun": 9000.0,
+        "tenkan": 9068.0,
+        "kijun": 9050.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": -0.07,
+      "z_score": -0.08,
       "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (33.9)",
+        "RSI survendu (37.6)",
         "Actualite : SAPH CI : SAPH CI _ Rapport d'activités et Attestation des C"
       ],
       "actualites_liees": [
@@ -1422,7 +1449,7 @@
           "tickers": [
             "SPHC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1444,7 +1471,7 @@
           "tickers": [
             "SPHC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1456,37 +1483,40 @@
       "ticker": "STBC.ci",
       "nom": "SITAB",
       "secteur": "DISTRIBUTION",
-      "prix": "21900",
-      "variation": 0.0,
-      "perf_1m": -4.78,
-      "perf_3m": -2.45,
-      "perf_ytd": 10.72,
-      "vol_moy_20j": 3845,
-      "rsi": 60.3,
+      "prix": "20900",
+      "variation": -4.57,
+      "perf_1m": -9.13,
+      "perf_3m": -5.43,
+      "perf_ytd": 5.66,
+      "vol_moy_20j": 3826,
+      "rsi": 18.9,
       "macd": {
-        "macd": -357.58,
-        "signal": -363.15,
-        "histo": 5.58,
-        "tendance": "haussiere",
-        "croisement": "neutre"
+        "macd": -428.75,
+        "signal": -376.27,
+        "histo": -52.47,
+        "tendance": "baissiere",
+        "croisement": "croisement_baissier"
       },
       "bollinger": {
-        "upper": 23280.0,
-        "middle": 22298.0,
-        "lower": 21315.0,
-        "pct_b": 0.3,
-        "position": "dans les bandes"
+        "upper": 23279.0,
+        "middle": 22188.0,
+        "lower": 21097.0,
+        "pct_b": -0.09,
+        "position": "en-dessous bande inferieure"
       },
       "ichimoku": {
         "tenkan": 22058.0,
-        "kijun": 23150.0,
+        "kijun": 22400.0,
         "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -1.32,
-      "score_signal": 1,
+      "z_score": -2.2,
+      "score_signal": 6,
       "raisons_selection": [
+        "RSI survendu (18.9)",
+        "MACD croisement_baissier",
+        "Bollinger : en-dessous bande inferieure",
         "Actualite : SITAB : SITAB CI _ Rapport d'activités - 2eme trimestre 2026"
       ],
       "actualites_liees": [
@@ -1506,7 +1536,7 @@
           "tickers": [
             "STBC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1520,15 +1550,15 @@
       "secteur": "DISTRIBUTION",
       "prix": "38000",
       "variation": 0.0,
-      "perf_1m": 0.0,
-      "perf_3m": -2.56,
+      "perf_1m": 1.33,
+      "perf_3m": -2.06,
       "perf_ytd": 31.49,
-      "vol_moy_20j": 1665,
-      "rsi": 53.5,
+      "vol_moy_20j": 1458,
+      "rsi": 57.6,
       "macd": {
-        "macd": -12.51,
-        "signal": -94.13,
-        "histo": 81.62,
+        "macd": 3.41,
+        "signal": -74.62,
+        "histo": 78.03,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
@@ -1541,12 +1571,12 @@
       },
       "ichimoku": {
         "tenkan": 37870.0,
-        "kijun": 37752.0,
+        "kijun": 37755.0,
         "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bullish"
       },
-      "z_score": -0.27,
+      "z_score": -0.24,
       "score_signal": 1
     },
     {
@@ -1594,26 +1624,26 @@
       "ticker": "UNLC.ci",
       "nom": "UNILEVER CI",
       "secteur": "DISTRIBUTION",
-      "prix": "53000",
-      "variation": -1.85,
-      "perf_1m": -8.62,
-      "perf_3m": -8.62,
-      "perf_ytd": 54.86,
-      "vol_moy_20j": 16,
-      "rsi": 40.0,
+      "prix": "49025",
+      "variation": -7.5,
+      "perf_1m": -15.47,
+      "perf_3m": -11.83,
+      "perf_ytd": 43.24,
+      "vol_moy_20j": 23,
+      "rsi": 39.9,
       "macd": {
-        "macd": -237.61,
-        "signal": -240.94,
-        "histo": 3.34,
-        "tendance": "haussiere",
-        "croisement": "neutre"
+        "macd": -574.84,
+        "signal": -307.72,
+        "histo": -267.11,
+        "tendance": "baissiere",
+        "croisement": "croisement_baissier"
       },
       "bollinger": {
-        "upper": 56957.0,
-        "middle": 53643.0,
-        "lower": 50328.0,
-        "pct_b": 0.4,
-        "position": "dans les bandes"
+        "upper": 56458.0,
+        "middle": 53194.0,
+        "lower": 49931.0,
+        "pct_b": -0.14,
+        "position": "en-dessous bande inferieure"
       },
       "ichimoku": {
         "tenkan": 52175.0,
@@ -1622,10 +1652,14 @@
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -0.3,
-      "score_signal": 3,
+      "z_score": -2.21,
+      "score_signal": 9,
       "raisons_selection": [
-        "RSI survendu (40.0)"
+        "RSI survendu (39.9)",
+        "MACD croisement_baissier",
+        "Bollinger : en-dessous bande inferieure",
+        "Variation notable (-7.50%)",
+        "Perf 1M (-15.5%)"
       ],
       "actualites_liees": []
     },
@@ -1633,25 +1667,25 @@
       "ticker": "SDSC.ci",
       "nom": "AFRICA GLOBAL LOGISTICS",
       "secteur": "SERVICES",
-      "prix": "3000",
-      "variation": -2.91,
-      "perf_1m": 11.11,
-      "perf_3m": 29.87,
-      "perf_ytd": 98.02,
-      "vol_moy_20j": 17613,
-      "rsi": 71.4,
+      "prix": "3085",
+      "variation": 2.83,
+      "perf_1m": 18.65,
+      "perf_3m": 32.97,
+      "perf_ytd": 103.63,
+      "vol_moy_20j": 17000,
+      "rsi": 71.6,
       "macd": {
-        "macd": 114.89,
-        "signal": 112.74,
-        "histo": 2.15,
+        "macd": 113.02,
+        "signal": 112.8,
+        "histo": 0.22,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 3289.0,
-        "middle": 2900.0,
-        "lower": 2510.0,
-        "pct_b": 0.63,
+        "upper": 3305.0,
+        "middle": 2919.0,
+        "lower": 2533.0,
+        "pct_b": 0.72,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -1661,10 +1695,11 @@
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.21,
-      "score_signal": 3,
+      "z_score": 1.5,
+      "score_signal": 4,
       "raisons_selection": [
-        "RSI suresvalue (71.4)",
+        "RSI suresvalue (71.6)",
+        "Perf 1M (+18.6%)",
         "Actualite : AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Pouvo"
       ],
       "actualites_liees": [
@@ -1684,7 +1719,7 @@
           "tickers": [
             "SDSC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 97,
           "importance": "Critique",
           "impact": "Fort",
@@ -1696,108 +1731,117 @@
       "ticker": "BNBC.ci",
       "nom": "BERNABE",
       "secteur": "DISTRIBUTION",
-      "prix": "2275",
-      "variation": -0.87,
-      "perf_1m": 14.61,
-      "perf_3m": 12.9,
-      "perf_ytd": 61.35,
-      "vol_moy_20j": 4598,
-      "rsi": 57.3,
+      "prix": "2105",
+      "variation": -7.47,
+      "perf_1m": 5.51,
+      "perf_3m": 0.24,
+      "perf_ytd": 49.29,
+      "vol_moy_20j": 4583,
+      "rsi": 40.2,
       "macd": {
-        "macd": 58.83,
-        "signal": 59.01,
-        "histo": -0.17,
+        "macd": 48.19,
+        "signal": 56.84,
+        "histo": -8.65,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2413.0,
-        "middle": 2156.0,
-        "lower": 1898.0,
-        "pct_b": 0.73,
+        "upper": 2408.0,
+        "middle": 2161.0,
+        "lower": 1915.0,
+        "pct_b": 0.39,
         "position": "dans les bandes"
       },
       "ichimoku": {
         "tenkan": 2165.0,
-        "kijun": 2170.0,
+        "kijun": 2190.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": 1.75,
-      "score_signal": 1
+      "z_score": 0.61,
+      "score_signal": 5,
+      "raisons_selection": [
+        "RSI survendu (40.2)",
+        "Variation notable (-7.47%)"
+      ],
+      "actualites_liees": []
     },
     {
       "ticker": "CFAC.ci",
       "nom": "CFAO CI",
       "secteur": "DISTRIBUTION",
-      "prix": "1730",
-      "variation": 0.29,
-      "perf_1m": 3.9,
-      "perf_3m": -1.98,
-      "perf_ytd": 20.98,
-      "vol_moy_20j": 3677,
-      "rsi": 46.0,
+      "prix": "1690",
+      "variation": -2.31,
+      "perf_1m": 5.62,
+      "perf_3m": -7.4,
+      "perf_ytd": 18.18,
+      "vol_moy_20j": 3827,
+      "rsi": 40.4,
       "macd": {
-        "macd": 9.54,
-        "signal": 13.37,
-        "histo": -3.83,
+        "macd": 6.44,
+        "signal": 11.98,
+        "histo": -5.54,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 1795.0,
-        "middle": 1725.0,
-        "lower": 1655.0,
-        "pct_b": 0.54,
+        "upper": 1784.0,
+        "middle": 1728.0,
+        "lower": 1672.0,
+        "pct_b": 0.16,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 1725.0,
+        "tenkan": 1722.0,
         "kijun": 1695.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.89,
-      "score_signal": 1
+      "z_score": 0.23,
+      "score_signal": 3,
+      "raisons_selection": [
+        "RSI survendu (40.4)"
+      ],
+      "actualites_liees": []
     },
     {
       "ticker": "FTSC.ci",
       "nom": "FILTISAC CI",
       "secteur": "SERVICES",
-      "prix": "2100",
-      "variation": -0.94,
-      "perf_1m": -2.33,
-      "perf_3m": 0.0,
-      "perf_ytd": -5.41,
-      "vol_moy_20j": 3357,
-      "rsi": 41.4,
+      "prix": "2090",
+      "variation": -0.48,
+      "perf_1m": -1.42,
+      "perf_3m": -3.24,
+      "perf_ytd": -5.86,
+      "vol_moy_20j": 3199,
+      "rsi": 39.0,
       "macd": {
-        "macd": 4.6,
-        "signal": 13.6,
-        "histo": -9.0,
+        "macd": 1.8,
+        "signal": 11.24,
+        "histo": -9.44,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2197.0,
-        "middle": 2139.0,
-        "lower": 2080.0,
-        "pct_b": 0.17,
+        "upper": 2198.0,
+        "middle": 2136.0,
+        "lower": 2074.0,
+        "pct_b": 0.13,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 2140.0,
+        "tenkan": 2125.0,
         "kijun": 2115.0,
-        "position_nuage": "dans le nuage (neutre)",
+        "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bullish",
-        "synthese": "Prix dans le nuage (neutre), TK/KJ bullish"
+        "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bullish"
       },
-      "z_score": 0.39,
+      "z_score": 0.26,
       "score_signal": 2,
       "raisons_selection": [
-        "RSI survendu (41.4)"
+        "RSI survendu (39.0)"
       ],
       "actualites_liees": []
     },
@@ -1805,38 +1849,38 @@
       "ticker": "NEIC.ci",
       "nom": "NEI CEDA CI",
       "secteur": "DISTRIBUTION",
-      "prix": "2750",
-      "variation": -3.34,
-      "perf_1m": 26.44,
-      "perf_3m": 19.57,
-      "perf_ytd": 129.17,
-      "vol_moy_20j": 2761,
-      "rsi": 53.0,
+      "prix": "2745",
+      "variation": -0.18,
+      "perf_1m": 25.92,
+      "perf_3m": 15.58,
+      "perf_ytd": 128.75,
+      "vol_moy_20j": 2811,
+      "rsi": 47.4,
       "macd": {
-        "macd": 122.19,
-        "signal": 152.85,
-        "histo": -30.66,
+        "macd": 108.56,
+        "signal": 143.99,
+        "histo": -35.43,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 3267.0,
-        "middle": 2759.0,
-        "lower": 2251.0,
-        "pct_b": 0.49,
+        "upper": 3220.0,
+        "middle": 2786.0,
+        "lower": 2353.0,
+        "pct_b": 0.45,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 2768.0,
+        "tenkan": 2750.0,
         "kijun": 2605.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.04,
+      "z_score": 0.98,
       "score_signal": 2,
       "raisons_selection": [
-        "Perf 1M (+26.4%)",
+        "Perf 1M (+25.9%)",
         "Actualite : NEI CEDA CI : NEI CEDA CI _ Paiement de dividendes - Exercic"
       ],
       "actualites_liees": [
@@ -1856,7 +1900,7 @@
           "tickers": [
             "NEIC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1868,39 +1912,38 @@
       "ticker": "SAFC.ci",
       "nom": "SAFCA CI",
       "secteur": "SERVICES",
-      "prix": "4980",
-      "variation": -4.23,
-      "perf_1m": -13.09,
-      "perf_3m": 21.61,
-      "perf_ytd": 50.68,
-      "vol_moy_20j": 10714,
-      "rsi": 33.5,
+      "prix": "4985",
+      "variation": 0.1,
+      "perf_1m": -11.14,
+      "perf_3m": 13.3,
+      "perf_ytd": 50.83,
+      "vol_moy_20j": 10920,
+      "rsi": 34.2,
       "macd": {
-        "macd": -5.45,
-        "signal": 130.97,
-        "histo": -136.42,
+        "macd": -45.52,
+        "signal": 95.67,
+        "histo": -141.19,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 6347.0,
-        "middle": 5708.0,
-        "lower": 5070.0,
-        "pct_b": -0.07,
-        "position": "en-dessous bande inferieure"
+        "upper": 6388.0,
+        "middle": 5673.0,
+        "lower": 4957.0,
+        "pct_b": 0.02,
+        "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 5680.0,
-        "kijun": 5598.0,
+        "tenkan": 5582.0,
+        "kijun": 5590.0,
         "position_nuage": "au-dessus du nuage (bullish)",
-        "signal_tk_kj": "bullish",
-        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
+        "signal_tk_kj": "bearish",
+        "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bearish"
       },
-      "z_score": -0.33,
-      "score_signal": 5,
+      "z_score": -0.34,
+      "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (33.5)",
-        "Bollinger : en-dessous bande inferieure",
+        "RSI survendu (34.2)",
         "Actualite : SAFCA CI : SAFCA CI _ Rapport dactivites - 2eme trimestre 20"
       ],
       "actualites_liees": [
@@ -1920,7 +1963,7 @@
           "tickers": [
             "SAFC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1942,7 +1985,7 @@
           "tickers": [
             "SAFC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -1964,7 +2007,7 @@
           "tickers": [
             "SAFC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 74,
           "importance": "Important",
           "impact": "Moyen",
@@ -1976,39 +2019,39 @@
       "ticker": "ABJC.ci",
       "nom": "SERVAIR ABIDJAN",
       "secteur": "DISTRIBUTION",
-      "prix": "4015",
-      "variation": -1.11,
-      "perf_1m": 21.67,
-      "perf_3m": 16.72,
-      "perf_ytd": 38.45,
-      "vol_moy_20j": 4390,
-      "rsi": 74.8,
+      "prix": "4040",
+      "variation": 0.62,
+      "perf_1m": 19.35,
+      "perf_3m": 17.44,
+      "perf_ytd": 39.31,
+      "vol_moy_20j": 4381,
+      "rsi": 74.3,
       "macd": {
-        "macd": 207.74,
-        "signal": 200.64,
-        "histo": 7.1,
+        "macd": 201.51,
+        "signal": 200.82,
+        "histo": 0.7,
         "tendance": "haussiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 4258.0,
-        "middle": 3790.0,
-        "lower": 3321.0,
-        "pct_b": 0.74,
+        "upper": 4263.0,
+        "middle": 3822.0,
+        "lower": 3382.0,
+        "pct_b": 0.75,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 3942.0,
-        "kijun": 3558.0,
+        "tenkan": 3998.0,
+        "kijun": 3618.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 1.71,
+      "z_score": 1.69,
       "score_signal": 4,
       "raisons_selection": [
-        "RSI suresvalue (74.8)",
-        "Perf 1M (+21.7%)",
+        "RSI suresvalue (74.3)",
+        "Perf 1M (+19.4%)",
         "Actualite : SERVAIR ABIDJAN CI : SERVAIR ABIDJAN CÔTE D·IVOIRE _ Paiemen"
       ],
       "actualites_liees": [
@@ -2028,7 +2071,7 @@
           "tickers": [
             "ABJC"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 100,
           "importance": "Critique",
           "impact": "Fort",
@@ -2040,38 +2083,38 @@
       "ticker": "STAC.ci",
       "nom": "SETAO CI",
       "secteur": "SERVICES",
-      "prix": "2480",
-      "variation": -2.94,
-      "perf_1m": -2.55,
-      "perf_3m": -29.14,
-      "perf_ytd": 87.17,
-      "vol_moy_20j": 4134,
-      "rsi": 45.6,
+      "prix": "2450",
+      "variation": -1.21,
+      "perf_1m": -3.16,
+      "perf_3m": -30.0,
+      "perf_ytd": 84.91,
+      "vol_moy_20j": 4117,
+      "rsi": 40.4,
       "macd": {
-        "macd": -61.78,
-        "signal": -61.31,
-        "histo": -0.46,
+        "macd": -67.16,
+        "signal": -62.48,
+        "histo": -4.68,
         "tendance": "baissiere",
-        "croisement": "croisement_baissier"
+        "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2795.0,
-        "middle": 2601.0,
-        "lower": 2407.0,
-        "pct_b": 0.19,
+        "upper": 2800.0,
+        "middle": 2597.0,
+        "lower": 2394.0,
+        "pct_b": 0.14,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 2630.0,
-        "kijun": 2668.0,
+        "tenkan": 2565.0,
+        "kijun": 2642.0,
         "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -1.22,
+      "z_score": -1.32,
       "score_signal": 2,
       "raisons_selection": [
-        "MACD croisement_baissier"
+        "RSI survendu (40.4)"
       ],
       "actualites_liees": []
     },
@@ -2079,39 +2122,38 @@
       "ticker": "CABC.ci",
       "nom": "SICABLE CI",
       "secteur": "SERVICES",
-      "prix": "3410",
-      "variation": -2.29,
-      "perf_1m": -5.28,
-      "perf_3m": -12.56,
-      "perf_ytd": 44.49,
-      "vol_moy_20j": 2279,
-      "rsi": 31.2,
+      "prix": "3500",
+      "variation": 2.64,
+      "perf_1m": -2.78,
+      "perf_3m": -12.5,
+      "perf_ytd": 48.31,
+      "vol_moy_20j": 2298,
+      "rsi": 50.0,
       "macd": {
-        "macd": -45.62,
-        "signal": -44.67,
-        "histo": -0.95,
-        "tendance": "baissiere",
-        "croisement": "croisement_baissier"
+        "macd": -41.88,
+        "signal": -44.12,
+        "histo": 2.23,
+        "tendance": "haussiere",
+        "croisement": "croisement_haussier"
       },
       "bollinger": {
-        "upper": 3691.0,
-        "middle": 3537.0,
-        "lower": 3382.0,
-        "pct_b": 0.09,
+        "upper": 3664.0,
+        "middle": 3527.0,
+        "lower": 3390.0,
+        "pct_b": 0.4,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 3545.0,
-        "kijun": 3598.0,
+        "tenkan": 3475.0,
+        "kijun": 3552.0,
         "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -1.13,
-      "score_signal": 4,
+      "z_score": -0.74,
+      "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (31.2)",
-        "MACD croisement_baissier"
+        "MACD croisement_haussier"
       ],
       "actualites_liees": []
     },
@@ -2158,38 +2200,38 @@
       "ticker": "PRSC.ci",
       "nom": "TRACTAFRIC MOTORS",
       "secteur": "DISTRIBUTION",
-      "prix": "4420",
-      "variation": 1.03,
-      "perf_1m": -0.67,
-      "perf_3m": -6.75,
-      "perf_ytd": 14.06,
-      "vol_moy_20j": 915,
-      "rsi": 39.5,
+      "prix": "4450",
+      "variation": 0.68,
+      "perf_1m": 1.02,
+      "perf_3m": -5.32,
+      "perf_ytd": 14.84,
+      "vol_moy_20j": 2295,
+      "rsi": 42.6,
       "macd": {
-        "macd": -20.0,
-        "signal": -16.42,
-        "histo": -3.58,
-        "tendance": "baissiere",
-        "croisement": "neutre"
+        "macd": -15.67,
+        "signal": -16.27,
+        "histo": 0.6,
+        "tendance": "haussiere",
+        "croisement": "croisement_haussier"
       },
       "bollinger": {
-        "upper": 4557.0,
-        "middle": 4439.0,
-        "lower": 4320.0,
-        "pct_b": 0.42,
+        "upper": 4558.0,
+        "middle": 4441.0,
+        "lower": 4324.0,
+        "pct_b": 0.54,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 4425.0,
+        "tenkan": 4428.0,
         "kijun": 4492.0,
         "position_nuage": "dans le nuage (neutre)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix dans le nuage (neutre), TK/KJ bearish"
       },
-      "z_score": -0.49,
-      "score_signal": 2,
+      "z_score": -0.12,
+      "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (39.5)"
+        "MACD croisement_haussier"
       ],
       "actualites_liees": []
     },
@@ -2197,36 +2239,40 @@
       "ticker": "UNXC.ci",
       "nom": "UNIWAX CI",
       "secteur": "DISTRIBUTION",
-      "prix": "2380",
-      "variation": -0.83,
-      "perf_1m": 13.06,
-      "perf_3m": 22.05,
-      "perf_ytd": 70.0,
-      "vol_moy_20j": 15658,
-      "rsi": 46.3,
+      "prix": "2340",
+      "variation": -1.68,
+      "perf_1m": 3.54,
+      "perf_3m": 21.24,
+      "perf_ytd": 67.14,
+      "vol_moy_20j": 14349,
+      "rsi": 37.3,
       "macd": {
-        "macd": 80.75,
-        "signal": 105.83,
-        "histo": -25.07,
+        "macd": 71.46,
+        "signal": 98.95,
+        "histo": -27.49,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2512.0,
-        "middle": 2420.0,
-        "lower": 2328.0,
-        "pct_b": 0.28,
+        "upper": 2515.0,
+        "middle": 2416.0,
+        "lower": 2317.0,
+        "pct_b": 0.12,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 2385.0,
+        "tenkan": 2370.0,
         "kijun": 2200.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.95,
-      "score_signal": 1
+      "z_score": 0.81,
+      "score_signal": 3,
+      "raisons_selection": [
+        "RSI survendu (37.3)"
+      ],
+      "actualites_liees": []
     },
     {
       "ticker": "SEMC.ci",
@@ -2267,108 +2313,112 @@
       "ticker": "SIVC.ci",
       "nom": "ERIUM",
       "secteur": "SERVICES",
-      "prix": "2300",
-      "variation": 1.55,
-      "perf_1m": -4.56,
-      "perf_3m": -17.71,
-      "perf_ytd": 45.57,
-      "vol_moy_20j": 4537,
-      "rsi": 45.3,
+      "prix": "2270",
+      "variation": -1.3,
+      "perf_1m": -5.02,
+      "perf_3m": -14.02,
+      "perf_ytd": 43.67,
+      "vol_moy_20j": 4617,
+      "rsi": 43.4,
       "macd": {
-        "macd": -4.77,
-        "signal": 4.69,
-        "histo": -9.46,
+        "macd": -9.54,
+        "signal": 1.84,
+        "histo": -11.39,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 2438.0,
-        "middle": 2354.0,
-        "lower": 2269.0,
-        "pct_b": 0.18,
+        "upper": 2442.0,
+        "middle": 2350.0,
+        "lower": 2257.0,
+        "pct_b": 0.07,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 2358.0,
+        "tenkan": 2330.0,
         "kijun": 2352.0,
         "position_nuage": "en-dessous du nuage (bearish)",
-        "signal_tk_kj": "bullish",
-        "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bullish"
+        "signal_tk_kj": "bearish",
+        "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": 0.08,
+      "z_score": -0.15,
       "score_signal": 0
     },
     {
       "ticker": "ETIT.tg",
       "nom": "ETI TOGO",
       "secteur": "BANQUE",
-      "prix": "71",
-      "variation": 0.0,
-      "perf_1m": 9.23,
-      "perf_3m": 108.82,
-      "perf_ytd": 208.7,
-      "vol_moy_20j": 1227362,
-      "rsi": 68.8,
+      "prix": "70",
+      "variation": -1.41,
+      "perf_1m": 4.48,
+      "perf_3m": 105.88,
+      "perf_ytd": 204.35,
+      "vol_moy_20j": 1437605,
+      "rsi": 60.0,
       "macd": {
-        "macd": 1.6,
-        "signal": 1.53,
-        "histo": 0.07,
-        "tendance": "haussiere",
-        "croisement": "neutre"
+        "macd": 1.52,
+        "signal": 1.52,
+        "histo": -0.01,
+        "tendance": "baissiere",
+        "croisement": "croisement_baissier"
       },
       "bollinger": {
-        "upper": 72.0,
+        "upper": 73.0,
         "middle": 68.0,
         "lower": 64.0,
-        "pct_b": 0.82,
+        "pct_b": 0.69,
         "position": "dans les bandes"
       },
       "ichimoku": {
-        "tenkan": 68.0,
+        "tenkan": 70.0,
         "kijun": 68.0,
         "position_nuage": "au-dessus du nuage (bullish)",
         "signal_tk_kj": "bullish",
         "synthese": "Prix au-dessus du nuage (bullish), TK/KJ bullish"
       },
-      "z_score": 0.79,
-      "score_signal": 2
+      "z_score": 0.58,
+      "score_signal": 3,
+      "raisons_selection": [
+        "MACD croisement_baissier"
+      ],
+      "actualites_liees": []
     },
     {
       "ticker": "LNBB.bj",
       "nom": "LOTERIE BENIN",
       "secteur": "SERVICES",
-      "prix": "3955",
-      "variation": 0.64,
-      "perf_1m": -2.47,
-      "perf_3m": -3.54,
-      "perf_ytd": -7.92,
-      "vol_moy_20j": 7412,
-      "rsi": 41.3,
+      "prix": "4100",
+      "variation": 3.67,
+      "perf_1m": -0.85,
+      "perf_3m": 0.0,
+      "perf_ytd": -4.54,
+      "vol_moy_20j": 7312,
+      "rsi": 55.6,
       "macd": {
-        "macd": -56.69,
-        "signal": -55.47,
-        "histo": -1.23,
-        "tendance": "baissiere",
-        "croisement": "neutre"
+        "macd": -44.66,
+        "signal": -53.31,
+        "histo": 8.65,
+        "tendance": "haussiere",
+        "croisement": "croisement_haussier"
       },
       "bollinger": {
-        "upper": 4168.0,
-        "middle": 4031.0,
-        "lower": 3893.0,
-        "pct_b": 0.22,
+        "upper": 4150.0,
+        "middle": 4027.0,
+        "lower": 3904.0,
+        "pct_b": 0.8,
         "position": "dans les bandes"
       },
       "ichimoku": {
         "tenkan": 4008.0,
-        "kijun": 4102.0,
+        "kijun": 4080.0,
         "position_nuage": "en-dessous du nuage (bearish)",
         "signal_tk_kj": "bearish",
         "synthese": "Prix en-dessous du nuage (bearish), TK/KJ bearish"
       },
-      "z_score": -1.39,
-      "score_signal": 2,
+      "z_score": -0.47,
+      "score_signal": 3,
       "raisons_selection": [
-        "RSI survendu (41.3)",
+        "MACD croisement_haussier",
         "Actualite : LOTERIE NATIONALE DU BENIN : LNB BN _ Bilan semestriel du co"
       ],
       "actualites_liees": [
@@ -2388,7 +2438,7 @@
           "tickers": [
             "LNBB"
           ],
-          "date_collecte": "2026-09-15T20:55:26Z",
+          "date_collecte": "2026-09-16T20:56:32Z",
           "score_importance": 93,
           "importance": "Critique",
           "impact": "Fort",
@@ -2400,25 +2450,25 @@
       "ticker": "SOGC.ci",
       "nom": "SOGB",
       "secteur": "AGRICULTURE",
-      "prix": "8140",
-      "variation": 0.49,
-      "perf_1m": 3.69,
-      "perf_3m": -1.93,
-      "perf_ytd": 3.04,
-      "vol_moy_20j": 4205,
-      "rsi": 48.7,
+      "prix": "8120",
+      "variation": -0.25,
+      "perf_1m": 2.78,
+      "perf_3m": 1.37,
+      "perf_ytd": 2.78,
+      "vol_moy_20j": 4107,
+      "rsi": 48.3,
       "macd": {
-        "macd": -17.62,
-        "signal": 8.63,
-        "histo": -26.26,
+        "macd": -18.07,
+        "signal": 3.29,
+        "histo": -21.37,
         "tendance": "baissiere",
         "croisement": "neutre"
       },
       "bollinger": {
-        "upper": 8764.0,
-        "middle": 8223.0,
-        "lower": 7682.0,
-        "pct_b": 0.42,
+        "upper": 8756.0,
+        "middle": 8214.0,
+        "lower": 7673.0,
+        "pct_b": 0.41,
         "position": "dans les bandes"
       },
       "ichimoku": {
@@ -2428,7 +2478,7 @@
         "signal_tk_kj": "bearish",
         "synthese": "Prix dans le nuage (neutre), TK/KJ bearish"
       },
-      "z_score": -0.14,
+      "z_score": -0.19,
       "score_signal": 0
     }
   ]
