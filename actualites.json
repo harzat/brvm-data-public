@@ -1,11 +1,11 @@
 {
   "schema_version": "veille_decisionnelle_v4",
-  "date": "24/09/2026",
-  "heure": "14:39 UTC",
-  "nb_total": 31,
+  "date": "25/09/2026",
+  "heure": "15:01 UTC",
+  "nb_total": 28,
   "impact_counts": {
-    "Fort": 27,
-    "Moyen": 4,
+    "Fort": 26,
+    "Moyen": 2,
     "Faible": 0
   },
   "ag": [
@@ -25,7 +25,7 @@
       "tickers": [
         "SNTS"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -49,7 +49,7 @@
       "tickers": [
         "BOAM"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -71,7 +71,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -93,7 +93,7 @@
       "tickers": [
         "BOAS"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -115,7 +115,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -137,7 +137,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -159,7 +159,7 @@
       "tickers": [
         "ECOC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -181,7 +181,7 @@
       "tickers": [
         "SPHC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -203,7 +203,7 @@
       "tickers": [
         "SAFC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -225,7 +225,7 @@
       "tickers": [
         "CBIBF"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -247,7 +247,7 @@
       "tickers": [
         "SGBC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -269,7 +269,7 @@
       "tickers": [
         "CBIBF"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -277,6 +277,52 @@
     }
   ],
   "dividendes": [
+    {
+      "source": "RichBourse",
+      "source_type": "dividendes",
+      "source_authority": "secondary_unverified",
+      "source_rank": 10,
+      "source_role": "discovery",
+      "validation_policy": "primary_required",
+      "type": "DIVIDENDE",
+      "titre": "SODE CI : dividende 462 FCFA",
+      "resume": "Rendement indicatif RichBourse : 3.88%. Ex-dividende : 15/09/2026. Paiement : 16/09/2026.",
+      "lien": "https://www.richbourse.com/common/mouvements/index/SDCC",
+      "date": "29/09/2026",
+      "date_iso": "2026-09-29",
+      "tickers": [
+        "SDCC"
+      ],
+      "date_collecte": "2026-09-25T15:01:36Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+      "validation": "confirme_par_source_secondaire"
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "dividendes",
+      "source_authority": "secondary_unverified",
+      "source_rank": 10,
+      "source_role": "discovery",
+      "validation_policy": "primary_required",
+      "type": "DIVIDENDE",
+      "titre": "NEI-CEDA : dividende 140.4 FCFA",
+      "resume": "Rendement indicatif RichBourse : 5.85%. Ex-dividende : 09/09/2026. Paiement : 10/09/2026.",
+      "lien": "https://www.richbourse.com/common/mouvements/index/NEIC",
+      "date": "29/09/2026",
+      "date_iso": "2026-09-29",
+      "tickers": [
+        "NEIC"
+      ],
+      "date_collecte": "2026-09-25T15:01:36Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+      "validation": "confirme_par_source_secondaire"
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -293,7 +339,7 @@
       "tickers": [
         "SMBC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -315,7 +361,7 @@
       "tickers": [
         "SDCC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -337,29 +383,7 @@
       "tickers": [
         "NEIC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "DIVIDENDE",
-      "titre": "VIVO ENERGY CI : VIVO ENERGY CI _ Paiement de dividendes - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/vivo-energy-ci-vivo-energy-ci--paiement-de-dividendes--exercice-2025.pdf",
-      "date": "21/08/2026",
-      "date_iso": "2026-08-21",
-      "tickers": [
-        "SHEC"
-      ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -383,103 +407,14 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "PALMCI : PALM CI _ Notation Financière",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/palmci-palm-ci--notation-financiere.pdf",
-      "date": "26/08/2026",
-      "date_iso": "2026-08-26",
-      "tickers": [
-        "PALC"
-      ],
-      "date_collecte": "2026-09-24T14:39:25Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ Notation Financière",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/coris-bank-international-bf-coris-bank-international-bf--notation-financiere.pdf",
-      "date": "26/08/2026",
-      "date_iso": "2026-08-26",
-      "tickers": [
-        "CBIBF"
-      ],
-      "date_collecte": "2026-09-24T14:39:25Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "BANK OF AFRICA BURKINA FASO : BOA BF _ Notation Financière",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bank-of-africa-burkina-faso-boa-bf--notation-financiere.pdf",
-      "date": "26/08/2026",
-      "date_iso": "2026-08-26",
-      "tickers": [
-        "BOABF"
-      ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
     }
   ],
-  "capitaux": [
-    {
-      "source": "AgenceEcofin",
-      "source_type": "finance",
-      "source_authority": "secondary",
-      "source_rank": 15,
-      "source_role": "media_context",
-      "validation_policy": "secondary_context",
-      "type": "CAPITAL",
-      "titre": "Koné Daouda Soukpafolo est officiellement l’actionnaire majoritaire d’Uniwax",
-      "resume": "COIC détient désormais 15 millions d’actions d’Uniwax, soit 72,29 % du capital et des droits de vote, à la suite de la cession des participations...",
-      "lien": "https://www.agenceecofin.com/actualites-finance/2109-141738-kone-daouda-soukpafolo-est-officiellement-l-actionnaire-majoritaire-d-uniwax",
-      "date": "",
-      "date_iso": null,
-      "tickers": [
-        "UNXC"
-      ],
-      "date_collecte": "2026-09-24T14:39:36Z",
-      "score_importance": 67,
-      "importance": "Important",
-      "impact": "Moyen",
-      "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
-    }
-  ],
+  "capitaux": [],
   "macro": [],
   "autres": [
     {
@@ -498,7 +433,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 94,
       "importance": "Critique",
       "impact": "Fort",
@@ -520,7 +455,7 @@
       "tickers": [
         "SICC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -542,7 +477,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -564,7 +499,7 @@
       "tickers": [
         "SEMC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -586,7 +521,7 @@
       "tickers": [
         "SPHC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 87,
       "importance": "Critique",
       "impact": "Fort",
@@ -608,8 +543,30 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 87,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Information de contexte : impact direct à confirmer."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "ACTU",
+      "titre": "TOTAL SENEGAL : TOTALENERGIES MARKETING SN _ Changement important dans la Direction",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--changement-important-dans-la-direction.pdf",
+      "date": "24/09/2026",
+      "date_iso": "2026-09-24",
+      "tickers": [
+        "TTLS"
+      ],
+      "date_collecte": "2026-09-25T15:01:25Z",
+      "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -630,7 +587,7 @@
       "tickers": [
         "SPHC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 78,
       "importance": "Important",
       "impact": "Fort",
@@ -652,7 +609,7 @@
       "tickers": [
         "SAFC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 74,
       "importance": "Important",
       "impact": "Moyen",
@@ -667,36 +624,14 @@
       "validation_policy": "secondary_context",
       "type": "ACTU",
       "titre": "BOA Mali : le PNB en hausse de 17,5 %, mais le coût du risque pèse sur le bénéfice",
-      "resume": "La progression de l’activité de BOA Mali au premier semestre 2026 s’est traduite par une nette amélioration de sa performance opérationnelle. Mais la...",
+      "resume": "La progression de l’activité de BOA Mali au premier semestre 2026 s’est traduite par une nette amélioration de sa performance opérationnelle. Mais la hausse...",
       "lien": "https://www.agenceecofin.com/actualites-finance/2409-141860-boa-mali-le-pnb-en-hausse-de-17-5-mais-le-cout-du-risque-pese-sur-le-benefice",
       "date": "",
       "date_iso": null,
       "tickers": [
         "BOAM"
       ],
-      "date_collecte": "2026-09-24T14:39:36Z",
-      "score_importance": 46,
-      "importance": "A surveiller",
-      "impact": "Moyen",
-      "pourquoi": "Information de contexte : impact direct à confirmer."
-    },
-    {
-      "source": "AgenceEcofin",
-      "source_type": "finance",
-      "source_authority": "secondary",
-      "source_rank": 15,
-      "source_role": "media_context",
-      "validation_policy": "secondary_context",
-      "type": "ACTU",
-      "titre": "NSIA Banque CI : une nouvelle gouvernance pour accélérer la croissance",
-      "resume": "NSIA Banque Côte d’Ivoire dévoile sa nouvelle gouvernance et ses priorités pour les prochaines années. La nouvelle direction entend notamment améliorer l’expérience client et...",
-      "lien": "https://www.agenceecofin.com/actualites/2209-141771-nsia-banque-ci-une-nouvelle-gouvernance-pour-accelerer-la-croissance",
-      "date": "",
-      "date_iso": null,
-      "tickers": [
-        "NSBC"
-      ],
-      "date_collecte": "2026-09-24T14:39:36Z",
+      "date_collecte": "2026-09-25T15:01:40Z",
       "score_importance": 46,
       "importance": "A surveiller",
       "impact": "Moyen",
@@ -704,6 +639,52 @@
     }
   ],
   "tous": [
+    {
+      "source": "RichBourse",
+      "source_type": "dividendes",
+      "source_authority": "secondary_unverified",
+      "source_rank": 10,
+      "source_role": "discovery",
+      "validation_policy": "primary_required",
+      "type": "DIVIDENDE",
+      "titre": "SODE CI : dividende 462 FCFA",
+      "resume": "Rendement indicatif RichBourse : 3.88%. Ex-dividende : 15/09/2026. Paiement : 16/09/2026.",
+      "lien": "https://www.richbourse.com/common/mouvements/index/SDCC",
+      "date": "29/09/2026",
+      "date_iso": "2026-09-29",
+      "tickers": [
+        "SDCC"
+      ],
+      "date_collecte": "2026-09-25T15:01:36Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+      "validation": "confirme_par_source_secondaire"
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "dividendes",
+      "source_authority": "secondary_unverified",
+      "source_rank": 10,
+      "source_role": "discovery",
+      "validation_policy": "primary_required",
+      "type": "DIVIDENDE",
+      "titre": "NEI-CEDA : dividende 140.4 FCFA",
+      "resume": "Rendement indicatif RichBourse : 5.85%. Ex-dividende : 09/09/2026. Paiement : 10/09/2026.",
+      "lien": "https://www.richbourse.com/common/mouvements/index/NEIC",
+      "date": "29/09/2026",
+      "date_iso": "2026-09-29",
+      "tickers": [
+        "NEIC"
+      ],
+      "date_collecte": "2026-09-25T15:01:36Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+      "validation": "confirme_par_source_secondaire"
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -720,7 +701,7 @@
       "tickers": [
         "BOAM"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -742,7 +723,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -764,7 +745,7 @@
       "tickers": [
         "BOAS"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -786,7 +767,7 @@
       "tickers": [
         "SNTS"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -808,7 +789,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -830,7 +811,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -852,7 +833,7 @@
       "tickers": [
         "ECOC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -874,7 +855,7 @@
       "tickers": [
         "SPHC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -896,7 +877,7 @@
       "tickers": [
         "SMBC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -918,7 +899,7 @@
       "tickers": [
         "SAFC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -940,7 +921,7 @@
       "tickers": [
         "SDCC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -962,7 +943,7 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -984,7 +965,7 @@
       "tickers": [
         "CBIBF"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1006,7 +987,7 @@
       "tickers": [
         "SGBC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1028,7 +1009,7 @@
       "tickers": [
         "CBIBF"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1050,95 +1031,7 @@
       "tickers": [
         "NEIC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "PALMCI : PALM CI _ Notation Financière",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/palmci-palm-ci--notation-financiere.pdf",
-      "date": "26/08/2026",
-      "date_iso": "2026-08-26",
-      "tickers": [
-        "PALC"
-      ],
-      "date_collecte": "2026-09-24T14:39:25Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ Notation Financière",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/coris-bank-international-bf-coris-bank-international-bf--notation-financiere.pdf",
-      "date": "26/08/2026",
-      "date_iso": "2026-08-26",
-      "tickers": [
-        "CBIBF"
-      ],
-      "date_collecte": "2026-09-24T14:39:25Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "NOTATION",
-      "titre": "BANK OF AFRICA BURKINA FASO : BOA BF _ Notation Financière",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bank-of-africa-burkina-faso-boa-bf--notation-financiere.pdf",
-      "date": "26/08/2026",
-      "date_iso": "2026-08-26",
-      "tickers": [
-        "BOABF"
-      ],
-      "date_collecte": "2026-09-24T14:39:25Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "DIVIDENDE",
-      "titre": "VIVO ENERGY CI : VIVO ENERGY CI _ Paiement de dividendes - Exercice 2025",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/vivo-energy-ci-vivo-energy-ci--paiement-de-dividendes--exercice-2025.pdf",
-      "date": "21/08/2026",
-      "date_iso": "2026-08-21",
-      "tickers": [
-        "SHEC"
-      ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1160,7 +1053,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 94,
       "importance": "Critique",
       "impact": "Fort",
@@ -1182,7 +1075,7 @@
       "tickers": [
         "SICC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -1204,7 +1097,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -1226,7 +1119,7 @@
       "tickers": [
         "SEMC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -1248,7 +1141,7 @@
       "tickers": [
         "SPHC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 87,
       "importance": "Critique",
       "impact": "Fort",
@@ -1270,8 +1163,30 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 87,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Information de contexte : impact direct à confirmer."
+    },
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "ACTU",
+      "titre": "TOTAL SENEGAL : TOTALENERGIES MARKETING SN _ Changement important dans la Direction",
+      "resume": "",
+      "lien": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--changement-important-dans-la-direction.pdf",
+      "date": "24/09/2026",
+      "date_iso": "2026-09-24",
+      "tickers": [
+        "TTLS"
+      ],
+      "date_collecte": "2026-09-25T15:01:25Z",
+      "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -1292,7 +1207,7 @@
       "tickers": [
         "SPHC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 78,
       "importance": "Important",
       "impact": "Fort",
@@ -1314,7 +1229,7 @@
       "tickers": [
         "SAFC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 74,
       "importance": "Important",
       "impact": "Moyen",
@@ -1327,60 +1242,16 @@
       "source_rank": 15,
       "source_role": "media_context",
       "validation_policy": "secondary_context",
-      "type": "CAPITAL",
-      "titre": "Koné Daouda Soukpafolo est officiellement l’actionnaire majoritaire d’Uniwax",
-      "resume": "COIC détient désormais 15 millions d’actions d’Uniwax, soit 72,29 % du capital et des droits de vote, à la suite de la cession des participations...",
-      "lien": "https://www.agenceecofin.com/actualites-finance/2109-141738-kone-daouda-soukpafolo-est-officiellement-l-actionnaire-majoritaire-d-uniwax",
-      "date": "",
-      "date_iso": null,
-      "tickers": [
-        "UNXC"
-      ],
-      "date_collecte": "2026-09-24T14:39:36Z",
-      "score_importance": 67,
-      "importance": "Important",
-      "impact": "Moyen",
-      "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
-    },
-    {
-      "source": "AgenceEcofin",
-      "source_type": "finance",
-      "source_authority": "secondary",
-      "source_rank": 15,
-      "source_role": "media_context",
-      "validation_policy": "secondary_context",
       "type": "ACTU",
       "titre": "BOA Mali : le PNB en hausse de 17,5 %, mais le coût du risque pèse sur le bénéfice",
-      "resume": "La progression de l’activité de BOA Mali au premier semestre 2026 s’est traduite par une nette amélioration de sa performance opérationnelle. Mais la...",
+      "resume": "La progression de l’activité de BOA Mali au premier semestre 2026 s’est traduite par une nette amélioration de sa performance opérationnelle. Mais la hausse...",
       "lien": "https://www.agenceecofin.com/actualites-finance/2409-141860-boa-mali-le-pnb-en-hausse-de-17-5-mais-le-cout-du-risque-pese-sur-le-benefice",
       "date": "",
       "date_iso": null,
       "tickers": [
         "BOAM"
       ],
-      "date_collecte": "2026-09-24T14:39:36Z",
-      "score_importance": 46,
-      "importance": "A surveiller",
-      "impact": "Moyen",
-      "pourquoi": "Information de contexte : impact direct à confirmer."
-    },
-    {
-      "source": "AgenceEcofin",
-      "source_type": "finance",
-      "source_authority": "secondary",
-      "source_rank": 15,
-      "source_role": "media_context",
-      "validation_policy": "secondary_context",
-      "type": "ACTU",
-      "titre": "NSIA Banque CI : une nouvelle gouvernance pour accélérer la croissance",
-      "resume": "NSIA Banque Côte d’Ivoire dévoile sa nouvelle gouvernance et ses priorités pour les prochaines années. La nouvelle direction entend notamment améliorer l’expérience client et...",
-      "lien": "https://www.agenceecofin.com/actualites/2209-141771-nsia-banque-ci-une-nouvelle-gouvernance-pour-accelerer-la-croissance",
-      "date": "",
-      "date_iso": null,
-      "tickers": [
-        "NSBC"
-      ],
-      "date_collecte": "2026-09-24T14:39:36Z",
+      "date_collecte": "2026-09-25T15:01:40Z",
       "score_importance": 46,
       "importance": "A surveiller",
       "impact": "Moyen",
@@ -1388,6 +1259,52 @@
     }
   ],
   "prioritaires": [
+    {
+      "source": "RichBourse",
+      "source_type": "dividendes",
+      "source_authority": "secondary_unverified",
+      "source_rank": 10,
+      "source_role": "discovery",
+      "validation_policy": "primary_required",
+      "type": "DIVIDENDE",
+      "titre": "SODE CI : dividende 462 FCFA",
+      "resume": "Rendement indicatif RichBourse : 3.88%. Ex-dividende : 15/09/2026. Paiement : 16/09/2026.",
+      "lien": "https://www.richbourse.com/common/mouvements/index/SDCC",
+      "date": "29/09/2026",
+      "date_iso": "2026-09-29",
+      "tickers": [
+        "SDCC"
+      ],
+      "date_collecte": "2026-09-25T15:01:36Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+      "validation": "confirme_par_source_secondaire"
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "dividendes",
+      "source_authority": "secondary_unverified",
+      "source_rank": 10,
+      "source_role": "discovery",
+      "validation_policy": "primary_required",
+      "type": "DIVIDENDE",
+      "titre": "NEI-CEDA : dividende 140.4 FCFA",
+      "resume": "Rendement indicatif RichBourse : 5.85%. Ex-dividende : 09/09/2026. Paiement : 10/09/2026.",
+      "lien": "https://www.richbourse.com/common/mouvements/index/NEIC",
+      "date": "29/09/2026",
+      "date_iso": "2026-09-29",
+      "tickers": [
+        "NEIC"
+      ],
+      "date_collecte": "2026-09-25T15:01:36Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+      "validation": "confirme_par_source_secondaire"
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -1404,7 +1321,7 @@
       "tickers": [
         "BOAM"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1426,7 +1343,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1448,7 +1365,7 @@
       "tickers": [
         "BOAS"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1470,7 +1387,7 @@
       "tickers": [
         "SNTS"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1492,7 +1409,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1514,7 +1431,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1536,7 +1453,7 @@
       "tickers": [
         "ECOC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1558,7 +1475,7 @@
       "tickers": [
         "SPHC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1580,7 +1497,7 @@
       "tickers": [
         "SMBC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1602,7 +1519,7 @@
       "tickers": [
         "SAFC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1624,7 +1541,7 @@
       "tickers": [
         "SDCC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1646,7 +1563,7 @@
       "tickers": [
         "NSBC"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1668,51 +1585,7 @@
       "tickers": [
         "CBIBF"
       ],
-      "date_collecte": "2026-09-24T14:39:25Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "SGBCI : SOCIETE GENERALE CI _ Rapport d'activités - 1er semestre 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/sgbci-societe-generale-ci--rapport-d-activites--1er-semestre-2026.pdf",
-      "date": "31/08/2026",
-      "date_iso": "2026-08-31",
-      "tickers": [
-        "SGBC"
-      ],
-      "date_collecte": "2026-09-24T14:39:25Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ Rapport d'Examen Limité des Commissaires Aux Comptes sur les Etats Financiers au 30 juin 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/coris-bank-international-bf-coris-bank-international-bf--rapport-d-examen-limite-des-commissaires-aux-comptes-sur-les-etats-financiers-au-30-juin-2026.pdf",
-      "date": "31/08/2026",
-      "date_iso": "2026-08-31",
-      "tickers": [
-        "CBIBF"
-      ],
-      "date_collecte": "2026-09-24T14:39:25Z",
+      "date_collecte": "2026-09-25T15:01:25Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1720,6 +1593,100 @@
     }
   ],
   "par_ticker": {
+    "SDCC": [
+      {
+        "source": "RichBourse",
+        "source_type": "dividendes",
+        "source_authority": "secondary_unverified",
+        "source_rank": 10,
+        "source_role": "discovery",
+        "validation_policy": "primary_required",
+        "type": "DIVIDENDE",
+        "titre": "SODE CI : dividende 462 FCFA",
+        "resume": "Rendement indicatif RichBourse : 3.88%. Ex-dividende : 15/09/2026. Paiement : 16/09/2026.",
+        "lien": "https://www.richbourse.com/common/mouvements/index/SDCC",
+        "date": "29/09/2026",
+        "date_iso": "2026-09-29",
+        "tickers": [
+          "SDCC"
+        ],
+        "date_collecte": "2026-09-25T15:01:36Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+        "validation": "confirme_par_source_secondaire"
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "SODECI : SODE CI _ Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sodeci-sode-ci--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "02/09/2026",
+        "date_iso": "2026-09-02",
+        "tickers": [
+          "SDCC"
+        ],
+        "date_collecte": "2026-09-25T15:01:25Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      }
+    ],
+    "NEIC": [
+      {
+        "source": "RichBourse",
+        "source_type": "dividendes",
+        "source_authority": "secondary_unverified",
+        "source_rank": 10,
+        "source_role": "discovery",
+        "validation_policy": "primary_required",
+        "type": "DIVIDENDE",
+        "titre": "NEI-CEDA : dividende 140.4 FCFA",
+        "resume": "Rendement indicatif RichBourse : 5.85%. Ex-dividende : 09/09/2026. Paiement : 10/09/2026.",
+        "lien": "https://www.richbourse.com/common/mouvements/index/NEIC",
+        "date": "29/09/2026",
+        "date_iso": "2026-09-29",
+        "tickers": [
+          "NEIC"
+        ],
+        "date_collecte": "2026-09-25T15:01:36Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+        "validation": "confirme_par_source_secondaire"
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "NEI CEDA CI : NEI CEDA CI _ Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/nei-ceda-ci-nei-ceda-ci--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "27/08/2026",
+        "date_iso": "2026-08-27",
+        "tickers": [
+          "NEIC"
+        ],
+        "date_collecte": "2026-09-25T15:01:25Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      }
+    ],
     "BOAM": [
       {
         "source": "SikaFinance",
@@ -1737,7 +1704,7 @@
         "tickers": [
           "BOAM"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1752,14 +1719,14 @@
         "validation_policy": "secondary_context",
         "type": "ACTU",
         "titre": "BOA Mali : le PNB en hausse de 17,5 %, mais le coût du risque pèse sur le bénéfice",
-        "resume": "La progression de l’activité de BOA Mali au premier semestre 2026 s’est traduite par une nette amélioration de sa performance opérationnelle. Mais la...",
+        "resume": "La progression de l’activité de BOA Mali au premier semestre 2026 s’est traduite par une nette amélioration de sa performance opérationnelle. Mais la hausse...",
         "lien": "https://www.agenceecofin.com/actualites-finance/2409-141860-boa-mali-le-pnb-en-hausse-de-17-5-mais-le-cout-du-risque-pese-sur-le-benefice",
         "date": "",
         "date_iso": null,
         "tickers": [
           "BOAM"
         ],
-        "date_collecte": "2026-09-24T14:39:36Z",
+        "date_collecte": "2026-09-25T15:01:40Z",
         "score_importance": 46,
         "importance": "A surveiller",
         "impact": "Moyen",
@@ -1783,7 +1750,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1805,7 +1772,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 94,
         "importance": "Critique",
         "impact": "Fort",
@@ -1827,7 +1794,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -1851,7 +1818,7 @@
         "tickers": [
           "BOAS"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1875,7 +1842,7 @@
         "tickers": [
           "SNTS"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1899,7 +1866,7 @@
         "tickers": [
           "SDSC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1921,7 +1888,7 @@
         "tickers": [
           "SDSC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1945,7 +1912,7 @@
         "tickers": [
           "ECOC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1969,7 +1936,7 @@
         "tickers": [
           "SPHC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1991,7 +1958,7 @@
         "tickers": [
           "SPHC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 87,
         "importance": "Critique",
         "impact": "Fort",
@@ -2013,7 +1980,7 @@
         "tickers": [
           "SPHC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 78,
         "importance": "Important",
         "impact": "Fort",
@@ -2037,7 +2004,7 @@
         "tickers": [
           "SMBC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2061,7 +2028,7 @@
         "tickers": [
           "SAFC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2083,35 +2050,11 @@
         "tickers": [
           "SAFC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 74,
         "importance": "Important",
         "impact": "Moyen",
         "pourquoi": "Information de contexte : impact direct à confirmer."
-      }
-    ],
-    "SDCC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "SODECI : SODE CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sodeci-sode-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "02/09/2026",
-        "date_iso": "2026-09-02",
-        "tickers": [
-          "SDCC"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
       }
     ],
     "NSBC": [
@@ -2131,33 +2074,11 @@
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-      },
-      {
-        "source": "AgenceEcofin",
-        "source_type": "finance",
-        "source_authority": "secondary",
-        "source_rank": 15,
-        "source_role": "media_context",
-        "validation_policy": "secondary_context",
-        "type": "ACTU",
-        "titre": "NSIA Banque CI : une nouvelle gouvernance pour accélérer la croissance",
-        "resume": "NSIA Banque Côte d’Ivoire dévoile sa nouvelle gouvernance et ses priorités pour les prochaines années. La nouvelle direction entend notamment améliorer l’expérience client et...",
-        "lien": "https://www.agenceecofin.com/actualites/2209-141771-nsia-banque-ci-une-nouvelle-gouvernance-pour-accelerer-la-croissance",
-        "date": "",
-        "date_iso": null,
-        "tickers": [
-          "NSBC"
-        ],
-        "date_collecte": "2026-09-24T14:39:36Z",
-        "score_importance": 46,
-        "importance": "A surveiller",
-        "impact": "Moyen",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
       }
     ],
     "CBIBF": [
@@ -2177,7 +2098,7 @@
         "tickers": [
           "CBIBF"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2199,33 +2120,11 @@
         "tickers": [
           "CBIBF"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "NOTATION",
-        "titre": "CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ Notation Financière",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/coris-bank-international-bf-coris-bank-international-bf--notation-financiere.pdf",
-        "date": "26/08/2026",
-        "date_iso": "2026-08-26",
-        "tickers": [
-          "CBIBF"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
       }
     ],
     "SGBC": [
@@ -2245,107 +2144,11 @@
         "tickers": [
           "SGBC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      }
-    ],
-    "NEIC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "NEI CEDA CI : NEI CEDA CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/nei-ceda-ci-nei-ceda-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "27/08/2026",
-        "date_iso": "2026-08-27",
-        "tickers": [
-          "NEIC"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      }
-    ],
-    "PALC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "NOTATION",
-        "titre": "PALMCI : PALM CI _ Notation Financière",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/palmci-palm-ci--notation-financiere.pdf",
-        "date": "26/08/2026",
-        "date_iso": "2026-08-26",
-        "tickers": [
-          "PALC"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-      }
-    ],
-    "BOABF": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "NOTATION",
-        "titre": "BANK OF AFRICA BURKINA FASO : BOA BF _ Notation Financière",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/bank-of-africa-burkina-faso-boa-bf--notation-financiere.pdf",
-        "date": "26/08/2026",
-        "date_iso": "2026-08-26",
-        "tickers": [
-          "BOABF"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-      }
-    ],
-    "SHEC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "VIVO ENERGY CI : VIVO ENERGY CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/vivo-energy-ci-vivo-energy-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "21/08/2026",
-        "date_iso": "2026-08-21",
-        "tickers": [
-          "SHEC"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
       }
     ],
     "SICC": [
@@ -2365,7 +2168,7 @@
         "tickers": [
           "SICC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -2389,7 +2192,7 @@
         "tickers": [
           "SEMC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -2413,37 +2216,153 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 87,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Information de contexte : impact direct à confirmer."
-      },
+      }
+    ],
+    "TTLS": [
       {
-        "source": "AgenceEcofin",
-        "source_type": "finance",
+        "source": "SikaFinance",
+        "source_type": "communiques",
         "source_authority": "secondary",
-        "source_rank": 15,
-        "source_role": "media_context",
-        "validation_policy": "secondary_context",
-        "type": "CAPITAL",
-        "titre": "Koné Daouda Soukpafolo est officiellement l’actionnaire majoritaire d’Uniwax",
-        "resume": "COIC détient désormais 15 millions d’actions d’Uniwax, soit 72,29 % du capital et des droits de vote, à la suite de la cession des participations...",
-        "lien": "https://www.agenceecofin.com/actualites-finance/2109-141738-kone-daouda-soukpafolo-est-officiellement-l-actionnaire-majoritaire-d-uniwax",
-        "date": "",
-        "date_iso": null,
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "ACTU",
+        "titre": "TOTAL SENEGAL : TOTALENERGIES MARKETING SN _ Changement important dans la Direction",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--changement-important-dans-la-direction.pdf",
+        "date": "24/09/2026",
+        "date_iso": "2026-09-24",
         "tickers": [
-          "UNXC"
+          "TTLS"
         ],
-        "date_collecte": "2026-09-24T14:39:36Z",
-        "score_importance": 67,
-        "importance": "Important",
-        "impact": "Moyen",
-        "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
+        "date_collecte": "2026-09-25T15:01:25Z",
+        "score_importance": 83,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Information de contexte : impact direct à confirmer."
       }
     ]
   },
   "par_type": {
+    "DIVIDENDE": [
+      {
+        "source": "RichBourse",
+        "source_type": "dividendes",
+        "source_authority": "secondary_unverified",
+        "source_rank": 10,
+        "source_role": "discovery",
+        "validation_policy": "primary_required",
+        "type": "DIVIDENDE",
+        "titre": "SODE CI : dividende 462 FCFA",
+        "resume": "Rendement indicatif RichBourse : 3.88%. Ex-dividende : 15/09/2026. Paiement : 16/09/2026.",
+        "lien": "https://www.richbourse.com/common/mouvements/index/SDCC",
+        "date": "29/09/2026",
+        "date_iso": "2026-09-29",
+        "tickers": [
+          "SDCC"
+        ],
+        "date_collecte": "2026-09-25T15:01:36Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+        "validation": "confirme_par_source_secondaire"
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "dividendes",
+        "source_authority": "secondary_unverified",
+        "source_rank": 10,
+        "source_role": "discovery",
+        "validation_policy": "primary_required",
+        "type": "DIVIDENDE",
+        "titre": "NEI-CEDA : dividende 140.4 FCFA",
+        "resume": "Rendement indicatif RichBourse : 5.85%. Ex-dividende : 09/09/2026. Paiement : 10/09/2026.",
+        "lien": "https://www.richbourse.com/common/mouvements/index/NEIC",
+        "date": "29/09/2026",
+        "date_iso": "2026-09-29",
+        "tickers": [
+          "NEIC"
+        ],
+        "date_collecte": "2026-09-25T15:01:36Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement.",
+        "validation": "confirme_par_source_secondaire"
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "SMB CI : SMB CI _ Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/smb-ci-smb-ci--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "04/09/2026",
+        "date_iso": "2026-09-04",
+        "tickers": [
+          "SMBC"
+        ],
+        "date_collecte": "2026-09-25T15:01:25Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "SODECI : SODE CI _ Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/sodeci-sode-ci--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "02/09/2026",
+        "date_iso": "2026-09-02",
+        "tickers": [
+          "SDCC"
+        ],
+        "date_collecte": "2026-09-25T15:01:25Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "DIVIDENDE",
+        "titre": "NEI CEDA CI : NEI CEDA CI _ Paiement de dividendes - Exercice 2025",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/nei-ceda-ci-nei-ceda-ci--paiement-de-dividendes--exercice-2025.pdf",
+        "date": "27/08/2026",
+        "date_iso": "2026-08-27",
+        "tickers": [
+          "NEIC"
+        ],
+        "date_collecte": "2026-09-25T15:01:25Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
+      }
+    ],
     "RAPPORT": [
       {
         "source": "SikaFinance",
@@ -2461,7 +2380,7 @@
         "tickers": [
           "BOAM"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2483,7 +2402,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2505,7 +2424,7 @@
         "tickers": [
           "BOAS"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2527,7 +2446,7 @@
         "tickers": [
           "SDSC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2549,7 +2468,7 @@
         "tickers": [
           "SDSC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2571,7 +2490,7 @@
         "tickers": [
           "ECOC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2593,7 +2512,7 @@
         "tickers": [
           "SPHC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2615,7 +2534,7 @@
         "tickers": [
           "SAFC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2637,7 +2556,7 @@
         "tickers": [
           "CBIBF"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2659,7 +2578,7 @@
         "tickers": [
           "SGBC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2681,7 +2600,7 @@
         "tickers": [
           "CBIBF"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2705,101 +2624,11 @@
         "tickers": [
           "SNTS"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      }
-    ],
-    "DIVIDENDE": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "SMB CI : SMB CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/smb-ci-smb-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "04/09/2026",
-        "date_iso": "2026-09-04",
-        "tickers": [
-          "SMBC"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "SODECI : SODE CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/sodeci-sode-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "02/09/2026",
-        "date_iso": "2026-09-02",
-        "tickers": [
-          "SDCC"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "NEI CEDA CI : NEI CEDA CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/nei-ceda-ci-nei-ceda-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "27/08/2026",
-        "date_iso": "2026-08-27",
-        "tickers": [
-          "NEIC"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "DIVIDENDE",
-        "titre": "VIVO ENERGY CI : VIVO ENERGY CI _ Paiement de dividendes - Exercice 2025",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/vivo-energy-ci-vivo-energy-ci--paiement-de-dividendes--exercice-2025.pdf",
-        "date": "21/08/2026",
-        "date_iso": "2026-08-21",
-        "tickers": [
-          "SHEC"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Impact potentiel sur le rendement et sur l'ajustement du cours au détachement."
       }
     ],
     "NOTATION": [
@@ -2819,73 +2648,7 @@
         "tickers": [
           "NSBC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "NOTATION",
-        "titre": "PALMCI : PALM CI _ Notation Financière",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/palmci-palm-ci--notation-financiere.pdf",
-        "date": "26/08/2026",
-        "date_iso": "2026-08-26",
-        "tickers": [
-          "PALC"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "NOTATION",
-        "titre": "CORIS BANK INTERNATIONAL BF : CORIS BANK INTERNATIONAL BF _ Notation Financière",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/coris-bank-international-bf-coris-bank-international-bf--notation-financiere.pdf",
-        "date": "26/08/2026",
-        "date_iso": "2026-08-26",
-        "tickers": [
-          "CBIBF"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "NOTATION",
-        "titre": "BANK OF AFRICA BURKINA FASO : BOA BF _ Notation Financière",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/bank-of-africa-burkina-faso-boa-bf--notation-financiere.pdf",
-        "date": "26/08/2026",
-        "date_iso": "2026-08-26",
-        "tickers": [
-          "BOABF"
-        ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2909,7 +2672,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 94,
         "importance": "Critique",
         "impact": "Fort",
@@ -2931,7 +2694,7 @@
         "tickers": [
           "SICC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -2953,7 +2716,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -2975,7 +2738,7 @@
         "tickers": [
           "SEMC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -2997,7 +2760,7 @@
         "tickers": [
           "SPHC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 87,
         "importance": "Critique",
         "impact": "Fort",
@@ -3019,8 +2782,30 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 87,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Information de contexte : impact direct à confirmer."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "ACTU",
+        "titre": "TOTAL SENEGAL : TOTALENERGIES MARKETING SN _ Changement important dans la Direction",
+        "resume": "",
+        "lien": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--changement-important-dans-la-direction.pdf",
+        "date": "24/09/2026",
+        "date_iso": "2026-09-24",
+        "tickers": [
+          "TTLS"
+        ],
+        "date_collecte": "2026-09-25T15:01:25Z",
+        "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -3041,7 +2826,7 @@
         "tickers": [
           "SPHC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 78,
         "importance": "Important",
         "impact": "Fort",
@@ -3063,7 +2848,7 @@
         "tickers": [
           "SAFC"
         ],
-        "date_collecte": "2026-09-24T14:39:25Z",
+        "date_collecte": "2026-09-25T15:01:25Z",
         "score_importance": 74,
         "importance": "Important",
         "impact": "Moyen",
@@ -3078,64 +2863,18 @@
         "validation_policy": "secondary_context",
         "type": "ACTU",
         "titre": "BOA Mali : le PNB en hausse de 17,5 %, mais le coût du risque pèse sur le bénéfice",
-        "resume": "La progression de l’activité de BOA Mali au premier semestre 2026 s’est traduite par une nette amélioration de sa performance opérationnelle. Mais la...",
+        "resume": "La progression de l’activité de BOA Mali au premier semestre 2026 s’est traduite par une nette amélioration de sa performance opérationnelle. Mais la hausse...",
         "lien": "https://www.agenceecofin.com/actualites-finance/2409-141860-boa-mali-le-pnb-en-hausse-de-17-5-mais-le-cout-du-risque-pese-sur-le-benefice",
         "date": "",
         "date_iso": null,
         "tickers": [
           "BOAM"
         ],
-        "date_collecte": "2026-09-24T14:39:36Z",
+        "date_collecte": "2026-09-25T15:01:40Z",
         "score_importance": 46,
         "importance": "A surveiller",
         "impact": "Moyen",
         "pourquoi": "Information de contexte : impact direct à confirmer."
-      },
-      {
-        "source": "AgenceEcofin",
-        "source_type": "finance",
-        "source_authority": "secondary",
-        "source_rank": 15,
-        "source_role": "media_context",
-        "validation_policy": "secondary_context",
-        "type": "ACTU",
-        "titre": "NSIA Banque CI : une nouvelle gouvernance pour accélérer la croissance",
-        "resume": "NSIA Banque Côte d’Ivoire dévoile sa nouvelle gouvernance et ses priorités pour les prochaines années. La nouvelle direction entend notamment améliorer l’expérience client et...",
-        "lien": "https://www.agenceecofin.com/actualites/2209-141771-nsia-banque-ci-une-nouvelle-gouvernance-pour-accelerer-la-croissance",
-        "date": "",
-        "date_iso": null,
-        "tickers": [
-          "NSBC"
-        ],
-        "date_collecte": "2026-09-24T14:39:36Z",
-        "score_importance": 46,
-        "importance": "A surveiller",
-        "impact": "Moyen",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
-      }
-    ],
-    "CAPITAL": [
-      {
-        "source": "AgenceEcofin",
-        "source_type": "finance",
-        "source_authority": "secondary",
-        "source_rank": 15,
-        "source_role": "media_context",
-        "validation_policy": "secondary_context",
-        "type": "CAPITAL",
-        "titre": "Koné Daouda Soukpafolo est officiellement l’actionnaire majoritaire d’Uniwax",
-        "resume": "COIC détient désormais 15 millions d’actions d’Uniwax, soit 72,29 % du capital et des droits de vote, à la suite de la cession des participations...",
-        "lien": "https://www.agenceecofin.com/actualites-finance/2109-141738-kone-daouda-soukpafolo-est-officiellement-l-actionnaire-majoritaire-d-uniwax",
-        "date": "",
-        "date_iso": null,
-        "tickers": [
-          "UNXC"
-        ],
-        "date_collecte": "2026-09-24T14:39:36Z",
-        "score_importance": 67,
-        "importance": "Important",
-        "impact": "Moyen",
-        "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
       }
     ]
   },
@@ -3178,8 +2917,8 @@
     },
     "RichBourse:dividendes": {
       "url": "https://www.richbourse.com/common/dividende/index",
-      "articles": 0,
-      "ok": false,
+      "articles": 20,
+      "ok": true,
       "source_rank": 10,
       "source_authority": "secondary_unverified",
       "source_role": "discovery",
@@ -3218,15 +2957,14 @@
   },
   "filtrage": {
     "strict_action_news": true,
-    "entree": 70,
-    "sans_action_cotee": 39,
-    "dividendes_richbourse_non_confirmes": 0,
-    "sortie": 31
+    "entree": 90,
+    "sans_action_cotee": 51,
+    "dividendes_richbourse_non_confirmes": 11,
+    "sortie": 28
   },
   "erreurs": [
-    "RichBourse / news : 403 Client Error: Forbidden for url: https://www.richbourse.com/common/news/index",
-    "RichBourse / actualites : 403 Client Error: Forbidden for url: https://www.richbourse.com/common/actualite/index",
-    "RichBourse / dividendes : 403 Client Error: Forbidden for url: https://www.richbourse.com/common/dividende/index"
+    "RichBourse / news : HTTPSConnectionPool(host='www.richbourse.com', port=443): Max retries exceeded with url: /common/news/index (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))",
+    "RichBourse / actualites : 403 Client Error: Forbidden for url: https://www.richbourse.com/common/actualite/index"
   ],
-  "resume_ia": "Synthèse de veille BRVM - 24/0"
+  "resume_ia": "Synthèse de veille BRVM - 25/09/"
 }
