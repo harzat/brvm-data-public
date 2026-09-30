@@ -1,14 +1,12 @@
 {
-  "generated_at": "2026-09-30T23:15:08Z",
+  "generated_at": "2026-09-30T23:43:36Z",
   "schema_version": 1,
   "source": "sikafinance.com/marches/historiques",
-  "nb_actions": 49,
-  "duration_seconds": 38,
+  "nb_actions": 48,
+  "duration_seconds": 18,
   "counts": {
-    "skip_fresh": 45,
-    "skip_no_new_rows": 2,
-    "updated": 1,
-    "empty_scrape": 1
+    "skip_fresh": 46,
+    "skip_no_new_rows": 2
   },
   "stale_over_5_days": 2,
   "entries": [
@@ -532,22 +530,11 @@
     {
       "ticker": "BBGC.ci",
       "fichier": "Historique_Complet_BRIDGE_BANK_GROUP_CI.csv",
-      "status": "updated",
-      "source_lecture": "none",
-      "derniere_date_avant": null,
+      "status": "skip_fresh",
+      "source_lecture": "local",
+      "derniere_date_avant": "2026-09-30",
       "derniere_date": "2026-09-30",
       "lignes": 5,
-      "lignes_ajoutees": 5,
-      "erreur": null
-    },
-    {
-      "ticker": "SVOC.ci",
-      "fichier": "Historique_Complet_MOVIS_CI.csv",
-      "status": "empty_scrape",
-      "source_lecture": "none",
-      "derniere_date_avant": null,
-      "derniere_date": null,
-      "lignes": 0,
       "lignes_ajoutees": 0,
       "erreur": null
     }
