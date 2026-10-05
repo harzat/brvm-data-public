@@ -2,7 +2,7 @@
 
 Données CSV publiques synchronisées depuis BRVMetrics.
 
-- Dernière synchronisation: 2026-10-02 21:16 UTC
+- Dernière synchronisation: 2026-10-05 18:01 UTC
 - CSV publiés: 48
 - Format: Date;Ouverture;Haut;Bas;Cloture;Volume;Valeur;Variation
 - Indices BRVM (Composite, BRVM-30, Principal, Prestige, sectoriels) : dossier indices/ (18 CSV, même format)
