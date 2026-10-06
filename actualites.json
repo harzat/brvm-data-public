@@ -1,11 +1,11 @@
 {
   "schema_version": "veille_decisionnelle_v4",
-  "date": "05/10/2026",
-  "heure": "19:05 UTC",
-  "nb_total": 29,
+  "date": "06/10/2026",
+  "heure": "16:31 UTC",
+  "nb_total": 39,
   "impact_counts": {
-    "Fort": 25,
-    "Moyen": 4,
+    "Fort": 36,
+    "Moyen": 3,
     "Faible": 0
   },
   "ag": [
@@ -25,7 +25,7 @@
       "tickers": [
         "SNTS"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -33,6 +33,28 @@
     }
   ],
   "rapports": [
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "AFRICA GLOBAL LOGISTICS : africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025",
+      "resume": "AFRICA GLOBAL LOGISTICS : africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025",
+      "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025.pdf",
+      "date": "05/10/2026",
+      "date_iso": "2026-10-05",
+      "tickers": [
+        "SDSC"
+      ],
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -49,7 +71,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -71,7 +93,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -93,7 +115,7 @@
       "tickers": [
         "ONTBF"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -115,7 +137,95 @@
       "tickers": [
         "ONTBF"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA CI : Rapport d'examen limité des états financiers - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-boa-ci-rapport-d-examen-limite-des-etats-financiers-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "BOAC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ONATEL BF : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-onatel-bf-rapport-dactivites-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "ONTBF"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ONATEL BF : Rapport d'activités et Attestation des Commissaires Aux Comptes - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-onatel-bf-rapport-d-activites-et-attestation-des-commissaires-aux-comptes-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "ONTBF"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA CI : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-boa-ci-rapport-d-activites-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "BOAC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -137,7 +247,29 @@
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SIB CI : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/28-09-2026-sib-ci-rapport-d-activites-1er-semestre-2026",
+      "date": "28/09/2026",
+      "date_iso": "2026-09-28",
+      "tickers": [
+        "SIBC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -159,7 +291,7 @@
       "tickers": [
         "BOAN"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -181,7 +313,51 @@
       "tickers": [
         "BOAN"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA NIGER : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/25-09-2026-boa-niger-rapport-dactivites-1er-semestre-2026",
+      "date": "25/09/2026",
+      "date_iso": "2026-09-25",
+      "tickers": [
+        "BOAN"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA NIGER : Attestation des Commissaires Aux Comptes et Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/25-09-2026-boa-niger-attestation-des-commissaires-aux-comptes-et-rapport-d-activites-1er-semestre-2026",
+      "date": "25/09/2026",
+      "date_iso": "2026-09-25",
+      "tickers": [
+        "BOAN"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -203,7 +379,7 @@
       "tickers": [
         "BBGC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -225,7 +401,7 @@
       "tickers": [
         "BBGC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -247,7 +423,73 @@
       "tickers": [
         "BBGC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BRIDGE BANK GROUP CI : Rapport des Commissaires Aux Comptes - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-bridge-bank-group-ci-rapport-des-commissaires-aux-comptes-1er-semestre-2026",
+      "date": "24/09/2026",
+      "date_iso": "2026-09-24",
+      "tickers": [
+        "BBGC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BRIDGE BANK GROUP COTE D'IVOIRE (BBGC) : Résultats de première cotation",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-cote-d-ivoire-bbgc-resultats-de-premiere-cotation",
+      "date": "24/09/2026",
+      "date_iso": "2026-09-24",
+      "tickers": [
+        "BBGC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BRIDGE BANK GROUP CI : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-bridge-bank-group-ci-rapport-d-activites-1er-semestre-2026",
+      "date": "24/09/2026",
+      "date_iso": "2026-09-24",
+      "tickers": [
+        "BBGC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -269,7 +511,29 @@
       "tickers": [
         "BOAM"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA MALI : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/23-09-2026-boa-mali-rapport-dactivites-1er-semestre-2026",
+      "date": "23/09/2026",
+      "date_iso": "2026-09-23",
+      "tickers": [
+        "BOAM"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -291,7 +555,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -313,7 +577,7 @@
       "tickers": [
         "BOAS"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -335,7 +599,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -357,29 +621,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "ECOBANK CI : ECOBANK CI _ Rapport d'activités - 1er semestre 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/ecobank-ci-ecobank-ci--rapport-d-activites--1er-semestre-2026.pdf",
-      "date": "09/09/2026",
-      "date_iso": "2026-09-09",
-      "tickers": [
-        "ECOC"
-      ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -404,37 +646,36 @@
       "tickers": [
         "TTLC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "NOTATION",
+      "titre": "TotalEnergies Marketing CI : Notation financière",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/30-09-2026-totalenergies-marketing-ci-notation-financiere",
+      "date": "30/09/2026",
+      "date_iso": "2026-09-30",
+      "tickers": [
+        "TTLC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 97,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
     }
   ],
-  "capitaux": [
-    {
-      "source": "AgenceEcofin",
-      "source_type": "finance",
-      "source_authority": "secondary",
-      "source_rank": 15,
-      "source_role": "media_context",
-      "validation_policy": "secondary_context",
-      "type": "OPERATION",
-      "titre": "Entrepreneuriat féminin : la BAD évalue l’impact de son partenariat avec NSIA Banque",
-      "resume": "À travers un partenariat avec la Banque africaine de développement (BAD), NSIA Banque Côte d’Ivoire entend renforcer l’accès des femmes entrepreneures au financement et...",
-      "lien": "https://www.agenceecofin.com/actualites/3009-142015-entrepreneuriat-feminin-la-bad-evalue-l-impact-de-son-partenariat-avec-nsia-banque",
-      "date": "",
-      "date_iso": null,
-      "tickers": [
-        "NSBC"
-      ],
-      "date_collecte": "2026-10-05T19:05:31Z",
-      "score_importance": 60,
-      "importance": "A surveiller",
-      "impact": "Moyen",
-      "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
-    }
-  ],
+  "capitaux": [],
   "macro": [],
   "autres": [
     {
@@ -453,7 +694,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -475,7 +716,7 @@
       "tickers": [
         "SICC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -497,7 +738,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -511,16 +752,16 @@
       "source_role": "document_mirror",
       "validation_policy": "match_brvm_registry",
       "type": "ACTU",
-      "titre": "CROWN SIEM : SONOCO METAL PACKAGING SIEM CI _ Suspension de la cotation",
+      "titre": "SONATEL : brvm-annulation-de-transaction",
       "resume": "",
-      "lien": "https://www.sikafinance.com/docs/crown-siem-sonoco-metal-packaging-siem-ci--suspension-de-la-cotation.pdf",
-      "date": "16/09/2026",
-      "date_iso": "2026-09-16",
+      "lien": "https://www.sikafinance.com/docs/sonatel-brvm-annulation-de-transaction.pdf",
+      "date": "05/10/2026",
+      "date_iso": "2026-10-05",
       "tickers": [
-        "SEMC"
+        "SNTS"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 90,
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -541,7 +782,7 @@
       "tickers": [
         "SPHC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
@@ -563,7 +804,7 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
@@ -585,10 +826,10 @@
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 78,
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 74,
       "importance": "Important",
-      "impact": "Fort",
+      "impact": "Moyen",
       "pourquoi": "Information de contexte : impact direct à confirmer."
     },
     {
@@ -607,7 +848,7 @@
       "tickers": [
         "TTLS"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 74,
       "importance": "Important",
       "impact": "Moyen",
@@ -629,29 +870,7 @@
       "tickers": [
         "SPHC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 74,
-      "importance": "Important",
-      "impact": "Moyen",
-      "pourquoi": "Information de contexte : impact direct à confirmer."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "ACTU",
-      "titre": "BRIDGE BANK GROUP COTE D’IVOIRE : BRIDGE BANK GROUP COTE D'IVOIRE _ Première cotation",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bridge-bank-group-cote-divoire-bridge-bank-group-cote-d-ivoire--premiere-cotation.pdf",
-      "date": "08/09/2026",
-      "date_iso": "2026-09-08",
-      "tickers": [
-        "BBGC"
-      ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 74,
       "importance": "Important",
       "impact": "Moyen",
@@ -659,6 +878,28 @@
     }
   ],
   "tous": [
+    {
+      "source": "SikaFinance",
+      "source_type": "communiques",
+      "source_authority": "secondary",
+      "source_rank": 60,
+      "source_role": "document_mirror",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "AFRICA GLOBAL LOGISTICS : africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025",
+      "resume": "AFRICA GLOBAL LOGISTICS : africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025",
+      "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025.pdf",
+      "date": "05/10/2026",
+      "date_iso": "2026-10-05",
+      "tickers": [
+        "SDSC"
+      ],
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -675,7 +916,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -697,7 +938,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -719,7 +960,7 @@
       "tickers": [
         "ONTBF"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -741,7 +982,95 @@
       "tickers": [
         "ONTBF"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA CI : Rapport d'examen limité des états financiers - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-boa-ci-rapport-d-examen-limite-des-etats-financiers-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "BOAC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ONATEL BF : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-onatel-bf-rapport-dactivites-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "ONTBF"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ONATEL BF : Rapport d'activités et Attestation des Commissaires Aux Comptes - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-onatel-bf-rapport-d-activites-et-attestation-des-commissaires-aux-comptes-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "ONTBF"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA CI : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-boa-ci-rapport-d-activites-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "BOAC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -763,7 +1092,7 @@
       "tickers": [
         "TTLC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -785,7 +1114,29 @@
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SIB CI : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/28-09-2026-sib-ci-rapport-d-activites-1er-semestre-2026",
+      "date": "28/09/2026",
+      "date_iso": "2026-09-28",
+      "tickers": [
+        "SIBC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -807,7 +1158,7 @@
       "tickers": [
         "BOAN"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -829,7 +1180,51 @@
       "tickers": [
         "BOAN"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA NIGER : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/25-09-2026-boa-niger-rapport-dactivites-1er-semestre-2026",
+      "date": "25/09/2026",
+      "date_iso": "2026-09-25",
+      "tickers": [
+        "BOAN"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA NIGER : Attestation des Commissaires Aux Comptes et Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/25-09-2026-boa-niger-attestation-des-commissaires-aux-comptes-et-rapport-d-activites-1er-semestre-2026",
+      "date": "25/09/2026",
+      "date_iso": "2026-09-25",
+      "tickers": [
+        "BOAN"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -851,7 +1246,7 @@
       "tickers": [
         "BBGC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -873,7 +1268,7 @@
       "tickers": [
         "BBGC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -895,7 +1290,73 @@
       "tickers": [
         "BBGC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BRIDGE BANK GROUP CI : Rapport des Commissaires Aux Comptes - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-bridge-bank-group-ci-rapport-des-commissaires-aux-comptes-1er-semestre-2026",
+      "date": "24/09/2026",
+      "date_iso": "2026-09-24",
+      "tickers": [
+        "BBGC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BRIDGE BANK GROUP COTE D'IVOIRE (BBGC) : Résultats de première cotation",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-cote-d-ivoire-bbgc-resultats-de-premiere-cotation",
+      "date": "24/09/2026",
+      "date_iso": "2026-09-24",
+      "tickers": [
+        "BBGC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BRIDGE BANK GROUP CI : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-bridge-bank-group-ci-rapport-d-activites-1er-semestre-2026",
+      "date": "24/09/2026",
+      "date_iso": "2026-09-24",
+      "tickers": [
+        "BBGC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -917,7 +1378,29 @@
       "tickers": [
         "BOAM"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA MALI : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/23-09-2026-boa-mali-rapport-dactivites-1er-semestre-2026",
+      "date": "23/09/2026",
+      "date_iso": "2026-09-23",
+      "tickers": [
+        "BOAM"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -939,7 +1422,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -961,7 +1444,7 @@
       "tickers": [
         "BOAS"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -983,7 +1466,7 @@
       "tickers": [
         "SNTS"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1005,7 +1488,7 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1027,33 +1510,33 @@
       "tickers": [
         "SDSC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
     },
     {
-      "source": "SikaFinance",
-      "source_type": "communiques",
+      "source": "RichBourse",
+      "source_type": "actualites",
       "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
+      "source_rank": 30,
+      "source_role": "aggregator",
       "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "ECOBANK CI : ECOBANK CI _ Rapport d'activités - 1er semestre 2026",
+      "type": "NOTATION",
+      "titre": "TotalEnergies Marketing CI : Notation financière",
       "resume": "",
-      "lien": "https://www.sikafinance.com/docs/ecobank-ci-ecobank-ci--rapport-d-activites--1er-semestre-2026.pdf",
-      "date": "09/09/2026",
-      "date_iso": "2026-09-09",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/30-09-2026-totalenergies-marketing-ci-notation-financiere",
+      "date": "30/09/2026",
+      "date_iso": "2026-09-30",
       "tickers": [
-        "ECOC"
+        "TTLC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 100,
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 97,
       "importance": "Critique",
       "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
     },
     {
       "source": "SikaFinance",
@@ -1071,7 +1554,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -1093,7 +1576,7 @@
       "tickers": [
         "SICC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -1115,7 +1598,7 @@
       "tickers": [
         "SCRC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 90,
       "importance": "Critique",
       "impact": "Fort",
@@ -1129,16 +1612,16 @@
       "source_role": "document_mirror",
       "validation_policy": "match_brvm_registry",
       "type": "ACTU",
-      "titre": "CROWN SIEM : SONOCO METAL PACKAGING SIEM CI _ Suspension de la cotation",
+      "titre": "SONATEL : brvm-annulation-de-transaction",
       "resume": "",
-      "lien": "https://www.sikafinance.com/docs/crown-siem-sonoco-metal-packaging-siem-ci--suspension-de-la-cotation.pdf",
-      "date": "16/09/2026",
-      "date_iso": "2026-09-16",
+      "lien": "https://www.sikafinance.com/docs/sonatel-brvm-annulation-de-transaction.pdf",
+      "date": "05/10/2026",
+      "date_iso": "2026-10-05",
       "tickers": [
-        "SEMC"
+        "SNTS"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 90,
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -1159,7 +1642,7 @@
       "tickers": [
         "SPHC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
@@ -1181,7 +1664,7 @@
       "tickers": [
         "UNXC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 83,
       "importance": "Critique",
       "impact": "Fort",
@@ -1203,10 +1686,10 @@
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 78,
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 74,
       "importance": "Important",
-      "impact": "Fort",
+      "impact": "Moyen",
       "pourquoi": "Information de contexte : impact direct à confirmer."
     },
     {
@@ -1225,7 +1708,7 @@
       "tickers": [
         "TTLS"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 74,
       "importance": "Important",
       "impact": "Moyen",
@@ -1247,12 +1730,14 @@
       "tickers": [
         "SPHC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 74,
       "importance": "Important",
       "impact": "Moyen",
       "pourquoi": "Information de contexte : impact direct à confirmer."
-    },
+    }
+  ],
+  "prioritaires": [
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -1260,45 +1745,21 @@
       "source_rank": 60,
       "source_role": "document_mirror",
       "validation_policy": "match_brvm_registry",
-      "type": "ACTU",
-      "titre": "BRIDGE BANK GROUP COTE D’IVOIRE : BRIDGE BANK GROUP COTE D'IVOIRE _ Première cotation",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bridge-bank-group-cote-divoire-bridge-bank-group-cote-d-ivoire--premiere-cotation.pdf",
-      "date": "08/09/2026",
-      "date_iso": "2026-09-08",
+      "type": "RAPPORT",
+      "titre": "AFRICA GLOBAL LOGISTICS : africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025",
+      "resume": "AFRICA GLOBAL LOGISTICS : africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025",
+      "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025.pdf",
+      "date": "05/10/2026",
+      "date_iso": "2026-10-05",
       "tickers": [
-        "BBGC"
+        "SDSC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 74,
-      "importance": "Important",
-      "impact": "Moyen",
-      "pourquoi": "Information de contexte : impact direct à confirmer."
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
     },
-    {
-      "source": "AgenceEcofin",
-      "source_type": "finance",
-      "source_authority": "secondary",
-      "source_rank": 15,
-      "source_role": "media_context",
-      "validation_policy": "secondary_context",
-      "type": "OPERATION",
-      "titre": "Entrepreneuriat féminin : la BAD évalue l’impact de son partenariat avec NSIA Banque",
-      "resume": "À travers un partenariat avec la Banque africaine de développement (BAD), NSIA Banque Côte d’Ivoire entend renforcer l’accès des femmes entrepreneures au financement et...",
-      "lien": "https://www.agenceecofin.com/actualites/3009-142015-entrepreneuriat-feminin-la-bad-evalue-l-impact-de-son-partenariat-avec-nsia-banque",
-      "date": "",
-      "date_iso": null,
-      "tickers": [
-        "NSBC"
-      ],
-      "date_collecte": "2026-10-05T19:05:31Z",
-      "score_importance": 60,
-      "importance": "A surveiller",
-      "impact": "Moyen",
-      "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
-    }
-  ],
-  "prioritaires": [
     {
       "source": "SikaFinance",
       "source_type": "communiques",
@@ -1315,7 +1776,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1337,7 +1798,7 @@
       "tickers": [
         "BOAC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1359,7 +1820,7 @@
       "tickers": [
         "ONTBF"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1381,7 +1842,95 @@
       "tickers": [
         "ONTBF"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA CI : Rapport d'examen limité des états financiers - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-boa-ci-rapport-d-examen-limite-des-etats-financiers-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "BOAC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ONATEL BF : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-onatel-bf-rapport-dactivites-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "ONTBF"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "ONATEL BF : Rapport d'activités et Attestation des Commissaires Aux Comptes - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-onatel-bf-rapport-d-activites-et-attestation-des-commissaires-aux-comptes-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "ONTBF"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "BOA CI : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-boa-ci-rapport-d-activites-1er-semestre-2026",
+      "date": "01/10/2026",
+      "date_iso": "2026-10-01",
+      "tickers": [
+        "BOAC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1403,7 +1952,7 @@
       "tickers": [
         "TTLC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1425,7 +1974,29 @@
       "tickers": [
         "SIBC"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
+      "score_importance": 100,
+      "importance": "Critique",
+      "impact": "Fort",
+      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+    },
+    {
+      "source": "RichBourse",
+      "source_type": "actualites",
+      "source_authority": "secondary",
+      "source_rank": 30,
+      "source_role": "aggregator",
+      "validation_policy": "match_brvm_registry",
+      "type": "RAPPORT",
+      "titre": "SIB CI : Rapport d'activités - 1er semestre 2026",
+      "resume": "",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/28-09-2026-sib-ci-rapport-d-activites-1er-semestre-2026",
+      "date": "28/09/2026",
+      "date_iso": "2026-09-28",
+      "tickers": [
+        "SIBC"
+      ],
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1447,7 +2018,7 @@
       "tickers": [
         "BOAN"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
@@ -1469,168 +2040,104 @@
       "tickers": [
         "BOAN"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:38Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
     },
     {
-      "source": "SikaFinance",
-      "source_type": "communiques",
+      "source": "RichBourse",
+      "source_type": "actualites",
       "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
+      "source_rank": 30,
+      "source_role": "aggregator",
       "validation_policy": "match_brvm_registry",
       "type": "RAPPORT",
-      "titre": "BRIDGE BANK GROUP COTE D’IVOIRE : BRIDGE BANK GROUP COTE DIVOIRE (BBGC) _ Resultats de premiere cotation",
+      "titre": "BOA NIGER : Rapport d'activités - 1er semestre 2026",
       "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bridge-bank-group-cote-divoire-bridge-bank-group-cote-divoire-bbgc--resultats-de-premiere-cotation.pdf",
-      "date": "24/09/2026",
-      "date_iso": "2026-09-24",
+      "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/25-09-2026-boa-niger-rapport-dactivites-1er-semestre-2026",
+      "date": "25/09/2026",
+      "date_iso": "2026-09-25",
       "tickers": [
-        "BBGC"
+        "BOAN"
       ],
-      "date_collecte": "2026-10-05T19:05:19Z",
+      "date_collecte": "2026-10-06T16:31:42Z",
       "score_importance": 100,
       "importance": "Critique",
       "impact": "Fort",
       "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "BRIDGE BANK GROUP COTE D’IVOIRE : BRIDGE BANK GROUP CI _ Rapport des Commissaires Aux Comptes - 1er semestre 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bridge-bank-group-cote-divoire-bridge-bank-group-ci--rapport-des-commissaires-aux-comptes--1er-semestre-2026.pdf",
-      "date": "24/09/2026",
-      "date_iso": "2026-09-24",
-      "tickers": [
-        "BBGC"
-      ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "BRIDGE BANK GROUP COTE D’IVOIRE : BRIDGE BANK GROUP CI _ Rapport dactivites - 1er semestre 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bridge-bank-group-cote-divoire-bridge-bank-group-ci--rapport-dactivites--1er-semestre-2026.pdf",
-      "date": "24/09/2026",
-      "date_iso": "2026-09-24",
-      "tickers": [
-        "BBGC"
-      ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "BANK OF AFRICA MALI : BOA MALI _ Rapport d'activités - 1er semestre 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bank-of-africa-mali-boa-mali--rapport-d-activites--1er-semestre-2026.pdf",
-      "date": "23/09/2026",
-      "date_iso": "2026-09-23",
-      "tickers": [
-        "BOAM"
-      ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "SUCRIVOIRE : SUCRIVOIRE CI _ Rapport d'activités - 1er trimestre 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/sucrivoire-sucrivoire-ci--rapport-d-activites--1er-trimestre-2026.pdf",
-      "date": "21/09/2026",
-      "date_iso": "2026-09-21",
-      "tickers": [
-        "SCRC"
-      ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "RAPPORT",
-      "titre": "BANK OF AFRICA SENEGAL : BOA SENEGAL _ Rapport d'activités - 1er semestre 2026",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/bank-of-africa-senegal-boa-senegal--rapport-d-activites--1er-semestre-2026.pdf",
-      "date": "21/09/2026",
-      "date_iso": "2026-09-21",
-      "tickers": [
-        "BOAS"
-      ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-    },
-    {
-      "source": "SikaFinance",
-      "source_type": "communiques",
-      "source_authority": "secondary",
-      "source_rank": 60,
-      "source_role": "document_mirror",
-      "validation_policy": "match_brvm_registry",
-      "type": "AG",
-      "titre": "SONATEL : SONATEL SN _ Avis de convocation - Assemblée Générale Extraordinaire",
-      "resume": "",
-      "lien": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--avis-de-convocation--assemblee-generale-extraordinaire.pdf",
-      "date": "17/09/2026",
-      "date_iso": "2026-09-17",
-      "tickers": [
-        "SNTS"
-      ],
-      "date_collecte": "2026-10-05T19:05:19Z",
-      "score_importance": 100,
-      "importance": "Critique",
-      "impact": "Fort",
-      "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
     }
   ],
   "par_ticker": {
+    "SDSC": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "AFRICA GLOBAL LOGISTICS : africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025",
+        "resume": "AFRICA GLOBAL LOGISTICS : africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025",
+        "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025.pdf",
+        "date": "05/10/2026",
+        "date_iso": "2026-10-05",
+        "tickers": [
+          "SDSC"
+        ],
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Rapport des Commissaires Aux Comptes sur les Etats Financiers",
+        "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Rapport des Commissaires Aux Comptes sur les Etats Financiers",
+        "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--rapport-des-commissaires-aux-comptes-sur-les-etats-financiers.pdf",
+        "date": "17/09/2026",
+        "date_iso": "2026-09-17",
+        "tickers": [
+          "SDSC"
+        ],
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Etats Financiers certifiés - Exercice 2025",
+        "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Etats Financiers certifiés - Exercice 2025",
+        "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--etats-financiers-certifies--exercice-2025.pdf",
+        "date": "17/09/2026",
+        "date_iso": "2026-09-17",
+        "tickers": [
+          "SDSC"
+        ],
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      }
+    ],
     "BOAC": [
       {
         "source": "SikaFinance",
@@ -1648,7 +2155,7 @@
         "tickers": [
           "BOAC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1670,7 +2177,51 @@
         "tickers": [
           "BOAC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BOA CI : Rapport d'examen limité des états financiers - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-boa-ci-rapport-d-examen-limite-des-etats-financiers-1er-semestre-2026",
+        "date": "01/10/2026",
+        "date_iso": "2026-10-01",
+        "tickers": [
+          "BOAC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BOA CI : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-boa-ci-rapport-d-activites-1er-semestre-2026",
+        "date": "01/10/2026",
+        "date_iso": "2026-10-01",
+        "tickers": [
+          "BOAC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1694,7 +2245,7 @@
         "tickers": [
           "ONTBF"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1716,7 +2267,51 @@
         "tickers": [
           "ONTBF"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "ONATEL BF : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-onatel-bf-rapport-dactivites-1er-semestre-2026",
+        "date": "01/10/2026",
+        "date_iso": "2026-10-01",
+        "tickers": [
+          "ONTBF"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "ONATEL BF : Rapport d'activités et Attestation des Commissaires Aux Comptes - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-onatel-bf-rapport-d-activites-et-attestation-des-commissaires-aux-comptes-1er-semestre-2026",
+        "date": "01/10/2026",
+        "date_iso": "2026-10-01",
+        "tickers": [
+          "ONTBF"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1740,8 +2335,30 @@
         "tickers": [
           "TTLC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "NOTATION",
+        "titre": "TotalEnergies Marketing CI : Notation financière",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/30-09-2026-totalenergies-marketing-ci-notation-financiere",
+        "date": "30/09/2026",
+        "date_iso": "2026-09-30",
+        "tickers": [
+          "TTLC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 97,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
@@ -1764,7 +2381,29 @@
         "tickers": [
           "SIBC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SIB CI : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/28-09-2026-sib-ci-rapport-d-activites-1er-semestre-2026",
+        "date": "28/09/2026",
+        "date_iso": "2026-09-28",
+        "tickers": [
+          "SIBC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1786,10 +2425,10 @@
         "tickers": [
           "SIBC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
-        "score_importance": 78,
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 74,
         "importance": "Important",
-        "impact": "Fort",
+        "impact": "Moyen",
         "pourquoi": "Information de contexte : impact direct à confirmer."
       }
     ],
@@ -1810,7 +2449,7 @@
         "tickers": [
           "BOAN"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1832,7 +2471,51 @@
         "tickers": [
           "BOAN"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BOA NIGER : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/25-09-2026-boa-niger-rapport-dactivites-1er-semestre-2026",
+        "date": "25/09/2026",
+        "date_iso": "2026-09-25",
+        "tickers": [
+          "BOAN"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BOA NIGER : Attestation des Commissaires Aux Comptes et Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/25-09-2026-boa-niger-attestation-des-commissaires-aux-comptes-et-rapport-d-activites-1er-semestre-2026",
+        "date": "25/09/2026",
+        "date_iso": "2026-09-25",
+        "tickers": [
+          "BOAN"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1856,7 +2539,7 @@
         "tickers": [
           "BBGC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1878,7 +2561,7 @@
         "tickers": [
           "BBGC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1900,33 +2583,77 @@
         "tickers": [
           "BBGC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
       },
       {
-        "source": "SikaFinance",
-        "source_type": "communiques",
+        "source": "RichBourse",
+        "source_type": "actualites",
         "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
+        "source_rank": 30,
+        "source_role": "aggregator",
         "validation_policy": "match_brvm_registry",
-        "type": "ACTU",
-        "titre": "BRIDGE BANK GROUP COTE D’IVOIRE : BRIDGE BANK GROUP COTE D'IVOIRE _ Première cotation",
+        "type": "RAPPORT",
+        "titre": "BRIDGE BANK GROUP CI : Rapport des Commissaires Aux Comptes - 1er semestre 2026",
         "resume": "",
-        "lien": "https://www.sikafinance.com/docs/bridge-bank-group-cote-divoire-bridge-bank-group-cote-d-ivoire--premiere-cotation.pdf",
-        "date": "08/09/2026",
-        "date_iso": "2026-09-08",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-bridge-bank-group-ci-rapport-des-commissaires-aux-comptes-1er-semestre-2026",
+        "date": "24/09/2026",
+        "date_iso": "2026-09-24",
         "tickers": [
           "BBGC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
-        "score_importance": 74,
-        "importance": "Important",
-        "impact": "Moyen",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BRIDGE BANK GROUP COTE D'IVOIRE (BBGC) : Résultats de première cotation",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-cote-d-ivoire-bbgc-resultats-de-premiere-cotation",
+        "date": "24/09/2026",
+        "date_iso": "2026-09-24",
+        "tickers": [
+          "BBGC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BRIDGE BANK GROUP CI : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-bridge-bank-group-ci-rapport-d-activites-1er-semestre-2026",
+        "date": "24/09/2026",
+        "date_iso": "2026-09-24",
+        "tickers": [
+          "BBGC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
       }
     ],
     "BOAM": [
@@ -1946,7 +2673,29 @@
         "tickers": [
           "BOAM"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BOA MALI : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/23-09-2026-boa-mali-rapport-dactivites-1er-semestre-2026",
+        "date": "23/09/2026",
+        "date_iso": "2026-09-23",
+        "tickers": [
+          "BOAM"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1970,7 +2719,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -1992,7 +2741,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -2014,7 +2763,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -2038,7 +2787,7 @@
         "tickers": [
           "BOAS"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2062,35 +2811,11 @@
         "tickers": [
           "SNTS"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Peut valider dividende, comptes, gouvernance ou décisions actionnariales."
-      }
-    ],
-    "SDSC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Rapport des Commissaires Aux Comptes sur les Etats Financiers",
-        "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Rapport des Commissaires Aux Comptes sur les Etats Financiers",
-        "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--rapport-des-commissaires-aux-comptes-sur-les-etats-financiers.pdf",
-        "date": "17/09/2026",
-        "date_iso": "2026-09-17",
-        "tickers": [
-          "SDSC"
-        ],
-        "date_collecte": "2026-10-05T19:05:19Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
       },
       {
         "source": "SikaFinance",
@@ -2099,44 +2824,20 @@
         "source_rank": 60,
         "source_role": "document_mirror",
         "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Etats Financiers certifiés - Exercice 2025",
-        "resume": "AFRICA GLOBAL LOGISTICS : AFRICA GLOBAL LOGISTICS CI _ Etats Financiers certifiés - Exercice 2025",
-        "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-global-logistics-ci--etats-financiers-certifies--exercice-2025.pdf",
-        "date": "17/09/2026",
-        "date_iso": "2026-09-17",
-        "tickers": [
-          "SDSC"
-        ],
-        "date_collecte": "2026-10-05T19:05:19Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      }
-    ],
-    "ECOC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "ECOBANK CI : ECOBANK CI _ Rapport d'activités - 1er semestre 2026",
+        "type": "ACTU",
+        "titre": "SONATEL : brvm-annulation-de-transaction",
         "resume": "",
-        "lien": "https://www.sikafinance.com/docs/ecobank-ci-ecobank-ci--rapport-d-activites--1er-semestre-2026.pdf",
-        "date": "09/09/2026",
-        "date_iso": "2026-09-09",
+        "lien": "https://www.sikafinance.com/docs/sonatel-brvm-annulation-de-transaction.pdf",
+        "date": "05/10/2026",
+        "date_iso": "2026-10-05",
         "tickers": [
-          "ECOC"
+          "SNTS"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
-        "score_importance": 100,
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+        "pourquoi": "Information de contexte : impact direct à confirmer."
       }
     ],
     "SICC": [
@@ -2156,31 +2857,7 @@
         "tickers": [
           "SICC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
-        "score_importance": 90,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
-      }
-    ],
-    "SEMC": [
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "ACTU",
-        "titre": "CROWN SIEM : SONOCO METAL PACKAGING SIEM CI _ Suspension de la cotation",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/crown-siem-sonoco-metal-packaging-siem-ci--suspension-de-la-cotation.pdf",
-        "date": "16/09/2026",
-        "date_iso": "2026-09-16",
-        "tickers": [
-          "SEMC"
-        ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -2204,7 +2881,7 @@
         "tickers": [
           "SPHC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
@@ -2226,7 +2903,7 @@
         "tickers": [
           "SPHC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 74,
         "importance": "Important",
         "impact": "Moyen",
@@ -2250,7 +2927,7 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
@@ -2274,40 +2951,38 @@
         "tickers": [
           "TTLS"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 74,
         "importance": "Important",
         "impact": "Moyen",
         "pourquoi": "Information de contexte : impact direct à confirmer."
       }
-    ],
-    "NSBC": [
-      {
-        "source": "AgenceEcofin",
-        "source_type": "finance",
-        "source_authority": "secondary",
-        "source_rank": 15,
-        "source_role": "media_context",
-        "validation_policy": "secondary_context",
-        "type": "OPERATION",
-        "titre": "Entrepreneuriat féminin : la BAD évalue l’impact de son partenariat avec NSIA Banque",
-        "resume": "À travers un partenariat avec la Banque africaine de développement (BAD), NSIA Banque Côte d’Ivoire entend renforcer l’accès des femmes entrepreneures au financement et...",
-        "lien": "https://www.agenceecofin.com/actualites/3009-142015-entrepreneuriat-feminin-la-bad-evalue-l-impact-de-son-partenariat-avec-nsia-banque",
-        "date": "",
-        "date_iso": null,
-        "tickers": [
-          "NSBC"
-        ],
-        "date_collecte": "2026-10-05T19:05:31Z",
-        "score_importance": 60,
-        "importance": "A surveiller",
-        "impact": "Moyen",
-        "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
-      }
     ]
   },
   "par_type": {
     "RAPPORT": [
+      {
+        "source": "SikaFinance",
+        "source_type": "communiques",
+        "source_authority": "secondary",
+        "source_rank": 60,
+        "source_role": "document_mirror",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "AFRICA GLOBAL LOGISTICS : africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025",
+        "resume": "AFRICA GLOBAL LOGISTICS : africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025",
+        "lien": "https://www.sikafinance.com/docs/africa-global logistics-africa-glogal-logistics-ci-attestation-des-commissaires-aux-comptes-etats-financiers-exercice-2025.pdf",
+        "date": "05/10/2026",
+        "date_iso": "2026-10-05",
+        "tickers": [
+          "SDSC"
+        ],
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
       {
         "source": "SikaFinance",
         "source_type": "communiques",
@@ -2324,7 +2999,7 @@
         "tickers": [
           "BOAC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2346,7 +3021,7 @@
         "tickers": [
           "BOAC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2368,7 +3043,7 @@
         "tickers": [
           "ONTBF"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2390,7 +3065,95 @@
         "tickers": [
           "ONTBF"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BOA CI : Rapport d'examen limité des états financiers - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-boa-ci-rapport-d-examen-limite-des-etats-financiers-1er-semestre-2026",
+        "date": "01/10/2026",
+        "date_iso": "2026-10-01",
+        "tickers": [
+          "BOAC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "ONATEL BF : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-onatel-bf-rapport-dactivites-1er-semestre-2026",
+        "date": "01/10/2026",
+        "date_iso": "2026-10-01",
+        "tickers": [
+          "ONTBF"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "ONATEL BF : Rapport d'activités et Attestation des Commissaires Aux Comptes - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-onatel-bf-rapport-d-activites-et-attestation-des-commissaires-aux-comptes-1er-semestre-2026",
+        "date": "01/10/2026",
+        "date_iso": "2026-10-01",
+        "tickers": [
+          "ONTBF"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BOA CI : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/01-10-2026-boa-ci-rapport-d-activites-1er-semestre-2026",
+        "date": "01/10/2026",
+        "date_iso": "2026-10-01",
+        "tickers": [
+          "BOAC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2412,7 +3175,29 @@
         "tickers": [
           "SIBC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "SIB CI : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/28-09-2026-sib-ci-rapport-d-activites-1er-semestre-2026",
+        "date": "28/09/2026",
+        "date_iso": "2026-09-28",
+        "tickers": [
+          "SIBC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2434,7 +3219,7 @@
         "tickers": [
           "BOAN"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2456,7 +3241,51 @@
         "tickers": [
           "BOAN"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BOA NIGER : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/25-09-2026-boa-niger-rapport-dactivites-1er-semestre-2026",
+        "date": "25/09/2026",
+        "date_iso": "2026-09-25",
+        "tickers": [
+          "BOAN"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BOA NIGER : Attestation des Commissaires Aux Comptes et Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/25-09-2026-boa-niger-attestation-des-commissaires-aux-comptes-et-rapport-d-activites-1er-semestre-2026",
+        "date": "25/09/2026",
+        "date_iso": "2026-09-25",
+        "tickers": [
+          "BOAN"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2478,7 +3307,7 @@
         "tickers": [
           "BBGC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2500,7 +3329,7 @@
         "tickers": [
           "BBGC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2522,7 +3351,73 @@
         "tickers": [
           "BBGC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BRIDGE BANK GROUP CI : Rapport des Commissaires Aux Comptes - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-bridge-bank-group-ci-rapport-des-commissaires-aux-comptes-1er-semestre-2026",
+        "date": "24/09/2026",
+        "date_iso": "2026-09-24",
+        "tickers": [
+          "BBGC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BRIDGE BANK GROUP COTE D'IVOIRE (BBGC) : Résultats de première cotation",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-cote-d-ivoire-bbgc-resultats-de-premiere-cotation",
+        "date": "24/09/2026",
+        "date_iso": "2026-09-24",
+        "tickers": [
+          "BBGC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BRIDGE BANK GROUP CI : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/24-09-2026-bridge-bank-group-ci-rapport-d-activites-1er-semestre-2026",
+        "date": "24/09/2026",
+        "date_iso": "2026-09-24",
+        "tickers": [
+          "BBGC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2544,7 +3439,29 @@
         "tickers": [
           "BOAM"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "RAPPORT",
+        "titre": "BOA MALI : Rapport d'activités - 1er semestre 2026",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/23-09-2026-boa-mali-rapport-dactivites-1er-semestre-2026",
+        "date": "23/09/2026",
+        "date_iso": "2026-09-23",
+        "tickers": [
+          "BOAM"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2566,7 +3483,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2588,7 +3505,7 @@
         "tickers": [
           "BOAS"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2610,7 +3527,7 @@
         "tickers": [
           "SDSC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2632,29 +3549,7 @@
         "tickers": [
           "SDSC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
-        "score_importance": 100,
-        "importance": "Critique",
-        "impact": "Fort",
-        "pourquoi": "Nouvelle donnée fondamentale : bénéfice, chiffre d'affaires, marges ou perspectives."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "RAPPORT",
-        "titre": "ECOBANK CI : ECOBANK CI _ Rapport d'activités - 1er semestre 2026",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/ecobank-ci-ecobank-ci--rapport-d-activites--1er-semestre-2026.pdf",
-        "date": "09/09/2026",
-        "date_iso": "2026-09-09",
-        "tickers": [
-          "ECOC"
-        ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2678,8 +3573,30 @@
         "tickers": [
           "TTLC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
+        "importance": "Critique",
+        "impact": "Fort",
+        "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
+      },
+      {
+        "source": "RichBourse",
+        "source_type": "actualites",
+        "source_authority": "secondary",
+        "source_rank": 30,
+        "source_role": "aggregator",
+        "validation_policy": "match_brvm_registry",
+        "type": "NOTATION",
+        "titre": "TotalEnergies Marketing CI : Notation financière",
+        "resume": "",
+        "lien": "https://www.richbourse.com/common/actualite/afficher-fichier/30-09-2026-totalenergies-marketing-ci-notation-financiere",
+        "date": "30/09/2026",
+        "date_iso": "2026-09-30",
+        "tickers": [
+          "TTLC"
+        ],
+        "date_collecte": "2026-10-06T16:31:42Z",
+        "score_importance": 97,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Peut changer la perception du risque et la confiance autour de l'émetteur."
@@ -2702,7 +3619,7 @@
         "tickers": [
           "SNTS"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 100,
         "importance": "Critique",
         "impact": "Fort",
@@ -2726,7 +3643,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -2748,7 +3665,7 @@
         "tickers": [
           "SICC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -2770,7 +3687,7 @@
         "tickers": [
           "SCRC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 90,
         "importance": "Critique",
         "impact": "Fort",
@@ -2784,16 +3701,16 @@
         "source_role": "document_mirror",
         "validation_policy": "match_brvm_registry",
         "type": "ACTU",
-        "titre": "CROWN SIEM : SONOCO METAL PACKAGING SIEM CI _ Suspension de la cotation",
+        "titre": "SONATEL : brvm-annulation-de-transaction",
         "resume": "",
-        "lien": "https://www.sikafinance.com/docs/crown-siem-sonoco-metal-packaging-siem-ci--suspension-de-la-cotation.pdf",
-        "date": "16/09/2026",
-        "date_iso": "2026-09-16",
+        "lien": "https://www.sikafinance.com/docs/sonatel-brvm-annulation-de-transaction.pdf",
+        "date": "05/10/2026",
+        "date_iso": "2026-10-05",
         "tickers": [
-          "SEMC"
+          "SNTS"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
-        "score_importance": 90,
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
         "pourquoi": "Information de contexte : impact direct à confirmer."
@@ -2814,7 +3731,7 @@
         "tickers": [
           "SPHC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
@@ -2836,7 +3753,7 @@
         "tickers": [
           "UNXC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 83,
         "importance": "Critique",
         "impact": "Fort",
@@ -2858,10 +3775,10 @@
         "tickers": [
           "SIBC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
-        "score_importance": 78,
+        "date_collecte": "2026-10-06T16:31:38Z",
+        "score_importance": 74,
         "importance": "Important",
-        "impact": "Fort",
+        "impact": "Moyen",
         "pourquoi": "Information de contexte : impact direct à confirmer."
       },
       {
@@ -2880,7 +3797,7 @@
         "tickers": [
           "TTLS"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 74,
         "importance": "Important",
         "impact": "Moyen",
@@ -2902,57 +3819,11 @@
         "tickers": [
           "SPHC"
         ],
-        "date_collecte": "2026-10-05T19:05:19Z",
+        "date_collecte": "2026-10-06T16:31:38Z",
         "score_importance": 74,
         "importance": "Important",
         "impact": "Moyen",
         "pourquoi": "Information de contexte : impact direct à confirmer."
-      },
-      {
-        "source": "SikaFinance",
-        "source_type": "communiques",
-        "source_authority": "secondary",
-        "source_rank": 60,
-        "source_role": "document_mirror",
-        "validation_policy": "match_brvm_registry",
-        "type": "ACTU",
-        "titre": "BRIDGE BANK GROUP COTE D’IVOIRE : BRIDGE BANK GROUP COTE D'IVOIRE _ Première cotation",
-        "resume": "",
-        "lien": "https://www.sikafinance.com/docs/bridge-bank-group-cote-divoire-bridge-bank-group-cote-d-ivoire--premiere-cotation.pdf",
-        "date": "08/09/2026",
-        "date_iso": "2026-09-08",
-        "tickers": [
-          "BBGC"
-        ],
-        "date_collecte": "2026-10-05T19:05:19Z",
-        "score_importance": 74,
-        "importance": "Important",
-        "impact": "Moyen",
-        "pourquoi": "Information de contexte : impact direct à confirmer."
-      }
-    ],
-    "OPERATION": [
-      {
-        "source": "AgenceEcofin",
-        "source_type": "finance",
-        "source_authority": "secondary",
-        "source_rank": 15,
-        "source_role": "media_context",
-        "validation_policy": "secondary_context",
-        "type": "OPERATION",
-        "titre": "Entrepreneuriat féminin : la BAD évalue l’impact de son partenariat avec NSIA Banque",
-        "resume": "À travers un partenariat avec la Banque africaine de développement (BAD), NSIA Banque Côte d’Ivoire entend renforcer l’accès des femmes entrepreneures au financement et...",
-        "lien": "https://www.agenceecofin.com/actualites/3009-142015-entrepreneuriat-feminin-la-bad-evalue-l-impact-de-son-partenariat-avec-nsia-banque",
-        "date": "",
-        "date_iso": null,
-        "tickers": [
-          "NSBC"
-        ],
-        "date_collecte": "2026-10-05T19:05:31Z",
-        "score_importance": 60,
-        "importance": "A surveiller",
-        "impact": "Moyen",
-        "pourquoi": "Peut modifier le capital, la liquidité, la valeur de référence ou les droits des actionnaires."
       }
     ]
   },
@@ -2986,8 +3857,8 @@
     },
     "RichBourse:actualites": {
       "url": "https://www.richbourse.com/common/actualite/index",
-      "articles": 0,
-      "ok": false,
+      "articles": 23,
+      "ok": true,
       "source_rank": 30,
       "source_authority": "secondary",
       "source_role": "aggregator",
@@ -3035,15 +3906,14 @@
   },
   "filtrage": {
     "strict_action_news": true,
-    "entree": 70,
-    "sans_action_cotee": 41,
+    "entree": 93,
+    "sans_action_cotee": 54,
     "dividendes_richbourse_non_confirmes": 0,
-    "sortie": 29
+    "sortie": 39
   },
   "erreurs": [
     "RichBourse / news : 403 Client Error: Forbidden for url: https://www.richbourse.com/common/news/index",
-    "RichBourse / actualites : 403 Client Error: Forbidden for url: https://www.richbourse.com/common/actualite/index",
     "RichBourse / dividendes : 403 Client Error: Forbidden for url: https://www.richbourse.com/common/dividende/index"
   ],
-  "resume_ia": "**\n\n**Synthèse de Veille BRVM -"
+  "resume_ia": "**\nLe 06 octobre 2026, la BR"
 }
