@@ -1,0 +1,6805 @@
+{
+ "_meta": {
+  "description": "Lignes de cours retirées car elles ne correspondent à aucune séance de la BRVM (jour sans cotation ou copie exacte de la séance précédente).",
+  "regles": [
+   "week-end, jour férié fixe, Pâques, Ascension, Pentecôte, jour férié annoncé par la BRVM",
+   "copie exacte de la ligne précédente avec au moins 20 titres échangés",
+   "pointe isolée de plus de 25 % qui revient à son niveau d'avant en moins de 6 séances"
+  ],
+  "lignes_ecartees": 4944
+ },
+ "jours": {
+  "2007-06-19": {
+   "copie exacte de la séance précédente": [
+    "NESTLE_CI"
+   ]
+  },
+  "2007-07-26": {
+   "copie exacte de la séance précédente": [
+    "NESTLE_CI"
+   ]
+  },
+  "2009-05-19": {
+   "copie exacte de la séance précédente": [
+    "BOA_BENIN"
+   ]
+  },
+  "2009-08-18": {
+   "copie exacte de la séance précédente": [
+    "SICABLE_CI"
+   ]
+  },
+  "2013-02-11": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2013-07-24": {
+   "copie exacte de la séance précédente": [
+    "BOA_BENIN"
+   ]
+  },
+  "2014-04-17": {
+   "copie exacte de la séance précédente": [
+    "BOA_BENIN"
+   ]
+  },
+  "2014-08-07": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "CFAO_CI",
+    "CIE_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "UNILEVER_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2014-11-13": {
+   "copie exacte de la séance précédente": [
+    "ETI_TOGO",
+    "PALMCI"
+   ]
+  },
+  "2014-12-25": {
+   "jour férié fixe": [
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_NIGER",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SITAB",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "UNILEVER_CI"
+   ]
+  },
+  "2015-02-09": {
+   "pointe isolée à plus de 25 % qui revient aussitôt": [
+    "BOA_NIGER"
+   ],
+   "copie exacte de la séance précédente": [
+    "ETI_TOGO",
+    "PALMCI",
+    "SICOR",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "UNILEVER_CI"
+   ]
+  },
+  "2015-02-12": {
+   "copie exacte de la séance précédente": [
+    "ETI_TOGO",
+    "PALMCI"
+   ]
+  },
+  "2015-04-06": {
+   "lundi de Pâques": [
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SICOR",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2015-05-14": {
+   "Ascension": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SICOR",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2015-05-25": {
+   "lundi de Pentecôte": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CIE_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SITAB",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2015-07-14": {
+   "pointe isolée à plus de 25 % qui revient aussitôt": [
+    "BOA_NIGER"
+   ],
+   "copie exacte de la séance précédente": [
+    "ETI_TOGO",
+    "PALMCI",
+    "SICOR",
+    "SOLIBRA_CI",
+    "SONATEL"
+   ]
+  },
+  "2015-07-17": {
+   "pointe isolée à plus de 25 % qui revient aussitôt": [
+    "BOA_NIGER"
+   ],
+   "copie exacte de la séance précédente": [
+    "SICOR",
+    "SOLIBRA_CI",
+    "SONATEL"
+   ]
+  },
+  "2015-08-07": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2015-09-24": {
+   "pointe isolée à plus de 25 % qui revient aussitôt": [
+    "BOA_NIGER"
+   ],
+   "copie exacte de la séance précédente": [
+    "ETI_TOGO",
+    "PALMCI",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "UNILEVER_CI"
+   ]
+  },
+  "2015-12-24": {
+   "pointe isolée à plus de 25 % qui revient aussitôt": [
+    "BOA_NIGER",
+    "ONATEL_BF"
+   ],
+   "copie exacte de la séance précédente": [
+    "ETI_TOGO",
+    "PALMCI",
+    "SONATEL"
+   ]
+  },
+  "2015-12-25": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2016-03-28": {
+   "lundi de Pâques": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICOR",
+    "SMB_CI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI"
+   ]
+  },
+  "2016-05-02": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "ETI_TOGO",
+    "PALMCI",
+    "SOLIBRA_CI",
+    "SONATEL"
+   ],
+   "pointe isolée à plus de 25 % qui revient aussitôt": [
+    "BOA_NIGER"
+   ]
+  },
+  "2016-05-05": {
+   "Ascension": [
+    "BERNABE",
+    "BICICI",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2016-05-16": {
+   "lundi de Pentecôte": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2016-07-06": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "ETI_TOGO",
+    "PALMCI",
+    "SONATEL"
+   ],
+   "pointe isolée à plus de 25 % qui revient aussitôt": [
+    "BOA_NIGER"
+   ]
+  },
+  "2016-08-08": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "ETI_TOGO",
+    "PALMCI",
+    "SICOR",
+    "SOLIBRA_CI",
+    "SONATEL"
+   ],
+   "pointe isolée à plus de 25 % qui revient aussitôt": [
+    "BOA_NIGER"
+   ]
+  },
+  "2016-08-15": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICOR",
+    "SMB_CI",
+    "SODECI",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2016-09-12": {
+   "pointe isolée à plus de 25 % qui revient aussitôt": [
+    "BOA_NIGER"
+   ],
+   "copie exacte de la séance précédente": [
+    "ETI_TOGO",
+    "PALMCI",
+    "SONATEL"
+   ]
+  },
+  "2016-11-01": {
+   "jour férié fixe": [
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SICABLE_CI",
+    "SODECI",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2016-11-15": {
+   "jour férié annoncé par la BRVM": [
+    "BERNABE",
+    "BICICI",
+    "BOA_CI",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SITAB",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2016-12-12": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "ETI_TOGO",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "UNILEVER_CI",
+    "VIVO_ENERGY_CI"
+   ],
+   "pointe isolée à plus de 25 % qui revient aussitôt": [
+    "BOA_NIGER"
+   ]
+  },
+  "2016-12-26": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2017-05-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2017-05-25": {
+   "Ascension": [
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICOR",
+    "SITAB",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2017-06-22": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "ETI_TOGO",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SONATEL",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2017-08-07": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2017-08-15": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CIE_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SICOR",
+    "SITAB",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2017-11-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SITAB",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2017-11-15": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2017-12-25": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CROWN_SIEM",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-04-02": {
+   "lundi de Pâques": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-05-10": {
+   "Ascension": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-05-21": {
+   "lundi de Pentecôte": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-06-11": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-06-14": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-08-06": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "ONATEL_BF",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-08-07": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "ONATEL_BF",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SICOR",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-08-21": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-09-17": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "ONATEL_BF",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-11-01": {
+   "jour férié fixe": [
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "ONATEL_BF",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-11-15": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SODECI",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-11-20": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-12-25": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "PALMCI",
+    "SAPH_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2018-12-28": {
+   "copie exacte de la séance précédente": [
+    "SIB_CI"
+   ]
+  },
+  "2019-04-22": {
+   "lundi de Pâques": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2019-05-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2019-05-30": {
+   "Ascension": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2019-08-07": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ETI_TOGO",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAFCA_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2019-08-12": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2019-08-15": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2019-11-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ETI_TOGO",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2019-12-25": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "PALMCI",
+    "SAFCA_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-01-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-02-12": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-02-13": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2020-04-13": {
+   "lundi de Pâques": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "SAPH_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-05-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-06-01": {
+   "lundi de Pentecôte": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-07-31": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-08-07": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-09-23": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-09-24": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-09-25": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-10-12": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO",
+    "SAFCA_CI",
+    "SITAB",
+    "SOLIBRA_CI",
+    "TOTAL_SENEGAL"
+   ]
+  },
+  "2020-10-29": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2020-12-25": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2021-04-05": {
+   "lundi de Pâques": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2021-05-12": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2021-05-24": {
+   "lundi de Pentecôte": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2021-07-20": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2021-10-18": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2021-10-22": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2021-11-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2021-11-15": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-03-29": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-03-31": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-04-01": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2022-04-05": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-04-08": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "SICOR"
+   ]
+  },
+  "2022-04-12": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2022-04-14": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-04-15": {
+   "copie exacte de la séance précédente": [
+    "SODECI"
+   ]
+  },
+  "2022-04-21": {
+   "copie exacte de la séance précédente": [
+    "SERVAIR_ABIDJAN"
+   ]
+  },
+  "2022-04-26": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-04-27": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "SICOR"
+   ]
+  },
+  "2022-04-28": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-05-02": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-05-03": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2022-05-04": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-05-05": {
+   "copie exacte de la séance précédente": [
+    "CORIS_BANK_BF"
+   ]
+  },
+  "2022-05-06": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2022-05-10": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-05-12": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "ERIUM",
+    "NSIA_BANQUE",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SOLIBRA_CI",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI"
+   ]
+  },
+  "2022-05-18": {
+   "copie exacte de la séance précédente": [
+    "CORIS_BANK_BF",
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2022-05-20": {
+   "copie exacte de la séance précédente": [
+    "SAPH_CI"
+   ]
+  },
+  "2022-05-23": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2022-05-24": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "CORIS_BANK_BF"
+   ]
+  },
+  "2022-05-25": {
+   "copie exacte de la séance précédente": [
+    "ERIUM",
+    "ORAGROUP_TOGO",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-05-26": {
+   "Ascension": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-05-30": {
+   "copie exacte de la séance précédente": [
+    "CORIS_BANK_BF"
+   ]
+  },
+  "2022-05-31": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-06-01": {
+   "copie exacte de la séance précédente": [
+    "SERVAIR_ABIDJAN"
+   ]
+  },
+  "2022-06-06": {
+   "lundi de Pentecôte": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-06-07": {
+   "copie exacte de la séance précédente": [
+    "SAPH_CI"
+   ]
+  },
+  "2022-06-08": {
+   "copie exacte de la séance précédente": [
+    "CORIS_BANK_BF",
+    "SAFCA_CI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-06-09": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2022-06-10": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2022-06-14": {
+   "copie exacte de la séance précédente": [
+    "SERVAIR_ABIDJAN",
+    "SICABLE_CI",
+    "SITAB"
+   ]
+  },
+  "2022-06-15": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-06-17": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2022-06-20": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2022-06-22": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "ORAGROUP_TOGO",
+    "SITAB",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2022-06-24": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "SITAB"
+   ]
+  },
+  "2022-06-27": {
+   "copie exacte de la séance précédente": [
+    "SICABLE_CI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-06-28": {
+   "copie exacte de la séance précédente": [
+    "BOA_SENEGAL"
+   ]
+  },
+  "2022-06-29": {
+   "copie exacte de la séance précédente": [
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-06-30": {
+   "copie exacte de la séance précédente": [
+    "SICABLE_CI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-07-01": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "NEI_CEDA_CI",
+    "NSIA_BANQUE",
+    "SAFCA_CI",
+    "UNIWAX_CI"
+   ]
+  },
+  "2022-07-11": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SMB_CI"
+   ]
+  },
+  "2022-07-12": {
+   "copie exacte de la séance précédente": [
+    "SAPH_CI",
+    "SGBCI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-07-15": {
+   "copie exacte de la séance précédente": [
+    "ERIUM"
+   ]
+  },
+  "2022-07-18": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-07-19": {
+   "copie exacte de la séance précédente": [
+    "SICABLE_CI"
+   ]
+  },
+  "2022-07-20": {
+   "copie exacte de la séance précédente": [
+    "BICICI"
+   ]
+  },
+  "2022-07-22": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2022-07-25": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "BOA_BURKINA",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-07-26": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2022-07-28": {
+   "copie exacte de la séance précédente": [
+    "BOA_CI"
+   ]
+  },
+  "2022-07-29": {
+   "copie exacte de la séance précédente": [
+    "BICICI"
+   ]
+  },
+  "2022-08-01": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2022-08-02": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2022-08-08": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-08-10": {
+   "copie exacte de la séance précédente": [
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI"
+   ]
+  },
+  "2022-08-11": {
+   "copie exacte de la séance précédente": [
+    "SAPH_CI"
+   ]
+  },
+  "2022-08-12": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2022-08-15": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-08-16": {
+   "copie exacte de la séance précédente": [
+    "NSIA_BANQUE",
+    "SETAO_CI"
+   ]
+  },
+  "2022-08-17": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2022-08-19": {
+   "copie exacte de la séance précédente": [
+    "ERIUM",
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2022-08-22": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2022-08-24": {
+   "copie exacte de la séance précédente": [
+    "SERVAIR_ABIDJAN",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-08-25": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2022-08-29": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2022-08-31": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2022-09-02": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "NEI_CEDA_CI",
+    "ORAGROUP_TOGO",
+    "UNILEVER_CI"
+   ]
+  },
+  "2022-09-06": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI"
+   ]
+  },
+  "2022-09-08": {
+   "copie exacte de la séance précédente": [
+    "BOA_SENEGAL",
+    "UNILEVER_CI"
+   ]
+  },
+  "2022-09-09": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "SAFCA_CI"
+   ]
+  },
+  "2022-09-12": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-09-13": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2022-09-14": {
+   "copie exacte de la séance précédente": [
+    "BICICI"
+   ]
+  },
+  "2022-09-15": {
+   "copie exacte de la séance précédente": [
+    "SAPH_CI"
+   ]
+  },
+  "2022-09-16": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2022-09-20": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-09-21": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2022-09-28": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-09-29": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2022-09-30": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "SICOR"
+   ]
+  },
+  "2022-10-04": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "SETAO_CI"
+   ]
+  },
+  "2022-10-06": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2022-10-07": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2022-10-10": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-10-12": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2022-10-13": {
+   "copie exacte de la séance précédente": [
+    "SERVAIR_ABIDJAN",
+    "SITAB",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-10-14": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2022-10-20": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-10-21": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "SETAO_CI",
+    "TOTAL_CI"
+   ]
+  },
+  "2022-10-24": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "CROWN_SIEM",
+    "SICOR"
+   ]
+  },
+  "2022-10-28": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2022-10-31": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-11-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "CIE_CI",
+    "ECOBANK_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "SAPH_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-11-03": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "NEI_CEDA_CI",
+    "SITAB",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-11-07": {
+   "copie exacte de la séance précédente": [
+    "ERIUM",
+    "SICOR"
+   ]
+  },
+  "2022-11-08": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "SAFCA_CI"
+   ]
+  },
+  "2022-11-09": {
+   "copie exacte de la séance précédente": [
+    "CFAO_CI",
+    "SERVAIR_ABIDJAN",
+    "SITAB"
+   ]
+  },
+  "2022-11-10": {
+   "copie exacte de la séance précédente": [
+    "BOA_NIGER",
+    "NEI_CEDA_CI",
+    "ORAGROUP_TOGO",
+    "SAFCA_CI"
+   ]
+  },
+  "2022-11-11": {
+   "copie exacte de la séance précédente": [
+    "BICICI"
+   ]
+  },
+  "2022-11-14": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "FILTISAC_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI"
+   ]
+  },
+  "2022-11-15": {
+   "jour férié annoncé par la BRVM": [
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-11-16": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2022-11-17": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO",
+    "SETAO_CI"
+   ]
+  },
+  "2022-11-18": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-11-21": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2022-11-23": {
+   "copie exacte de la séance précédente": [
+    "NESTLE_CI"
+   ]
+  },
+  "2022-11-25": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "SAPH_CI",
+    "SICABLE_CI"
+   ]
+  },
+  "2022-11-28": {
+   "copie exacte de la séance précédente": [
+    "BERNABE"
+   ]
+  },
+  "2022-11-29": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SICABLE_CI"
+   ]
+  },
+  "2022-11-30": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-12-01": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAPH_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-12-05": {
+   "copie exacte de la séance précédente": [
+    "SGBCI"
+   ]
+  },
+  "2022-12-06": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-12-07": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "ERIUM",
+    "NEI_CEDA_CI",
+    "SAFCA_CI",
+    "SAPH_CI"
+   ]
+  },
+  "2022-12-08": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SITAB",
+    "SOGB",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-12-12": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI"
+   ]
+  },
+  "2022-12-13": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO",
+    "SOLIBRA_CI",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2022-12-14": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "NEI_CEDA_CI",
+    "SAFCA_CI",
+    "SICABLE_CI"
+   ]
+  },
+  "2022-12-15": {
+   "copie exacte de la séance précédente": [
+    "BICICI"
+   ]
+  },
+  "2022-12-16": {
+   "copie exacte de la séance précédente": [
+    "BOA_MALI",
+    "SITAB"
+   ]
+  },
+  "2022-12-19": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SUCRIVOIRE"
+   ]
+  },
+  "2022-12-20": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "SERVAIR_ABIDJAN"
+   ]
+  },
+  "2022-12-21": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "CROWN_SIEM",
+    "ERIUM",
+    "SITAB"
+   ]
+  },
+  "2022-12-23": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "SAPH_CI"
+   ]
+  },
+  "2022-12-26": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "PALMCI",
+    "SAFCA_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2022-12-27": {
+   "copie exacte de la séance précédente": [
+    "SITAB",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2022-12-28": {
+   "copie exacte de la séance précédente": [
+    "ERIUM",
+    "SMB_CI"
+   ]
+  },
+  "2022-12-29": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI",
+    "SAFCA_CI",
+    "SICABLE_CI",
+    "TOTAL_SENEGAL"
+   ]
+  },
+  "2023-01-02": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "BOA_MALI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SOGB",
+    "TOTAL_SENEGAL",
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-01-05": {
+   "copie exacte de la séance précédente": [
+    "SERVAIR_ABIDJAN",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-01-09": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "FILTISAC_CI",
+    "SICOR"
+   ]
+  },
+  "2023-01-10": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "NESTLE_CI",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-01-11": {
+   "copie exacte de la séance précédente": [
+    "SAPH_CI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-01-16": {
+   "copie exacte de la séance précédente": [
+    "BOA_BURKINA",
+    "FILTISAC_CI"
+   ]
+  },
+  "2023-01-17": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "SICOR"
+   ]
+  },
+  "2023-01-18": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-01-19": {
+   "copie exacte de la séance précédente": [
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-01-20": {
+   "copie exacte de la séance précédente": [
+    "SICABLE_CI",
+    "SOGB"
+   ]
+  },
+  "2023-01-24": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "FILTISAC_CI",
+    "NSIA_BANQUE",
+    "SMB_CI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-01-25": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "ERIUM",
+    "SITAB"
+   ]
+  },
+  "2023-01-26": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-01-30": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "ERIUM",
+    "NEI_CEDA_CI",
+    "NSIA_BANQUE"
+   ]
+  },
+  "2023-01-31": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI",
+    "SICOR"
+   ]
+  },
+  "2023-02-01": {
+   "copie exacte de la séance précédente": [
+    "FILTISAC_CI",
+    "SAPH_CI"
+   ]
+  },
+  "2023-02-03": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI",
+    "ORAGROUP_TOGO",
+    "SAFCA_CI",
+    "SITAB"
+   ]
+  },
+  "2023-02-07": {
+   "copie exacte de la séance précédente": [
+    "SAPH_CI"
+   ]
+  },
+  "2023-02-08": {
+   "copie exacte de la séance précédente": [
+    "BICICI"
+   ]
+  },
+  "2023-02-10": {
+   "copie exacte de la séance précédente": [
+    "CFAO_CI",
+    "CROWN_SIEM",
+    "SMB_CI"
+   ]
+  },
+  "2023-02-13": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2023-02-14": {
+   "copie exacte de la séance précédente": [
+    "CFAO_CI"
+   ]
+  },
+  "2023-02-15": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "FILTISAC_CI",
+    "SAFCA_CI"
+   ]
+  },
+  "2023-02-16": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2023-02-17": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2023-02-20": {
+   "copie exacte de la séance précédente": [
+    "SICABLE_CI",
+    "SOLIBRA_CI",
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-02-22": {
+   "copie exacte de la séance précédente": [
+    "SAPH_CI",
+    "SICABLE_CI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-02-23": {
+   "copie exacte de la séance précédente": [
+    "ERIUM"
+   ]
+  },
+  "2023-02-24": {
+   "copie exacte de la séance précédente": [
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-02-27": {
+   "copie exacte de la séance précédente": [
+    "ERIUM"
+   ]
+  },
+  "2023-03-01": {
+   "copie exacte de la séance précédente": [
+    "FILTISAC_CI",
+    "NSIA_BANQUE",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-03-02": {
+   "copie exacte de la séance précédente": [
+    "ERIUM",
+    "SAFCA_CI"
+   ]
+  },
+  "2023-03-03": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-03-06": {
+   "copie exacte de la séance précédente": [
+    "SAPH_CI"
+   ]
+  },
+  "2023-03-07": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "ERIUM"
+   ]
+  },
+  "2023-03-08": {
+   "copie exacte de la séance précédente": [
+    "SAPH_CI"
+   ]
+  },
+  "2023-03-09": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "BICICI",
+    "BOA_MALI",
+    "FILTISAC_CI"
+   ]
+  },
+  "2023-03-10": {
+   "copie exacte de la séance précédente": [
+    "ERIUM"
+   ]
+  },
+  "2023-03-13": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2023-03-16": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2023-03-17": {
+   "copie exacte de la séance précédente": [
+    "FILTISAC_CI"
+   ]
+  },
+  "2023-03-22": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-03-23": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "SAPH_CI"
+   ]
+  },
+  "2023-03-28": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "TOTAL_SENEGAL"
+   ]
+  },
+  "2023-03-29": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-04-04": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "CROWN_SIEM",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "SAFCA_CI",
+    "SUCRIVOIRE"
+   ]
+  },
+  "2023-04-05": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2023-04-06": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-04-07": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "CFAO_CI",
+    "ERIUM",
+    "NESTLE_CI",
+    "SICABLE_CI"
+   ]
+  },
+  "2023-04-10": {
+   "lundi de Pâques": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-04-11": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "CROWN_SIEM",
+    "SITAB",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-04-12": {
+   "copie exacte de la séance précédente": [
+    "ERIUM"
+   ]
+  },
+  "2023-04-13": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-04-14": {
+   "copie exacte de la séance précédente": [
+    "FILTISAC_CI",
+    "ORAGROUP_TOGO",
+    "SITAB",
+    "SMB_CI"
+   ]
+  },
+  "2023-04-17": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-04-18": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-04-19": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "SAFCA_CI"
+   ]
+  },
+  "2023-04-20": {
+   "copie exacte de la séance précédente": [
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI"
+   ]
+  },
+  "2023-04-21": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-04-24": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO",
+    "SETAO_CI"
+   ]
+  },
+  "2023-04-26": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-04-27": {
+   "copie exacte de la séance précédente": [
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-04-28": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "CROWN_SIEM",
+    "SUCRIVOIRE"
+   ]
+  },
+  "2023-05-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-05-02": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2023-05-03": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-05-05": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "SICABLE_CI",
+    "SITAB"
+   ]
+  },
+  "2023-05-09": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI",
+    "TOTAL_CI"
+   ]
+  },
+  "2023-05-10": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-05-16": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "SICABLE_CI"
+   ]
+  },
+  "2023-05-18": {
+   "Ascension": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-05-19": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-05-22": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "SICOR"
+   ]
+  },
+  "2023-05-23": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-05-24": {
+   "copie exacte de la séance précédente": [
+    "FILTISAC_CI",
+    "SAFCA_CI"
+   ]
+  },
+  "2023-05-26": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2023-05-29": {
+   "lundi de Pentecôte": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-05-30": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO",
+    "SMB_CI"
+   ]
+  },
+  "2023-05-31": {
+   "copie exacte de la séance précédente": [
+    "SICABLE_CI",
+    "SITAB",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2023-06-01": {
+   "copie exacte de la séance précédente": [
+    "BERNABE"
+   ]
+  },
+  "2023-06-02": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI",
+    "SAFCA_CI"
+   ]
+  },
+  "2023-06-05": {
+   "copie exacte de la séance précédente": [
+    "SICABLE_CI"
+   ]
+  },
+  "2023-06-07": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "SITAB"
+   ]
+  },
+  "2023-06-12": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "NEI_CEDA_CI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-06-14": {
+   "copie exacte de la séance précédente": [
+    "SICABLE_CI"
+   ]
+  },
+  "2023-06-15": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2023-06-16": {
+   "copie exacte de la séance précédente": [
+    "CORIS_BANK_BF",
+    "SITAB"
+   ]
+  },
+  "2023-06-20": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2023-06-26": {
+   "copie exacte de la séance précédente": [
+    "ERIUM"
+   ]
+  },
+  "2023-06-27": {
+   "copie exacte de la séance précédente": [
+    "BOA_MALI",
+    "CROWN_SIEM",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-06-28": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-06-30": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "CFAO_CI",
+    "SETAO_CI",
+    "SICABLE_CI"
+   ]
+  },
+  "2023-07-03": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-07-04": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2023-07-05": {
+   "copie exacte de la séance précédente": [
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-07-07": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "BICICI",
+    "NEI_CEDA_CI",
+    "SERVAIR_ABIDJAN",
+    "SICABLE_CI"
+   ]
+  },
+  "2023-07-12": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "ERIUM",
+    "SAFCA_CI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-07-14": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2023-07-17": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2023-07-19": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-07-21": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "SICABLE_CI"
+   ]
+  },
+  "2023-07-24": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2023-07-25": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "SETAO_CI",
+    "SICOR",
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-07-26": {
+   "copie exacte de la séance précédente": [
+    "BOA_BURKINA",
+    "FILTISAC_CI",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-07-27": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI",
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-07-31": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI"
+   ]
+  },
+  "2023-08-01": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2023-08-03": {
+   "copie exacte de la séance précédente": [
+    "BICICI"
+   ]
+  },
+  "2023-08-07": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-08-08": {
+   "copie exacte de la séance précédente": [
+    "BERNABE"
+   ]
+  },
+  "2023-08-10": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2023-08-11": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2023-08-14": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM",
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-08-15": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-08-16": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2023-08-17": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-08-18": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2023-08-21": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI",
+    "SOLIBRA_CI",
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-08-29": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "SETAO_CI"
+   ]
+  },
+  "2023-09-01": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "CORIS_BANK_BF"
+   ]
+  },
+  "2023-09-04": {
+   "copie exacte de la séance précédente": [
+    "SICOR",
+    "SITAB"
+   ]
+  },
+  "2023-09-06": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-09-08": {
+   "copie exacte de la séance précédente": [
+    "ERIUM",
+    "SAFCA_CI"
+   ]
+  },
+  "2023-09-11": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2023-09-12": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "SETAO_CI"
+   ]
+  },
+  "2023-09-15": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI",
+    "SITAB"
+   ]
+  },
+  "2023-09-18": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "BICICI"
+   ]
+  },
+  "2023-09-21": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2023-09-22": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "SETAO_CI"
+   ]
+  },
+  "2023-09-26": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2023-09-27": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-09-29": {
+   "copie exacte de la séance précédente": [
+    "BOA_CI",
+    "BOA_NIGER",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "SAFCA_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SICABLE_CI",
+    "SODECI",
+    "SUCRIVOIRE",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2023-10-02": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2023-10-03": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2023-10-05": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2023-10-09": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "SETAO_CI",
+    "SITAB"
+   ]
+  },
+  "2023-10-12": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2023-10-16": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2023-10-17": {
+   "copie exacte de la séance précédente": [
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "SAFCA_CI",
+    "SITAB"
+   ]
+  },
+  "2023-10-18": {
+   "copie exacte de la séance précédente": [
+    "SOLIBRA_CI"
+   ]
+  },
+  "2023-10-19": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO",
+    "SICOR"
+   ]
+  },
+  "2023-10-20": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI",
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-10-23": {
+   "copie exacte de la séance précédente": [
+    "BICICI"
+   ]
+  },
+  "2023-10-24": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2023-10-25": {
+   "copie exacte de la séance précédente": [
+    "UNILEVER_CI"
+   ]
+  },
+  "2023-10-26": {
+   "copie exacte de la séance précédente": [
+    "CROWN_SIEM"
+   ]
+  },
+  "2023-10-27": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2023-11-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-11-15": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2023-12-25": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-01-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-02-12": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-04-01": {
+   "lundi de Pâques": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-04-04": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2024-04-05": {
+   "copie exacte de la séance précédente": [
+    "ERIUM",
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2024-04-10": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-04-11": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI"
+   ]
+  },
+  "2024-04-15": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2024-04-17": {
+   "copie exacte de la séance précédente": [
+    "CORIS_BANK_BF"
+   ]
+  },
+  "2024-04-18": {
+   "copie exacte de la séance précédente": [
+    "ERIUM",
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2024-04-19": {
+   "copie exacte de la séance précédente": [
+    "SITAB"
+   ]
+  },
+  "2024-04-22": {
+   "copie exacte de la séance précédente": [
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2024-04-23": {
+   "copie exacte de la séance précédente": [
+    "NESTLE_CI",
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2024-04-25": {
+   "copie exacte de la séance précédente": [
+    "BERNABE",
+    "SICOR"
+   ]
+  },
+  "2024-04-26": {
+   "copie exacte de la séance précédente": [
+    "ERIUM"
+   ]
+  },
+  "2024-04-29": {
+   "copie exacte de la séance précédente": [
+    "SITAB",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2024-04-30": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI"
+   ]
+  },
+  "2024-05-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-05-02": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2024-05-03": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2024-05-09": {
+   "Ascension": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-05-13": {
+   "copie exacte de la séance précédente": [
+    "ERIUM"
+   ]
+  },
+  "2024-05-14": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI"
+   ]
+  },
+  "2024-05-16": {
+   "copie exacte de la séance précédente": [
+    "NEI_CEDA_CI"
+   ]
+  },
+  "2024-05-17": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2024-05-20": {
+   "lundi de Pentecôte": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-05-23": {
+   "copie exacte de la séance précédente": [
+    "SITAB",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2024-05-28": {
+   "copie exacte de la séance précédente": [
+    "ERIUM"
+   ]
+  },
+  "2024-05-30": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "SETAO_CI",
+    "SICOR"
+   ]
+  },
+  "2024-06-06": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2024-06-10": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2024-06-11": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI"
+   ]
+  },
+  "2024-06-18": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2024-06-19": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI"
+   ]
+  },
+  "2024-06-26": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2024-06-27": {
+   "copie exacte de la séance précédente": [
+    "BERNABE"
+   ]
+  },
+  "2024-07-03": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2024-07-04": {
+   "copie exacte de la séance précédente": [
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2024-07-11": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI"
+   ]
+  },
+  "2024-07-15": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO",
+    "SICOR"
+   ]
+  },
+  "2024-07-16": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI"
+   ]
+  },
+  "2024-07-18": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2024-07-19": {
+   "copie exacte de la séance précédente": [
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2024-07-24": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO",
+    "SAFCA_CI"
+   ]
+  },
+  "2024-07-25": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2024-07-30": {
+   "copie exacte de la séance précédente": [
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2024-08-06": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2024-08-07": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-08-09": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2024-08-14": {
+   "copie exacte de la séance précédente": [
+    "SAFCA_CI",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2024-08-15": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-08-22": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2024-08-23": {
+   "copie exacte de la séance précédente": [
+    "BICICI",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2024-08-26": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2024-08-29": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI",
+    "SICOR"
+   ]
+  },
+  "2024-09-02": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI"
+   ]
+  },
+  "2024-09-05": {
+   "copie exacte de la séance précédente": [
+    "BICICI"
+   ]
+  },
+  "2024-09-09": {
+   "copie exacte de la séance précédente": [
+    "UNILEVER_CI"
+   ]
+  },
+  "2024-09-10": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO"
+   ]
+  },
+  "2024-09-12": {
+   "copie exacte de la séance précédente": [
+    "ORAGROUP_TOGO",
+    "SICOR",
+    "SITAB"
+   ]
+  },
+  "2024-09-17": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2024-09-25": {
+   "copie exacte de la séance précédente": [
+    "SOGB"
+   ]
+  },
+  "2024-09-27": {
+   "copie exacte de la séance précédente": [
+    "BERNABE"
+   ]
+  },
+  "2024-10-03": {
+   "copie exacte de la séance précédente": [
+    "SITAB",
+    "TRACTAFRIC_MOTORS"
+   ]
+  },
+  "2024-10-07": {
+   "copie exacte de la séance précédente": [
+    "SICOR"
+   ]
+  },
+  "2024-10-11": {
+   "copie exacte de la séance précédente": [
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI"
+   ]
+  },
+  "2024-10-18": {
+   "copie exacte de la séance précédente": [
+    "SETAO_CI"
+   ]
+  },
+  "2024-11-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-11-15": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2024-12-25": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2025-01-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2025-03-27": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2025-03-31": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2025-04-21": {
+   "lundi de Pâques": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2025-05-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2025-05-29": {
+   "Ascension": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2025-08-07": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2025-08-15": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2025-09-04": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2025-12-25": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2026-01-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2026-03-16": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2026-03-20": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_NIGER",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ERIUM",
+    "FILTISAC_CI",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "TOTAL_CI",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2026-04-06": {
+   "lundi de Pâques": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2026-05-01": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2026-05-14": {
+   "Ascension": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2026-05-25": {
+   "lundi de Pentecôte": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2026-05-27": {
+   "copie exacte de la séance précédente": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2026-08-07": {
+   "jour férié fixe": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNILEVER_CI",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  },
+  "2026-08-25": {
+   "jour férié annoncé par la BRVM": [
+    "AFRICA_GLOBAL_LOGISTICS",
+    "BERNABE",
+    "BICB_BENIN",
+    "BICICI",
+    "BOA_BENIN",
+    "BOA_BURKINA",
+    "BOA_CI",
+    "BOA_MALI",
+    "BOA_NIGER",
+    "BOA_SENEGAL",
+    "CFAO_CI",
+    "CIE_CI",
+    "CORIS_BANK_BF",
+    "CROWN_SIEM",
+    "ECOBANK_CI",
+    "ERIUM",
+    "ETI_TOGO",
+    "FILTISAC_CI",
+    "LOTERIE_BENIN",
+    "NEI_CEDA_CI",
+    "NESTLE_CI",
+    "NSIA_BANQUE",
+    "ONATEL_BF",
+    "ORAGROUP_TOGO",
+    "ORANGE_CI",
+    "PALMCI",
+    "SAFCA_CI",
+    "SAPH_CI",
+    "SERVAIR_ABIDJAN",
+    "SETAO_CI",
+    "SGBCI",
+    "SIB_CI",
+    "SICABLE_CI",
+    "SICOR",
+    "SITAB",
+    "SMB_CI",
+    "SODECI",
+    "SOGB",
+    "SOLIBRA_CI",
+    "SONATEL",
+    "SUCRIVOIRE",
+    "TOTAL_CI",
+    "TOTAL_SENEGAL",
+    "TRACTAFRIC_MOTORS",
+    "UNIWAX_CI",
+    "VIVO_ENERGY_CI"
+   ]
+  }
+ }
+}
