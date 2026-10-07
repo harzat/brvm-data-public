@@ -3,19 +3,19 @@
     "source": "BRVM",
     "source_authority": "primary",
     "scope": "listed_equities",
-    "generated_at": "2026-10-07T17:51:19+00:00",
+    "generated_at": "2026-10-07T18:15:41+00:00",
     "cutoff": "1996-09-14",
     "schema_version": 3,
-    "count": 7332,
-    "dated_count": 7147,
+    "count": 7379,
+    "dated_count": 7194,
     "undated_count": 185,
-    "mapped_count": 7140,
+    "mapped_count": 7187,
     "unmatched_count": 192,
-    "listed_equity_count": 7140,
+    "listed_equity_count": 7187,
     "former_listed_count": 0,
     "out_of_scope_count": 0,
     "unresolved_count": 0,
-    "reference_dated_count": 7332,
+    "reference_dated_count": 7379,
     "unresolved_date_count": 0,
     "fiscal_year_corrections": 12,
     "date_anomaly_count": 16,
@@ -29,9 +29,10 @@
       "capital_operation_notice": 11,
       "capital_reduction": 1,
       "communique": 291,
+      "company_notice": 19,
       "company_report": 558,
       "dividend_amount_change": 2,
-      "dividend_announcement": 303,
+      "dividend_announcement": 331,
       "dividend_ex_date": 304,
       "dividend_payment": 321,
       "financial_results": 52,
@@ -179923,6 +179924,34 @@
       "mapping_status": "market"
     },
     {
+      "issuer": "SAPH CI",
+      "ticker": "SPHC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "SAPH CI : Rapport des Commissaires Aux Comptes sur les rémunérations exceptionnelles allouées aux membres du Conseil d'Administration - Exercice 2023",
+      "published_at": "2024-07-18",
+      "event_at": "2024-07-18",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20240718_-_rapport_des_cac_sur_les_remunerations_exceptionnelles_-_exercice_2023_-_saph_ci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20240718_-_rapport_des_cac_sur_les_remunerations_exceptionnelles_-_exercice_2023_-_saph_ci.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "SAPH CI",
+      "scope": "societe",
+      "label": "SAPH CI : Rapport des Commissaires Aux Comptes sur les rémunérations exceptionnelles allouées aux membres du Conseil d'Administration - Exercice 2023",
+      "id": "veille-4500fc2457aec02b",
+      "origin": "veille",
+      "reference_at": "2024-07-18",
+      "mapping_status": "listed_equity"
+    },
+    {
       "issuer": "BRVM",
       "ticker": null,
       "category": "index_composition",
@@ -180201,6 +180230,62 @@
       "origin": "veille",
       "reference_at": "2024-03-25",
       "mapping_status": "market"
+    },
+    {
+      "issuer": "SOCIETE GENERALE CI",
+      "ticker": "SGBC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "SOCIETE GENERALE CI : Bilan semestriel du contrat de liquidité - 2ème semestre 2023",
+      "published_at": "2024-01-15",
+      "event_at": "2024-01-15",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20230115_-_bilan_semestriel_du_contrat_de_liquidite_-_2eme_semestre_2023_-_societe_generale_ci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20230115_-_bilan_semestriel_du_contrat_de_liquidite_-_2eme_semestre_2023_-_societe_generale_ci.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "Société Générale CI",
+      "scope": "societe",
+      "label": "SOCIETE GENERALE CI : Bilan semestriel du contrat de liquidité - 2ème semestre 2023",
+      "id": "veille-b90150e0bf799638",
+      "origin": "veille",
+      "reference_at": "2024-01-15",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": "AFRICA GLOBAL LOGISTICS CI (ex BOLLORE)",
+      "ticker": "SDSC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "AFRICA GLOBAL LOGISTICS CI (ex BOLLORE) : Bilan semestriel du contrat de liquidité - 2ème semestre 2023",
+      "published_at": "2024-01-15",
+      "event_at": "2024-01-15",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20230115_-_bilan_semestriel_du_contrat_de_liquidite_-_2eme_semestre_2023_-_africa_global_logistics_ci_ex_bollore.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20230115_-_bilan_semestriel_du_contrat_de_liquidite_-_2eme_semestre_2023_-_africa_global_logistics_ci_ex_bollore.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "Africa Global Logistics",
+      "scope": "societe",
+      "label": "AFRICA GLOBAL LOGISTICS CI (ex BOLLORE) : Bilan semestriel du contrat de liquidité - 2ème semestre 2023",
+      "id": "veille-aed0c26c0df87317",
+      "origin": "veille",
+      "reference_at": "2024-01-15",
+      "mapping_status": "listed_equity"
     },
     {
       "issuer": "BRVM",
@@ -181519,6 +181604,34 @@
       "mapping_status": "market"
     },
     {
+      "issuer": "NSIA BANQUE CI",
+      "ticker": "NSBC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "NSIA BANQUE CI : Présentation du nouveau plan stratégique",
+      "published_at": "2022-02-23",
+      "event_at": "2022-02-23",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20220223_-_presentation_du_nouveau_plan_strategique_-_nsia_banque_ci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20220223_-_presentation_du_nouveau_plan_strategique_-_nsia_banque_ci.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "NSIA Banque",
+      "scope": "societe",
+      "label": "NSIA BANQUE CI : Présentation du nouveau plan stratégique",
+      "id": "veille-87d0080cb1a1f0b4",
+      "origin": "veille",
+      "reference_at": "2022-02-23",
+      "mapping_status": "listed_equity"
+    },
+    {
       "issuer": null,
       "ticker": null,
       "category": "transaction_cancelled",
@@ -181663,6 +181776,62 @@
       "origin": "veille",
       "reference_at": "2021-12-20",
       "mapping_status": "market"
+    },
+    {
+      "issuer": "NSIA BANQUE CI",
+      "ticker": "NSBC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "NSIA BANQUE CI : Prix d'excellence",
+      "published_at": "2021-12-07",
+      "event_at": "2021-12-07",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20211206_-_prix_dexcellence_nsia_banque_ci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20211206_-_prix_dexcellence_nsia_banque_ci.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "NSIA Banque",
+      "scope": "societe",
+      "label": "NSIA BANQUE CI : Prix d'excellence",
+      "id": "veille-619a445da51de8f9",
+      "origin": "veille",
+      "reference_at": "2021-12-07",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": "SAFCA CI",
+      "ticker": "SAFC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "SAFCA CI : Analyse des activités",
+      "published_at": "2021-11-30",
+      "event_at": "2021-11-30",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20211130_-_analyse_portant_sur_les_activites_dun_etablissement_financier_-_safca_ci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20211130_-_analyse_portant_sur_les_activites_dun_etablissement_financier_-_safca_ci.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "SAFCA CI",
+      "scope": "societe",
+      "label": "SAFCA CI : Analyse des activités",
+      "id": "veille-a35f395a1841162d",
+      "origin": "veille",
+      "reference_at": "2021-11-30",
+      "mapping_status": "listed_equity"
     },
     {
       "issuer": null,
@@ -181887,6 +182056,62 @@
       "origin": "veille",
       "reference_at": "2021-07-01",
       "mapping_status": "market"
+    },
+    {
+      "issuer": "SITAB CI",
+      "ticker": "STBC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "SITAB CI : Rectificatif du paiement de dividendes Exercice 2020",
+      "published_at": "2021-06-16",
+      "event_at": "2021-06-16",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20210616_-_avis_ndeg108_brvmdg_-_rectificatif_paiement_de_dividendes_exercice_2020_-_sitab.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20210616_-_avis_ndeg108_brvmdg_-_rectificatif_paiement_de_dividendes_exercice_2020_-_sitab.pdf",
+      "avis_number": 108,
+      "details": {},
+      "company": "Sitab",
+      "scope": "societe",
+      "label": "SITAB CI : Rectificatif du paiement de dividendes Exercice 2020",
+      "id": "veille-ee6bb4734c6d8fc8",
+      "origin": "veille",
+      "reference_at": "2021-06-16",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": "SONATEL",
+      "ticker": "SNTS",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "SONATEL : Nouveau partenaire stratégique de la SBIN au Bénin",
+      "published_at": "2021-05-21",
+      "event_at": "2021-05-21",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20210521_-_communique_de_presse_-_sonatel_nouveau_partenaire_strategique_de_la_sbin_au_benin_21_mai_21.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20210521_-_communique_de_presse_-_sonatel_nouveau_partenaire_strategique_de_la_sbin_au_benin_21_mai_21.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "Sonatel",
+      "scope": "societe",
+      "label": "SONATEL : Nouveau partenaire stratégique de la SBIN au Bénin",
+      "id": "veille-e9e68d129d4e2c10",
+      "origin": "veille",
+      "reference_at": "2021-05-21",
+      "mapping_status": "listed_equity"
     },
     {
       "issuer": null,
@@ -182337,6 +182562,34 @@
       "mapping_status": "listed_equity"
     },
     {
+      "issuer": "SOCIETE GENERALE CI",
+      "ticker": "SGBC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "SOCIETE GENERALE CI : Chiffres clefs au 3ème trimestre 2020",
+      "published_at": "2020-11-04",
+      "event_at": "2020-11-04",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20201104_-_chiffres_clefs_au_3eme_trimestre_2020_-_societe_generale_ci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20201104_-_chiffres_clefs_au_3eme_trimestre_2020_-_societe_generale_ci.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "Société Générale CI",
+      "scope": "societe",
+      "label": "SOCIETE GENERALE CI : Chiffres clefs au 3ème trimestre 2020",
+      "id": "veille-4b5e0577eeb7d2d3",
+      "origin": "veille",
+      "reference_at": "2020-11-04",
+      "mapping_status": "listed_equity"
+    },
+    {
       "issuer": null,
       "ticker": "ORGT",
       "category": "trading_suspension",
@@ -182447,6 +182700,34 @@
       "origin": "veille",
       "reference_at": "2020-08-04",
       "mapping_status": "market"
+    },
+    {
+      "issuer": "FILTISAC CI",
+      "ticker": "FTSC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "FILTISAC CI : Information relative aux états financiers certifiés et approuvés",
+      "published_at": "2020-07-30",
+      "event_at": "2020-07-30",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20200730_-_information_relative_aux_etats_financiers_certifies_et_approuves_-_filtisac_ci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20200730_-_information_relative_aux_etats_financiers_certifies_et_approuves_-_filtisac_ci.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "Filtisac CI",
+      "scope": "societe",
+      "label": "FILTISAC CI : Information relative aux états financiers certifiés et approuvés",
+      "id": "veille-29563aab2f528417",
+      "origin": "veille",
+      "reference_at": "2020-07-30",
+      "mapping_status": "listed_equity"
     },
     {
       "issuer": null,
@@ -182701,6 +182982,34 @@
       "mapping_status": "market"
     },
     {
+      "issuer": "CORIS BANK INTERNATIONAL",
+      "ticker": "CBIBF",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "CORIS BANK INTERNATIONAL : Révision de la rémunération à allouer aux membres du Conseil d'administration et Conseil de Conformité Interne",
+      "published_at": "2020-03-24",
+      "event_at": "2020-03-24",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20200324_-_revision_de_la_remuneration_a_verser_aux_membres_du_ca_et_du_cci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20200324_-_revision_de_la_remuneration_a_verser_aux_membres_du_ca_et_du_cci.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "Coris Bank International BF",
+      "scope": "societe",
+      "label": "CORIS BANK INTERNATIONAL : Révision de la rémunération à allouer aux membres du Conseil d'administration et Conseil de Conformité Interne",
+      "id": "veille-fa35cfbdb43a7c9f",
+      "origin": "veille",
+      "reference_at": "2020-03-24",
+      "mapping_status": "listed_equity"
+    },
+    {
       "issuer": "UNILEVER CI",
       "ticker": "UNLC",
       "category": "shares_admitted",
@@ -182867,6 +183176,34 @@
       "origin": "veille",
       "reference_at": "2019-12-19",
       "mapping_status": "market"
+    },
+    {
+      "issuer": "ORAGROUP TOGO",
+      "ticker": "ORGT",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "ORAGROUP TOGO : Communiqué – Cession de parts entre Emerging Capital Partners (ECP) et IPS-CGRAE",
+      "published_at": "2019-11-28",
+      "event_at": "2019-11-28",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20191128_-_cession_de_parts_ecp_cgrae_-_oragroup_tg.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20191128_-_cession_de_parts_ecp_cgrae_-_oragroup_tg.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "Oragroup Togo",
+      "scope": "societe",
+      "label": "ORAGROUP TOGO : Communiqué – Cession de parts entre Emerging Capital Partners (ECP) et IPS-CGRAE",
+      "id": "veille-0d4ec171fd631c8f",
+      "origin": "veille",
+      "reference_at": "2019-11-28",
+      "mapping_status": "listed_equity"
     },
     {
       "issuer": null,
@@ -183196,6 +183533,34 @@
       "id": "veille-ef61e5a4af6b627b",
       "origin": "veille",
       "reference_at": "2019-07-26",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": "UNILEVER CI",
+      "ticker": "UNLC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "UNILEVER CI : Valeur du Droit Préférentiel de Souscription",
+      "published_at": "2019-07-23",
+      "event_at": "2019-07-23",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20190723_-_avis_ndeg126_brvmdg_-_valeur_theorique_-_droit_preferentiel_de_souscription_-_unilever_ci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20190723_-_avis_ndeg126_brvmdg_-_valeur_theorique_-_droit_preferentiel_de_souscription_-_unilever_ci.pdf",
+      "avis_number": 126,
+      "details": {},
+      "company": "Unilever CI",
+      "scope": "societe",
+      "label": "UNILEVER CI : Valeur du Droit Préférentiel de Souscription",
+      "id": "veille-482da80243a5dae1",
+      "origin": "veille",
+      "reference_at": "2019-07-23",
       "mapping_status": "listed_equity"
     },
     {
@@ -183682,6 +184047,34 @@
       "id": "veille-3c00864c7ff0cd94",
       "origin": "veille",
       "reference_at": "2019-02-22",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "BOAB",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "Fusion absorption de BHB par BOAB",
+      "published_at": "2019-01-11",
+      "event_at": "2019-01-11",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20190111_-_avis_ndeg004_brvmdg_-_fusion_absorption_de_bhb_par_boab.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20190111_-_avis_ndeg004_brvmdg_-_fusion_absorption_de_bhb_par_boab.pdf",
+      "avis_number": 4,
+      "details": {},
+      "company": "BOA Bénin",
+      "scope": "societe",
+      "label": "Fusion absorption de BHB par BOAB",
+      "id": "veille-ade91cae660e6926",
+      "origin": "veille",
+      "reference_at": "2019-01-11",
       "mapping_status": "listed_equity"
     },
     {
@@ -185441,6 +185834,34 @@
       "id": "veille-bbe1689ab1de936b",
       "origin": "veille",
       "reference_at": "2017-11-27",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "ECOC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "Admission de titres ECOBANK CÔTE D'IVOIRE",
+      "published_at": "2017-11-24",
+      "event_at": "2017-11-24",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/avis_admission_de_titres_ecobank_ci_0.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/avis_admission_de_titres_ecobank_ci_0.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "Ecobank CI",
+      "scope": "societe",
+      "label": "Admission de titres ECOBANK CÔTE D'IVOIRE",
+      "id": "veille-c5de11a0bb97d729",
+      "origin": "veille",
+      "reference_at": "2017-11-24",
       "mapping_status": "listed_equity"
     },
     {
@@ -187702,6 +188123,62 @@
     {
       "issuer": null,
       "ticker": "SCRC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N 102-2016-DCBR-DG- Inscription actions Sucrivoire",
+      "published_at": "2016-12-15",
+      "event_at": "2016-12-15",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20161215_-_avis_n_102-2016-dcbr-dg-_inscription_actions_sucrivoire.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20161215_-_avis_n_102-2016-dcbr-dg-_inscription_actions_sucrivoire.pdf",
+      "avis_number": 102,
+      "details": {},
+      "company": "Sucrivoire",
+      "scope": "societe",
+      "label": "AVIS N 102-2016-DCBR-DG- Inscription actions Sucrivoire",
+      "id": "veille-aa7c578c55e2169c",
+      "origin": "veille",
+      "reference_at": "2016-12-15",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "CBIBF",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N 101-2016-DCBR-DG- Inscription actions Coris Bank International",
+      "published_at": "2016-12-15",
+      "event_at": "2016-12-15",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20161215_-_avis_n_101-2016-dcbr-dg-_inscription_actions_coris_bank_international.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20161215_-_avis_n_101-2016-dcbr-dg-_inscription_actions_coris_bank_international.pdf",
+      "avis_number": 101,
+      "details": {},
+      "company": "Coris Bank International BF",
+      "scope": "societe",
+      "label": "AVIS N 101-2016-DCBR-DG- Inscription actions Coris Bank International",
+      "id": "veille-8ca00b1cb88e1abf",
+      "origin": "veille",
+      "reference_at": "2016-12-15",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "SCRC",
       "category": "first_listing",
       "category_label": "Avis de la BRVM",
       "title": "Avis N 192 BRVMDG - Première cotation - SUCRIVOIRE",
@@ -187725,6 +188202,34 @@
       "id": "veille-07dd90448a7a02b9",
       "origin": "veille",
       "reference_at": "2016-12-13",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "FTSC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°190 BRVMDG - Paiement de dividendes complémentaires - FILTISAC CI",
+      "published_at": "2016-12-08",
+      "event_at": "2016-12-08",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20161208_-_avis_ndeg190_brvmdg_-_paiement_de_dividendes_complementaires_-_filtisac_ci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20161208_-_avis_ndeg190_brvmdg_-_paiement_de_dividendes_complementaires_-_filtisac_ci.pdf",
+      "avis_number": 190,
+      "details": {},
+      "company": "Filtisac CI",
+      "scope": "societe",
+      "label": "AVIS N°190 BRVMDG - Paiement de dividendes complémentaires - FILTISAC CI",
+      "id": "veille-802786cbd2cd8dc8",
+      "origin": "veille",
+      "reference_at": "2016-12-08",
       "mapping_status": "listed_equity"
     },
     {
@@ -187953,6 +188458,34 @@
     },
     {
       "issuer": null,
+      "ticker": "NEIC",
+      "category": "company_notice",
+      "category_label": "Avis de la BRVM",
+      "title": "Attestation des CAC au 1er Semestre 2016 - NEI-CEDA CI",
+      "published_at": "2016-10-28",
+      "event_at": "2016-10-28",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20161027_-_attestation_des_cac_au_1er_semestre_2016_-_nei-ceda_ci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20161027_-_attestation_des_cac_au_1er_semestre_2016_-_nei-ceda_ci.pdf",
+      "avis_number": null,
+      "details": {},
+      "company": "NEI CEDA CI",
+      "scope": "societe",
+      "label": "Attestation des CAC au 1er Semestre 2016 - NEI-CEDA CI",
+      "id": "veille-86e1be7768bbfbd8",
+      "origin": "veille",
+      "reference_at": "2016-10-28",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
       "ticker": "SIBC",
       "category": "first_listing_result",
       "category_label": "Avis de la BRVM",
@@ -188094,6 +188627,35 @@
     },
     {
       "issuer": null,
+      "ticker": "TTLC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°110 BRVM - PD - TOTAL CI - Exercice 2015",
+      "published_at": "2016-07-20",
+      "event_at": "2016-07-20",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20160720_-_avis_ndeg110_brvm_-_pd_-_total_ci_-_exeercice_2015.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20160720_-_avis_ndeg110_brvm_-_pd_-_total_ci_-_exeercice_2015.pdf",
+      "avis_number": 110,
+      "fiscal_year": 2015,
+      "details": {},
+      "company": "TotalEnergies CI",
+      "scope": "societe",
+      "label": "TotalEnergies CI : dividende de l'exercice 2015 : avis de paiement",
+      "id": "veille-ca34e9ef10eefb69",
+      "origin": "veille",
+      "reference_at": "2016-07-20",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
       "ticker": null,
       "category": "transaction_cancelled",
       "category_label": "Transaction annulée par la BRVM",
@@ -188119,6 +188681,64 @@
       "origin": "veille",
       "reference_at": "2016-07-20",
       "mapping_status": "market"
+    },
+    {
+      "issuer": null,
+      "ticker": "BOAS",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°108 BRVM - PD - BANK OF AFRICA SN - Exercice 2015",
+      "published_at": "2016-07-18",
+      "event_at": "2016-07-18",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20160718_-_avis_ndeg108_brvm_-_pd_-_bank_of_africa_sn_-_exercice_2015.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20160718_-_avis_ndeg108_brvm_-_pd_-_bank_of_africa_sn_-_exercice_2015.pdf",
+      "avis_number": 108,
+      "fiscal_year": 2015,
+      "details": {},
+      "company": "BOA Sénégal",
+      "scope": "societe",
+      "label": "BOA Sénégal : dividende de l'exercice 2015 : avis de paiement",
+      "id": "veille-09fcb899885bb7a8",
+      "origin": "veille",
+      "reference_at": "2016-07-18",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "CFAC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°106 BRVM - PD - CFAO MOTORS CI - Exercice 2015",
+      "published_at": "2016-07-15",
+      "event_at": "2016-07-15",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20160715_-_avis_ndeg106_brvm_-_pd_-_cfao_motors_ci_-_exercice_2015.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20160715_-_avis_ndeg106_brvm_-_pd_-_cfao_motors_ci_-_exercice_2015.pdf",
+      "avis_number": 106,
+      "fiscal_year": 2015,
+      "details": {},
+      "company": "CFAO Motors CI",
+      "scope": "societe",
+      "label": "CFAO Motors CI : dividende de l'exercice 2015 : avis de paiement",
+      "id": "veille-9a3149f72fae5389",
+      "origin": "veille",
+      "reference_at": "2016-07-15",
+      "mapping_status": "listed_equity"
     },
     {
       "issuer": "BANK OF AFRICA CI",
@@ -188176,6 +188796,731 @@
       "id": "veille-806a17e98dc96a2b",
       "origin": "veille",
       "reference_at": "2016-06-07",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "CABC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°126 BRVM - PD - SICABLE CI - Exercice 2014",
+      "published_at": "2015-08-14",
+      "event_at": "2015-08-14",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20150814_-_avis_ndeg126_brvm_-_pd_-_sicable_ci_-_exercice_2014.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20150814_-_avis_ndeg126_brvm_-_pd_-_sicable_ci_-_exercice_2014.pdf",
+      "avis_number": 126,
+      "fiscal_year": 2014,
+      "details": {},
+      "company": "Sicable CI",
+      "scope": "societe",
+      "label": "Sicable CI : dividende de l'exercice 2014 : avis de paiement",
+      "id": "veille-f4f96551d521718b",
+      "origin": "veille",
+      "reference_at": "2015-08-14",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "STBC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°093 BRVM - PD - SITAB CI - Exercice 2014",
+      "published_at": "2015-06-24",
+      "event_at": "2015-06-24",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20150624_-_avis_ndeg093_brvm_-_pd_-_sitab_ci_-_exercice_2014.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20150624_-_avis_ndeg093_brvm_-_pd_-_sitab_ci_-_exercice_2014.pdf",
+      "avis_number": 93,
+      "fiscal_year": 2014,
+      "details": {},
+      "company": "Sitab",
+      "scope": "societe",
+      "label": "Sitab : dividende de l'exercice 2014 : avis de paiement",
+      "id": "veille-28f1e61bc1233df0",
+      "origin": "veille",
+      "reference_at": "2015-06-24",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "BOABF",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°038 BRVM - PD - BANK OF AFRICA BF - Exercice 2014",
+      "published_at": "2015-04-01",
+      "event_at": "2015-04-01",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20150401_-_avis_ndeg038_brvm_-_pd_-_bank_of_africa_bf_-_exercice_2014.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20150401_-_avis_ndeg038_brvm_-_pd_-_bank_of_africa_bf_-_exercice_2014.pdf",
+      "avis_number": 38,
+      "fiscal_year": 2014,
+      "details": {},
+      "company": "BOA Burkina",
+      "scope": "societe",
+      "label": "BOA Burkina : dividende de l'exercice 2014 : avis de paiement",
+      "id": "veille-b27b719eaa384345",
+      "origin": "veille",
+      "reference_at": "2015-04-01",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "SHEC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°103 BRVM - PD - VIVO ENERGY CI - Exercice 2013",
+      "published_at": "2014-07-30",
+      "event_at": "2014-07-30",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20140730_-_avis_ndeg103_brvm_-_pd_-_vivo_energy_ci_-_exercice_2013.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20140730_-_avis_ndeg103_brvm_-_pd_-_vivo_energy_ci_-_exercice_2013.pdf",
+      "avis_number": 103,
+      "fiscal_year": 2013,
+      "details": {},
+      "company": "Vivo Energy CI",
+      "scope": "societe",
+      "label": "Vivo Energy CI : dividende de l'exercice 2013 : avis de paiement",
+      "id": "veille-82d314fa5f8de4fc",
+      "origin": "veille",
+      "reference_at": "2014-07-30",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "STBC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°85 BRVM - PD - SITAB CI - Exercice 2013",
+      "published_at": "2014-07-15",
+      "event_at": "2014-07-15",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20140715_-_avis_ndeg85_brvm_-_pd_-_sitab_ci_-_exercice_2013.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20140715_-_avis_ndeg85_brvm_-_pd_-_sitab_ci_-_exercice_2013.pdf",
+      "avis_number": 85,
+      "fiscal_year": 2013,
+      "details": {},
+      "company": "Sitab",
+      "scope": "societe",
+      "label": "Sitab : dividende de l'exercice 2013 : avis de paiement",
+      "id": "veille-89b32be9144e4133",
+      "origin": "veille",
+      "reference_at": "2014-07-15",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "SDSC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°079 BRVM - PD - BOLLORE TRANSPORT & LOGISTICS CI - Exercice 2013",
+      "published_at": "2014-06-17",
+      "event_at": "2014-06-17",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20140617_-_avis_ndeg079_brvm_-_pd_-_bollore_transport_logistics_ci_-_exercice_2013.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20140617_-_avis_ndeg079_brvm_-_pd_-_bollore_transport_logistics_ci_-_exercice_2013.pdf",
+      "avis_number": 79,
+      "fiscal_year": 2013,
+      "details": {},
+      "company": "Africa Global Logistics",
+      "scope": "societe",
+      "label": "Africa Global Logistics : dividende de l'exercice 2013 : avis de paiement",
+      "id": "veille-a082bb58d343514f",
+      "origin": "veille",
+      "reference_at": "2014-06-17",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "SPHC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°048 BRVM - PD - SAPH CI - Exercice 2013",
+      "published_at": "2014-05-15",
+      "event_at": "2014-05-15",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20140515_-_avis_ndeg048_brvm_-_pd_-_saph_ci_-_exercice_2013.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20140515_-_avis_ndeg048_brvm_-_pd_-_saph_ci_-_exercice_2013.pdf",
+      "avis_number": 48,
+      "fiscal_year": 2013,
+      "details": {},
+      "company": "SAPH CI",
+      "scope": "societe",
+      "label": "SAPH CI : dividende de l'exercice 2013 : avis de paiement",
+      "id": "veille-2e46c7c3491c48bf",
+      "origin": "veille",
+      "reference_at": "2014-05-15",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "BOAB",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°038 BRVM - PD - BANK OF AFRICA BN - Exercice 2013",
+      "published_at": "2014-04-25",
+      "event_at": "2014-04-25",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20140425_-_avis_ndeg038_brvm_-_pd_-_bank_of_africa_bn_-_exercice_2013.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20140425_-_avis_ndeg038_brvm_-_pd_-_bank_of_africa_bn_-_exercice_2013.pdf",
+      "avis_number": 38,
+      "fiscal_year": 2013,
+      "details": {},
+      "company": "BOA Bénin",
+      "scope": "societe",
+      "label": "BOA Bénin : dividende de l'exercice 2013 : avis de paiement",
+      "id": "veille-a3c1af41d226a86a",
+      "origin": "veille",
+      "reference_at": "2014-04-25",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "BOAC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°035 BRVM - PD - BANK OF AFRICA CI - Exercice 2013",
+      "published_at": "2014-04-23",
+      "event_at": "2014-04-23",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20140423_-_avis_ndeg035_brvm_-_pd_-_bank_of_africa_ci_-_exercice_2013.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20140423_-_avis_ndeg035_brvm_-_pd_-_bank_of_africa_ci_-_exercice_2013.pdf",
+      "avis_number": 35,
+      "fiscal_year": 2013,
+      "details": {},
+      "company": "BOA Côte d'Ivoire",
+      "scope": "societe",
+      "label": "BOA Côte d'Ivoire : dividende de l'exercice 2013 : avis de paiement",
+      "id": "veille-468a8e511b16d8b5",
+      "origin": "veille",
+      "reference_at": "2014-04-23",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "BOABF",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°028 BRVM - PD - BANK OF AFRICA BF - Exercice 2013",
+      "published_at": "2014-04-08",
+      "event_at": "2014-04-08",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20140408_-_avis_ndeg028_brvm_-_pd_-_bank_of_africa_bf_-_exercice_2013.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20140408_-_avis_ndeg028_brvm_-_pd_-_bank_of_africa_bf_-_exercice_2013.pdf",
+      "avis_number": 28,
+      "fiscal_year": 2013,
+      "details": {},
+      "company": "BOA Burkina",
+      "scope": "societe",
+      "label": "BOA Burkina : dividende de l'exercice 2013 : avis de paiement",
+      "id": "veille-47ad7a7236fdcfb5",
+      "origin": "veille",
+      "reference_at": "2014-04-08",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "UNXC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°096 BRVM - PD - UNIWAX CI - Exercice 2012",
+      "published_at": "2013-07-01",
+      "event_at": "2013-07-01",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20130701_-_avis_ndeg096_brvm_-_pd_-_uniwax_ci_-_exercice_2012.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20130701_-_avis_ndeg096_brvm_-_pd_-_uniwax_ci_-_exercice_2012.pdf",
+      "avis_number": 96,
+      "fiscal_year": 2012,
+      "details": {},
+      "company": "Uniwax CI",
+      "scope": "societe",
+      "label": "Uniwax CI : dividende de l'exercice 2012 : avis de paiement",
+      "id": "veille-99125bc4ed9ab4e0",
+      "origin": "veille",
+      "reference_at": "2013-07-01",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "ETIT",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°092 BRVM - PD - ECOBANK TG - Exercice 2012",
+      "published_at": "2013-06-21",
+      "event_at": "2013-06-21",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20130621_-_avis_ndeg092_brvm_-_pd_-_ecobank_tg_-_exercice_2012.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20130621_-_avis_ndeg092_brvm_-_pd_-_ecobank_tg_-_exercice_2012.pdf",
+      "avis_number": 92,
+      "fiscal_year": 2012,
+      "details": {},
+      "company": "Ecobank Transnational Togo",
+      "scope": "societe",
+      "label": "Ecobank Transnational Togo : dividende de l'exercice 2012 : avis de paiement",
+      "id": "veille-f8c1659b1e5f7f7b",
+      "origin": "veille",
+      "reference_at": "2013-06-21",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "SPHC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°086 BRVM - PD - SAPH CI - Exercice 2012",
+      "published_at": "2013-06-12",
+      "event_at": "2013-06-12",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20130612_-_avis_ndeg086_brvm_-_pd_-_saph_ci_-_exercice_2012.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20130612_-_avis_ndeg086_brvm_-_pd_-_saph_ci_-_exercice_2012.pdf",
+      "avis_number": 86,
+      "fiscal_year": 2012,
+      "details": {},
+      "company": "SAPH CI",
+      "scope": "societe",
+      "label": "SAPH CI : dividende de l'exercice 2012 : avis de paiement",
+      "id": "veille-fc15b77145f2e003",
+      "origin": "veille",
+      "reference_at": "2013-06-12",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "PRSC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°68 BRVM - PD - TRACTAFRIC MOTORS CI - Exercice 2012",
+      "published_at": "2013-05-23",
+      "event_at": "2013-05-23",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20130523_-_avis_ndeg68_brvm_-_pd_-_tractafric_motors_ci_-_exercice_2012.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20130523_-_avis_ndeg68_brvm_-_pd_-_tractafric_motors_ci_-_exercice_2012.pdf",
+      "avis_number": 68,
+      "fiscal_year": 2012,
+      "details": {},
+      "company": "Tractafric Motors",
+      "scope": "societe",
+      "label": "Tractafric Motors : dividende de l'exercice 2012 : avis de paiement",
+      "id": "veille-6253d8ef7a6d94ba",
+      "origin": "veille",
+      "reference_at": "2013-05-23",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "BOAC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°48 BRVM - PD - BANK OF AFRICA CI - Exercice 2012",
+      "published_at": "2013-04-19",
+      "event_at": "2013-04-19",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20130419_-_avis_ndeg48_brvm_-_pd_-_bank_of_africa_ci_-_exercice_2012.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20130419_-_avis_ndeg48_brvm_-_pd_-_bank_of_africa_ci_-_exercice_2012.pdf",
+      "avis_number": 48,
+      "fiscal_year": 2012,
+      "details": {},
+      "company": "BOA Côte d'Ivoire",
+      "scope": "societe",
+      "label": "BOA Côte d'Ivoire : dividende de l'exercice 2012 : avis de paiement",
+      "id": "veille-961ecf40691545c4",
+      "origin": "veille",
+      "reference_at": "2013-04-19",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "STBC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°43 BRVM - PD - SITAB CI - Exercice 2012",
+      "published_at": "2013-04-05",
+      "event_at": "2013-04-05",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20130405_-_avis_ndeg43_brvm_-_pd_-_sitab_ci_-_exercice_2012.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20130405_-_avis_ndeg43_brvm_-_pd_-_sitab_ci_-_exercice_2012.pdf",
+      "avis_number": 43,
+      "fiscal_year": 2012,
+      "details": {},
+      "company": "Sitab",
+      "scope": "societe",
+      "label": "Sitab : dividende de l'exercice 2012 : avis de paiement",
+      "id": "veille-ae308ab84c10d7e1",
+      "origin": "veille",
+      "reference_at": "2013-04-05",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "SEMC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°147 BRVM - PD - CROWN SIEM CI - Exercice 2011",
+      "published_at": "2012-08-30",
+      "event_at": "2012-08-30",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20120830_-_avis_ndeg147_brvm_-_pd_-_crown_siem_ci_-_exercice_2011.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20120830_-_avis_ndeg147_brvm_-_pd_-_crown_siem_ci_-_exercice_2011.pdf",
+      "avis_number": 147,
+      "fiscal_year": 2011,
+      "details": {},
+      "company": "Eviosys Packaging Siem",
+      "scope": "societe",
+      "label": "Eviosys Packaging Siem : dividende de l'exercice 2011 : avis de paiement",
+      "id": "veille-f17731eec6badaa1",
+      "origin": "veille",
+      "reference_at": "2012-08-30",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "ONTBF",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°080 BRVM - PD - ONATEL BF - Exercice 2011",
+      "published_at": "2012-05-18",
+      "event_at": "2012-05-18",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20120518_-_avis_ndeg080_brvm_-_pd_-_onatel_bf_-_exercice_2011.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20120518_-_avis_ndeg080_brvm_-_pd_-_onatel_bf_-_exercice_2011.pdf",
+      "avis_number": 80,
+      "fiscal_year": 2011,
+      "details": {},
+      "company": "Onatel BF",
+      "scope": "societe",
+      "label": "Onatel BF : dividende de l'exercice 2011 : avis de paiement",
+      "id": "veille-3a719bbc61e37421",
+      "origin": "veille",
+      "reference_at": "2012-05-18",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "SDSC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°046 BRVM - PD - BOLLORE TRANSPORT & LOGISTICS CI - Exercice 2010 (SDA CI)",
+      "published_at": "2011-06-08",
+      "event_at": "2011-06-08",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20110608_-_avis_ndeg046_brvm_-_pd_-_bollore_transport_logistics_ci_-_exercice_2010_sda_ci.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20110608_-_avis_ndeg046_brvm_-_pd_-_bollore_transport_logistics_ci_-_exercice_2010_sda_ci.pdf",
+      "avis_number": 46,
+      "fiscal_year": 2010,
+      "details": {},
+      "company": "Africa Global Logistics",
+      "scope": "societe",
+      "label": "Africa Global Logistics : dividende de l'exercice 2010 : avis de paiement",
+      "id": "veille-63d826d46e8d3c2d",
+      "origin": "veille",
+      "reference_at": "2011-06-08",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "BOABF",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°017SR BRVM - PD - BANK OF AFRICA BF - Exercice 2010 (RECTIFICATIF)",
+      "published_at": "2011-04-27",
+      "event_at": "2011-04-27",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20110427_-_avis_ndeg017sr_brvm_-_pd_-_bank_of_africa_bf_-_exercice_2010_rectificatif.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20110427_-_avis_ndeg017sr_brvm_-_pd_-_bank_of_africa_bf_-_exercice_2010_rectificatif.pdf",
+      "avis_number": 17,
+      "fiscal_year": 2010,
+      "details": {},
+      "company": "BOA Burkina",
+      "scope": "societe",
+      "label": "BOA Burkina : dividende de l'exercice 2010 : avis de paiement",
+      "id": "veille-21c4cb340beb2aa6",
+      "origin": "veille",
+      "reference_at": "2011-04-27",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "BOAB",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°012SR BRVM - PD - BANK OF AFRICA BN - Exercice 2010",
+      "published_at": "2011-04-04",
+      "event_at": "2011-04-04",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20110404_-_avis_ndeg012sr_brvm_-_pd_-_bank_of_africa_bn_-_exercice_2010.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20110404_-_avis_ndeg012sr_brvm_-_pd_-_bank_of_africa_bn_-_exercice_2010.pdf",
+      "avis_number": 12,
+      "fiscal_year": 2010,
+      "details": {},
+      "company": "BOA Bénin",
+      "scope": "societe",
+      "label": "BOA Bénin : dividende de l'exercice 2010 : avis de paiement",
+      "id": "veille-6173334fac04de59",
+      "origin": "veille",
+      "reference_at": "2011-04-04",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "BOAN",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°060 BRVM - PD - BANK OF AFRICA NG - Exercice 2008",
+      "published_at": "2009-06-02",
+      "event_at": "2009-06-02",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20090602_-_avis_ndeg060_brvm_-_pd_-_bank_of_africa_ng_-_exercice_2008.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20090602_-_avis_ndeg060_brvm_-_pd_-_bank_of_africa_ng_-_exercice_2008.pdf",
+      "avis_number": 60,
+      "fiscal_year": 2008,
+      "details": {},
+      "company": "BOA Niger",
+      "scope": "societe",
+      "label": "BOA Niger : dividende de l'exercice 2008 : avis de paiement",
+      "id": "veille-ce48115053d80ec5",
+      "origin": "veille",
+      "reference_at": "2009-06-02",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "TTLC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°058 BRVM - PD - TOTAL CI - Exercice 2008",
+      "published_at": "2009-05-29",
+      "event_at": "2009-05-29",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20090529_-_avis_ndeg058_brvm_-_pd_-_total_ci_-_exercice_2008.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20090529_-_avis_ndeg058_brvm_-_pd_-_total_ci_-_exercice_2008.pdf",
+      "avis_number": 58,
+      "fiscal_year": 2008,
+      "details": {},
+      "company": "TotalEnergies CI",
+      "scope": "societe",
+      "label": "TotalEnergies CI : dividende de l'exercice 2008 : avis de paiement",
+      "id": "veille-9a36091fbfe7eb4d",
+      "origin": "veille",
+      "reference_at": "2009-05-29",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "BOAB",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°41 BRVM - PD - BANK OF AFRICA BN - Exercice 2004",
+      "published_at": "2005-05-13",
+      "event_at": "2005-05-13",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20050513_-_avis_ndeg41_brvm_-_pd_-_bank_of_africa_bn_-_exercice_2004.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20050513_-_avis_ndeg41_brvm_-_pd_-_bank_of_africa_bn_-_exercice_2004.pdf",
+      "avis_number": 41,
+      "fiscal_year": 2004,
+      "details": {},
+      "company": "BOA Bénin",
+      "scope": "societe",
+      "label": "BOA Bénin : dividende de l'exercice 2004 : avis de paiement",
+      "id": "veille-f89cb0bfe6bf2f5b",
+      "origin": "veille",
+      "reference_at": "2005-05-13",
+      "mapping_status": "listed_equity"
+    },
+    {
+      "issuer": null,
+      "ticker": "BNBC",
+      "category": "dividend_announcement",
+      "category_label": "Avis de la BRVM",
+      "title": "AVIS N°101 BRVM - PD - BERNABE CI - Exercice 2003",
+      "published_at": "2004-06-23",
+      "event_at": "2004-06-23",
+      "date_role": "publication",
+      "source": "BRVM",
+      "source_page": "https://www.brvm.org/fr/marche/avis-et-publications/avis",
+      "documents": [
+        {
+          "kind": "avis",
+          "url": "https://www.brvm.org/sites/default/files/20040623_-_avis_ndeg101_brvm_-_pd_-_bernabe_ci_-_exercice_2003.pdf"
+        }
+      ],
+      "document_url": "https://www.brvm.org/sites/default/files/20040623_-_avis_ndeg101_brvm_-_pd_-_bernabe_ci_-_exercice_2003.pdf",
+      "avis_number": 101,
+      "fiscal_year": 2003,
+      "details": {},
+      "company": "Bernabé",
+      "scope": "societe",
+      "label": "Bernabé : dividende de l'exercice 2003 : avis de paiement",
+      "id": "veille-08cef3e924e592ba",
+      "origin": "veille",
+      "reference_at": "2004-06-23",
       "mapping_status": "listed_equity"
     }
   ]
