@@ -17,7 +17,11 @@
     "yield_missing_count": 19,
     "yield_source": "BRVMetrics à partir des clôtures BRVM",
     "yield_current_method": "net_dividend_over_latest_close",
-    "yield_historical_method": "net_dividend_over_pre_ex_close"
+    "yield_historical_method": "net_dividend_over_pre_ex_close",
+    "dividende_net_note": "dividende = montant NET par action pour une personne physique, lu dans l'avis de la BRVM quand il est vérifié (dividende_net_source). dividende_calendrier garde la valeur de la colonne du calendrier.",
+    "dividende_net_avis_count": 43,
+    "dividende_net_calendrier_count": 260,
+    "dividende_net_non_verifie_count": 19
   },
   "all": [
     {
@@ -25,7 +29,7 @@
       "raw_ticker": "TRACTAFRIC CI",
       "societe": "Tractafric Motors",
       "exercice": 2025,
-      "dividende": 209.0,
+      "dividende": 183.92,
       "devise": "FCFA",
       "date_annonce": "2026-10-06",
       "date_detachement": "2026-10-22",
@@ -42,21 +46,26 @@
       "publication_status": "official",
       "rendement_sika_pct": 4.83,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 4.82,
+      "rendement_pct": 4.24,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_latest_close",
       "cours_reference": 4340.0,
       "date_cours_reference": "2026-10-07",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 209.0,
+      "dividende_brut": 209.0,
+      "dividende_net": 183.92,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "ABJC",
       "raw_ticker": "SERVAIR ABIDJAN CI",
       "societe": "Servair Abidjan",
       "exercice": 2025,
-      "dividende": 124.0,
+      "dividende": 201.52,
       "devise": "FCFA",
       "date_annonce": "2026-07-01",
       "date_detachement": "2026-09-29",
@@ -71,7 +80,7 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 3.22,
+      "rendement_pct": 5.23,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_sika_pct": 6.94,
@@ -80,14 +89,20 @@
       "cours_reference": 3850.0,
       "date_cours_reference": "2026-09-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 124.0,
+      "dividende_brut": 229.0,
+      "dividende_net": 201.52,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf",
+      "dividende_remarque": "Avis rectificatif n°244 du 14 août 2026 : 229 F brut par action, 201,52 F net pour une personne physique (avis n°193 : 124 F)."
     },
     {
       "ticker": "SHEC",
       "raw_ticker": "VIVO ENERGY CI",
       "societe": "Vivo Energy CI",
       "exercice": 2025,
-      "dividende": 96.67,
+      "dividende": 85.07,
       "devise": "FCFA",
       "date_annonce": "2026-08-21",
       "date_detachement": "2026-09-24",
@@ -104,21 +119,26 @@
       "publication_status": "official",
       "rendement_sika_pct": 4.2,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 3.91,
+      "rendement_pct": 3.44,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 2475.0,
       "date_cours_reference": "2026-09-23",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 96.67,
+      "dividende_brut": 96.67,
+      "dividende_net": 85.07,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "SMBC",
       "raw_ticker": "SMB",
       "societe": "SMB CI",
       "exercice": 2025,
-      "dividende": 800.0,
+      "dividende": 704.0,
       "devise": "FCFA",
       "date_annonce": "2026-09-04",
       "date_detachement": "2026-09-17",
@@ -135,21 +155,26 @@
       "publication_status": "official",
       "rendement_sika_pct": 5.33,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 4.35,
+      "rendement_pct": 3.83,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 18390.0,
       "date_cours_reference": "2026-09-16",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 800.0,
+      "dividende_brut": 800.0,
+      "dividende_net": 704.0,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "SDCC",
       "raw_ticker": "SODECI",
       "societe": "SODE CI",
       "exercice": 2025,
-      "dividende": 525.0,
+      "dividende": 462.0,
       "devise": "FCFA",
       "date_annonce": "2026-09-02",
       "date_detachement": "2026-09-15",
@@ -166,21 +191,26 @@
       "publication_status": "official",
       "rendement_sika_pct": 4.21,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 3.89,
+      "rendement_pct": 3.42,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 13505.0,
       "date_cours_reference": "2026-09-14",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 525.0,
+      "dividende_brut": 525.0,
+      "dividende_net": 462.0,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "NEIC",
       "raw_ticker": "NEI-CEDA CI",
       "societe": "NEI CEDA CI",
       "exercice": 2025,
-      "dividende": 159.54,
+      "dividende": 140.4,
       "devise": "FCFA",
       "date_annonce": "2026-08-27",
       "date_detachement": "2026-09-09",
@@ -197,21 +227,26 @@
       "publication_status": "official",
       "rendement_sika_pct": 5.8,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 5.35,
+      "rendement_pct": 4.71,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 2980.0,
       "date_cours_reference": "2026-09-08",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 159.54,
+      "dividende_brut": 159.54,
+      "dividende_net": 140.4,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "NTLC",
       "raw_ticker": "NESTLE CI",
       "societe": "Nestlé CI",
       "exercice": 2025,
-      "dividende": 420.0,
+      "dividende": 369.6,
       "devise": "FCFA",
       "date_annonce": "2026-07-30",
       "date_detachement": "2026-09-04",
@@ -228,21 +263,26 @@
       "publication_status": "official",
       "rendement_sika_pct": 2.51,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 2.49,
+      "rendement_pct": 2.19,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 16900.0,
       "date_cours_reference": "2026-09-03",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 420.0,
+      "dividende_brut": 420.0,
+      "dividende_net": 369.6,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "TTLC",
       "raw_ticker": "TOTAL",
       "societe": "TotalEnergies CI",
       "exercice": 2025,
-      "dividende": 158.827,
+      "dividende": 139.77,
       "devise": "FCFA",
       "date_annonce": "2026-08-14",
       "date_detachement": "2026-08-28",
@@ -259,21 +299,26 @@
       "publication_status": "official",
       "rendement_sika_pct": 4.7,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 4.47,
+      "rendement_pct": 3.94,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 3550.0,
       "date_cours_reference": "2026-08-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 158.827,
+      "dividende_brut": 158.827,
+      "dividende_net": 139.77,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "SPHC",
       "raw_ticker": "SAPH CI",
       "societe": "SAPH CI",
       "exercice": 2025,
-      "dividende": 489.0,
+      "dividende": 430.32,
       "devise": "FCFA",
       "date_annonce": "2026-08-12",
       "date_detachement": "2026-08-27",
@@ -290,21 +335,26 @@
       "publication_status": "official",
       "rendement_sika_pct": 4.9,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 5.07,
+      "rendement_pct": 4.46,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 9650.0,
       "date_cours_reference": "2026-08-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 489.0,
+      "dividende_brut": 489.0,
+      "dividende_net": 430.32,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "SGBC",
       "raw_ticker": "SGCI",
       "societe": "Société Générale CI",
       "exercice": 2025,
-      "dividende": 2606.0,
+      "dividende": 2293.28,
       "devise": "FCFA",
       "date_annonce": "2026-08-06",
       "date_detachement": "2026-08-21",
@@ -321,21 +371,26 @@
       "publication_status": "official",
       "rendement_sika_pct": 6.77,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 6.51,
+      "rendement_pct": 5.73,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 40000.0,
       "date_cours_reference": "2026-08-20",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 2606.0,
+      "dividende_brut": 2606.0,
+      "dividende_net": 2293.28,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "CFAC",
       "raw_ticker": "CFAO MOTORS CI",
       "societe": "CFAO Motors CI",
       "exercice": 2025,
-      "dividende": 63.0,
+      "dividende": 55.44,
       "devise": "FCFA",
       "date_annonce": "2026-07-30",
       "date_detachement": "2026-08-13",
@@ -352,14 +407,19 @@
       "publication_status": "official",
       "rendement_sika_pct": 3.87,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 3.72,
+      "rendement_pct": 3.27,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 1695.0,
       "date_cours_reference": "2026-08-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 63.0,
+      "dividende_brut": 63.0,
+      "dividende_net": 55.44,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "STBC",
@@ -390,14 +450,19 @@
       "cours_reference": 24800.0,
       "date_cours_reference": "2026-08-11",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1707.2,
+      "dividende_brut": null,
+      "dividende_net": 1707.2,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SOGC",
       "raw_ticker": "SOGB",
       "societe": "SOGB",
       "exercice": 2025,
-      "dividende": 570.0,
+      "dividende": 501.6,
       "devise": "FCFA",
       "date_annonce": "2026-07-22",
       "date_detachement": "2026-07-05",
@@ -414,7 +479,7 @@
       "publication_status": "official",
       "rendement_sika_pct": 7.2,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 6.75,
+      "rendement_pct": 5.94,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_pre_ex_close",
@@ -424,14 +489,19 @@
       "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
       "date_anomalies": [
         "ex_before_announcement"
-      ]
+      ],
+      "dividende_calendrier": 570.0,
+      "dividende_brut": 570.0,
+      "dividende_net": 501.6,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "NSBC",
       "raw_ticker": "NSBC",
       "societe": "NSIA Banque",
       "exercice": 2025,
-      "dividende": 768.16,
+      "dividende": 675.98,
       "devise": "FCFA",
       "date_annonce": "2026-07-21",
       "date_detachement": "2026-08-03",
@@ -448,14 +518,19 @@
       "publication_status": "official",
       "rendement_sika_pct": 3.26,
       "rendement_sika_source_url": "https://www.sikafinance.com/marches/dividendes",
-      "rendement_pct": 3.2,
+      "rendement_pct": 2.82,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 24000.0,
       "date_cours_reference": "2026-07-31",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 768.16,
+      "dividende_brut": 768.16,
+      "dividende_net": 675.98,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "LNBB",
@@ -487,14 +562,19 @@
       "date_cours_reference": "2026-07-30",
       "cours_source": "BRVM",
       "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
-      "date_annonce_source": "pdf_text"
+      "date_annonce_source": "pdf_text",
+      "dividende_calendrier": 164.1709,
+      "dividende_brut": null,
+      "dividende_net": 164.1709,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SIBC",
       "raw_ticker": "SIB",
       "societe": "SIB CI",
       "exercice": 2025,
-      "dividende": 425.0,
+      "dividende": 374.0,
       "devise": "FCFA",
       "date_annonce": "2026-06-23",
       "date_detachement": "2026-07-30",
@@ -509,7 +589,7 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 4.59,
+      "rendement_pct": 4.04,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_sika_pct": 4.59,
@@ -518,7 +598,12 @@
       "cours_reference": 9250.0,
       "date_cours_reference": "2026-07-29",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 425.0,
+      "dividende_brut": 425.0,
+      "dividende_net": 374.0,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "BICB",
@@ -549,14 +634,19 @@
       "cours_reference": 7700.0,
       "date_cours_reference": "2026-07-29",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 254.6,
+      "dividende_brut": null,
+      "dividende_net": 254.6,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SLBC",
       "raw_ticker": "SOLIBRA",
       "societe": "Solibra CI",
       "exercice": 2025,
-      "dividende": 2127.0,
+      "dividende": 1871.76,
       "devise": "FCFA",
       "date_annonce": "2026-07-13",
       "date_detachement": "2026-07-29",
@@ -571,7 +661,7 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 5.38,
+      "rendement_pct": 4.74,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_sika_pct": 5.65,
@@ -580,14 +670,19 @@
       "cours_reference": 39500.0,
       "date_cours_reference": "2026-07-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 2127.0,
+      "dividende_brut": 2127.0,
+      "dividende_net": 1871.76,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "CIEC",
       "raw_ticker": "CIE CI",
       "societe": "CIE CI",
       "exercice": 2025,
-      "dividende": 234.0,
+      "dividende": 205.92,
       "devise": "FCFA",
       "date_annonce": "2026-07-07",
       "date_detachement": "2026-07-27",
@@ -602,7 +697,7 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 4.42,
+      "rendement_pct": 3.89,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.sikafinance.com/marches/dividendes",
       "rendement_sika_pct": 4.68,
@@ -611,7 +706,12 @@
       "cours_reference": 5300.0,
       "date_cours_reference": "2026-07-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 234.0,
+      "dividende_brut": 234.0,
+      "dividende_net": 205.92,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "TTLS",
@@ -642,14 +742,19 @@
       "cours_reference": 4110.0,
       "date_cours_reference": "2026-07-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 176.65,
+      "dividende_brut": null,
+      "dividende_net": 176.65,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BICC",
       "raw_ticker": "BICI CI",
       "societe": "BICI CI",
       "exercice": 2025,
-      "dividende": 1315.0,
+      "dividende": 1157.2,
       "devise": "FCFA",
       "date_annonce": "2026-06-17",
       "date_detachement": "2026-07-03",
@@ -664,13 +769,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 4.5,
+      "rendement_pct": 3.96,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 29250.0,
       "date_cours_reference": "2026-07-02",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1315.0,
+      "dividende_brut": 1315.0,
+      "dividende_net": 1157.2,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "ETIT",
@@ -698,14 +808,20 @@
       "cours_reference": 37.0,
       "date_cours_reference": "2026-06-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 0.9,
+      "dividende_brut": null,
+      "dividende_net": 0.9,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm",
+      "dividende_remarque": "Avis n°189-2026 : montant rectifié à 0,9184 F par action, sans mention de brut ni de net ; le montant du calendrier (0,9 F) est gardé, non vérifié."
     },
     {
       "ticker": "PALC",
       "raw_ticker": "PALM CI",
       "societe": "PalmCI",
       "exercice": 2025,
-      "dividende": 501.596,
+      "dividende": 441.4,
       "devise": "FCFA",
       "date_annonce": "2026-06-10",
       "date_detachement": "2026-06-26",
@@ -720,13 +836,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 5.74,
+      "rendement_pct": 5.05,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 8740.0,
       "date_cours_reference": "2026-06-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 501.596,
+      "dividende_brut": 501.596,
+      "dividende_net": 441.4,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "CBIBF",
@@ -754,7 +875,12 @@
       "cours_reference": 22400.0,
       "date_cours_reference": "2026-06-17",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 900.0,
+      "dividende_brut": null,
+      "dividende_net": 900.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ONTBF",
@@ -782,14 +908,19 @@
       "cours_reference": 2950.0,
       "date_cours_reference": "2026-06-11",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 145.3214,
+      "dividende_brut": null,
+      "dividende_net": 145.3214,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ORAC",
       "raw_ticker": "ORANGE CI",
       "societe": "Orange CI",
       "exercice": 2025,
-      "dividende": 800.0,
+      "dividende": 704.0,
       "devise": "FCFA",
       "date_annonce": "2026-05-20",
       "date_detachement": "2026-06-05",
@@ -804,13 +935,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 4.71,
+      "rendement_pct": 4.15,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 16975.0,
       "date_cours_reference": "2026-06-04",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 800.0,
+      "dividende_brut": 800.0,
+      "dividende_net": 704.0,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "BOAM",
@@ -838,7 +974,12 @@
       "cours_reference": 5245.0,
       "date_cours_reference": "2026-06-01",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 305.04,
+      "dividende_brut": null,
+      "dividende_net": 305.04,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CABC",
@@ -866,7 +1007,12 @@
       "cours_reference": 3750.0,
       "date_cours_reference": "2026-05-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 152.02,
+      "dividende_brut": null,
+      "dividende_net": 152.02,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAS",
@@ -894,7 +1040,12 @@
       "cours_reference": 7700.0,
       "date_cours_reference": "2026-05-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 450.0,
+      "dividende_brut": null,
+      "dividende_net": 450.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SNTS",
@@ -922,14 +1073,19 @@
       "cours_reference": 28900.0,
       "date_cours_reference": "2026-05-21",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1740.0,
+      "dividende_brut": null,
+      "dividende_net": 1740.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ECOC",
       "raw_ticker": "ECOBANK CI",
       "societe": "Ecobank CI",
       "exercice": 2025,
-      "dividende": 888.0,
+      "dividende": 781.44,
       "devise": "FCFA",
       "date_annonce": "2026-05-08",
       "date_detachement": "2026-05-22",
@@ -944,13 +1100,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 5.45,
+      "rendement_pct": 4.79,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 16300.0,
       "date_cours_reference": "2026-05-21",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 888.0,
+      "dividende_brut": 888.0,
+      "dividende_net": 781.44,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "BOAB",
@@ -978,7 +1139,12 @@
       "cours_reference": 9420.0,
       "date_cours_reference": "2026-05-21",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 585.0,
+      "dividende_brut": null,
+      "dividende_net": 585.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAC",
@@ -1006,7 +1172,12 @@
       "cours_reference": 9435.0,
       "date_cours_reference": "2026-05-04",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 594.528,
+      "dividende_brut": null,
+      "dividende_net": 594.528,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOABF",
@@ -1034,14 +1205,19 @@
       "cours_reference": 5630.0,
       "date_cours_reference": "2026-04-21",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 397.0,
+      "dividende_brut": null,
+      "dividende_net": 397.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SHEC",
       "raw_ticker": "VIVO ENERGY CI",
       "societe": "Vivo Energy CI",
       "exercice": 2024,
-      "dividende": 85.56,
+      "dividende": 75.29,
       "devise": "FCFA",
       "date_annonce": "2025-09-30",
       "date_detachement": "2025-10-20",
@@ -1056,20 +1232,25 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 6.43,
+      "rendement_pct": 5.66,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 1330.0,
       "date_cours_reference": "2025-10-17",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 85.56,
+      "dividende_brut": 85.56,
+      "dividende_net": 75.29,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "SDCC",
       "raw_ticker": "SODECI",
       "societe": "SODE CI",
       "exercice": 2024,
-      "dividende": 400.0,
+      "dividende": 352.0,
       "devise": "FCFA",
       "date_annonce": null,
       "date_detachement": "2025-09-26",
@@ -1084,7 +1265,7 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 6.56,
+      "rendement_pct": 5.77,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.brvm.org/fr/esv/paiement-de-dividendes",
       "source_date_annonce": "2024-08-21",
@@ -1095,14 +1276,19 @@
       "cours_reference": 6100.0,
       "date_cours_reference": "2025-09-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 400.0,
+      "dividende_brut": 400.0,
+      "dividende_net": 352.0,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "PRSC",
       "raw_ticker": "TRACTAFRIC CI",
       "societe": "Tractafric Motors",
       "exercice": 2024,
-      "dividende": 207.0,
+      "dividende": 182.16,
       "devise": "FCFA",
       "date_annonce": "2025-09-11",
       "date_detachement": "2025-09-26",
@@ -1117,20 +1303,25 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 7.2,
+      "rendement_pct": 6.34,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 2875.0,
       "date_cours_reference": "2025-09-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 207.0,
+      "dividende_brut": 207.0,
+      "dividende_net": 182.16,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "FTSC",
       "raw_ticker": "FILTISAC CI",
       "societe": "Filtisac CI",
       "exercice": 2024,
-      "dividende": 1320.0,
+      "dividende": 1161.6,
       "devise": "FCFA",
       "date_annonce": "2025-09-16",
       "date_detachement": "2025-09-26",
@@ -1145,20 +1336,26 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 35.11,
+      "rendement_pct": 30.89,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 3760.0,
       "date_cours_reference": "2025-09-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1320.0,
+      "dividende_brut": 1320.0,
+      "dividende_net": 1161.6,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf",
+      "dividende_remarque": "Seul le dividende annuel de 1 320 F brut par action est compté (12 % de retenue pour une personne physique). L'avis n°230 cite aussi un dividende exceptionnel, qui n'entre pas dans ce rendement."
     },
     {
       "ticker": "SMBC",
       "raw_ticker": "SMB",
       "societe": "SMB CI",
       "exercice": 2024,
-      "dividende": 700.0,
+      "dividende": 616.0,
       "devise": "FCFA",
       "date_annonce": "2025-08-27",
       "date_detachement": "2025-09-11",
@@ -1173,13 +1370,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 6.93,
+      "rendement_pct": 6.1,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 10100.0,
       "date_cours_reference": "2025-09-10",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 700.0,
+      "dividende_brut": 700.0,
+      "dividende_net": 616.0,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "BICB",
@@ -1207,14 +1409,19 @@
       "cours_reference": 5215.0,
       "date_cours_reference": "2025-09-10",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 254.6,
+      "dividende_brut": null,
+      "dividende_net": 254.6,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PALC",
       "raw_ticker": "PALM CI",
       "societe": "PalmCI",
       "exercice": 2024,
-      "dividende": 513.012,
+      "dividende": 451.45,
       "devise": "FCFA",
       "date_annonce": "2025-08-25",
       "date_detachement": "2025-09-08",
@@ -1229,20 +1436,25 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 5.7,
+      "rendement_pct": 5.02,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 9000.0,
       "date_cours_reference": "2025-09-05",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 513.012,
+      "dividende_brut": 513.012,
+      "dividende_net": 451.45,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "TTLC",
       "raw_ticker": "TOTAL",
       "societe": "TotalEnergies CI",
       "exercice": 2024,
-      "dividende": 222.3578,
+      "dividende": 195.67,
       "devise": "FCFA",
       "date_annonce": "2025-08-20",
       "date_detachement": "2025-09-01",
@@ -1257,20 +1469,25 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 8.75,
+      "rendement_pct": 7.7,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 2540.0,
       "date_cours_reference": "2025-08-29",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 222.3578,
+      "dividende_brut": 222.3578,
+      "dividende_net": 195.67,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "STBC",
       "raw_ticker": "SITAB",
       "societe": "Sitab",
       "exercice": 2024,
-      "dividende": 2375.0,
+      "dividende": 2090.0,
       "devise": "FCFA",
       "date_annonce": "2025-08-14",
       "date_detachement": "2025-08-27",
@@ -1285,13 +1502,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 11.07,
+      "rendement_pct": 9.74,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 21450.0,
       "date_cours_reference": "2025-08-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 2375.0,
+      "dividende_brut": 2375.0,
+      "dividende_net": 2090.0,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "SDSC",
@@ -1319,14 +1541,19 @@
       "cours_reference": 1500.0,
       "date_cours_reference": "2025-08-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 92.0,
+      "dividende_brut": null,
+      "dividende_net": 92.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CFAC",
       "raw_ticker": "CFAO MOTORS CI",
       "societe": "CFAO Motors CI",
       "exercice": 2024,
-      "dividende": 8.0,
+      "dividende": 7.04,
       "devise": "FCFA",
       "date_annonce": "2025-08-01",
       "date_detachement": "2025-08-14",
@@ -1341,20 +1568,26 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 1.21,
+      "rendement_pct": 1.07,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 660.0,
       "date_cours_reference": "2025-08-13",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 8.0,
+      "dividende_brut": 8.0,
+      "dividende_net": 7.04,
+      "dividende_net_source": "avis_pdf",
+      "dividende_net_taux_pct": 12.0,
+      "dividende_remarque": "L'avis donne 8 F par action avec « IRVM applicable » sans écrire le taux : 12 % appliqué (taux des personnes physiques des autres avis ivoiriens du même exercice), soit 7,04 F net."
     },
     {
       "ticker": "NTLC",
       "raw_ticker": "NESTLE CI",
       "societe": "Nestlé CI",
       "exercice": 2024,
-      "dividende": 820.0,
+      "dividende": 721.6,
       "devise": "FCFA",
       "date_annonce": "2025-07-04",
       "date_detachement": "2025-08-13",
@@ -1369,20 +1602,25 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 6.51,
+      "rendement_pct": 5.73,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 12600.0,
       "date_cours_reference": "2025-08-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 820.0,
+      "dividende_brut": 820.0,
+      "dividende_net": 721.6,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "SGBC",
       "raw_ticker": "SGCI",
       "societe": "Société Générale CI",
       "exercice": 2024,
-      "dividende": 1863.0,
+      "dividende": 1639.44,
       "devise": "FCFA",
       "date_annonce": "2025-07-02",
       "date_detachement": "2025-08-01",
@@ -1397,20 +1635,25 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 7.45,
+      "rendement_pct": 6.56,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 25000.0,
       "date_cours_reference": "2025-07-31",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1863.0,
+      "dividende_brut": 1863.0,
+      "dividende_net": 1639.44,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "SIBC",
       "raw_ticker": "SIB",
       "societe": "SIB CI",
       "exercice": 2024,
-      "dividende": 375.0,
+      "dividende": 330.0,
       "devise": "FCFA",
       "date_annonce": "2025-07-11",
       "date_detachement": "2025-07-29",
@@ -1425,13 +1668,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 7.5,
+      "rendement_pct": 6.6,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 5000.0,
       "date_cours_reference": "2025-07-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 375.0,
+      "dividende_brut": 375.0,
+      "dividende_net": 330.0,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "LNBB",
@@ -1459,14 +1707,19 @@
       "cours_reference": 4695.0,
       "date_cours_reference": "2025-07-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 275.5,
+      "dividende_brut": null,
+      "dividende_net": 275.5,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CIEC",
       "raw_ticker": "CIE CI",
       "societe": "CIE CI",
       "exercice": 2024,
-      "dividende": 180.0,
+      "dividende": 158.4,
       "devise": "FCFA",
       "date_annonce": "2025-07-11",
       "date_detachement": "2025-07-29",
@@ -1481,20 +1734,25 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 7.5,
+      "rendement_pct": 6.6,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 2400.0,
       "date_cours_reference": "2025-07-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 180.0,
+      "dividende_brut": 180.0,
+      "dividende_net": 158.4,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "SLBC",
       "raw_ticker": "SOLIBRA",
       "societe": "Solibra CI",
       "exercice": 2024,
-      "dividende": 1220.0,
+      "dividende": 1073.6,
       "devise": "FCFA",
       "date_annonce": "2025-07-15",
       "date_detachement": "2025-07-25",
@@ -1509,13 +1767,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 6.31,
+      "rendement_pct": 5.56,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 19320.0,
       "date_cours_reference": "2025-07-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1220.0,
+      "dividende_brut": 1220.0,
+      "dividende_net": 1073.6,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "ONTBF",
@@ -1543,14 +1806,19 @@
       "cours_reference": 2600.0,
       "date_cours_reference": "2025-07-16",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 189.5299,
+      "dividende_brut": null,
+      "dividende_net": 189.5299,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SPHC",
       "raw_ticker": "SAPH CI",
       "societe": "SAPH CI",
       "exercice": 2024,
-      "dividende": 368.0,
+      "dividende": 323.84,
       "devise": "FCFA",
       "date_annonce": "2025-07-03",
       "date_detachement": "2025-07-15",
@@ -1565,20 +1833,25 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 5.7,
+      "rendement_pct": 5.02,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 6455.0,
       "date_cours_reference": "2025-07-14",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 368.0,
+      "dividende_brut": 368.0,
+      "dividende_net": 323.84,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "SOGC",
       "raw_ticker": "SOGB",
       "societe": "SOGB",
       "exercice": 2024,
-      "dividende": 600.0,
+      "dividende": 528.0,
       "devise": "FCFA",
       "date_annonce": "2025-07-01",
       "date_detachement": "2025-07-11",
@@ -1593,13 +1866,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 7.85,
+      "rendement_pct": 6.91,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 7640.0,
       "date_cours_reference": "2025-07-10",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 600.0,
+      "dividende_brut": 600.0,
+      "dividende_net": 528.0,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "TTLS",
@@ -1627,14 +1905,19 @@
       "cours_reference": 2740.0,
       "date_cours_reference": "2025-07-08",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 222.4,
+      "dividende_brut": null,
+      "dividende_net": 222.4,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NSBC",
       "raw_ticker": "NSBC",
       "societe": "NSIA Banque",
       "exercice": 2024,
-      "dividende": 759.2612,
+      "dividende": 668.15,
       "devise": "FCFA",
       "date_annonce": "2025-06-24",
       "date_detachement": "2025-07-07",
@@ -1649,13 +1932,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 7.44,
+      "rendement_pct": 6.55,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 10200.0,
       "date_cours_reference": "2025-07-04",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 759.2612,
+      "dividende_brut": 759.2612,
+      "dividende_net": 668.15,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "CBIBF",
@@ -1683,14 +1971,19 @@
       "cours_reference": 10145.0,
       "date_cours_reference": "2025-07-02",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 555.0,
+      "dividende_brut": null,
+      "dividende_net": 555.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ORAC",
       "raw_ticker": "ORANGE CI",
       "societe": "Orange CI",
       "exercice": 2024,
-      "dividende": 750.0,
+      "dividende": 660.0,
       "devise": "FCFA",
       "date_annonce": "2025-05-22",
       "date_detachement": "2025-06-05",
@@ -1705,13 +1998,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 4.82,
+      "rendement_pct": 4.24,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 15555.0,
       "date_cours_reference": "2025-06-04",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 750.0,
+      "dividende_brut": 750.0,
+      "dividende_net": 660.0,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "BOAN",
@@ -1739,7 +2037,12 @@
       "cours_reference": 2850.0,
       "date_cours_reference": "2025-05-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 209.25,
+      "dividende_brut": null,
+      "dividende_net": 209.25,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAM",
@@ -1770,7 +2073,11 @@
       "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
       "date_anomalies": [
         "ex_before_announcement"
-      ]
+      ],
+      "dividende_calendrier": 237.15,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "BOAB",
@@ -1798,14 +2105,19 @@
       "cours_reference": 4895.0,
       "date_cours_reference": "2025-05-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 468.0,
+      "dividende_brut": null,
+      "dividende_net": 468.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CABC",
       "raw_ticker": "SICABLE",
       "societe": "Sicable CI",
       "exercice": 2024,
-      "dividende": 128.1,
+      "dividende": 112.73,
       "devise": "FCFA",
       "date_annonce": "2025-05-16",
       "date_detachement": "2025-05-28",
@@ -1820,13 +2132,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 9.89,
+      "rendement_pct": 8.71,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 1295.0,
       "date_cours_reference": "2025-05-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 128.1,
+      "dividende_brut": 128.1,
+      "dividende_net": 112.73,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "BOAS",
@@ -1854,14 +2171,19 @@
       "cours_reference": 4200.0,
       "date_cours_reference": "2025-05-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 350.0,
+      "dividende_brut": null,
+      "dividende_net": 350.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ECOC",
       "raw_ticker": "ECOBANK CI",
       "societe": "Ecobank CI",
       "exercice": 2024,
-      "dividende": 804.0,
+      "dividende": 707.52,
       "devise": "FCFA",
       "date_annonce": null,
       "date_detachement": "2025-05-31",
@@ -1876,7 +2198,7 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 7.21,
+      "rendement_pct": 6.35,
       "rendement_source": "BRVMetrics",
       "rendement_source_url": "https://www.brvm.org/fr/esv/paiement-de-dividendes",
       "source_date_annonce": "2024-05-15",
@@ -1888,14 +2210,19 @@
       "cours_reference": 11150.0,
       "date_cours_reference": "2025-05-30",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 804.0,
+      "dividende_brut": 804.0,
+      "dividende_net": 707.52,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "BICC",
       "raw_ticker": "BICI CI",
       "societe": "BICI CI",
       "exercice": 2024,
-      "dividende": 944.0,
+      "dividende": 830.72,
       "devise": "FCFA",
       "date_annonce": "2025-05-02",
       "date_detachement": "2025-05-21",
@@ -1910,13 +2237,18 @@
       "document_type": "application/pdf",
       "document_source": "BRVM",
       "publication_status": "official",
-      "rendement_pct": 6.09,
+      "rendement_pct": 5.36,
       "rendement_source": "BRVMetrics",
       "rendement_method": "net_dividend_over_pre_ex_close",
       "cours_reference": 15500.0,
       "date_cours_reference": "2025-05-20",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 944.0,
+      "dividende_brut": 944.0,
+      "dividende_net": 830.72,
+      "dividende_net_taux_pct": 12.0,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "SNTS",
@@ -1944,7 +2276,12 @@
       "cours_reference": 26600.0,
       "date_cours_reference": "2025-05-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1655.0,
+      "dividende_brut": null,
+      "dividende_net": 1655.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAC",
@@ -1972,7 +2309,12 @@
       "cours_reference": 6125.0,
       "date_cours_reference": "2025-05-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 469.0,
+      "dividende_brut": null,
+      "dividende_net": 469.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOABF",
@@ -2000,7 +2342,12 @@
       "cours_reference": 4310.0,
       "date_cours_reference": "2025-04-16",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 428.0,
+      "dividende_brut": null,
+      "dividende_net": 428.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDSC",
@@ -2028,7 +2375,12 @@
       "cours_reference": 1400.0,
       "date_cours_reference": "2024-12-09",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 92.0,
+      "dividende_brut": null,
+      "dividende_net": 92.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SMBC",
@@ -2056,7 +2408,12 @@
       "cours_reference": 14600.0,
       "date_cours_reference": "2024-09-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1080.0,
+      "dividende_brut": null,
+      "dividende_net": 1080.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "FTSC",
@@ -2084,7 +2441,12 @@
       "cours_reference": 1530.0,
       "date_cours_reference": "2024-09-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 143.1,
+      "dividende_brut": null,
+      "dividende_net": 143.1,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ABJC",
@@ -2112,7 +2474,12 @@
       "cours_reference": 2405.0,
       "date_cours_reference": "2024-09-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 206.195,
+      "dividende_brut": null,
+      "dividende_net": 206.195,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SHEC",
@@ -2140,7 +2507,12 @@
       "cours_reference": 890.0,
       "date_cours_reference": "2024-09-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 57.0,
+      "dividende_brut": null,
+      "dividende_net": 57.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDCC",
@@ -2168,7 +2540,12 @@
       "cours_reference": 5950.0,
       "date_cours_reference": "2024-09-20",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 481.5,
+      "dividende_brut": null,
+      "dividende_net": 481.5,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PRSC",
@@ -2196,7 +2573,12 @@
       "cours_reference": 2385.0,
       "date_cours_reference": "2024-09-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 182.7,
+      "dividende_brut": null,
+      "dividende_net": 182.7,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLC",
@@ -2224,7 +2606,12 @@
       "cours_reference": 2690.0,
       "date_cours_reference": "2024-09-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 199.5353,
+      "dividende_brut": null,
+      "dividende_net": 199.5353,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CFAC",
@@ -2252,7 +2639,12 @@
       "cours_reference": 655.0,
       "date_cours_reference": "2024-08-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 15.87,
+      "dividende_brut": null,
+      "dividende_net": 15.87,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SPHC",
@@ -2280,7 +2672,12 @@
       "cours_reference": 3010.0,
       "date_cours_reference": "2024-08-06",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 64.8,
+      "dividende_brut": null,
+      "dividende_net": 64.8,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SOGC",
@@ -2308,7 +2705,12 @@
       "cours_reference": 3990.0,
       "date_cours_reference": "2024-08-01",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 207.0,
+      "dividende_brut": null,
+      "dividende_net": 207.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SIBC",
@@ -2336,7 +2738,12 @@
       "cours_reference": 3365.0,
       "date_cours_reference": "2024-07-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 495.0,
+      "dividende_brut": null,
+      "dividende_net": 495.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ONTBF",
@@ -2367,7 +2774,12 @@
       "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
       "date_anomalies": [
         "payment_before_ex"
-      ]
+      ],
+      "dividende_calendrier": 266.44625,
+      "dividende_brut": null,
+      "dividende_net": 266.44625,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CIEC",
@@ -2395,7 +2807,12 @@
       "cours_reference": 2075.0,
       "date_cours_reference": "2024-07-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 171.0,
+      "dividende_brut": null,
+      "dividende_net": 171.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "STBC",
@@ -2423,7 +2840,12 @@
       "cours_reference": 7000.0,
       "date_cours_reference": "2024-07-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 675.0,
+      "dividende_brut": null,
+      "dividende_net": 675.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PALC",
@@ -2451,7 +2873,12 @@
       "cours_reference": 6000.0,
       "date_cours_reference": "2024-07-23",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 563.306,
+      "dividende_brut": null,
+      "dividende_net": 563.306,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NTLC",
@@ -2479,7 +2906,12 @@
       "cours_reference": 7450.0,
       "date_cours_reference": "2024-07-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 675.0,
+      "dividende_brut": null,
+      "dividende_net": 675.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NSBC",
@@ -2507,7 +2939,12 @@
       "cours_reference": 6300.0,
       "date_cours_reference": "2024-07-03",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 454.829,
+      "dividende_brut": null,
+      "dividende_net": 454.829,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CBIBF",
@@ -2535,7 +2972,12 @@
       "cours_reference": 10600.0,
       "date_cours_reference": "2024-07-02",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 790.0,
+      "dividende_brut": null,
+      "dividende_net": 790.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLS",
@@ -2563,7 +3005,12 @@
       "cours_reference": 2495.0,
       "date_cours_reference": "2024-06-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 207.58,
+      "dividende_brut": null,
+      "dividende_net": 207.58,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAS",
@@ -2591,7 +3038,12 @@
       "cours_reference": 2733.0,
       "date_cours_reference": "2024-06-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 300.0,
+      "dividende_brut": null,
+      "dividende_net": 300.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BICC",
@@ -2619,7 +3071,12 @@
       "cours_reference": 10700.0,
       "date_cours_reference": "2024-06-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 540.9,
+      "dividende_brut": null,
+      "dividende_net": 540.9,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SGBC",
@@ -2647,7 +3104,12 @@
       "cours_reference": 20810.0,
       "date_cours_reference": "2024-06-20",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1553.847,
+      "dividende_brut": null,
+      "dividende_net": 1553.847,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NEIC",
@@ -2675,7 +3137,12 @@
       "cours_reference": 880.0,
       "date_cours_reference": "2024-06-20",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 81.78,
+      "dividende_brut": null,
+      "dividende_net": 81.78,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ORAC",
@@ -2703,7 +3170,12 @@
       "cours_reference": 11895.0,
       "date_cours_reference": "2024-05-29",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 780.0,
+      "dividende_brut": null,
+      "dividende_net": 780.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CABC",
@@ -2731,7 +3203,12 @@
       "cours_reference": 1000.0,
       "date_cours_reference": "2024-05-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 79.58,
+      "dividende_brut": null,
+      "dividende_net": 79.58,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAN",
@@ -2759,7 +3236,12 @@
       "cours_reference": 3688.0,
       "date_cours_reference": "2024-05-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 609.15,
+      "dividende_brut": null,
+      "dividende_net": 609.15,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ECOC",
@@ -2787,7 +3269,12 @@
       "cours_reference": 7500.0,
       "date_cours_reference": "2024-05-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 594.0,
+      "dividende_brut": null,
+      "dividende_net": 594.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAB",
@@ -2815,7 +3302,12 @@
       "cours_reference": 3645.0,
       "date_cours_reference": "2024-05-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 706.0,
+      "dividende_brut": null,
+      "dividende_net": 706.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAM",
@@ -2843,7 +3335,12 @@
       "cours_reference": 1133.0,
       "date_cours_reference": "2024-05-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 144.0,
+      "dividende_brut": null,
+      "dividende_net": 144.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SNTS",
@@ -2871,7 +3368,12 @@
       "cours_reference": 19500.0,
       "date_cours_reference": "2024-05-14",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1575.0,
+      "dividende_brut": null,
+      "dividende_net": 1575.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOABF",
@@ -2899,7 +3401,12 @@
       "cours_reference": 3650.0,
       "date_cours_reference": "2024-04-30",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 704.0,
+      "dividende_brut": null,
+      "dividende_net": 704.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAC",
@@ -2927,7 +3434,12 @@
       "cours_reference": 3625.0,
       "date_cours_reference": "2024-04-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 684.0,
+      "dividende_brut": null,
+      "dividende_net": 684.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SHEC",
@@ -2955,7 +3467,12 @@
       "cours_reference": 800.0,
       "date_cours_reference": "2023-12-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 53.0,
+      "dividende_brut": null,
+      "dividende_net": 53.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDSC",
@@ -2983,7 +3500,12 @@
       "cours_reference": 1635.0,
       "date_cours_reference": "2023-11-14",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 92.0,
+      "dividende_brut": null,
+      "dividende_net": 92.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SPHC",
@@ -3011,7 +3533,12 @@
       "cours_reference": 3095.0,
       "date_cours_reference": "2023-09-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 294.3,
+      "dividende_brut": null,
+      "dividende_net": 294.3,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NEIC",
@@ -3039,7 +3566,12 @@
       "cours_reference": 655.0,
       "date_cours_reference": "2023-09-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 35.25,
+      "dividende_brut": null,
+      "dividende_net": 35.25,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLC",
@@ -3067,7 +3599,12 @@
       "cours_reference": 2295.0,
       "date_cours_reference": "2023-09-18",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 175.5258,
+      "dividende_brut": null,
+      "dividende_net": 175.5258,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDCC",
@@ -3095,7 +3632,12 @@
       "cours_reference": 5300.0,
       "date_cours_reference": "2023-09-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 450.0,
+      "dividende_brut": null,
+      "dividende_net": 450.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PRSC",
@@ -3123,7 +3665,12 @@
       "cours_reference": 3350.0,
       "date_cours_reference": "2023-09-08",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 224.1,
+      "dividende_brut": null,
+      "dividende_net": 224.1,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ABJC",
@@ -3151,7 +3698,12 @@
       "cours_reference": 1380.0,
       "date_cours_reference": "2023-08-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 92.0,
+      "dividende_brut": null,
+      "dividende_net": 92.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SIBC",
@@ -3179,7 +3731,12 @@
       "cours_reference": 2828.0,
       "date_cours_reference": "2023-08-08",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 495.0,
+      "dividende_brut": null,
+      "dividende_net": 495.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NTLC",
@@ -3207,7 +3764,12 @@
       "cours_reference": 9190.0,
       "date_cours_reference": "2023-08-02",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 728.1,
+      "dividende_brut": null,
+      "dividende_net": 728.1,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CABC",
@@ -3235,7 +3797,12 @@
       "cours_reference": 1155.0,
       "date_cours_reference": "2023-07-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 69.0,
+      "dividende_brut": null,
+      "dividende_net": 69.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CIEC",
@@ -3263,7 +3830,12 @@
       "cours_reference": 2245.0,
       "date_cours_reference": "2023-07-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 157.5,
+      "dividende_brut": null,
+      "dividende_net": 157.5,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BICC",
@@ -3291,7 +3863,12 @@
       "cours_reference": 6800.0,
       "date_cours_reference": "2023-07-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 401.4,
+      "dividende_brut": null,
+      "dividende_net": 401.4,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "STBC",
@@ -3319,7 +3896,12 @@
       "cours_reference": 6950.0,
       "date_cours_reference": "2023-07-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 551.0,
+      "dividende_brut": null,
+      "dividende_net": 551.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BNBC",
@@ -3347,7 +3929,12 @@
       "cours_reference": 2190.0,
       "date_cours_reference": "2023-07-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 150.0,
+      "dividende_brut": null,
+      "dividende_net": 150.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PALC",
@@ -3375,7 +3962,12 @@
       "cours_reference": 9980.0,
       "date_cours_reference": "2023-07-14",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1213.632,
+      "dividende_brut": null,
+      "dividende_net": 1213.632,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SOGC",
@@ -3403,7 +3995,12 @@
       "cours_reference": 4350.0,
       "date_cours_reference": "2023-07-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 558.0,
+      "dividende_brut": null,
+      "dividende_net": 558.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLS",
@@ -3431,7 +4028,12 @@
       "cours_reference": 2695.0,
       "date_cours_reference": "2023-07-10",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 241.01,
+      "dividende_brut": null,
+      "dividende_net": 241.01,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ONTBF",
@@ -3459,7 +4061,12 @@
       "cours_reference": 2900.0,
       "date_cours_reference": "2023-06-21",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 287.8799,
+      "dividende_brut": null,
+      "dividende_net": 287.8799,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ORAC",
@@ -3490,7 +4097,12 @@
       "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
       "date_anomalies": [
         "payment_before_ex"
-      ]
+      ],
+      "dividende_calendrier": 752.76,
+      "dividende_brut": null,
+      "dividende_net": 752.76,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ETIT",
@@ -3518,7 +4130,12 @@
       "cours_reference": 18.0,
       "date_cours_reference": "2023-06-05",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 0.6048,
+      "dividende_brut": null,
+      "dividende_net": 0.6048,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NSBC",
@@ -3549,7 +4166,12 @@
       "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
       "date_anomalies": [
         "ex_before_announcement"
-      ]
+      ],
+      "dividende_calendrier": 363.6,
+      "dividende_brut": null,
+      "dividende_net": 363.6,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAS",
@@ -3577,7 +4199,12 @@
       "cours_reference": 1793.0,
       "date_cours_reference": "2023-05-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 187.5,
+      "dividende_brut": null,
+      "dividende_net": 187.5,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SGBC",
@@ -3605,7 +4232,12 @@
       "cours_reference": 14995.0,
       "date_cours_reference": "2023-05-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1112.43,
+      "dividende_brut": null,
+      "dividende_net": 1112.43,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ECOC",
@@ -3633,7 +4265,12 @@
       "cours_reference": 5500.0,
       "date_cours_reference": "2023-05-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 549.0,
+      "dividende_brut": null,
+      "dividende_net": 549.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAN",
@@ -3661,7 +4298,12 @@
       "cours_reference": 3781.0,
       "date_cours_reference": "2023-05-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 613.8,
+      "dividende_brut": null,
+      "dividende_net": 613.8,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAB",
@@ -3689,7 +4331,12 @@
       "cours_reference": 3175.0,
       "date_cours_reference": "2023-05-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 627.0,
+      "dividende_brut": null,
+      "dividende_net": 627.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SNTS",
@@ -3717,7 +4364,12 @@
       "cours_reference": 16495.0,
       "date_cours_reference": "2023-05-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1500.0,
+      "dividende_brut": null,
+      "dividende_net": 1500.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOABF",
@@ -3745,7 +4397,12 @@
       "cours_reference": 2900.0,
       "date_cours_reference": "2023-05-02",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 577.0,
+      "dividende_brut": null,
+      "dividende_net": 577.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAC",
@@ -3773,7 +4430,12 @@
       "cours_reference": 2548.0,
       "date_cours_reference": "2023-04-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 540.0,
+      "dividende_brut": null,
+      "dividende_net": 540.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SHEC",
@@ -3801,7 +4463,12 @@
       "cours_reference": 880.0,
       "date_cours_reference": "2022-10-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 29.0,
+      "dividende_brut": null,
+      "dividende_net": 29.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDCC",
@@ -3829,7 +4496,12 @@
       "cours_reference": 5500.0,
       "date_cours_reference": "2022-10-18",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 432.0,
+      "dividende_brut": null,
+      "dividende_net": 432.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PALC",
@@ -3857,7 +4529,12 @@
       "cours_reference": 11985.0,
       "date_cours_reference": "2022-08-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1236.34,
+      "dividende_brut": null,
+      "dividende_net": 1236.34,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PRSC",
@@ -3885,7 +4562,12 @@
       "cours_reference": 3630.0,
       "date_cours_reference": "2022-08-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 175.86,
+      "dividende_brut": null,
+      "dividende_net": 175.86,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLC",
@@ -3913,7 +4595,12 @@
       "cours_reference": 2270.0,
       "date_cours_reference": "2022-08-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 159.2874,
+      "dividende_brut": null,
+      "dividende_net": 159.2874,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SMBC",
@@ -3941,7 +4628,12 @@
       "cours_reference": 6800.0,
       "date_cours_reference": "2022-08-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 720.0,
+      "dividende_brut": null,
+      "dividende_net": 720.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ABJC",
@@ -3969,7 +4661,12 @@
       "cours_reference": 1620.0,
       "date_cours_reference": "2022-08-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 57.73,
+      "dividende_brut": null,
+      "dividende_net": 57.73,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SLBC",
@@ -3997,7 +4694,12 @@
       "cours_reference": 13500.0,
       "date_cours_reference": "2022-08-09",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 4050.0,
+      "dividende_brut": null,
+      "dividende_net": 4050.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SPHC",
@@ -4025,7 +4727,12 @@
       "cours_reference": 6245.0,
       "date_cours_reference": "2022-08-01",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 365.4,
+      "dividende_brut": null,
+      "dividende_net": 365.4,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NTLC",
@@ -4053,7 +4760,12 @@
       "cours_reference": 7585.0,
       "date_cours_reference": "2022-07-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 856.8,
+      "dividende_brut": null,
+      "dividende_net": 856.8,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CFAC",
@@ -4081,7 +4793,12 @@
       "cours_reference": 870.0,
       "date_cours_reference": "2022-07-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 69.47,
+      "dividende_brut": null,
+      "dividende_net": 69.47,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CABC",
@@ -4109,7 +4826,12 @@
       "cours_reference": 1195.0,
       "date_cours_reference": "2022-07-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 69.0,
+      "dividende_brut": null,
+      "dividende_net": 69.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "UNXC",
@@ -4137,7 +4859,12 @@
       "cours_reference": 1350.0,
       "date_cours_reference": "2022-07-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 60.75,
+      "dividende_brut": null,
+      "dividende_net": 60.75,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CIEC",
@@ -4165,7 +4892,12 @@
       "cours_reference": 2295.0,
       "date_cours_reference": "2022-07-20",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 153.161,
+      "dividende_brut": null,
+      "dividende_net": 153.161,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLS",
@@ -4193,7 +4925,12 @@
       "cours_reference": 2585.0,
       "date_cours_reference": "2022-07-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 187.3,
+      "dividende_brut": null,
+      "dividende_net": 187.3,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "STBC",
@@ -4221,7 +4958,12 @@
       "cours_reference": 5950.0,
       "date_cours_reference": "2022-07-18",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 445.117,
+      "dividende_brut": null,
+      "dividende_net": 445.117,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SOGC",
@@ -4249,7 +4991,12 @@
       "cours_reference": 6500.0,
       "date_cours_reference": "2022-07-18",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 541.8,
+      "dividende_brut": null,
+      "dividende_net": 541.8,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "STAC",
@@ -4277,7 +5024,12 @@
       "cours_reference": 1495.0,
       "date_cours_reference": "2022-07-13",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 66.15,
+      "dividende_brut": null,
+      "dividende_net": 66.15,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BICC",
@@ -4305,7 +5057,12 @@
       "cours_reference": 6560.0,
       "date_cours_reference": "2022-07-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 518.0,
+      "dividende_brut": null,
+      "dividende_net": 518.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SIBC",
@@ -4333,7 +5090,12 @@
       "cours_reference": 2363.0,
       "date_cours_reference": "2022-06-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 405.0,
+      "dividende_brut": null,
+      "dividende_net": 405.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDSC",
@@ -4361,7 +5123,12 @@
       "cours_reference": 1800.0,
       "date_cours_reference": "2022-06-20",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 130.0,
+      "dividende_brut": null,
+      "dividende_net": 130.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ETIT",
@@ -4382,7 +5149,11 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20220613_-_avis_ndeg107_brvmdg_-_paiement_de_dividendes_exercice_2021_-_eti_tg.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 0.16,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "ONTBF",
@@ -4410,7 +5181,12 @@
       "cours_reference": 4490.0,
       "date_cours_reference": "2022-06-10",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 416.5791,
+      "dividende_brut": null,
+      "dividende_net": 416.5791,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SGBC",
@@ -4438,7 +5214,12 @@
       "cours_reference": 14700.0,
       "date_cours_reference": "2022-06-07",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1004.93,
+      "dividende_brut": null,
+      "dividende_net": 1004.93,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAS",
@@ -4466,7 +5247,12 @@
       "cours_reference": 1653.0,
       "date_cours_reference": "2022-05-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 161.0,
+      "dividende_brut": null,
+      "dividende_net": 161.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAB",
@@ -4494,7 +5280,12 @@
       "cours_reference": 3300.0,
       "date_cours_reference": "2022-05-20",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 546.0,
+      "dividende_brut": null,
+      "dividende_net": 546.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SNTS",
@@ -4522,7 +5313,12 @@
       "cours_reference": 16430.0,
       "date_cours_reference": "2022-05-13",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1400.0,
+      "dividende_brut": null,
+      "dividende_net": 1400.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAN",
@@ -4550,7 +5346,12 @@
       "cours_reference": 4359.0,
       "date_cours_reference": "2022-05-09",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 567.3,
+      "dividende_brut": null,
+      "dividende_net": 567.3,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOABF",
@@ -4578,7 +5379,12 @@
       "cours_reference": 3000.0,
       "date_cours_reference": "2022-04-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 448.0,
+      "dividende_brut": null,
+      "dividende_net": 448.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ECOC",
@@ -4606,7 +5412,12 @@
       "cours_reference": 5000.0,
       "date_cours_reference": "2022-04-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 420.3,
+      "dividende_brut": null,
+      "dividende_net": 420.3,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAC",
@@ -4634,7 +5445,12 @@
       "cours_reference": 2725.0,
       "date_cours_reference": "2022-04-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 374.0,
+      "dividende_brut": null,
+      "dividende_net": 374.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SEMC",
@@ -4662,7 +5478,12 @@
       "cours_reference": 750.0,
       "date_cours_reference": "2021-12-23",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 14.4,
+      "dividende_brut": null,
+      "dividende_net": 14.4,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLC",
@@ -4690,7 +5511,12 @@
       "cours_reference": 1950.0,
       "date_cours_reference": "2021-09-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 109.314,
+      "dividende_brut": null,
+      "dividende_net": 109.314,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PRSC",
@@ -4718,7 +5544,12 @@
       "cours_reference": 2995.0,
       "date_cours_reference": "2021-08-30",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 162.9,
+      "dividende_brut": null,
+      "dividende_net": 162.9,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PALC",
@@ -4746,7 +5577,12 @@
       "cours_reference": 4400.0,
       "date_cours_reference": "2021-08-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 102.51,
+      "dividende_brut": null,
+      "dividende_net": 102.51,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SPHC",
@@ -4774,7 +5610,12 @@
       "cours_reference": 3695.0,
       "date_cours_reference": "2021-08-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 132.3,
+      "dividende_brut": null,
+      "dividende_net": 132.3,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SCRC",
@@ -4802,7 +5643,12 @@
       "cours_reference": 1170.0,
       "date_cours_reference": "2021-08-17",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 40.5,
+      "dividende_brut": null,
+      "dividende_net": 40.5,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDSC",
@@ -4830,7 +5676,12 @@
       "cours_reference": 1945.0,
       "date_cours_reference": "2021-08-06",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 100.0,
+      "dividende_brut": null,
+      "dividende_net": 100.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SLBC",
@@ -4858,7 +5709,12 @@
       "cours_reference": 9181.0,
       "date_cours_reference": "2021-07-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 2736.0,
+      "dividende_brut": null,
+      "dividende_net": 2736.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CABC",
@@ -4886,7 +5742,12 @@
       "cours_reference": 1445.0,
       "date_cours_reference": "2021-07-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 133.0,
+      "dividende_brut": null,
+      "dividende_net": 133.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLS",
@@ -4914,7 +5775,12 @@
       "cours_reference": 1945.0,
       "date_cours_reference": "2021-07-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 223.6,
+      "dividende_brut": null,
+      "dividende_net": 223.6,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NTLC",
@@ -4942,7 +5808,12 @@
       "cours_reference": 3795.0,
       "date_cours_reference": "2021-07-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 363.665,
+      "dividende_brut": null,
+      "dividende_net": 363.665,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "FTSC",
@@ -4970,7 +5841,12 @@
       "cours_reference": 2040.0,
       "date_cours_reference": "2021-07-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 235.0,
+      "dividende_brut": null,
+      "dividende_net": 235.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SIBC",
@@ -4998,7 +5874,12 @@
       "cours_reference": 1850.0,
       "date_cours_reference": "2021-07-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 360.0,
+      "dividende_brut": null,
+      "dividende_net": 360.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "UNXC",
@@ -5026,7 +5907,12 @@
       "cours_reference": 1500.0,
       "date_cours_reference": "2021-07-13",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 18.0,
+      "dividende_brut": null,
+      "dividende_net": 18.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "STAC",
@@ -5054,7 +5940,12 @@
       "cours_reference": 710.0,
       "date_cours_reference": "2021-07-13",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 66.15,
+      "dividende_brut": null,
+      "dividende_net": 66.15,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SOGC",
@@ -5082,7 +5973,12 @@
       "cours_reference": 3500.0,
       "date_cours_reference": "2021-07-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 250.0,
+      "dividende_brut": null,
+      "dividende_net": 250.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SMBC",
@@ -5110,7 +6006,12 @@
       "cours_reference": 7195.0,
       "date_cours_reference": "2021-07-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 810.0,
+      "dividende_brut": null,
+      "dividende_net": 810.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CFAC",
@@ -5138,7 +6039,12 @@
       "cours_reference": 645.0,
       "date_cours_reference": "2021-07-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 22.15,
+      "dividende_brut": null,
+      "dividende_net": 22.15,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CIEC",
@@ -5166,7 +6072,12 @@
       "cours_reference": 1600.0,
       "date_cours_reference": "2021-07-09",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 167.14,
+      "dividende_brut": null,
+      "dividende_net": 167.14,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BICC",
@@ -5194,7 +6105,12 @@
       "cours_reference": 5350.0,
       "date_cours_reference": "2021-07-01",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 50.0,
+      "dividende_brut": null,
+      "dividende_net": 50.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SGBC",
@@ -5222,7 +6138,12 @@
       "cours_reference": 8410.0,
       "date_cours_reference": "2021-06-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 368.298,
+      "dividende_brut": null,
+      "dividende_net": 368.298,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ONTBF",
@@ -5250,7 +6171,12 @@
       "cours_reference": 3580.0,
       "date_cours_reference": "2021-05-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 399.5635,
+      "dividende_brut": null,
+      "dividende_net": 399.5635,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAS",
@@ -5278,7 +6204,12 @@
       "cours_reference": 1197.0,
       "date_cours_reference": "2021-05-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 161.01,
+      "dividende_brut": null,
+      "dividende_net": 161.01,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAB",
@@ -5306,7 +6237,12 @@
       "cours_reference": 2075.0,
       "date_cours_reference": "2021-05-17",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 436.0,
+      "dividende_brut": null,
+      "dividende_net": 436.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SNTS",
@@ -5334,7 +6270,12 @@
       "cours_reference": 14955.0,
       "date_cours_reference": "2021-05-11",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1225.0,
+      "dividende_brut": null,
+      "dividende_net": 1225.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAC",
@@ -5362,7 +6303,12 @@
       "cours_reference": 1920.0,
       "date_cours_reference": "2021-05-07",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 315.0,
+      "dividende_brut": null,
+      "dividende_net": 315.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ECOC",
@@ -5390,7 +6336,12 @@
       "cours_reference": 3590.0,
       "date_cours_reference": "2021-05-03",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 294.3,
+      "dividende_brut": null,
+      "dividende_net": 294.3,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAN",
@@ -5418,7 +6369,12 @@
       "cours_reference": 2475.0,
       "date_cours_reference": "2021-05-03",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 429.66,
+      "dividende_brut": null,
+      "dividende_net": 429.66,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOABF",
@@ -5446,7 +6402,12 @@
       "cours_reference": 1950.0,
       "date_cours_reference": "2021-04-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 370.0,
+      "dividende_brut": null,
+      "dividende_net": 370.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLS",
@@ -5474,7 +6435,12 @@
       "cours_reference": 1500.0,
       "date_cours_reference": "2020-12-17",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 105.3,
+      "dividende_brut": null,
+      "dividende_net": 105.3,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDSC",
@@ -5502,7 +6468,12 @@
       "cours_reference": 1300.0,
       "date_cours_reference": "2020-12-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 100.0,
+      "dividende_brut": null,
+      "dividende_net": 100.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SHEC",
@@ -5530,7 +6501,12 @@
       "cours_reference": 650.0,
       "date_cours_reference": "2020-11-23",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 63.9,
+      "dividende_brut": null,
+      "dividende_net": 63.9,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLC",
@@ -5558,7 +6534,12 @@
       "cours_reference": 1200.0,
       "date_cours_reference": "2020-09-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 113.5125,
+      "dividende_brut": null,
+      "dividende_net": 113.5125,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDCC",
@@ -5586,7 +6567,12 @@
       "cours_reference": 2940.0,
       "date_cours_reference": "2020-09-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 292.5,
+      "dividende_brut": null,
+      "dividende_net": 292.5,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PRSC",
@@ -5614,7 +6600,12 @@
       "cours_reference": 2950.0,
       "date_cours_reference": "2020-08-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 159.3,
+      "dividende_brut": null,
+      "dividende_net": 159.3,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CFAC",
@@ -5642,7 +6633,12 @@
       "cours_reference": 370.0,
       "date_cours_reference": "2020-08-17",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 26.073,
+      "dividende_brut": null,
+      "dividende_net": 26.073,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "FTSC",
@@ -5673,7 +6669,12 @@
       "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
       "date_anomalies": [
         "ex_before_announcement"
-      ]
+      ],
+      "dividende_calendrier": 125.0,
+      "dividende_brut": null,
+      "dividende_net": 125.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CIEC",
@@ -5701,7 +6702,12 @@
       "cours_reference": 1275.0,
       "date_cours_reference": "2020-07-30",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 104.979,
+      "dividende_brut": null,
+      "dividende_net": 104.979,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SGBC",
@@ -5729,7 +6735,12 @@
       "cours_reference": 7445.0,
       "date_cours_reference": "2020-07-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 273.0,
+      "dividende_brut": null,
+      "dividende_net": 273.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CABC",
@@ -5757,7 +6768,12 @@
       "cours_reference": 785.0,
       "date_cours_reference": "2020-07-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 75.0,
+      "dividende_brut": null,
+      "dividende_net": 75.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NSBC",
@@ -5785,7 +6801,12 @@
       "cours_reference": 3200.0,
       "date_cours_reference": "2020-07-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 77.68666379,
+      "dividende_brut": null,
+      "dividende_net": 77.68666379,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ECOC",
@@ -5813,7 +6834,12 @@
       "cours_reference": 3200.0,
       "date_cours_reference": "2020-07-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 352.8,
+      "dividende_brut": null,
+      "dividende_net": 352.8,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ORGT",
@@ -5841,7 +6867,12 @@
       "cours_reference": 3900.0,
       "date_cours_reference": "2020-07-13",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 59.52,
+      "dividende_brut": null,
+      "dividende_net": 59.52,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SOGC",
@@ -5869,7 +6900,12 @@
       "cours_reference": 1760.0,
       "date_cours_reference": "2020-07-10",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 126.0,
+      "dividende_brut": null,
+      "dividende_net": 126.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SIBC",
@@ -5897,7 +6933,12 @@
       "cours_reference": 1345.0,
       "date_cours_reference": "2020-06-16",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 270.0,
+      "dividende_brut": null,
+      "dividende_net": 270.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAS",
@@ -5925,7 +6966,12 @@
       "cours_reference": 1097.0,
       "date_cours_reference": "2020-06-16",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 161.0,
+      "dividende_brut": null,
+      "dividende_net": 161.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAC",
@@ -5953,7 +6999,12 @@
       "cours_reference": 1703.0,
       "date_cours_reference": "2020-06-09",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 315.0,
+      "dividende_brut": null,
+      "dividende_net": 315.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ONTBF",
@@ -5981,7 +7032,12 @@
       "cours_reference": 3340.0,
       "date_cours_reference": "2020-06-05",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 387.17,
+      "dividende_brut": null,
+      "dividende_net": 387.17,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SNTS",
@@ -6009,7 +7065,12 @@
       "cours_reference": 14250.0,
       "date_cours_reference": "2020-05-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1225.0,
+      "dividende_brut": null,
+      "dividende_net": 1225.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAN",
@@ -6037,7 +7098,12 @@
       "cours_reference": 2375.0,
       "date_cours_reference": "2020-05-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 429.66,
+      "dividende_brut": null,
+      "dividende_net": 429.66,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAB",
@@ -6065,7 +7131,12 @@
       "cours_reference": 1950.0,
       "date_cours_reference": "2020-05-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 436.0,
+      "dividende_brut": null,
+      "dividende_net": 436.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOABF",
@@ -6093,7 +7164,12 @@
       "cours_reference": 1823.0,
       "date_cours_reference": "2020-04-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 370.0,
+      "dividende_brut": null,
+      "dividende_net": 370.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDCC",
@@ -6121,7 +7197,12 @@
       "cours_reference": 2895.0,
       "date_cours_reference": "2019-10-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 270.0,
+      "dividende_brut": null,
+      "dividende_net": 270.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLC",
@@ -6149,7 +7230,12 @@
       "cours_reference": 1320.0,
       "date_cours_reference": "2019-10-08",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 108.4,
+      "dividende_brut": null,
+      "dividende_net": 108.4,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ABJC",
@@ -6177,7 +7263,12 @@
       "cours_reference": 1150.0,
       "date_cours_reference": "2019-09-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 41.239003,
+      "dividende_brut": null,
+      "dividende_net": 41.239003,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PRSC",
@@ -6205,7 +7296,12 @@
       "cours_reference": 2000.0,
       "date_cours_reference": "2019-09-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 9623.0,
+      "dividende_brut": null,
+      "dividende_net": 9623.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SMBC",
@@ -6233,7 +7329,12 @@
       "cours_reference": 4445.0,
       "date_cours_reference": "2019-08-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 450.0,
+      "dividende_brut": null,
+      "dividende_net": 450.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CIEC",
@@ -6261,7 +7362,12 @@
       "cours_reference": 1400.0,
       "date_cours_reference": "2019-08-05",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 79.23,
+      "dividende_brut": null,
+      "dividende_net": 79.23,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SHEC",
@@ -6289,7 +7395,12 @@
       "cours_reference": 875.0,
       "date_cours_reference": "2019-07-30",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 64.286,
+      "dividende_brut": null,
+      "dividende_net": 64.286,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SGBC",
@@ -6317,7 +7428,12 @@
       "cours_reference": 9000.0,
       "date_cours_reference": "2019-07-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 206.0,
+      "dividende_brut": null,
+      "dividende_net": 206.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "FTSC",
@@ -6345,7 +7461,12 @@
       "cours_reference": 1500.0,
       "date_cours_reference": "2019-07-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 110.0,
+      "dividende_brut": null,
+      "dividende_net": 110.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLS",
@@ -6373,7 +7494,12 @@
       "cours_reference": 1580.0,
       "date_cours_reference": "2019-07-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 105.3,
+      "dividende_brut": null,
+      "dividende_net": 105.3,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CFAC",
@@ -6401,7 +7527,12 @@
       "cours_reference": 420.0,
       "date_cours_reference": "2019-07-18",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 31.5,
+      "dividende_brut": null,
+      "dividende_net": 31.5,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BNBC",
@@ -6429,7 +7560,12 @@
       "cours_reference": 1750.0,
       "date_cours_reference": "2019-07-16",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 45.0,
+      "dividende_brut": null,
+      "dividende_net": 45.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BICC",
@@ -6457,7 +7593,12 @@
       "cours_reference": 4190.0,
       "date_cours_reference": "2019-07-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 182.9,
+      "dividende_brut": null,
+      "dividende_net": 182.9,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SOGC",
@@ -6485,7 +7626,12 @@
       "cours_reference": 2100.0,
       "date_cours_reference": "2019-07-10",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 126.0,
+      "dividende_brut": null,
+      "dividende_net": 126.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "UNXC",
@@ -6513,7 +7659,12 @@
       "cours_reference": 2290.0,
       "date_cours_reference": "2019-07-08",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 181.8,
+      "dividende_brut": null,
+      "dividende_net": 181.8,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NSBC",
@@ -6541,7 +7692,12 @@
       "cours_reference": 3440.0,
       "date_cours_reference": "2019-07-04",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 194.2,
+      "dividende_brut": null,
+      "dividende_net": 194.2,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SIBC",
@@ -6569,7 +7725,12 @@
       "cours_reference": 1370.0,
       "date_cours_reference": "2019-07-02",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 252.0,
+      "dividende_brut": null,
+      "dividende_net": 252.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ORGT",
@@ -6597,7 +7758,12 @@
       "cours_reference": 4100.0,
       "date_cours_reference": "2019-06-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 56.73,
+      "dividende_brut": null,
+      "dividende_net": 56.73,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SLBC",
@@ -6625,7 +7791,12 @@
       "cours_reference": 3170.0,
       "date_cours_reference": "2019-05-31",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1368.0,
+      "dividende_brut": null,
+      "dividende_net": 1368.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDSC",
@@ -6653,7 +7824,12 @@
       "cours_reference": 1850.0,
       "date_cours_reference": "2019-05-31",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 184.0,
+      "dividende_brut": null,
+      "dividende_net": 184.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ONTBF",
@@ -6681,7 +7857,12 @@
       "cours_reference": 4550.0,
       "date_cours_reference": "2019-05-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 409.36,
+      "dividende_brut": null,
+      "dividende_net": 409.36,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CABC",
@@ -6709,7 +7890,12 @@
       "cours_reference": 980.0,
       "date_cours_reference": "2019-05-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 75.0,
+      "dividende_brut": null,
+      "dividende_net": 75.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAS",
@@ -6737,7 +7923,12 @@
       "cours_reference": 1133.0,
       "date_cours_reference": "2019-05-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 160.0,
+      "dividende_brut": null,
+      "dividende_net": 160.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAN",
@@ -6765,7 +7956,12 @@
       "cours_reference": 2500.0,
       "date_cours_reference": "2019-05-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 385.95,
+      "dividende_brut": null,
+      "dividende_net": 385.95,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAB",
@@ -6793,7 +7989,12 @@
       "cours_reference": 2120.0,
       "date_cours_reference": "2019-05-17",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 416.0,
+      "dividende_brut": null,
+      "dividende_net": 416.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAC",
@@ -6821,7 +8022,12 @@
       "cours_reference": 1775.0,
       "date_cours_reference": "2019-05-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 306.0,
+      "dividende_brut": null,
+      "dividende_net": 306.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ECOC",
@@ -6849,7 +8055,12 @@
       "cours_reference": 3795.0,
       "date_cours_reference": "2019-05-10",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 241.0,
+      "dividende_brut": null,
+      "dividende_net": 241.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAM",
@@ -6877,7 +8088,12 @@
       "cours_reference": 1900.0,
       "date_cours_reference": "2019-05-10",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 271.0,
+      "dividende_brut": null,
+      "dividende_net": 271.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SNTS",
@@ -6905,7 +8121,12 @@
       "cours_reference": 18990.0,
       "date_cours_reference": "2019-05-09",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1500.0,
+      "dividende_brut": null,
+      "dividende_net": 1500.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOABF",
@@ -6933,7 +8154,12 @@
       "cours_reference": 2500.0,
       "date_cours_reference": "2019-04-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 366.0,
+      "dividende_brut": null,
+      "dividende_net": 366.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLC",
@@ -6961,7 +8187,12 @@
       "cours_reference": 1700.0,
       "date_cours_reference": "2018-09-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 103.45,
+      "dividende_brut": null,
+      "dividende_net": 103.45,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SCRC",
@@ -6989,7 +8220,11 @@
       "cours_reference": 1090.0,
       "date_cours_reference": "2018-09-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 72.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "SPHC",
@@ -7017,7 +8252,12 @@
       "cours_reference": 3000.0,
       "date_cours_reference": "2018-09-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 78.0,
+      "dividende_brut": null,
+      "dividende_net": 78.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PALC",
@@ -7045,7 +8285,11 @@
       "cours_reference": 3350.0,
       "date_cours_reference": "2018-09-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 253.47,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "PRSC",
@@ -7066,7 +8310,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20180816_-_avis_ndeg132_brvmdg_-_paiement_de_dividendes_exo_2017_-_tractafric_motors_ci.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 3839.0,
+      "dividende_brut": null,
+      "dividende_net": 3839.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SMBC",
@@ -7094,7 +8343,12 @@
       "cours_reference": 4649.0,
       "date_cours_reference": "2018-08-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 450.0,
+      "dividende_brut": null,
+      "dividende_net": 450.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDCC",
@@ -7122,7 +8376,12 @@
       "cours_reference": 4150.0,
       "date_cours_reference": "2018-08-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 270.0,
+      "dividende_brut": null,
+      "dividende_net": 270.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "FTSC",
@@ -7150,7 +8409,12 @@
       "cours_reference": 3500.0,
       "date_cours_reference": "2018-08-10",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 161.27,
+      "dividende_brut": null,
+      "dividende_net": 161.27,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLS",
@@ -7178,7 +8442,12 @@
       "cours_reference": 1530.0,
       "date_cours_reference": "2018-07-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 56.25,
+      "dividende_brut": null,
+      "dividende_net": 56.25,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CFAC",
@@ -7206,7 +8475,12 @@
       "cours_reference": 700.0,
       "date_cours_reference": "2018-07-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 9.9,
+      "dividende_brut": null,
+      "dividende_net": 9.9,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BNBC",
@@ -7234,7 +8508,12 @@
       "cours_reference": 2320.0,
       "date_cours_reference": "2018-07-20",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 63.0,
+      "dividende_brut": null,
+      "dividende_net": 63.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SOGC",
@@ -7262,7 +8541,12 @@
       "cours_reference": 3800.0,
       "date_cours_reference": "2018-07-18",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 432.0,
+      "dividende_brut": null,
+      "dividende_net": 432.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SHEC",
@@ -7290,7 +8574,12 @@
       "cours_reference": 1100.0,
       "date_cours_reference": "2018-07-18",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 42.86,
+      "dividende_brut": null,
+      "dividende_net": 42.86,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CIEC",
@@ -7318,7 +8607,12 @@
       "cours_reference": 1700.0,
       "date_cours_reference": "2018-07-17",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 31.95,
+      "dividende_brut": null,
+      "dividende_net": 31.95,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SGBC",
@@ -7346,7 +8640,12 @@
       "cours_reference": 11900.0,
       "date_cours_reference": "2018-07-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 585.0,
+      "dividende_brut": null,
+      "dividende_net": 585.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "UNXC",
@@ -7374,7 +8673,12 @@
       "cours_reference": 3150.0,
       "date_cours_reference": "2018-07-10",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 173.7,
+      "dividende_brut": null,
+      "dividende_net": 173.7,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BICC",
@@ -7402,7 +8706,12 @@
       "cours_reference": 6790.0,
       "date_cours_reference": "2018-06-21",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 213.56,
+      "dividende_brut": null,
+      "dividende_net": 213.56,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "NSBC",
@@ -7430,7 +8739,12 @@
       "cours_reference": 9500.0,
       "date_cours_reference": "2018-06-20",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 466.1,
+      "dividende_brut": null,
+      "dividende_net": 466.1,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ECOC",
@@ -7458,7 +8772,12 @@
       "cours_reference": 5200.0,
       "date_cours_reference": "2018-06-19",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1844.0,
+      "dividende_brut": null,
+      "dividende_net": 1844.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ABJC",
@@ -7479,7 +8798,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20180615_-_avis_n_054-2018-dcbr-dg-dividende_exercice_2017-servair_abidjan.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 98.97,
+      "dividende_brut": null,
+      "dividende_net": 98.97,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SLBC",
@@ -7507,7 +8831,12 @@
       "cours_reference": 7400.0,
       "date_cours_reference": "2018-06-13",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 2322.0,
+      "dividende_brut": null,
+      "dividende_net": 2322.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SIBC",
@@ -7535,7 +8864,12 @@
       "cours_reference": 1680.0,
       "date_cours_reference": "2018-06-05",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 945.0,
+      "dividende_brut": null,
+      "dividende_net": 945.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ONTBF",
@@ -7556,7 +8890,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20180524_-_avis_n_044-2018-dcbr-dg-dividende_exercice_2017-onatel.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 727.9125,
+      "dividende_brut": null,
+      "dividende_net": 727.9125,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAC",
@@ -7584,7 +8923,12 @@
       "cours_reference": 2300.0,
       "date_cours_reference": "2018-06-01",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 295.0,
+      "dividende_brut": null,
+      "dividende_net": 295.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CABC",
@@ -7612,7 +8956,12 @@
       "cours_reference": 1635.0,
       "date_cours_reference": "2018-05-24",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 100.0,
+      "dividende_brut": null,
+      "dividende_net": 100.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAN",
@@ -7640,7 +8989,12 @@
       "cours_reference": 2750.0,
       "date_cours_reference": "2018-05-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 379.44,
+      "dividende_brut": null,
+      "dividende_net": 379.44,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAM",
@@ -7668,7 +9022,12 @@
       "cours_reference": 2087.0,
       "date_cours_reference": "2018-05-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 290.0,
+      "dividende_brut": null,
+      "dividende_net": 290.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAB",
@@ -7689,7 +9048,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/avis_n_033-2018-dcbr-dg-dividende_exercice_2017-boa_benin.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 407.0,
+      "dividende_brut": null,
+      "dividende_net": 407.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOABF",
@@ -7717,7 +9081,12 @@
       "cours_reference": 2895.0,
       "date_cours_reference": "2018-04-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 358.0,
+      "dividende_brut": null,
+      "dividende_net": 358.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAS",
@@ -7745,7 +9114,12 @@
       "cours_reference": 1567.0,
       "date_cours_reference": "2018-04-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 160.0,
+      "dividende_brut": null,
+      "dividende_net": 160.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "FTSC",
@@ -7766,7 +9140,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20180109-_avis_ndeg006-2018-dc-br-dg_-_paiement_de_dividendes_complementaires_exercice_2016-_filtisac_ci.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 1200.0,
+      "dividende_brut": null,
+      "dividende_net": 1200.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SIVC",
@@ -7787,7 +9166,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170918-avis_n_086-2017-dcbr-dg-dividende_exercice_2016-air_liquide.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 630.0,
+      "dividende_brut": null,
+      "dividende_net": 630.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SEMC",
@@ -7815,7 +9199,12 @@
       "cours_reference": 430.0,
       "date_cours_reference": "2017-09-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 676.8,
+      "dividende_brut": null,
+      "dividende_net": 676.8,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SCRC",
@@ -7836,7 +9225,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170918_-_avis_ndeg173_brvmdg_-_paiement_de_dividendes_exo_2016_-_sucrivoire_ci.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 549.0,
+      "dividende_brut": null,
+      "dividende_net": 549.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PALC",
@@ -7864,7 +9258,12 @@
       "cours_reference": 4670.0,
       "date_cours_reference": "2017-09-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 240.6,
+      "dividende_brut": null,
+      "dividende_net": 240.6,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDCC",
@@ -7885,7 +9284,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170918-avis_n_084-2017-dcbr-dg-dividende_exercice_2016-sodeci.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 2700.0,
+      "dividende_brut": null,
+      "dividende_net": 2700.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "PRSC",
@@ -7913,7 +9317,12 @@
       "cours_reference": 5313.0,
       "date_cours_reference": "2017-09-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 13500.0,
+      "dividende_brut": null,
+      "dividende_net": 13500.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CIEC",
@@ -7934,7 +9343,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170904_-_avis_ndeg161_brvmdg_-_paiement_de_dividende_-_cie_ci.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 3465.0,
+      "dividende_brut": null,
+      "dividende_net": 3465.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SOGC",
@@ -7955,7 +9369,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170719-avis_n_071-2017-dcbr-dg-dividende_exercice_2016-_sogb.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 3204.0,
+      "dividende_brut": null,
+      "dividende_net": 3204.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SHEC",
@@ -7976,7 +9395,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170721-avis_n_069-2017-dcbr-dg-dividende_exercice_2016-_vivo_energy.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 33.3,
+      "dividende_brut": null,
+      "dividende_net": 33.3,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLS",
@@ -7997,7 +9421,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170719-avis_n_067-2017-dcbr-dg-dividende_exercice_2016-total_sn.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 450.0,
+      "dividende_brut": null,
+      "dividende_net": 450.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CFAC",
@@ -8018,7 +9447,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170719-avis_n_070-2017-dcbr-dg-dividende_exercice_2016-_cfao.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 2032.0,
+      "dividende_brut": null,
+      "dividende_net": 2032.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BICC",
@@ -8039,7 +9473,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170719-avis_n_068-2017-dcbr-dg-dividende_exercice_2016-_bicici.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 2771.41,
+      "dividende_brut": null,
+      "dividende_net": 2771.41,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ABJC",
@@ -8060,14 +9499,19 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170721-avis_n_073-2017-dcbr-dg-dividende_exercice_2016-servair_abidjan.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 49.5,
+      "dividende_brut": null,
+      "dividende_net": 49.5,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SDSC",
       "raw_ticker": "BOLLORE TRANSPORT & LOGISTICS",
       "societe": "Africa Global Logistics",
       "exercice": 2016,
-      "dividende": 8977.0,
+      "dividende": 8997.0,
       "devise": "FCFA",
       "date_annonce": "2017-06-30",
       "date_detachement": null,
@@ -8081,7 +9525,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170630-avis_ndeg_058-2017-dcbr-dg-paiement_de_dividendes_exercice_2016-bollore_ci.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 8977.0,
+      "dividende_brut": null,
+      "dividende_net": 8997.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "avis_pdf"
     },
     {
       "ticker": "BNBC",
@@ -8102,7 +9551,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170706-avis_n_064-2017-dcbr-dg-dividende_exercice_2016-bernabe.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 3252.0,
+      "dividende_brut": null,
+      "dividende_net": 3252.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "UNXC",
@@ -8130,7 +9584,12 @@
       "cours_reference": 5200.0,
       "date_cours_reference": "2017-07-05",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 868.0,
+      "dividende_brut": null,
+      "dividende_net": 868.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SGBC",
@@ -8158,7 +9617,12 @@
       "cours_reference": 15000.0,
       "date_cours_reference": "2017-06-29",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 5837.0,
+      "dividende_brut": null,
+      "dividende_net": 5837.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLC",
@@ -8186,7 +9650,12 @@
       "cours_reference": 3000.0,
       "date_cours_reference": "2017-06-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 485.0,
+      "dividende_brut": null,
+      "dividende_net": 485.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CABC",
@@ -8214,7 +9683,12 @@
       "cours_reference": 1334.0,
       "date_cours_reference": "2017-06-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 2000.0,
+      "dividende_brut": null,
+      "dividende_net": 2000.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "STBC",
@@ -8242,7 +9716,12 @@
       "cours_reference": 4100.0,
       "date_cours_reference": "2017-06-13",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 4124.0,
+      "dividende_brut": null,
+      "dividende_net": 4124.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SIBC",
@@ -8263,7 +9742,12 @@
       "announcement_url": "https://www.brvm.org/sites/default/files/20170606-avis_n_044-2017-dcbr-dg-dividende_exercice_2016-sib_ci.pdf",
       "document_type": "application/pdf",
       "document_source": "BRVM",
-      "publication_status": "official"
+      "publication_status": "official",
+      "dividende_calendrier": 855.0,
+      "dividende_brut": null,
+      "dividende_net": 855.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "SLBC",
@@ -8291,7 +9775,12 @@
       "cours_reference": 16000.0,
       "date_cours_reference": "2017-06-02",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 4101.0,
+      "dividende_brut": null,
+      "dividende_net": 4101.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ONTBF",
@@ -8319,7 +9808,12 @@
       "cours_reference": 9800.0,
       "date_cours_reference": "2017-05-29",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 619.0625,
+      "dividende_brut": null,
+      "dividende_net": 619.0625,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAN",
@@ -8347,7 +9841,12 @@
       "cours_reference": 4712.0,
       "date_cours_reference": "2017-05-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 4910.0,
+      "dividende_brut": null,
+      "dividende_net": 4910.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAS",
@@ -8375,7 +9874,12 @@
       "cours_reference": 2467.0,
       "date_cours_reference": "2017-05-11",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1000.0,
+      "dividende_brut": null,
+      "dividende_net": 1000.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAB",
@@ -8403,7 +9907,12 @@
       "cours_reference": 5475.0,
       "date_cours_reference": "2017-05-11",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 8941.0,
+      "dividende_brut": null,
+      "dividende_net": 8941.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAC",
@@ -8431,7 +9940,12 @@
       "cours_reference": 4450.0,
       "date_cours_reference": "2017-05-04",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 5480.0,
+      "dividende_brut": null,
+      "dividende_net": 5480.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOABF",
@@ -8459,7 +9973,12 @@
       "cours_reference": 5100.0,
       "date_cours_reference": "2017-04-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 6930.0,
+      "dividende_brut": null,
+      "dividende_net": 6930.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "BOAM",
@@ -8487,7 +10006,12 @@
       "cours_reference": 4351.0,
       "date_cours_reference": "2017-04-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 2790.0,
+      "dividende_brut": null,
+      "dividende_net": 2790.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "ETIT",
@@ -8515,7 +10039,12 @@
       "cours_reference": 20.0,
       "date_cours_reference": "2017-04-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1.208,
+      "dividende_brut": null,
+      "dividende_net": 1.208,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "CIEC",
@@ -8543,7 +10072,12 @@
       "cours_reference": 3758.0,
       "date_cours_reference": "2016-09-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 2641.0,
+      "dividende_brut": null,
+      "dividende_net": 2641.0,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "calendrier_brvm"
     },
     {
       "ticker": "TTLC",
@@ -8571,7 +10105,11 @@
       "cours_reference": 3212.0,
       "date_cours_reference": "2016-07-28",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 450.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "BOAS",
@@ -8599,7 +10137,11 @@
       "cours_reference": 1971.0,
       "date_cours_reference": "2016-07-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 750.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "CFAC",
@@ -8627,7 +10169,11 @@
       "cours_reference": 1050.0,
       "date_cours_reference": "2016-07-26",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 2297.7,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "CABC",
@@ -8655,7 +10201,11 @@
       "cours_reference": 2750.0,
       "date_cours_reference": "2016-07-25",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1200.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "SHEC",
@@ -8683,7 +10233,11 @@
       "cours_reference": 3400.0,
       "date_cours_reference": "2016-07-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1665.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "SOGC",
@@ -8711,7 +10265,11 @@
       "cours_reference": 3355.0,
       "date_cours_reference": "2016-07-20",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1710.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "BICC",
@@ -8739,7 +10297,11 @@
       "cours_reference": 9900.0,
       "date_cours_reference": "2016-07-15",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 4231.5,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "TTLS",
@@ -8767,7 +10329,11 @@
       "cours_reference": 2755.0,
       "date_cours_reference": "2016-07-12",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 935.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "BNBC",
@@ -8795,7 +10361,11 @@
       "cours_reference": 9750.0,
       "date_cours_reference": "2016-07-04",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 5500.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "PRSC",
@@ -8823,7 +10393,11 @@
       "cours_reference": 10781.0,
       "date_cours_reference": "2016-04-29",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 13050.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "FTSC",
@@ -8851,7 +10425,11 @@
       "cours_reference": 7000.0,
       "date_cours_reference": "2016-06-27",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1045.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "SGBC",
@@ -8879,7 +10457,11 @@
       "cours_reference": 16824.0,
       "date_cours_reference": "2016-04-22",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 5228.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "SDSC",
@@ -8907,7 +10489,11 @@
       "cours_reference": 6000.0,
       "date_cours_reference": "2016-06-23",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 9581.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "ABJC",
@@ -8935,7 +10521,11 @@
       "cours_reference": 8100.0,
       "date_cours_reference": "2016-06-13",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 1800.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
     },
     {
       "ticker": "STBC",
@@ -8963,7 +10553,44 @@
       "cours_reference": 8825.0,
       "date_cours_reference": "2016-06-06",
       "cours_source": "BRVM",
-      "rendement_calculated_at": "2026-10-09T09:58:11+00:00"
+      "rendement_calculated_at": "2026-10-09T09:58:11+00:00",
+      "dividende_calendrier": 8150.0,
+      "dividende_brut": null,
+      "dividende_net": null,
+      "dividende_net_source": "non_verifie"
+    },
+    {
+      "ticker": "CFAC",
+      "raw_ticker": "CFAO MOTORS CI",
+      "societe": "CFAO Motors CI",
+      "exercice": 2022,
+      "dividende": 27.45,
+      "devise": "FCFA",
+      "date_annonce": "2023-08-23",
+      "date_detachement": "2023-09-13",
+      "date_paiement": "2023-09-15",
+      "source": "BRVM",
+      "source_url": "https://www.brvm.org/fr/esv/paiement-de-dividendes",
+      "source_type": "avis_manuel",
+      "document_title": "CFAO MOTORS CI : Paiement de dividendes - Exercice 2022",
+      "document_date": "2023-08-23",
+      "document_url": "https://www.brvm.org/sites/default/files/20230823_-_avis_ndeg176_brvmdg_-_paiement_de_dividendes_exo_2022_-_cfao_motors_ci.pdf",
+      "announcement_url": "https://www.brvm.org/sites/default/files/20230823_-_avis_ndeg176_brvmdg_-_paiement_de_dividendes_exo_2022_-_cfao_motors_ci.pdf",
+      "document_type": "application/pdf",
+      "document_source": "BRVM",
+      "publication_status": "official",
+      "rendement_pct": 2.84,
+      "rendement_source": "BRVMetrics",
+      "rendement_method": "net_dividend_over_pre_ex_close",
+      "cours_reference": 965.0,
+      "date_cours_reference": "2023-09-12",
+      "cours_source": "BRVM",
+      "dividende_calendrier": null,
+      "dividende_brut": null,
+      "dividende_net": 27.45,
+      "dividende_net_taux_pct": null,
+      "dividende_net_source": "avis_pdf",
+      "dividende_remarque": "Avis n°176-2023 : 27,45 F net par action. Ligne absente du calendrier BRVM, ajoutée à partir de l'avis."
     }
   ]
 }
