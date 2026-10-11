@@ -1,13 +1,19 @@
-# BRVMetrics public data
+# BRVMetrics, les données ouvertes
 
-Données CSV publiques synchronisées depuis BRVMetrics.
+BRVMetrics est un site gratuit qui rend l'analyse de la Bourse Régionale des Valeurs Mobilières (BRVM) simple et accessible à tous, pour se former pas à pas et à son rythme.
 
-- Dernière synchronisation: 2026-10-07 22:35 UTC
-- CSV publiés: 48
-- Format: Date;Ouverture;Haut;Bas;Cloture;Volume;Valeur;Variation
-- actions.json : registre des titres cotés ; prix_ecartes.json : journal des lignes de cours retirées (jours sans cotation, copies) ; events.json et dividendes.json : veille de la BRVM (avis, opérations sur le capital, dividendes), mis à jour par un autre workflow
-- Indices BRVM (Composite, BRVM-30, Principal, Prestige, sectoriels) : dossier indices/ (18 CSV, même format)
+Découvrir le site : https://brvmetrics.vercel.app
 
-Ces fichiers sont fournis gratuitement pour analyse personnelle, formation et vérification.
+Ce dépôt contient les données qui alimentent le site, mises à disposition librement pour l'analyse personnelle, la formation et la vérification.
 
-Les données de marché d'origine restent la propriété de leurs sources (BRVM, SikaFinance, RicheBourse). Pas de garantie d'exactitude. Pour un usage commercial, voir les sources. Retrait ou question : harzat1999@hotmail.com. Détails : https://brvmetrics.vercel.app/conditions
+## Contenu
+- Les cours de 48 titres cotés (un fichier CSV par titre) : date, ouverture, plus haut, plus bas, clôture, volume, valeur, variation.
+- Les indices de la BRVM, dans le dossier indices/ (18 fichiers, même format).
+- Le registre des titres, les avis officiels, les dividendes et les opérations sur le capital (fichiers JSON).
+
+Dernière synchronisation : 2026-10-11 08:58 UTC
+
+## À savoir
+Les données de marché restent la propriété de leurs sources (BRVM, SikaFinance, RicheBourse), sans garantie d'exactitude. Pour un usage commercial, voir ces sources. Ce n'est pas un conseil en investissement.
+
+Une question, un retrait : https://brvmetrics.vercel.app/conditions
