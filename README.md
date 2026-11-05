@@ -11,7 +11,7 @@ Ce dépôt contient les données qui alimentent le site, mises à disposition li
 - Les indices de la BRVM, dans le dossier indices/ (18 fichiers, même format).
 - Le registre des titres, les avis officiels, les dividendes et les opérations sur le capital (fichiers JSON).
 
-Dernière synchronisation : 2026-11-05 12:05 UTC
+Dernière synchronisation : 2026-11-05 22:29 UTC
 
 ## À savoir
 Les données de marché restent la propriété de leurs sources (BRVM, SikaFinance, RicheBourse), sans garantie d'exactitude. Pour un usage commercial, voir ces sources. Ce n'est pas un conseil en investissement.
