@@ -2,7 +2,7 @@
 
 BRVMetrics est un site gratuit qui rend l'analyse de la Bourse Régionale des Valeurs Mobilières (BRVM) simple et accessible à tous, pour se former pas à pas et à son rythme.
 
-Découvrir le site : https://brvmetrics.vercel.app
+Découvrir le site : https://brvmetrics.com
 
 Ce dépôt contient les données qui alimentent le site, mises à disposition librement pour l'analyse personnelle, la formation et la vérification.
 
@@ -16,4 +16,4 @@ Dernière synchronisation : 2026-11-27 01:00 UTC
 ## À savoir
 Les données de marché restent la propriété de leurs sources (BRVM, SikaFinance, RicheBourse), sans garantie d'exactitude. Pour un usage commercial, voir ces sources. Ce n'est pas un conseil en investissement.
 
-Une question, un retrait : https://brvmetrics.vercel.app/conditions
+Une question, un retrait : https://brvmetrics.com/conditions
